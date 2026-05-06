@@ -582,114 +582,158 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Dead as Disco Boss Idols Guide",
-      "intro": "Use this module as a role-based Idol index to prep encounters and understand how each fight pressures your rhythm decisions.",
+      "intro": "Dead as Disco starts Charlie Disco's comeback with four launch Idols and more planned during Early Access. Use this guide to prepare each encounter, understand fight identity, and plan ability unlock priorities.",
       "cards": [
         {
           "name": "Hemlock",
-          "description": "Foundational Idol encounter that teaches spacing discipline and stable rhythm defense."
+          "description": "Available in Early Access. Former punk rocker and Harmony Corp enforcer. His subway-concert route emphasizes fan-wave control and unlocks the knockback-focused Bass Invader ability."
         },
         {
           "name": "Arora",
-          "description": "Projectile-heavy pacing that tests movement timing and lane awareness under pressure."
+          "description": "Available in Early Access. Next-gen AI pop idol with clone pressure and fast phase shifts. Defeating Arora opens an Idol ability route for expanded special-move options."
         },
         {
           "name": "Dex",
-          "description": "Tempo-shifting pressure patterns that reward patience and measured counter windows."
+          "description": "Available in Early Access. Cybernetically enhanced guitar icon with aggressive tempo control. Clearing this route unlocks another dedicated Idol skill tree for build variety."
         },
         {
           "name": "Prophet",
-          "description": "High-intensity phases where pattern recognition and cooldown control define consistency."
+          "description": "Available in Early Access. Rapper-producer kingmaker focused on fan gauntlets and combo discipline. Prophet's defensive block path is valuable for parry timing and counter windows."
+        },
+        {
+          "name": "Future Boss Idols",
+          "description": "Planned during Early Access. Additional former bandmates are expected to arrive with festival-style updates, new narrative arcs, fresh enemies, new skills, and signature abilities."
         }
       ],
       "highlights": [
-        "Launch Idol lineup",
-        "Encounter rhythm mapping",
-        "Ability unlock context",
-        "Future Idol expansion"
+        "4 of 7 Idols are live at Early Access launch",
+        "Each Idol route adds a distinct ability path",
+        "Summer Idol finale update is planned",
+        "More narrative arcs are planned before 1.0"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "Dead as Disco Best Skills and Abilities",
-      "intro": "Build priorities should solve real gameplay problems: survival stability, crowd control, and reliable burst timing.",
+      "intro": "Prioritize survivability first, then scale into pressure tools and specialized Idol paths. This progression keeps early clears stable while preparing for harder challenge pacing.",
       "regions": [
         {
-          "name": "Beginner Stability Build",
-          "type": "Starter",
-          "description": "Health, defense timing, and safe combo extensions for consistent clear rates."
+          "name": "Core First: More Hearts, Fever Capacity, Attack Boosts",
+          "type": "Starter Core",
+          "description": "Best for beginners learning dodge timing and on-beat attacks. These picks create margin for mistakes and improve special-move uptime in long fights."
         },
         {
-          "name": "Crowd Control Build",
-          "type": "Control",
-          "description": "Knockback and area pressure tools that reduce chaos in dense challenge waves."
+          "name": "High-Impact Moves: Charged Windmill Kick, Drumstick Toss Follow-Up",
+          "type": "Pressure Tools",
+          "description": "Use these to open burst windows, close distance quickly, and convert rhythm openings into cleaner combo routes."
         },
         {
-          "name": "Burst Punish Build",
-          "type": "Damage",
-          "description": "Cooldown and damage synergies tuned for clean punish windows on Idol phases."
+          "name": "Boss Ability Focus: Bass Invader, Prophet Block",
+          "type": "Control and Defense",
+          "description": "Most valuable when arenas get crowded or bosses force strict defensive timing. They help create space and generate reliable counterattack windows."
         },
         {
-          "name": "Score Consistency Build",
-          "type": "Optimization",
-          "description": "Timing reinforcement and flow-preserving upgrades for leaderboard-oriented runs."
+          "name": "Evolving Meta: Arora Tree, Dex Tree, Future Idol Abilities",
+          "type": "Long-Term Builds",
+          "description": "Revisit these as updates land. New Idol drops and ability passes can shift the best path for aggressive, utility, or score-focused playstyles."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Dead as Disco Story Levels Walkthrough",
-      "intro": "Current campaign content is best approached as a progression ladder: learn patterns, unlock tools, then optimize rhythm execution.",
+      "intro": "Follow this chapter path to learn rhythm fundamentals early, clear each launch Idol route, and prepare for future story expansion during Early Access and the planned 1.0 arc.",
       "creatures": [
         {
-          "name": "Opening Story Sequence",
+          "name": "Tutorial",
           "role": "Campaign Start",
-          "description": "Establishes tutorial rhythm, movement cadence, and initial encounter structure."
+          "description": "Learn Beat Kune Do fundamentals: attack cadence, dodge timing, counter flow, Fever building, and on-beat consistency."
         },
         {
-          "name": "Mid-Progression Routes",
+          "name": "Hemlock Story Level",
           "role": "Core Progress",
-          "description": "Expands enemy variety and pacing while introducing denser challenge conditions."
+          "description": "Underground concert route with train setpieces and crowd pressure. Ideal for learning wave control and boss-timing fundamentals."
         },
         {
-          "name": "Idol Gate Encounters",
+          "name": "Arora Story Level",
           "role": "Major Threat",
-          "description": "Boss-focused checkpoints that require stronger defensive timing and ability routing."
+          "description": "AI pop spectacle focused on clone pressure, visual shifts, and multi-phase rhythm windows that test lane awareness and recovery discipline."
         },
         {
-          "name": "Encore Return Loops",
+          "name": "Dex Story Level",
+          "role": "Major Threat",
+          "description": "Guitar-driven encounter route with aggressive arena pacing and heavier boss pressure. Rewards calm defense and deliberate punish timing."
+        },
+        {
+          "name": "Prophet Story Level",
+          "role": "Major Threat",
+          "description": "Rap-producer showdown with dense fan gauntlets and combo control checks, while expanding the band-history narrative context."
+        },
+        {
+          "name": "The Encore Hub",
           "role": "Progression Hub",
-          "description": "Hub interactions that connect story advancement, unlock management, and collectible tracking."
+          "description": "Restore the dive bar, spend fan energy, unlock cosmetics, and collect memorabilia while tracking core story clues between combat routes."
+        },
+        {
+          "name": "Future Idol Story Updates",
+          "role": "Planned Update",
+          "description": "Festival-style additions are planned to introduce new Idol arcs, full music-video levels, extra enemies, collectibles, skills, and narrative beats."
+        },
+        {
+          "name": "1.0 Final Narrative Arc",
+          "role": "Endgame Plan",
+          "description": "Planned for 2027 as the full narrative climax, including final secrets, refreshed progression flow, and the endgame confrontation with Harmony Corp."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "Dead as Disco Infinite Disco Guide",
-      "intro": "Infinite Disco is the long-term replay engine for practicing rhythm control, experimenting with modifiers, and improving leaderboard results.",
+      "intro": "Infinite Disco is the replay sandbox for official tracks, custom music experiments, leaderboard pushes, and challenge practice loops. Use it to sharpen execution outside campaign progression.",
       "items": [
+        {
+          "name": "Official Song Runs",
+          "type": "Music Library",
+          "description": "Replay official Dead as Disco tracks outside Story Mode. Early Access promotes 30+ songs across originals, covers, and licensed tracks."
+        },
         {
           "name": "Song Challenges",
           "type": "Challenge Mode",
-          "description": "Structured objectives that sharpen consistency on fixed tracks and encounter patterns."
+          "description": "Targeted objectives for practicing special moves, ability routing, and song-specific consistency while earning fan energy."
         },
         {
-          "name": "Free Play Setup",
-          "type": "Custom Mode",
-          "description": "Flexible challenge assembly using arenas, objectives, and selected gameplay modifiers."
+          "name": "My Music",
+          "type": "Custom Music",
+          "description": "Import personal tracks and build music-synced gameplay around them for personalized replay loops."
         },
         {
-          "name": "Leaderboard Routes",
-          "type": "Competition",
-          "description": "Score-driven loops focused on clean execution, uptime, and efficient ability timing."
+          "name": "Manual BPM Calibration",
+          "type": "Custom Setup",
+          "description": "Calibrate imported songs before combat. Auto BPM improvements are planned, but manual BPM remains the practical setup path today."
         },
         {
-          "name": "Arena Variants",
-          "type": "Environment",
-          "description": "Different arena conditions that reshape spacing decisions and pressure management."
+          "name": "Friend and Global Leaderboards",
+          "type": "Score Chasing",
+          "description": "Compare runs across songs and challenges. Seasonal leaderboard resets are planned as balance updates evolve."
+        },
+        {
+          "name": "Arena Mods and Arena Swaps",
+          "type": "Arena Variation",
+          "description": "Adjust arena feel after mastering baseline song loops. Roadmap updates mention additional arenas, challenge mods, and improved arena-swap flow."
+        },
+        {
+          "name": "Custom Challenge Playlists",
+          "type": "Upcoming Tool",
+          "description": "Planned update feature for chaining multiple My Music challenges into replayable setlists."
+        },
+        {
+          "name": "Free Play Practice",
+          "type": "Low-Pressure Replay",
+          "description": "Use this mode to groove, test builds, and stabilize crowd-control timing before high-pressure Idol or leaderboard attempts."
         }
       ],
       "unlockMilestones": [
-        "Clear your first custom challenge",
-        "Post a global leaderboard score",
-        "Finish a no-reset practice session",
-        "Stabilize a high-density wave sequence"
+        "Clear your first Infinite Disco challenge route",
+        "Upload a score to global leaderboards",
+        "Complete one stable custom-song calibration session",
+        "Finish a full practice loop with consistent defensive timing"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
