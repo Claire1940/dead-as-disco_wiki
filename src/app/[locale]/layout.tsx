@@ -36,7 +36,7 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dead-as-disco.wiki'
 
 	// 获取 SEO 翻译
 	const t = await getTranslations('seo.home')
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
+			siteName: 'Dead as Disco Wiki',
 			title: t('ogTitle'),
 			description: t('ogDescription'),
 			images: [
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			title: t('twitterTitle'),
 			description: t('twitterDescription'),
 			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			creator: '@deadasdisco',
 		},
 		icons: {
 			icon: [

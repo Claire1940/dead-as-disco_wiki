@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.dead-as-disco.wiki'
   const path = '/about'
 
   return {
-    title: 'About Lucid Blocks Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Lucid Blocks Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
+    title: 'About Dead as Disco Wiki - Your Ultimate Steam Game Resource',
+    description: 'Learn about Dead as Disco Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Lucid Blocks Steam game.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'About Lucid Blocks Wiki',
+      siteName: 'Dead as Disco Wiki',
+      title: 'About Dead as Disco Wiki',
       description: 'Learn about our mission to provide the best Lucid Blocks game resources and guides.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Dead as Disco Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About Lucid Blocks Wiki',
+      title: 'About Dead as Disco Wiki',
       description: 'Learn about our mission to provide the best Lucid Blocks game resources.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -59,7 +59,7 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About Lucid Blocks Wiki
+            About Dead as Disco Wiki
           </h1>
           <p className="text-slate-300 text-lg mb-2">
             Your community-driven resource center for Lucid Blocks
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to Lucid Blocks Wiki</h2>
+            <h2>Welcome to Dead as Disco Wiki</h2>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              Dead as Disco Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Steam game "Lucid Blocks". We are a community-driven platform that provides comprehensive guides,
               crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
             </p>
             <p>
               Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
-              Lucid Blocks Wiki is here to support you every step of the way.
+              Dead as Disco Wiki is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function About() {
 
             <h2>Our Vision</h2>
             <p>
-              We envision Lucid Blocks Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
+              We envision Dead as Disco Wiki as the <strong>go-to destination</strong> for every Lucid Blocks player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
               crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
             </p>
@@ -185,7 +185,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              Lucid Blocks Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              Dead as Disco Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -208,7 +208,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              Lucid Blocks Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              Dead as Disco Wiki is maintained by a dedicated team of passionate gamers and developers who love
               Lucid Blocks as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
@@ -234,7 +234,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>Lucid Blocks Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              <strong>Dead as Disco Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
               endorsed by, or associated with the developers of Lucid Blocks or any official entities.
             </p>
             <p>
@@ -242,7 +242,7 @@ export default function About() {
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              Lucid Blocks Wiki is a non-profit, community resource created by fans, for fans.
+              Dead as Disco Wiki is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>
@@ -259,26 +259,26 @@ export default function About() {
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">General Inquiries</h3>
-                <a href="mailto:contact@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contact@lucidblocks.wiki
+                <a href="mailto:contact@dead-as-disco.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contact@dead-as-disco.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Bug Reports</h3>
-                <a href="mailto:support@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  support@lucidblocks.wiki
+                <a href="mailto:support@dead-as-disco.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  support@dead-as-disco.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Content Submissions</h3>
-                <a href="mailto:contribute@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  contribute@lucidblocks.wiki
+                <a href="mailto:contribute@dead-as-disco.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  contribute@dead-as-disco.wiki
                 </a>
               </div>
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">
                 <h3 className="text-lg font-semibold text-white mb-2">Partnerships</h3>
-                <a href="mailto:partnerships@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
-                  partnerships@lucidblocks.wiki
+                <a href="mailto:partnerships@dead-as-disco.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">
+                  partnerships@dead-as-disco.wiki
                 </a>
               </div>
             </div>
