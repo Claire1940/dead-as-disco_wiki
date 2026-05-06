@@ -42,19 +42,33 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse`} />
 )
 
+function getLocalizedHref(href: string, locale: string): string {
+  if (!href.startsWith('/')) return href
+  return locale === 'en' ? href : `/${locale}${href}`
+}
+
 // Conditionally render text as a link or plain span
 function LinkedTitle({
-  linkData: _linkData,
+  linkData,
   children,
-  className: _className,
-  locale: _locale,
+  className,
+  locale,
 }: {
   linkData: { url: string; title: string } | null | undefined
   children: React.ReactNode
   className?: string
   locale: string
 }) {
-  return <>{children}</>
+  if (!linkData?.url) return <>{children}</>
+
+  return (
+    <Link
+      href={getLocalizedHref(linkData.url, locale)}
+      className={className || 'hover:text-[hsl(var(--nav-theme-light))] underline-offset-4 hover:underline'}
+    >
+      {children}
+    </Link>
+  )
 }
 
 interface HomePageClientProps {
@@ -1048,7 +1062,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="/about"
+                    href={getLocalizedHref('/about', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
@@ -1056,7 +1070,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/privacy-policy"
+                    href={getLocalizedHref('/privacy-policy', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
@@ -1064,7 +1078,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/terms-of-service"
+                    href={getLocalizedHref('/terms-of-service', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
@@ -1072,7 +1086,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/copyright"
+                    href={getLocalizedHref('/copyright', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}

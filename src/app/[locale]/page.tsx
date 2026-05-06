@@ -3,6 +3,7 @@ import type { Language } from '@/lib/content'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import type { Locale } from '@/i18n/routing'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import HomePageClient from './HomePageClient'
 
 /*
@@ -89,13 +90,14 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
+  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
   const featuredVideoId = 'ipBPeI3bOW0'
   const featuredVideoTitle = 'Dead as Disco - Official Reveal Trailer'
 
   return (
     <HomePageClient
       latestArticles={latestArticles}
-      moduleLinkMap={{}}
+      moduleLinkMap={moduleLinkMap}
       locale={locale}
       featuredVideoId={featuredVideoId}
       featuredVideoTitle={featuredVideoTitle}

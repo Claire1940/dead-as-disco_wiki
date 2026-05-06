@@ -1,21 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
-      "description": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스 어드벤처를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제, 엔딩 및 생존 팁을 다룹니다.",
-      "keywords": "Dead as Disco, Dead as Disco 위키, 제작, 바이옴, 도전 과제, 생존, Steam",
-      "ogTitle": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
-      "ogDescription": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스 어드벤처를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제, 엔딩 및 생존 팁을 다룹니다.",
-      "twitterTitle": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
-      "twitterDescription": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제 및 생존 팁을 다룹니다."
+      "title": "Dead as Disco 위키 - 가이드, Idols, 음악 및 빌드",
+      "description": "Idols, 리듬 전투, 스킬 빌드, My Music 설정, 곡, 챌린지, 코스메틱, 업데이트 및 초보자 팁을 위한 Dead as Disco 가이드를 살펴보세요.",
+      "ogTitle": "Dead as Disco - 가이드, Idols, 음악 및 빌드",
+      "ogDescription": "Idols, 리듬 전투, 스킬 빌드, My Music 설정, 곡, 챌린지, 코스메틱, 업데이트 및 초보자 팁을 위한 Dead as Disco 가이드를 살펴보세요.",
+      "twitterTitle": "Dead as Disco - 가이드, Idols, 음악 및 빌드",
+      "twitterDescription": "Idols, 리듬 전투, 스킬 빌드, My Music 설정, 곡, 챌린지, 코스메틱, 업데이트 및 초보자 팁을 위한 Dead as Disco 가이드를 살펴보세요."
     }
   },
   "nav": {
-    "music": "Music",
-    "mods": "Mods",
-    "platforms": "Platforms",
-    "price": "Price",
-    "release": "Release"
+    "music": "음악",
+    "mods": "모드",
+    "platforms": "플랫폼",
+    "price": "가격",
+    "release": "출시"
   },
   "common": {
     "home": "홈",
@@ -28,726 +27,1045 @@
     "notFound": "페이지를 찾을 수 없습니다",
     "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
     "backToHome": "홈으로 돌아가기",
-    "relatedArticles": "관련 문서",
+    "relatedArticles": "관련 기사",
     "readMore": "더 읽어보기",
-    "articlesComingSoon": "문서가 곧 추가될 예정입니다"
+    "articlesComingSoon": "기사가 곧 추가될 예정입니다"
   },
   "hero": {
-    "badge": "Surreal 복셀 생존 샌드박스",
-    "title": "Dead as Disco 위키",
-    "description": "Steam의 이 Surreal 오픈 월드 샌드박스에서 꿈같은 바이옴을 탐험하고, Apotheosis로 아이템을 융합하며, 자유롭게 건설하고 기이한 생명체들로부터 생존하세요.",
-    "getFreeCodesCTA": "제작 가이드 탐색",
-    "playOnSteamCTA": "Steam에서 플레이",
+    "badge": "네온 리듬 비트엠업",
+    "title": "Dead as Disco",
+    "description": "모든 공격, 회피, 콤보가 음악과 동기화되는 네온 리듬 비트엠업 게임입니다. Charlie Disco를 따라 Idols와 싸우고 스킬, 곡, 커스텀 챌린지를 마스터하세요.",
+    "getFreeCodesCTA": "Dead as Disco 공식 사이트 방문",
+    "playOnSteamCTA": "Steam에서 Dead as Disco 구매",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "현재 플레이어"
+        "value": "2026년 5월 5일",
+        "label": "얼리 액세스 출시"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "최고 동시 접속자"
+        "value": "140만+",
+        "label": "데모 플레이어"
       },
       "stat3": {
-        "value": "97%",
+        "value": "93%",
         "label": "긍정적 평가"
       },
       "stat4": {
-        "value": "2026년 3월 12일",
-        "label": "출시일"
+        "value": "30+",
+        "label": "공식 수록곡"
       }
     }
   },
   "gameFeature": {
     "title": "Dead as Disco 게임플레이",
-    "description": "Steam의 이 꿈같은 복셀 샌드박스에서 Surreal 바이옴을 탐험하고, Apotheosis로 아이템을 융합하며, 기이한 생명체들로부터 생존하세요."
+    "description": "이 사이버펑크 리듬 비트엠업 게임에서 네온 빛으로 가득한 리듬 전투를 경험하고, 강력한 Idols와 맞서 싸우며, 30곡 이상의 노래를 마스터하고 독특한 스킬 콤보를 만드세요."
   },
   "tools": {
     "title": "Dead as Disco",
-    "titleHighlight": "리소스",
-    "subtitle": "Dead as Disco에서 탐험, 제작, 생존에 필요한 모든 것",
+    "titleHighlight": "모듈 탐색",
+    "subtitle": "업데이트, 전투, 곡, 빌드 및 플랫폼 가이드를 위한 모든 홈페이지 섹션으로 이동하세요",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "초보자 가이드",
-        "description": "첫 걸음, 탐험 및 초기 진행"
+        "title": "Dead as Disco 초보자 가이드",
+        "description": "첫 세션 경로, 리듬 기초 및 초기 진행 우선순위"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis 제작",
-        "description": "자유 형식 융합 시스템 및 초기 레시피"
+        "icon": "Zap",
+        "title": "Dead as Disco 전투 가이드",
+        "description": "Beat Kune Do 기본 원리, 방어 타이밍 및 데미지 흐름"
       },
       {
-        "icon": "Hammer",
-        "title": "도구 및 무기",
-        "description": "Frost Pick, Azrael, Hookshot 등"
-      },
-      {
-        "icon": "Package",
-        "title": "저장소 및 인벤토리",
-        "description": "Cache Cubes, 캐비닛 및 Qualia 저장소"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia 및 기지 건설",
-        "description": "개인 Qualia 및 홈 기지 설정"
-      },
-      {
-        "icon": "Eye",
-        "title": "월드 지역",
-        "description": "Fog Meadow, Essence Morass 등"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "생명체 및 적",
-        "description": "마네킹, 거미 및 생존 방법"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "이동 장비",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "농사 및 성장",
-        "description": "씨앗 진행 및 재료 파밍"
-      },
-      {
-        "icon": "Star",
-        "title": "최고의 초기 해금 요소",
-        "description": "초반 1시간을 위한 우선 업그레이드"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "도전 과제 추적기",
-        "description": "모든 19개의 Steam 도전 과제 및 조건"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "싱글 플레이어 FAQ",
-        "description": "플랫폼, 가격, 협동 플레이 및 언어 관련 질문"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck 및 컨트롤러",
-        "description": "Proton 9.0.4 설정 및 컨트롤러 팁"
-      },
-      {
-        "icon": "Settings",
-        "title": "설정 및 접근성",
-        "description": "손 숨기기, Vulkan 및 디스플레이 옵션"
+        "icon": "Keyboard",
+        "title": "Dead as Disco 조작 및 기술",
+        "description": "핵심 액션, 해금 가능한 기술 및 컨트롤러 친화적 플레이 참고 사항"
       },
       {
         "icon": "Clock",
-        "title": "업데이트 및 패치 노트",
-        "description": "최근 수정 사항 및 로드맵 노트"
+        "title": "Dead as Disco 출시일, 패치 노트 및 로드맵",
+        "description": "얼리 액세스 타임라인, 출시 노트 및 계획된 업데이트"
       },
       {
-        "icon": "Shield",
-        "title": "크래시 해결",
-        "description": "Vulkan 확인, 로그 경로 및 버그 제보"
+        "icon": "Users",
+        "title": "Dead as Disco 보스 Idols 가이드",
+        "description": "Idol 역할, 전투 정체성 및 보스 공략 체크포인트"
+      },
+      {
+        "icon": "Star",
+        "title": "Dead as Disco 추천 스킬 및 능력",
+        "description": "생존력, 제어 및 점수 일관성을 위한 스킬 우선순위"
+      },
+      {
+        "icon": "Eye",
+        "title": "Dead as Disco 스토리 레벨 공략",
+        "description": "현재 캠페인 흐름, 레벨 순서 및 내러티브 진행 참고 사항"
+      },
+      {
+        "icon": "Infinity",
+        "title": "Dead as Disco Infinite Disco 가이드",
+        "description": "리플레이 루프, 챌린지 형식 및 리더보드 중심 연습"
+      },
+      {
+        "icon": "Music",
+        "title": "Dead as Disco My Music 커스텀 곡",
+        "description": "가져오기 워크플로우, BPM 설정 및 커스텀 곡 보정 팁"
+      },
+      {
+        "icon": "Download",
+        "title": "Dead as Disco 사운드트랙 및 스트리머 세이프 모드",
+        "description": "공식 트랙, 크리에이터 안전 재생 및 DLC 음악 포함"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Dead as Disco Steam Deck 가이드",
+        "description": "Deck 설정, 컨트롤러 동작 및 실용적인 플랫폼 참고 사항"
+      },
+      {
+        "icon": "Package",
+        "title": "Dead as Disco 데모, 가격 및 에디션",
+        "description": "데모 이용 가능 여부, 스토어 에디션 및 구매 계획"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Dead as Disco 협동 멀티플레이어 상태",
+        "description": "현재 솔로 상태, 출시 기능 범위 및 향후 협동 로드맵 신호"
+      },
+      {
+        "icon": "Settings",
+        "title": "Dead as Disco 모드 및 커스텀 스킨",
+        "description": "커뮤니티 모드, 공식 지원 계획 및 게임 내 커스터마이징 시스템"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Dead as Disco 캐릭터 및 적",
+        "description": "Charlie, 출시 Idols, Harmony Corp 배경 및 적 웨이브 역할"
+      },
+      {
+        "icon": "Home",
+        "title": "Dead as Disco The Encore 수집품 및 코스메틱",
+        "description": "The Encore 허브 복구, 기념품, 코스메틱 및 진행 보상"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
+    "deadAsDiscoBeginnerGuide": {
       "title": "Dead as Disco 초보자 가이드",
       "displayType": "steps",
-      "intro": "탐험, 융합, 그리고 성장이 어떻게 연결되는지 배우는 것부터 시작하세요. Dead as Disco는 실험을 장려하므로, 초반 진행은 특이한 재료를 수집하고, 조합을 테스트하며, 개인적인 Qualia를 잠금 해제하는 것에서 시작됩니다.",
+      "intro": "전투, 진행, 비트 마스터를 위한 필수 팁과 함께 네온 리듬 여정을 시작하세요.",
       "steps": [
         {
-          "title": "확정하기 전에 탐험하세요",
-          "description": "밖으로 나가서 흔한 블록을 채굴하고, 발견한 이상한 드롭 아이템들을 보관하세요. 초반 진행은 정해진 퀘스트보다는 재료가 무엇이 될 수 있는지 발견하는 것에 더 가깝습니다."
+          "title": "리듬 마스터하기",
+          "description": "모든 행동은 음악과 동기화됩니다. 완벽한 회피, 공격, 콤보를 위해 비트를 익히세요."
         },
         {
-          "title": "개인 Qualia를 일찍 잠금 해제하세요",
-          "description": "개인 Qualia는 가장 중요한 초반 이정표 중 하나입니다. 재정비하고 기반을 다질 수 있는 믿을 만한 장소를 제공합니다."
+          "title": "데모 체험하기",
+          "description": "정식 버전을 구매하기 전에 무료 데모를 통해 핵심 메커니즘을 파악해 보세요."
         },
         {
-          "title": "빠른 초반 진행을 위해 Osmium을 사용하세요",
-          "description": "Osmium은 가장 유용한 초반 재료 중 하나입니다. 인기 있는 초반 루트는 Osmium과 막대기를 조합하여 빠른 채굴을 위한 Frost Pick을 만드는 것입니다."
+          "title": "기본 콤보 익히기",
+          "description": "단순한 공격 패턴을 마스터하여 점수를 높이고 리듬 효율을 극대화하세요."
         },
         {
-          "title": "좋은 융합법을 기록하세요",
-          "description": "성공적인 조합을 저널에 기록하세요. Dead as Disco에는 수많은 융합 경로가 있으므로, 유용한 결과를 적어두면 시간을 크게 절약할 수 있습니다."
+          "title": "초반 스킬 해제하기",
+          "description": "이동 능력과 전투 효율을 높여주는 필수 능력에 집중하세요."
         }
       ],
       "quickTips": [
-        "Apotheosis는 고정된 레시피 목록을 요구하지 않습니다.",
-        "무한한 세계 생성 덕분에 더 높이 올라가거나 더 깊이 내려가면 완전히 다른 재료를 발견할 수 있습니다.",
-        "이동 도구와 유틸리티 장비는 잠금 해제하기 시작하면 삶의 질을 크게 향상시켜 줍니다.",
-        "초반에 길을 잃는 것은 정상이지만, 첫 번째 좋은 융합이 성공하기 시작하면 유용한 도구, 저장 공간, 이동 수단이 빠르게 스노우볼처럼 불어납니다."
+        "140만 명 이상의 플레이어가 데모를 즐겼습니다. 리듬 혁명에 동참하세요!",
+        "음악 동기화가 핵심입니다. 타이밍에 맞춰 공격하면 더욱 강력해집니다.",
+        "Charlie Disco는 당신의 영웅입니다. 그의 독특한 능력과 전투 스타일을 마스터하세요.",
+        "긍정적인 리뷰를 통해 93%의 플레이어가 리듬 전투 시스템을 선호한다는 것이 증명되었습니다."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Dead as Disco Apotheosis 제작",
+    "deadAsDiscoRhythmCombat": {
+      "title": "Dead as Disco 리듬 전투",
       "displayType": "cards",
-      "intro": "Apotheosis는 게임의 제한 없는 융합 시스템입니다. 전통적인 레시피 북을 외우는 대신, 재료를 조합하고 결과를 관찰하며 시간이 지남에 따라 자신만의 제작 지식을 쌓아갑니다.",
+      "intro": "Dead as Disco의 모든 움직임은 비트에 맞춰집니다. 리듬 기반 전투를 마스터하여 데미지와 콤보를 극대화하세요.",
       "cards": [
         {
-          "name": "자유 형식 융합",
-          "description": "Apotheosis를 사용하면 고정된 레시피 목록을 따를 필요 없이 서로 다른 아이템을 융합할 수 있습니다."
+          "name": "음악 동기화",
+          "description": "음악에 맞춰 완벽한 타이밍에 수행하는 모든 공격, 회피, 콤보는 더욱 강력해집니다."
         },
         {
-          "name": "다양하고 유용한 결과물",
-          "description": "서로 다른 재료들은 종종 특정 결과로 이어집니다. 커뮤니티의 발견에 따르면 유사한 투입물로도 실용적인 도구, 저장 공간 또는 전투 업그레이드를 얻을 수 있습니다."
+          "name": "콤보 시스템",
+          "description": "공격을 연계하여 배율을 높이고 더 높은 점수를 획득하세요."
         },
         {
-          "name": "저널 중심 제작",
-          "description": "Apotheosis를 배우는 가장 좋은 방법은 성공적인 조합을 추적하는 것입니다. 당신의 저널은 곧 당신만의 제작 참고서가 될 것입니다."
+          "name": "퍼펙트 회피",
+          "description": "공격을 반격하고 콤보 기회를 만들기 위해 완벽한 타이밍에 회피하세요."
         },
         {
-          "name": "커뮤니티에서 검증된 초반 융합",
-          "description": "인기 있는 초반 예시로는 Frost Pick을 위한 Osmium과 막대기 조합, Azrael을 위한 막대기와 Tungsten Appendage 조합, 그리고 Tendril Rapier를 위한 Azrael과 Magnetite 조합이 있습니다."
+          "name": "Idol 보스",
+          "description": "각 Idol은 고유한 패턴을 가지고 있으며, 처치하기 위해 서로 다른 리듬 전략이 필요합니다."
         }
       ],
       "milestones": [
-        "아이템 융합하기",
-        "해충 융합하기",
-        "신성한 유물 융합하기"
+        "첫 퍼펙트 회피 성공",
+        "10히트 콤보 달성",
+        "첫 번째 Idol 처치",
+        "피해 없이 곡 전체 마스터"
+      ]
+    },
+    "deadAsDiscoIdols": {
+      "title": "Dead as Disco Idols",
+      "displayType": "bossCards",
+      "intro": "Idols는 독특한 메커니즘과 리듬 패턴을 가진 강력한 보스 적들입니다. 그들의 패턴을 익혀 정복하세요.",
+      "bosses": [
+        {
+          "name": "Hemlock",
+          "role": "첫 번째 Idol",
+          "description": "기본 리듬 전투 메커니즘을 가르쳐주는 첫 번째 보스 조우입니다."
+        },
+        {
+          "name": "패턴 마스터",
+          "role": "엘리트 보스",
+          "description": "정교한 타이밍이 필요한 복잡한 공격 패턴을 가진 강력한 Idols입니다."
+        },
+        {
+          "name": "음악 기반 메커니즘",
+          "role": "고유 능력",
+          "description": "각 Idol의 공격과 능력은 서로 다른 음악 장르와 템포에 동기화됩니다."
+        },
+        {
+          "name": "진행 챌린지",
+          "role": "보스 전략",
+          "description": "스토리 모드를 진행함에 따라 Idol 전투가 더욱 어려워집니다."
+        }
+      ]
+    },
+    "deadAsDiscoSkillBuilds": {
+      "title": "Dead as Disco 스킬 빌드",
+      "displayType": "skillCards",
+      "intro": "자신의 플레이 스타일에 맞춰 다양한 스킬, 능력, 업그레이드 경로로 Charlie Disco를 커스터마이징하세요.",
+      "skills": [
+        {
+          "name": "스킬 트리",
+          "role": "진행 시스템",
+          "description": "다양한 전투 및 이동 능력을 해제하고 업그레이드하세요."
+        },
+        {
+          "name": "전투 능력",
+          "role": "공격 업그레이드",
+          "description": "공격력, 콤보 잠재력, 특수 기술을 강화하세요."
+        },
+        {
+          "name": "이동 스킬",
+          "role": "기동성",
+          "description": "더 나은 리듬 흐름을 위해 회피, 대시, 이동 능력을 향상시키세요."
+        },
+        {
+          "name": "커스텀 빌드",
+          "role": "플레이 스타일",
+          "description": "다양한 전투 스타일에 집중한 독특한 캐릭터 빌드를 만드세요."
+        }
+      ],
+      "buildStrategies": [
+        "공격형 - 높은 데미지와 빠른 콤보에 집중",
+        "방어형 - 회피와 반격 우선",
+        "밸런스형 - 다재다능함을 위해 공격과 방어 혼합",
+        "스피드런 - 기동성과 빠른 처치에 집중"
+      ]
+    },
+    "deadAsDiscoSongs": {
+      "title": "Dead as Disco 수록곡",
+      "displayType": "songCards",
+      "intro": "각기 다른 리듬 패턴과 챌린지를 가진 30곡 이상의 공식 사운드트랙을 경험해 보세요.",
+      "tracks": [
+        {
+          "name": "공식 사운드트랙",
+          "role": "게임 음악",
+          "description": "리듬 전투를 위해 특별히 작곡된 30곡 이상의 오리지널 곡들입니다."
+        },
+        {
+          "name": "커스텀 챌린지",
+          "role": "사용자 콘텐츠",
+          "description": "자신만의 리듬 챌린지와 곡 목록을 만들고 공유하세요."
+        },
+        {
+          "name": "My Music",
+          "role": "개인화",
+          "description": "자신의 음악 파일을 가져와 커스텀 리듬 챌린지를 만드세요."
+        },
+        {
+          "name": "BPM 감지",
+          "role": "기술적 특징",
+          "description": "정확한 타이밍으로 커스텀 곡의 비트를 자동으로 감지합니다."
+        }
+      ],
+      "features": [
+        "독특한 패턴을 가진 30개 이상의 공식 곡",
+        "커스텀 곡 가져오기 및 챌린지 생성",
+        "Steam 창작마당 연동을 통한 공유",
+        "실시간 리듬 추적 및 점수 계산"
+      ]
+    },
+    "deadAsDiscoInfiniteDisco": {
+      "title": "Dead as Disco Infinite Disco",
+      "displayType": "challengeCards",
+      "intro": "Test your skills in endless mode with escalating difficulty and compete for high scores on global leaderboards.",
+      "modes": [
+        {
+          "name": "Endless Mode",
+          "role": "Core Gameplay",
+          "description": "Survive increasingly difficult waves of enemies and challenges."
+        },
+        {
+          "name": "Leaderboards",
+          "role": "Competition",
+          "description": "Compete with other players for high scores and rankings."
+        },
+        {
+          "name": "Difficulty Scaling",
+          "role": "Progression",
+          "description": "Game gets progressively harder with faster tempos and stronger enemies."
+        },
+        {
+          "name": "Power-ups",
+          "role": "Assistance",
+          "description": "Temporary boosts to help survive the endless rhythm challenges."
+        }
+      ]
+    },
+    "deadAsDiscoChallenges": {
+      "title": "Dead as Disco Challenges",
+      "displayType": "achievementCards",
+      "intro": "Complete specific challenges and objectives to unlock achievements and prove your rhythm mastery.",
+      "challenges": [
+        {
+          "name": "Song Challenges",
+          "role": "Objective",
+          "description": "Complete specific songs with high scores or without taking damage."
+        },
+        {
+          "name": "Combat Trials",
+          "role": "Skill Test",
+          "description": "Defeat specific numbers of enemies or achieve combo milestones."
+        },
+        {
+          "name": "Time Attacks",
+          "role": "Speed",
+          "description": "Complete levels or defeat Idols within time limits."
+        },
+        {
+          "name": "Custom Objectives",
+          "role": "User Created",
+          "description": "Create and share your own challenge goals for others to attempt."
+        }
+      ]
+    },
+    "deadAsDiscoCustomization": {
+      "title": "Dead as Disco Customization",
+      "displayType": "cosmeticCards",
+      "intro": "Personalize your experience with visual customization options, settings, and accessibility features.",
+      "options": [
+        {
+          "name": "Visual Cosmetics",
+          "role": "Appearance",
+          "description": "Outfits, skins, and visual effects for Charlie Disco and environments."
+        },
+        {
+          "name": "Settings Menu",
+          "role": "Configuration",
+          "description": "Adjust game settings to optimize performance and comfort."
+        },
+        {
+          "name": "Accessibility",
+          "role": "Inclusion",
+          "description": "Options to customize gameplay for different needs and preferences."
+        },
+        {
+          "name": "Audio Settings",
+          "role": "Sound",
+          "description": "Adjust music volume, effects, and rhythm indicators for optimal experience."
+        }
+      ]
+    },
+    "lucidBlocksBeginnerGuide": {
+      "title": "Dead as Disco Beginner Guide",
+      "intro": "Start with a clean first-hour plan: learn timing, clear Story Mode basics, then use Infinite Disco and My Music when your rhythm control is stable.",
+      "steps": [
+        {
+          "title": "Start with the demo or Early Access build",
+          "description": "Use the demo to feel Beat Kune Do timing quickly, then move to Early Access for full progression systems."
+        },
+        {
+          "title": "Complete the tutorial before score chasing",
+          "description": "Treat the tutorial as mandatory calibration for attack cadence, defensive rhythm, and combo pacing."
+        },
+        {
+          "title": "Use Story Mode as your learning path",
+          "description": "Story levels teach encounter flow and Idol pressure better than random challenge hopping."
+        },
+        {
+          "title": "Prioritize survival over perfect rhythm",
+          "description": "If timing slips, keep movement clean and protect your health before forcing advanced sequences."
+        },
+        {
+          "title": "Spend fan power on practical upgrades",
+          "description": "Pick survivability and reliable damage nodes first so each run feels steadier and less volatile."
+        },
+        {
+          "title": "Check The Encore between milestones",
+          "description": "Return to the hub to manage unlocks, collect progress items, and follow narrative beats."
+        },
+        {
+          "title": "Practice loops in Infinite Disco",
+          "description": "Use challenge runs to isolate weak habits and rebuild consistency without restarting campaign stages."
+        },
+        {
+          "title": "Import custom songs after core mastery",
+          "description": "My Music works best once you can recognize timing drift and calibrate BPM settings confidently."
+        }
+      ],
+      "quickTips": [
+        "Early Access released on May 5, 2026, so post-launch systems are already playable now.",
+        "Use short sessions focused on dodge timing to improve faster than long unfocused grinding.",
+        "The first Idol fights are better training tools than raw score farming in your first hours.",
+        "Treat official songs as calibration baselines before importing custom tracks."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Dead as Disco Combat Guide",
+      "intro": "Beat Kune Do rewards controlled rhythm. Build fight consistency through readable patterns, defensive timing, and deliberate resource usage.",
+      "cards": [
+        {
+          "name": "Anchor your inputs to the beat",
+          "description": "Use a stable rhythm loop for attacks and dodges instead of mashing through visual noise."
+        },
+        {
+          "name": "Recover calmly after timing misses",
+          "description": "One missed beat is recoverable. Re-center movement and restart with low-risk actions."
+        },
+        {
+          "name": "Use perfect defense for momentum swings",
+          "description": "Clean dodge and counter timing creates space, resets pressure, and opens safer damage windows."
+        },
+        {
+          "name": "Spend takedowns at pressure peaks",
+          "description": "Use finishers when crowds collapse on you or when elite enemies threaten your run stability."
+        },
+        {
+          "name": "Route upgrades around your weak points",
+          "description": "If survival fails, take durability nodes first; if pace stalls, invest in combo extension tools."
+        },
+        {
+          "name": "Use Idol abilities for crowd control",
+          "description": "Knockback and disruption tools matter most when enemy density makes perfect rhythm harder to maintain."
+        },
+        {
+          "name": "Treat burst skills as finish windows",
+          "description": "Hold high-impact skills until enemy patterns are committed and punishment opportunities are clear."
+        },
+        {
+          "name": "Read each Idol fight language first",
+          "description": "Every Idol encounter has distinct cadence and spacing rules, so first attempts should gather pattern data."
+        }
+      ],
+      "milestones": [
+        "Land five clean defensive timings in one run",
+        "Clear a challenge without panic mashing",
+        "Convert one defensive opening into a full burst cycle",
+        "Finish an Idol phase with stable rhythm control"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Dead as Disco 도구 및 무기",
-      "displayType": "itemCards",
-      "intro": "Dead as Disco는 공식 유틸리티 장비와 커뮤니티에서 발견된 초반 무기를 혼합합니다. 가장 좋은 구성은 대개 빠른 채굴, 안전한 횡단, 그리고 하나의 믿음직한 전투 옵션을 조합하는 것입니다.",
+      "title": "Dead as Disco 컨트롤 및 기술",
+      "intro": "버튼 라벨을 외우기 전에 기술의 목적에 집중하세요. 이 목록은 각 행동의 역할과 실제 전투에서 가치를 발휘하는 시점을 추적합니다.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "채굴 도구",
-          "description": "Osmium과 막대기로 만든 빠르고 저렴한 초반 곡괭이입니다. 플레이어들은 초반 재료 수집 속도를 높이기 위해 이것을 사용합니다."
+          "name": "기본 공격 콤보",
+          "type": "핵심 액션",
+          "description": "리듬 존재감과 데미지 가동률을 유지하기 위한 주요 압박 체인입니다."
         },
         {
-          "name": "Azrael",
-          "type": "시작 무기",
-          "description": "막대기와 Tungsten Appendage로 제작하는 실용적인 초반 무기 루트입니다."
+          "name": "회피",
+          "type": "핵심 액션",
+          "description": "위치 재선정 및 안전한 반격 타이밍을 잡기 위한 주요 생존 도구입니다."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "업그레이드 무기",
-          "description": "Azrael과 Magnetite를 조합하여 만든 더 강력한 후속 무기입니다. 플레이어들 사이에서 공유되는 가장 유용한 초반-중반 전투 경로 중 하나입니다."
+          "name": "퍼펙트 카운터",
+          "type": "타이밍 방어",
+          "description": "적의 공격 시도를 나의 템포 우위로 전환하는 고가치 방어 대응입니다."
         },
         {
-          "name": "Hookshot",
-          "type": "이동 도구",
-          "description": "이동과 수직 탐험을 크게 개선해 주는 공식 횡단 아이템입니다."
+          "name": "테이크다운",
+          "type": "피니셔",
+          "description": "자원 기반의 처치 기술로, 위험한 적이나 다수의 적을 정리할 때 아껴두는 것이 좋습니다."
         },
         {
-          "name": "Bee Glider",
-          "type": "이동 도구",
-          "description": "공간을 더 안전하고 효율적으로 이동할 수 있게 도와주는 공식 이동 아이템입니다."
+          "name": "윈드밀 킥",
+          "type": "스킬 트리 해금",
+          "description": "빈틈이 확인되었을 때 폭발적인 압박을 가하는 차지형 공격 옵션입니다."
         },
         {
-          "name": "Ball Wand",
-          "type": "유틸리티 무기",
-          "description": "전투 및 퍼즐 옵션을 확장해 주는 공식 원거리 유틸리티 아이템입니다."
+          "name": "드럼스틱 던지기",
+          "type": "원거리 해금",
+          "description": "근접 연속 공격을 시작하기 전, 대상을 견제하기 위한 거리 확인용 도구입니다."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "횡단 장비",
-          "description": "탐험을 늦출 수 있는 지역에 도달하기 위한 공식 유틸리티 아이템입니다."
+          "name": "드럼스틱 후속타",
+          "type": "거리 좁히기",
+          "description": "원거리 접촉을 즉각적인 근접 압박으로 전환하는 즉시 재진입 옵션입니다."
         },
         {
-          "name": "Explosives",
-          "type": "유틸리티 데미지",
-          "description": "핵심 도구 세트의 일부로 공식 강조되었으며, 위협이나 장애물을 돌파하는 데 유용합니다."
+          "name": "피버 러쉬",
+          "type": "버스트 스킬",
+          "description": "적의 리듬 패턴을 파악한 후 빠른 징벌 기회를 잡기 위한 모멘텀 스킬입니다."
+        },
+        {
+          "name": "베이스 인베이더",
+          "type": "Idols 능력",
+          "description": "라인 제어 및 방어적 여유 공간 확보를 위한 넉백 스타일의 Idols 파워입니다."
+        },
+        {
+          "name": "선택 가능한 댄스",
+          "type": "예정된 업데이트",
+          "description": "스타일 변화를 위해 로드맵 업데이트에 예정된 커스터마이징 중심의 추가 요소입니다."
+        },
+        {
+          "name": "입력 시 공격 옵션",
+          "type": "접근성 계획",
+          "description": "더 많은 플레이어의 조작 편의성을 개선하기 위해 계획된 입력 방식 옵션입니다."
+        },
+        {
+          "name": "Steam Deck 및 컨트롤러 지원",
+          "type": "플랫폼 지원",
+          "description": "설정에서 기기별 바인딩 확인이 가능한 컨트롤러 및 Steam Deck 친화적 설정입니다."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Dead as Disco 보관함 및 인벤토리",
-      "displayType": "solutionCards",
-      "intro": "Dead as Disco에서는 초반부터 인벤토리 압박이 심하므로, 보관함을 만드는 것을 최우선 목표 중 하나로 삼아야 합니다. 이미 실제 플레이어들이 검증한 몇 가지 유용한 해결책이 있습니다.",
+      "title": "Dead as Disco 출시일, 패치 노트 및 로드맵",
+      "intro": "현재 적용된 내용, 출시 시 변경된 사항, 게임 플레이 계획에 중요한 로드맵 주요 지점을 확인하세요.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "상자형 보관함",
-          "description": "Cache Cube는 가장 초기에 사용할 수 있는 실용적인 보관 수단이며, 플레이어들 사이에서 게임의 주력 상자형 보관함으로 통합니다."
+          "name": "얼리 액세스 출시",
+          "role": "2026년 5월 5일",
+          "description": "핵심 스토리와 성장 시스템을 포함한 얼리 액세스 빌드가 PC 스토어에 출시되었습니다."
         },
         {
-          "name": "Cabinet",
-          "role": "간이 기지 보관함",
-          "description": "Cabinet 또한 확인된 보관 옵션 중 하나입니다. 초반에 흔히 쓰이는 제작법은 자른 나무 1개와 끈 1개를 사용합니다."
+          "name": "출시 콘텐츠 범위",
+          "role": "현재 플레이 가능",
+          "description": "출시 버전에는 초기 스토리 모드 레벨, 출시 Idols, The Encore, Infinite Disco, 및 My Music이 포함됩니다."
         },
         {
-          "name": "Personal Qualia",
-          "role": "장기 보관 허브",
-          "description": "잠금 해제 후, 개인 Qualia는 재료를 정리하고, 평화롭게 제작하며, 기지 설비를 확장하기 위한 자연스러운 공간이 됩니다."
+          "name": "출시 패치 노트",
+          "role": "게시됨",
+          "description": "초기 노트는 성장 밸런스 조정, 챌린지 시스템, 최적화 및 플랫폼 준비 상태를 강조합니다."
         },
         {
-          "name": "Journal Tracking",
-          "role": "인벤토리 효율성",
-          "description": "유용한 조합법을 저널에 기록하면 재료 낭비를 줄이고 인벤토리 관리를 훨씬 쉽게 할 수 있습니다."
+          "name": "알려진 문제 확인",
+          "role": "핫픽스 단계",
+          "description": "초기 핫픽스는 커스텀 곡 동작, 아레나 표시 문제 및 챌린지 상태의 예외 상황을 해결합니다."
+        },
+        {
+          "name": "업데이트 1",
+          "role": "2026년 6월",
+          "description": "플레이리스트 및 아레나 개선을 포함한 Infinite Disco 및 My Music 확장에 집중할 계획입니다."
+        },
+        {
+          "name": "업데이트 2",
+          "role": "2026년 한여름",
+          "description": "커스터마이징 심화, 수집 요소 추가 및 밸런스 중심의 능력 조정에 집중할 계획입니다."
+        },
+        {
+          "name": "업데이트 3",
+          "role": "2026년 늦여름",
+          "description": "새로운 Idols 아크, 음악 콘텐츠, 새로운 적 및 성장 요소가 추가되는 XL 패치가 계획되어 있습니다."
+        },
+        {
+          "name": "1.0 버전을 향하여",
+          "role": "2027년 목표",
+          "description": "향후 페스티벌과 주요 업데이트를 통해 정식 출시의 내러티브 아크로 수렴될 예정입니다."
         }
       ],
       "managementTips": [
-        "희귀 아이템을 쌓아두기 전에 신뢰할 수 있는 보관 옵션을 하나 마련하세요.",
-        "개인 Qualia를 사용할 수 있게 되면 그 주변으로 기지를 건설하세요.",
-        "제작 재료, 전투 도구, 이동 장비를 분리하여 보관하면 업그레이드 계획을 세우기가 더 쉽습니다.",
-        "저널을 단순히 제작법 발견 용도가 아닌 인벤토리 관리의 일부로 활용하세요."
+        "출시 후 시스템이 예상과 다르게 작동한다면, 설정을 변경하기 전에 최신 공식 패치 노트를 확인하세요.",
+        "로드맵 날짜를 빌드 초기화 및 새로운 챌린지 연습 주기를 위한 계획의 기준으로 삼으세요.",
+        "미래의 콘텐츠 업데이트를 기다리기보다 현재 플레이 가능한 루프를 우선시하세요.",
+        "출시 패치 변경 사항을 활용하여 업그레이드 경로와 선호하는 챌린지 루트를 업데이트하세요."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Dead as Disco Qualia 및 기지 건설",
-      "displayType": "cards",
-      "intro": "Qualia는 Dead as Disco에서 가장 중요한 진행 이정표 중 하나입니다. 이곳은 재정비하고, 재료를 보관하며, 탐험의 성과를 실제 홈 베이스로 점진적으로 탈바꿈할 수 있는 개인 공간을 제공합니다.",
+      "title": "Dead as Disco 보스 Idols 가이드",
+      "intro": "Dead as Disco는 Charlie Disco의 컴백을 알리며 4명의 출시 Idols와 함께 시작하며, 얼리 액세스 기간 동안 더 많은 추가가 계획되어 있습니다. 이 가이드를 통해 각 조우를 준비하고, 전투의 특징을 이해하며, 능력 해금 우선순위를 계획하세요.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Qualia 잠금 해제는 더 넓은 세계를 탐험하는 동안 돌아올 수 있는 안정적인 거점을 마련해 주는 초기 이정표입니다."
+          "name": "Hemlock",
+          "description": "얼리 액세스에서 이용 가능. 전직 펑크 록커이자 Harmony Corp의 집행자입니다. 그의 지하철 콘서트 루트는 팬 웨이브 제어를 강조하며, 넉백 중심의 Bass Invader 능력을 해금합니다."
         },
         {
-          "name": "Storage-First Building",
-          "description": "많은 플레이어가 Qualia를 보관 허브로 먼저 사용하기 시작한 뒤, 점차 정리된 제작 및 건설 공간을 갖춘 더 큰 기지로 발전시킵니다."
+          "name": "Arora",
+          "description": "얼리 액세스에서 이용 가능. 복제 압박과 빠른 페이즈 전환을 사용하는 차세대 AI 팝 아이돌입니다. Arora를 물리치면 확장된 특수 기술 옵션을 위한 Idols 능력 루트가 열립니다."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Dead as Disco는 창의적인 건설을 지원하며, 플레이어들은 이미 Qualia 공간을 활용해 집을 짓고 개인화된 레이아웃을 만들고 있습니다."
+          "name": "Dex",
+          "description": "얼리 액세스에서 이용 가능. 공격적인 템포 제어를 사용하는 사이버네틱 강화 기타 아이콘입니다. 이 루트를 클리어하면 빌드 다양성을 위한 또 다른 전용 Idols 스킬 트리가 해금됩니다."
         },
         {
-          "name": "Progression Hub",
-          "description": "튼튼한 기지는 탐험 전리품, 제작 재료, 씨앗, 도구, 이동 장비를 분리하여 다음 업그레이드를 더 쉽게 계획할 수 있도록 돕습니다."
+          "name": "Prophet",
+          "description": "얼리 액세스에서 이용 가능. 팬 건틀릿과 콤보 규율에 집중하는 래퍼 겸 프로듀서 킹메이커입니다. Prophet의 방어적 블록 경로는 패링 타이밍과 카운터 기회를 잡는 데 유용합니다."
+        },
+        {
+          "name": "미래의 보스 Idols",
+          "description": "얼리 액세스 기간 중 예정됨. 페스티벌 스타일의 업데이트와 함께 추가적인 전 동료들이 등장할 예정이며, 새로운 내러티브 아크, 새로운 적, 새로운 스킬 및 시그니처 능력이 포함됩니다."
         }
       ],
       "highlights": [
-        "Qualia 입장",
-        "재료 안전하게 보관",
-        "유틸리티에서 장식으로 확장",
-        "기지 공간을 활용한 제작 및 농사 지원"
+        "7명의 Idols 중 4명이 얼리 액세스 출시에 포함됨",
+        "각 Idols 루트는 고유한 능력 경로를 추가함",
+        "여름 Idols 피날레 업데이트 계획됨",
+        "1.0 버전 이전에 더 많은 내러티브 아크 계획됨"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Dead as Disco 세계 지역",
-      "displayType": "regionCards",
-      "intro": "Dead as Disco는 무한한 세계 생성을 사용하므로 플레이어들은 계속해서 새로운 환경과 구조물을 발견하게 됩니다. 이미 업적과 커뮤니티 토론에서 언급되는 몇몇 지명된 장소들이 있습니다.",
+      "title": "Dead as Disco 최고의 스킬 및 능력",
+      "intro": "생존력을 최우선으로 확보한 다음, 압박 도구와 특화된 Idols 경로로 확장하세요. 이러한 진행 방식은 초반 클리어를 안정적으로 유지하면서 더 어려운 챌린지 속도에 대비할 수 있게 해줍니다.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "커뮤니티 언급 지역",
-          "description": "Fog Meadow는 숨겨진 위협과 위험한 조우가 도사리는 긴장감 넘치는 지역으로 플레이어들 사이에서 이미 잘 알려져 있습니다."
+          "name": "핵심 우선: 하트 추가, Fever 용량, 공격 부스트",
+          "type": "초보자 핵심",
+          "description": "회피 타이밍과 온비트 공격을 배우는 초보자에게 가장 적합합니다. 이 선택지들은 실수에 대한 여유를 만들어주고 긴 전투에서 특수 기술의 가동 시간을 높여줍니다."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "발견 랜드마크",
-          "description": "Tiamana Leyline은 고유한 업적 이정표를 가지고 있을 만큼 중요하며, 지금까지 발견된 가장 명확한 세계 지명 중 하나입니다."
+          "name": "고영향 기술: 차지 윈드밀 킥, 드럼스틱 던지기 후속타",
+          "type": "압박 도구",
+          "description": "폭딜 기회를 만들고, 거리를 빠르게 좁히며, 리듬상의 빈틈을 깔끔한 콤보 루트로 전환하는 데 사용하세요."
         },
         {
-          "name": "Clonaqualia",
-          "type": "건설 공간",
-          "description": "플레이어들은 이미 Clonaqualia를 집을 짓고, 재료를 보관하며, 더 영구적인 레이아웃을 실험하는 장소로 사용하고 있습니다."
+          "name": "보스 능력 집중: 베이스 인베이더, 프로펫 블록",
+          "type": "제어 및 방어",
+          "description": "아레나가 혼잡해지거나 보스가 엄격한 방어 타이밍을 강요할 때 가장 유용합니다. 공간을 확보하고 신뢰할 수 있는 반격 기회를 만드는 데 도움이 됩니다."
         },
         {
-          "name": "Essence Morass",
-          "type": "파밍 지역",
-          "description": "Essence Morass는 특히 슬라임을 처치하고 경험치를 얻기에 유용한 파밍 장소로 플레이어들 사이에서 공유되고 있습니다."
+          "name": "진화하는 메타: Arora 트리, Dex 트리, 미래의 Idols 능력",
+          "type": "장기 빌드",
+          "description": "업데이트가 적용될 때마다 다시 확인하세요. 새로운 Idols 추가 및 능력 패치는 공격적, 유틸리티 중심 또는 점수 중심의 플레이 스타일에 맞는 최적의 경로를 바꿀 수 있습니다."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Dead as Disco 생명체 및 적",
-      "displayType": "creatureCards",
-      "intro": "Dead as Disco는 Surreal한 생명체와 실제적인 위험을 혼합합니다. 공식 설명과 커뮤니티 게시물은 기이한 생명체, 적대적인 위협, 그리고 플레이어들이 쉽게 기억하는 몇 가지 인상적인 조우로 가득 찬 세계를 가리킵니다.",
+      "title": "Dead as Disco 스토리 레벨 공략",
+      "intro": "이 챕터 경로를 따라 리듬 기초를 조기에 익히고, 각 출시 Idols 루트를 클리어하며, 얼리 액세스 및 계획된 1.0 아크 동안의 미래 스토리 확장에 대비하세요.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "적대적 적",
-          "description": "Manikins는 세계관 내 공식적으로 명명된 적 중 하나이며, 게임의 Surreal한 위협 목록에 포함됩니다."
+          "name": "튜토리얼",
+          "role": "캠페인 시작",
+          "description": "Beat Kune Do의 기초를 배웁니다: 공격 리듬, 회피 타이밍, 반격 흐름, Fever 쌓기, 온비트 일관성."
         },
         {
-          "name": "Squishy Gels",
-          "role": "적대적 적",
-          "description": "Squishy Gels는 또 다른 공식 명칭의 적 유형으로, 게임의 기이한 생물학적 스타일을 정의하는 데 도움을 줍니다."
+          "name": "Hemlock 스토리 레벨",
+          "role": "핵심 진행",
+          "description": "열차 세트피스와 관중의 압박이 있는 지하 콘서트 루트입니다. 웨이브 제어와 보스 타이밍 기초를 배우기에 이상적입니다."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "적대적 적",
-          "description": "이 존재들은 게임 내 더 추상적이고 불안한 적 라인업의 일부로 등장합니다."
-        },
-        {
-          "name": "Colossal Spiders",
+          "name": "Arora 스토리 레벨",
           "role": "주요 위협",
-          "description": "거미는 커뮤니티 토론에서 가장 즉각적으로 두려움을 사는 적 중 하나이며, 분명히 기억에 남는 위험 요소입니다."
+          "description": "복제 압박, 시각적 변화, 레인 인지력과 회복 규율을 테스트하는 다단계 리듬 윈도우에 집중한 AI 팝 스펙터클입니다."
         },
         {
-          "name": "Bubblebear",
-          "role": "명명된 생명체",
-          "description": "Bubblebear는 고유한 업적을 가지고 있을 만큼 주목할 만하며, 게임 내에서 가장 명확하게 이름 붙여진 생명체 조우 중 하나입니다."
+          "name": "Dex 스토리 레벨",
+          "role": "주요 위협",
+          "description": "공격적인 아레나 템포와 더 강력한 보스 압박이 있는 기타 중심의 조우 루트입니다. 차분한 방어와 신중한 응징 타이밍에 보상을 제공합니다."
         },
         {
-          "name": "Cute Vermin",
-          "role": "상호작용 가능한 생명체",
-          "description": "Vermin은 융합 진행의 일부일 뿐만 아니라 이름을 바꿀 수도 있어, 일반적인 적보다 더 개인적인 역할을 수행합니다."
+          "name": "Prophet 스토리 레벨",
+          "role": "주요 위협",
+          "description": "밴드 역사의 서사적 맥락을 확장하면서, 빽빽한 팬 가운틀릿과 콤보 제어 체크가 있는 랩 프로듀서와의 대결입니다."
         },
         {
-          "name": "Blasphemous Creature",
-          "role": "엘리트 위협",
-          "description": "Blasphemous Creature는 전용 전투 업적과 연결되어 있어 중요한 적 조우임을 나타냅니다."
+          "name": "The Encore 허브",
+          "role": "진행 허브",
+          "description": "전투 루트 사이에서 다이브 바를 복구하고, 팬 에너지를 소비하며, 코스메틱을 잠금 해제하고 기념품을 수집하는 동시에 핵심 스토리 단서를 추적하세요."
+        },
+        {
+          "name": "미래의 Idols 스토리 업데이트",
+          "role": "계획된 업데이트",
+          "description": "새로운 Idols 아크, 전체 뮤직 비디오 레벨, 추가 적, 수집품, 스킬 및 내러티브 비트를 도입하기 위한 페스티벌 스타일의 추가가 계획되어 있습니다."
+        },
+        {
+          "name": "1.0 최종 내러티브 아크",
+          "role": "엔드게임 계획",
+          "description": "최종 비밀, 새로워진 진행 흐름, Harmony Corp와의 엔드게임 대결을 포함하여 2027년에 전체 내러티브의 정점으로 계획되어 있습니다."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Dead as Disco 기동 장비",
-      "displayType": "itemCards",
-      "intro": "이동 업그레이드는 Dead as Disco에서 가장 큰 편의성 향상 요소 중 하나입니다. 첫 이동 도구를 잠금 해제하면 탐험이 더 빨라지고 안전해지며, 훨씬 더 보람차게 느껴질 것입니다.",
+      "title": "Dead as Disco Infinite Disco 가이드",
+      "intro": "Infinite Disco는 공식 트랙, 커스텀 음악 실험, 리더보드 도전, 챌린지 연습 루프를 위한 리플레이 샌드박스입니다. 캠페인 진행 외에 숙련도를 높이는 데 사용하세요.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "이동 도구",
-          "description": "Hookshot은 게임 내에서 가장 명확한 이동 이정표 중 하나이며 전용 업적도 존재합니다."
+          "name": "공식 곡 플레이",
+          "type": "음악 라이브러리",
+          "description": "스토리 모드 외에서 공식 Dead as Disco 트랙을 다시 플레이하세요. 얼리 액세스에서는 오리지널, 커버, 라이선스 곡을 포함한 30곡 이상의 노래를 제공합니다."
         },
         {
-          "name": "글라이더 글로브",
-          "type": "공중 기동성",
-          "description": "글라이더 글로브는 훨씬 더 부드러운 이동을 가능하게 하며, 전용 업적이 있는 또 다른 주요 진행 이정표입니다."
+          "name": "곡 챌린지",
+          "type": "챌린지 모드",
+          "description": "팬 에너지를 획득하면서 특수 기술 연습, 능력 경로 설정, 곡별 일관성을 연습하기 위한 목표 지향적 과제입니다."
         },
         {
-          "name": "Bee Glider",
-          "type": "이동 도구",
-          "description": "Bee Glider는 공간을 더 효율적으로 이동하기 위한 게임 내 이동 도구 세트의 일부로 공식 강조되어 있습니다."
+          "name": "My Music",
+          "type": "커스텀 음악",
+          "description": "개인 트랙을 가져와서 개인화된 리플레이 루프를 위해 음악에 동기화된 게임플레이를 구축하세요."
         },
         {
-          "name": "볼 완드",
-          "type": "유틸리티 장비",
-          "description": "볼 완드는 공식적으로 강조된 특수 도구 중 하나로, 세상을 이동하거나 상호작용하는 방식을 확장해 줍니다."
+          "name": "수동 BPM 보정",
+          "type": "커스텀 설정",
+          "description": "전투 전에 가져온 곡을 보정하세요. 자동 BPM 개선이 계획되어 있지만, 현재로서는 수동 BPM이 실질적인 설정 방법입니다."
         },
         {
-          "name": "스쿠버 다이빙 장비",
-          "type": "탐사 장비",
-          "description": "스쿠버 다이빙 장비는 탐사하기 어려운 지역에 도달하기 위한 핵심 유틸리티 세트의 일부로 공식 목록에 올라와 있습니다."
+          "name": "친구 및 글로벌 리더보드",
+          "type": "점수 경쟁",
+          "description": "곡과 챌린지 전반에 걸쳐 기록을 비교하세요. 시즌별 리더보드 초기화가 계획되어 있습니다."
         },
         {
-          "name": "폭발물",
-          "type": "유틸리티 피해",
-          "description": "폭발물은 공식적으로 강조될 뿐만 아니라 업적 이정표와도 연결되어 있어, 게임의 핵심 유틸리티 진행의 일부를 구성합니다."
+          "name": "아레나 모드 및 아레나 교체",
+          "type": "아레나 변형",
+          "description": "기본 곡 루프를 마스터한 후 아레나의 느낌을 조정하세요. 로드맵 업데이트에는 추가 아레나, 챌린지 모드, 개선된 아레나 교체 흐름이 언급되어 있습니다."
+        },
+        {
+          "name": "커스텀 챌린지 재생 목록",
+          "type": "예정된 도구",
+          "description": "여러 My Music 챌린지를 리플레이 가능한 세트리스트로 연결하는 계획된 업데이트 기능입니다."
+        },
+        {
+          "name": "프리 플레이 연습",
+          "type": "저압박 리플레이",
+          "description": "고압박 Idols 또는 리더보드 시도 전에 이 모드를 사용하여 리듬을 타고, 빌드를 테스트하며, 군중 제어 타이밍을 안정화하세요."
         }
       ],
       "unlockMilestones": [
-        "Hookshot 사용하기",
-        "글라이더 글로브로 비행하기",
-        "투사체 완드 휘두르기",
-        "폭발물 사용하기"
+        "첫 번째 Infinite Disco 챌린지 루트 클리어",
+        "글로벌 리더보드에 점수 등록",
+        "안정적인 커스텀 곡 보정 세션 1회 완료",
+        "일관된 방어 타이밍으로 전체 연습 루프 완료"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Dead as Disco 농사와 성장",
-      "displayType": "mixedCards",
-      "intro": "성장은 Dead as Disco의 실질적인 진행 과정 중 일부입니다. 농사는 단순히 심고 수확하는 것뿐만 아니라, 도구, 무기, 제작 옵션을 지속적으로 유지할 수 있는 반복 가능한 재료 수급 경로를 구축하는 것이기도 합니다.",
+      "title": "Dead as Disco My Music 커스텀 곡",
+      "intro": "My Music을 사용하여 로컬 트랙을 Infinite Disco로 가져온 다음, 공격이 리듬에 맞춰지도록 BPM과 비트 오프셋을 조정하세요.",
       "sections": [
         {
-          "name": "씨앗 성장",
-          "description": "씨앗을 심고 비료를 주는 것은 게임의 중요한 이정표이며, 다 자란 견과류를 수확하는 것도 동일한 성장 경로의 일부입니다."
+          "name": "1단계: 로컬 MP3 준비",
+          "description": "박자가 일정한 깨끗한 파일을 선택하세요. 긴 침묵, 심한 템포 변화 또는 복잡한 인트로가 있는 곡은 동기화하기 더 어렵습니다."
         },
         {
-          "name": "재료 파밍",
-          "description": "실용적인 초반 파밍 루프는 수은 캡슐을 만드는 것입니다. 여기서 생성되는 작은 슬라임들은 반복 가능한 제작 재료인 촉수와 점액을 드롭합니다."
+          "name": "2단계: Infinite Disco 열기 및 가져오기",
+          "description": "Infinite Disco로 이동하여 프리 플레이로 전환한 후, My Music 추가 또는 곡 가져오기를 사용하여 로컬 트랙을 로드하세요."
         },
         {
-          "name": "도구 유지",
-          "description": "오스뮴, 유리 파편, 식물, 슬라임 재료를 지속적으로 수집하여 후속 제작을 할 수 있게 되면 자원 파밍이 훨씬 강력해집니다."
+          "name": "3단계: 세부 편집 전 트랙 저장",
+          "description": "테스트와 재시도를 빠르고 체계적으로 유지할 수 있도록 가져온 곡을 먼저 목록에 저장하세요."
         },
         {
-          "name": "기지 루틴",
-          "description": "최고의 농사 설정은 식량 그 이상을 지원합니다. 저장 공간, 이동 도구, 무기 업그레이드 및 향후 융합 실험에 필요한 자원을 공급해야 합니다."
+          "name": "4단계: 무엇보다 먼저 BPM 설정",
+          "description": "알고 있는 BPM을 입력하거나 곡 에디터에서 수동으로 탭하세요. 가장 깔끔한 기준을 위해 정수 BPM 값으로 시작하세요."
+        },
+        {
+          "name": "5단계: 비트 오프셋 조정",
+          "description": "타이밍이 비슷하지만 빠르거나 느리게 느껴진다면 BPM 설정 후 비트 오프셋을 조정하세요. 오프셋은 주로 지연된 인트로와 시작 부분의 침묵을 위한 것입니다."
+        },
+        {
+          "name": "6단계: 고급 에디터로 미세 조정",
+          "description": "파형 보기, 메트로놈, 짧은 리플레이 루프를 사용하세요. 비트 라인이 시간이 지남에 따라 어긋난다면 BPM을 다시 확인하거나 더 일정한 곡으로 교체하세요."
         }
       ],
       "growthMilestones": [
-        "씨앗에 비료 주기",
-        "다 자란 견과류 수확하기",
-        "반복 가능한 재료 루프 생성",
-        "농사를 장기적인 성장으로 전환"
+        "곡이 너무 빠르거나 느리게 느껴짐: BPM을 다시 확인하고, 필요한 경우 절반 또는 두 배 BPM으로 테스트하세요.",
+        "비트가 약간 빠르거나 느리게 느껴짐: BPM은 유지하고 비트 오프셋을 작은 단계로 조정하세요.",
+        "인트로 침묵 후 타이밍이 깨짐: 시작 부분을 다듬거나 첫 번째 명확한 비트에 맞춰 오프셋을 조정하세요.",
+        "시간이 지남에 따라 동기화가 어긋남: BPM이 틀렸거나 곡에 템포 변화가 있을 가능성이 높습니다.",
+        "가져오기 실패 또는 소리가 깨짐: 표준 MP3로 다시 내보낸 후 다시 가져오세요."
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Dead as Disco 최고의 초반 잠금 해제",
-      "displayType": "priorityCards",
-      "intro": "가장 강력한 초반 잠금 해제 요소는 안전, 저장 공간, 이동 능력을 향상시키는 것들입니다. Dead as Disco에서는 몇 가지 실용적인 업그레이드만으로도 게임의 나머지 부분을 훨씬 수월하게 진행할 수 있습니다.",
+      "title": "Dead as Disco 사운드트랙 및 스트리머 세이프 모드",
+      "intro": "Dead as Disco에는 오리지널 트랙, 라이선스 곡, 커버곡 및 크리에이터 중심의 안전 옵션이 포함되어 있습니다. 이 비교표를 사용하여 적합한 청취 설정을 선택하세요.",
       "priorities": [
         {
-          "name": "개인 퀄리아",
+          "name": "게임 내 음악 라이브러리",
           "priority": "필수",
-          "description": "개인 퀄리아에 접근할 수 있게 되는 즉시 게임 진행이 훨씬 안정적해집니다. 이는 저장, 건설, 재정비를 위한 신뢰할 수 있는 거점 역할을 합니다."
+          "description": "리듬 전투에 사용되는 오리지널 곡, 스트리머 세이프 오리지널, 커버곡 및 라이선스 트랙이 포함됩니다."
         },
         {
-          "name": "프로스트 곡괭이",
+          "name": "스트리머 세이프 모드",
           "priority": "매우 높음",
-          "description": "오스뮴과 막대기로 만드는 빠르고 저렴한 초반 채광 도구입니다. 초반 자원 수집 속도를 높이는 데 가장 유용한 업그레이드 중 하나입니다."
+          "description": "라이선스 트랙 문제를 피하려면 라이브 스트리밍이나 VOD 녹화 전에 설정 > 오디오에서 이 기능을 활성화하세요."
         },
         {
-          "name": "캐시 큐브",
+          "name": "Streamer Safe Soundtrack Vol. 1 DLC",
+          "priority": "높음",
+          "description": "15곡의 오리지널 곡, 5곡의 보너스 트랙 및 배경화면이 포함되어 있습니다. 이 패키지에는 커버곡과 라이선스 트랙이 제외됩니다."
+        },
+        {
+          "name": "Streamer Safe Soundtrack 가격",
+          "priority": "높음",
+          "description": "표준 가격은 $9.99이며, 초기 출시 기간 동안 $7.99로 출시 할인이 적용됩니다."
+        },
+        {
+          "name": "One Night Only Radio Play Vol. 1",
+          "priority": "높음",
+          "description": "게임 외부에서 감상할 수 있도록 Spotify, YouTube Music, Apple Music 및 iTunes용으로 출시된 27개 트랙의 앨범입니다."
+        },
+        {
+          "name": "라이선스 음악 범위",
           "priority": "매우 높음",
-          "description": "저장 공간의 압박은 초반부터 시작되므로, 첫 번째로 믿을 만한 상자형 보관함을 확보하는 것은 큰 편의성 업그레이드입니다."
+          "description": "라이선스 곡 권리는 스트리머 세이프 콘텐츠와 별개이므로, 모든 트랙이 방송에 안전하다고 가정하는 대신 스트리머 세이프 모드를 사용하세요."
         },
         {
-          "name": "Hookshot",
-          "priority": "높음",
-          "description": "Hookshot은 게임 내에서 가장 명확한 이동 이정표 중 하나이며, 탐험을 빠르게 더 안전하고 효율적으로 만들어 줍니다."
+          "name": "My Music 가져온 트랙",
+          "priority": "보통",
+          "description": "사용자가 가져온 로컬 파일은 공식 사운드트랙 출시와 별개이며 본인의 사용 권한에 따라 달라집니다."
         },
         {
-          "name": "글라이더 글로브",
-          "priority": "높음",
-          "description": "글라이더 글로브는 또 다른 주요 기동성 향상을 제공하며 장거리 이동을 훨씬 더 효율적으로 만들어 줍니다."
-        },
-        {
-          "name": "투사체 완드 또는 폭탄",
-          "priority": "높음",
-          "description": "원거리 도구나 폭발물 옵션은 위험한 적과 시련 스타일의 조우에 대해 더 안전한 대응책을 제공합니다."
+          "name": "향후 음악 업데이트",
+          "priority": "보통",
+          "description": "로드맵 업데이트에는 더 많은 라이선스 트랙, 커버곡 및 추가 스트리머 세이프 오리지널 곡이 포함됩니다."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Dead as Disco 도전 과제 트래커",
-      "displayType": "achievementGrid",
-      "intro": "Dead as Disco에는 현재 19개의 Steam 도전 과제가 있으며, 탐험, 제작, 이동, 전투, 성장 진행 상황으로 자연스럽게 나뉩니다.",
+      "title": "Dead as Disco Steam Deck 가이드",
+      "intro": "Dead as Disco는 Steam Deck 지원 목록에 포함되어 있습니다. 원활한 플레이와 안정적인 커스텀 곡 가져오기를 위해 이 설정 경로를 따르세요.",
       "groups": [
         {
-          "name": "탐험",
+          "name": "설정 단계",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "퀄리아(qualia)에 입장하세요."
+              "title": "1단계: 게임 설치 및 업데이트",
+              "description": "Steam에서 설치하고 성능 테스트나 커스텀 곡 설정을 하기 전에 최신 패치를 완료하세요."
             },
             {
-              "title": "Angel γ",
-              "description": "티아마나(tiamana) 레이라인을 발견하세요."
+              "title": "2단계: 기본 Steam Deck 컨트롤로 시작",
+              "description": "튜토리얼이나 Infinite Disco를 먼저 실행한 다음, 타이밍과 회피 리듬이 일치하지 않는 경우에만 조정하세요."
             },
             {
-              "title": "Angel δ",
-              "description": "티아마나(tiamana) 챌린지를 극복하세요."
-            },
-            {
-              "title": "Angel ε",
-              "description": "숨겨진 도전 과제입니다."
+              "title": "3단계: 파일 작업을 위해 데스크톱 모드 사용",
+              "description": "MP3 파일을 이동하려면 데스크톱 모드로 전환하세요. 게임 내 메뉴에서 깊은 폴더를 찾는 것보다 훨씬 쉽습니다."
             }
           ]
         },
         {
-          "name": "제작 및 소환",
+          "name": "커스텀 곡 경로 및 빠른 확인",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "아이템을 융합하세요."
+              "title": "4단계: MusicFiles에 파일 복사",
+              "description": "다음 경로를 사용하세요: /home/deck/.local/share/Steam/steamapps/compatdata/3404260/pfx/drive_c/users/steamuser/AppData/Local/Pagoda/Saved/MusicFiles/"
             },
             {
-              "title": "Apotheosis β",
-              "description": "해충을 융합하세요."
+              "title": "5단계: compatdata 폴더 확인",
+              "description": "3404260 폴더가 없으면 /home/deck/.local/share/Steam/steamapps/compatdata/를 조사하고 실행 후 생성된 최신 앱 폴더를 확인하세요."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "신성한 유물을 융합하세요."
+              "title": "6단계: 게이밍 모드로 돌아가서 테스트",
+              "description": "게임을 실행하고 Infinite Disco에서 My Music을 로드한 다음, 안정적인 타이밍을 위해 BPM을 먼저 설정하고 비트 오프셋(Beat Offset)을 두 번째로 설정하세요."
             },
             {
-              "title": "Archangel β",
-              "description": "당신의 신앙을 소환하세요."
-            }
-          ]
-        },
-        {
-          "name": "이동 및 유틸리티",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "글라이더 장갑으로 비행하세요."
+              "title": "빠른 확인: 곡이 보이지 않음",
+              "description": "숨겨진 폴더를 활성화하고, 정확한 경로를 다시 확인한 다음, 파일이 MusicFiles 안에 있는지 확인하세요."
             },
             {
-              "title": "Virtue β",
-              "description": "Hookshot을 조종하세요."
-            },
-            {
-              "title": "Archangel α",
-              "description": "투사체 지팡이를 휘두르세요."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "폭발물을 휘두르세요."
-            }
-          ]
-        },
-        {
-          "name": "전투 및 생명체",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "무고한 Bubblebear를 처치하세요."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "신성 모독적인 생명체를 제거하세요."
-            },
-            {
-              "title": "Angel β",
-              "description": "사망하세요."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "귀여운 해충의 이름을 바꾸세요."
-            }
-          ]
-        },
-        {
-          "name": "성장 및 농사",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "씨앗에 비료를 주세요."
-            },
-            {
-              "title": "Dominion β",
-              "description": "다 자란 견과류를 수확하세요."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "숨겨진 도전 과제입니다."
+              "title": "빠른 확인: 곡이 밀리거나 박자가 맞지 않음",
+              "description": "BPM을 다시 입력한 다음 비트 오프셋을 조금씩 조정하세요. 문제가 있는 파일은 표준 MP3로 다시 내보내기 하세요."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Dead as Disco 싱글 플레이어 및 플랫폼 FAQ",
-      "displayType": "accordion",
-      "intro": "다음은 플레이어들이 Dead as Disco를 구매하기 전에 자주 묻는 핵심 플랫폼 및 접근성 관련 질문들입니다.",
+      "title": "Dead as Disco 데모, 가격 및 에디션",
+      "intro": "구매하기 전에 무료 데모, 얼리 액세스 가격, 사운드트랙 DLC 및 번들 옵션을 비교해 보세요.",
       "faqs": [
         {
-          "question": "Dead as Disco는 싱글 플레이어 게임인가요?",
-          "answer": "네. Dead as Disco는 싱글 플레이어 게임입니다."
+          "question": "Dead as Disco에 무료 데모가 있나요?",
+          "answer": "네. 데모는 무료이며 튜토리얼 콘텐츠, 샘플 스토리 미션, Infinite Disco 및 프리 플레이에서의 커스텀 곡 지원이 포함됩니다."
         },
         {
-          "question": "멀티플레이어나 협동 모드가 계획되어 있나요?",
-          "answer": "아니요. 멀티플레이어는 출시나 향후 업데이트 계획에 없습니다."
+          "question": "얼리 액세스 기본 게임 가격은 얼마인가요?",
+          "answer": "표준 기본 게임 가격은 $24.99이며, 2026년 5월 19일까지 $19.99의 출시 기념 할인가로 표시되었습니다."
         },
         {
-          "question": "Dead as Disco는 어디서 플레이할 수 있나요?",
-          "answer": "현재 Windows용 Steam에서 이용 가능합니다."
+          "question": "Streamer Safe Soundtrack Vol. 1 DLC는 얼마인가요?",
+          "answer": "DLC는 표준가 $9.99이며, 출시 할인가 $7.99로 표시됩니다."
         },
         {
-          "question": "Dead as Disco의 가격은 얼마인가요?",
-          "answer": "Steam에서 $9.99입니다."
+          "question": "Dead as Disco Superfan 번들에는 무엇이 포함되어 있나요?",
+          "answer": "기본 게임과 Streamer Safe Soundtrack Vol. 1이 포함되어 있으며, 출시 기간 번들 가격은 약 $25.18입니다."
         },
         {
-          "question": "Dead as Disco는 컨트롤러를 지원하나요?",
-          "answer": "네, 하지만 메뉴가 컨트롤러에 최적화되어 설계되지 않았기 때문에 컨트롤러 플레이는 권장하지 않습니다."
-        },
-        {
-          "question": "Dead as Disco는 Steam Deck에서 작동하나요?",
-          "answer": "네. Steam Deck에서는 Proton 9.0 또는 9.0.4 설정을 권장합니다."
-        },
-        {
-          "question": "Dead as Disco는 Linux에서 작동하나요?",
-          "answer": "네. Linux와 Steam Deck에서 Proton 9.0으로 잘 작동하는 것으로 보고되었습니다."
-        },
-        {
-          "question": "Mac이나 Android가 지원될 예정인가요?",
-          "answer": "향후 지원될 가능성은 있으나, 현재 출시 플랫폼은 아닙니다."
-        },
-        {
-          "question": "Dead as Disco는 번역을 지원하나요?",
-          "answer": "아니요. 현재 계획된 번역은 없습니다."
-        },
-        {
-          "question": "Dead as Disco는 계속 업데이트되나요?",
-          "answer": "네. 출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 정기적으로 무기한 업데이트를 제공할 예정은 아닙니다."
+          "question": "지금 구매해야 할까요, 아니면 1.0 버전을 기다려야 할까요?",
+          "answer": "확신이 서지 않는다면 먼저 데모를 이용해 보세요. 현재 콘텐츠와 향후 추가될 내용을 원하신다면 얼리 액세스를 구매하시고, 더 완전한 캠페인 출시를 원하신다면 1.0 버전을 기다리세요."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Dead as Disco Steam Deck 및 컨트롤러",
-      "displayType": "accordion",
-      "intro": "Dead as Disco는 Steam Deck에서 실행할 수 있지만, 기본 설정은 조정이 필요할 수 있습니다. 메뉴 조작 및 일반적인 플레이에는 키보드와 마우스가 여전히 더 원활한 옵션입니다.",
+      "title": "Dead as Disco 협동 멀티플레이어 상태",
+      "eyebrow": "멀티플레이어 상태",
+      "subtitle": "Dead as Disco는 얼리 액세스 출시 시점에 싱글 플레이어 리듬 비트업 게임이며, 향후 기능으로 멀티플레이어 협동 모드가 계획되어 있습니다.",
+      "intro": "이 섹션은 브롤러 팬들의 가장 일반적인 구매 질문인 협동 모드 존재 여부, 현재 플레이 가능한 콘텐츠, 그리고 향후 멀티플레이어 계획에 대해 답변합니다.",
       "faqs": [
         {
-          "question": "Dead as Disco가 Steam Deck에서 작동하나요?",
-          "answer": "네. Proton 9.0이 잘 작동하며, Proton 9.0.4는 Steam Deck 문제에 대해 흔히 공유되는 해결책입니다."
+          "question": "현재 Dead as Disco에 협동 모드가 있나요?",
+          "answer": "출시 시점에는 협동 모드가 포함되지 않았습니다. 현재 스토어 기능에는 싱글 플레이어 경험으로 표시되어 있습니다."
         },
         {
-          "question": "Steam Deck 컨트롤이 작동하지 않으면 어떻게 해야 하나요?",
-          "answer": "호환성 모드를 강제 적용하고 게임을 Proton 9.0.4로 전환하세요. 기본 설정에서는 컨트롤러 입력이 올바르게 인식되지 않을 수 있습니다."
+          "question": "현재 얼리 액세스 버전에서 무엇을 플레이할 수 있나요?",
+          "answer": "현재 콘텐츠는 솔로 플레이에 집중되어 있습니다: 스토리 모드 진행, Infinite Disco, My Music 커스텀 곡 챌린지, Idols 보스 루트, 잠금 해제 가능한 스킬, 코스튬, 수집품 및 The Encore 허브가 포함됩니다."
         },
         {
-          "question": "Dead as Disco는 컨트롤러를 지원하나요?",
-          "answer": "네, 하지만 게임 메뉴가 컨트롤러에 맞춰 설계되지 않았기 때문에 컨트롤러 플레이는 권장되지 않습니다."
+          "question": "향후 협동 모드가 계획되어 있나요?",
+          "answer": "네. 멀티플레이어 협동 모드는 장기 계획의 일부이며 향후 출시 단계의 기능으로 배치되어 있습니다."
         },
         {
-          "question": "Linux 지원이 가능한가요?",
-          "answer": "네. Proton 9.0이 Linux 및 Steam Deck에서 잘 작동하는 것으로 보고되었습니다."
+          "question": "왜 출시 시점에 협동 모드를 사용할 수 없나요?",
+          "answer": "전투 모델이 음악에 동기화된 Beat Kune Do 타이밍을 중심으로 구축되었기 때문에, 리듬의 흐름과 시각적 명확성을 유지하기 위해 멀티플레이어 설계 및 템포 조절에 추가 작업이 필요합니다."
         },
         {
-          "question": "가장 좋은 입력 설정은 무엇인가요?",
-          "answer": "메뉴 탐색과 일반적인 플레이 시 키보드와 마우스가 가장 원활한 옵션입니다."
+          "question": "협동 모드를 위해 지금 Dead as Disco를 구매해야 할까요?",
+          "answer": "현재의 솔로 리듬 브롤러 콘텐츠를 위해 지금 구매하시고, 협동 모드는 출시 모드가 아닌 로드맵 기능으로 생각하시기 바랍니다."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Dead as Disco 설정 및 접근성",
-      "displayType": "settingCards",
-      "intro": "Dead as Disco에는 플레이어가 게임을 처음 실행할 때 즉시 확인해야 할 몇 가지 실용적인 설정 및 호환성 참고 사항이 있습니다.",
+      "title": "Dead as Disco 모드 및 커스텀 스킨",
+      "eyebrow": "모드 및 커스터마이징",
+      "subtitle": "Dead as Disco는 이미 My Music과 커스텀 챌린지를 통해 강력한 UGC 스타일의 플레이를 지원하고 있으며, 더 광범위한 공식 모드 지원은 얼리 액세스 기간 동안 계속 발전하고 있습니다.",
+      "intro": "이 섹션은 외부 커뮤니티 모드, 공식 로드맵 지원, 게임 내 코스메틱 시스템을 구분하여 현재 이용 가능한 기능과 향후 계획된 기능을 빠르게 확인할 수 있도록 돕습니다.",
       "settings": [
         {
-          "name": "디스플레이 설정",
-          "type": "Comfort Option",
-          "description": "디스플레이 설정에는 화면에 표시되는 손을 숨길 수 있는 옵션이 포함되어 있습니다."
+          "name": "커뮤니티 모드 허브",
+          "type": "외부 모드",
+          "status": "커뮤니티 주도",
+          "description": "커뮤니티 허브를 사용하여 외부 파일과 실험적인 시도들을 확인하세요. 이는 내장된 공식 시스템이 아닌 플레이어가 제작한 리소스로 간주해야 합니다."
         },
         {
-          "name": "그래픽 호환성",
-          "type": "System Requirement",
-          "description": "그래픽이 제대로 렌더링되려면 Vulkan 지원이 필요합니다. Vulkan이 없는 시스템에서는 충돌 및 심각한 그래픽 오류가 발생할 수 있습니다."
+          "name": "공식 모드 지원 로드맵",
+          "type": "로드맵 기능",
+          "status": "확장 계획 중",
+          "description": "개발진은 향후 모드 지원 목표를 설정했으며, 얼리 액세스 기간 동안 더 넓은 지원 옵션을 검토하고 있습니다."
         },
         {
-          "name": "입력 기본 설정",
-          "type": "Control Setup",
-          "description": "컨트롤러 지원이 존재하지만, 메뉴가 컨트롤러 사용에 맞춰 제작되지 않았기 때문에 키보드와 마우스가 더 원활한 경험을 제공합니다."
+          "name": "My Music 및 커스텀 챌린지",
+          "type": "UGC 도구",
+          "status": "현재 이용 가능 및 확장 중",
+          "description": "플레이어는 이미 My Music에서 로컬 곡을 불러오고 커스텀 챌린지를 생성할 수 있으며, 향후 업데이트에서 더 많은 UGC 관련 시스템이 계획되어 있습니다."
         },
         {
-          "name": "언어 지원",
-          "type": "Localization",
-          "description": "현재 설정은 영어만 지원하며, 현재로서는 번역 계획이 없습니다."
+          "name": "게임 내 스킨 및 패션",
+          "type": "코스메틱",
+          "status": "진행도를 통해 획득 가능",
+          "description": "진행도 잠금 해제를 통해 스킨, 액세서리, 의상, 댄스 및 기타 퍼포먼스 스타일의 시각적 보상을 얻을 수 있습니다."
+        },
+        {
+          "name": "Steam 가이드 및 설정 도움말",
+          "type": "가이드",
+          "status": "문제 해결에 유용함",
+          "description": "공식 모드 기능이 계속 성장하는 동안, 커뮤니티 가이드는 설정, 구성 및 커스텀 음악 워크플로우에 도움을 줄 수 있습니다."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Dead as Disco 업데이트 및 패치 노트",
-      "displayType": "timeline",
-      "intro": "Dead as Disco는 출시 후 빠른 수정 사항과 소규모 사용성 업데이트를 이미 적용받고 있습니다.",
+      "title": "Dead as Disco 캐릭터 및 적",
+      "eyebrow": "캐릭터 및 적",
+      "subtitle": "Charlie Disco, 출시 버전의 보스 Idols, Harmony Corp, 그리고 각 곡을 플레이 가능한 뮤직 비디오 전투로 바꾸는 적 그룹을 만나보세요.",
+      "intro": "Dead as Disco는 Charlie가 Harmony Corp와 연계된 거물급 Idols가 된 옛 밴드 동료들과 마주하며 시작됩니다. 얼리 액세스는 현재 출시 버전의 4인 Idols를 중심으로 하며, 시간이 지남에 따라 더 많은 캐릭터, 적, 스토리 아크가 추가될 예정입니다.",
       "entries": [
         {
-          "title": "업데이트 2.8.2",
-          "type": "UI Update",
-          "description": "메인 메뉴의 \"awaken\"을 \"exit\"으로 변경했습니다."
+          "name": "Charlie Disco",
+          "role": "플레이 가능한 영웅",
+          "group": "Dead as Disco",
+          "summary": "Charlie는 옛 밴드 동료들과 대면하고, 자신의 죽음 뒤에 숨겨진 진실을 밝히며, 밴드를 재결합하기 위해 하룻밤 동안 돌아온 몰락한 드럼 연주자입니다."
         },
         {
-          "title": "시작 시 충돌 수정을 위한 소규모 패치",
-          "type": "Hotfix",
-          "description": "게임 실행 시 충돌이 발생하는 플레이어를 위해 전용 패치가 출시되었습니다."
+          "name": "Hemlock",
+          "role": "출시 버전 보스 Idol",
+          "group": "Harmony Corp",
+          "summary": "군중 제어 압박과 강렬한 무대 에너지를 중심으로 설계된, 펑크 혁명가에서 Harmony Corp의 집행자로 변신한 인물입니다."
         },
         {
-          "title": "출시 후 콘텐츠 지원",
-          "type": "Roadmap Note",
-          "description": "출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 무기한 정기 일정으로 계속될 예정은 아닙니다."
+          "name": "Arora",
+          "role": "출시 버전 보스 Idol",
+          "group": "Harmony Corp",
+          "summary": "개인화 테마와 화려한 무대 정체성을 갖춘, 세계 정복을 위해 설계된 차세대 AI 팝 아이돌입니다."
+        },
+        {
+          "name": "Dex",
+          "role": "출시 버전 보스 Idol",
+          "group": "Harmony Corp",
+          "summary": "정밀한 압박과 공격적인 페이싱을 중심으로 설계된, Harmony의 네트워크에 연결된 사이버네틱 강화 기타 아이콘입니다."
+        },
+        {
+          "name": "Prophet",
+          "role": "출시 버전 보스 Idol",
+          "group": "Harmony Corp",
+          "summary": "영향력, 명성, 그리고 화려한 조명 뒤의 어두운 비즈니스 계층을 중심으로 이야기가 전개되는 래퍼 겸 프로듀서 킹메이커입니다."
+        },
+        {
+          "name": "Harmony Corp",
+          "role": "주요 적대 세력",
+          "group": "기업 세력",
+          "summary": "Idols의 새로운 힘 뒤에 있는 조직으로, 음악, 통제, 배신을 둘러싼 거대한 갈등과 연결되어 있습니다."
+        },
+        {
+          "name": "Fans and Enemy Waves",
+          "role": "스테이지 적",
+          "group": "Idol 추종자",
+          "summary": "각 Idol 루트에서 Charlie는 추종자와 부하들의 웨이브를 통과하게 되며, 향후 업데이트를 통해 적의 종류와 행동 양식이 확장될 예정입니다."
+        },
+        {
+          "name": "Future Idols",
+          "role": "로드맵 캐릭터",
+          "group": "Dead as Disco 로스터",
+          "summary": "얼리 액세스 기간 동안 추가 Idols가 계획되어 있으며, 각각 새로운 스토리 레벨, 곡, 적, 능력 및 수집 가능한 보상과 연결됩니다."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Dead as Disco 충돌 수정 및 문제 해결",
-      "displayType": "steps",
-      "intro": "대부분의 즉각적인 실행 및 충돌 문제는 패치 버전, 그래픽 지원, 플랫폼 호환성, 로그 순서로 간단히 확인해야 합니다.",
+      "title": "Dead as Disco The Encore 수집품 및 코스메틱",
+      "eyebrow": "The Encore 허브",
+      "subtitle": "The Encore는 Charlie의 근거지로, 게임 진행을 통해 패션 잠금 해제, 기념품, 바 업그레이드, 주크박스 기능 및 스토리 발견이 이루어지는 곳입니다.",
+      "intro": "The Encore는 단순한 메뉴 허브 그 이상입니다. Charlie가 과거를 재건하고, 스타일 보상을 잠금 해제하며, 패배한 Idols와 상호작용하고, 핵심 스토리 단서를 찾아내는 음악 클럽이자 바입니다.",
       "steps": [
         {
-          "title": "최신 충돌 핫픽스 설치",
-          "description": "게임이 시작 시 충돌하는 경우, 먼저 업데이트를 진행하고 최신 시작 충돌 패치로 다시 테스트하세요."
+          "title": "The Encore Music Club",
+          "category": "허브 구역",
+          "description": "The Encore는 Charlie의 제2의 고향과 같은 곳으로, 플레이어는 전투 사이에 이곳으로 돌아와 진행 상황을 관리하고, 시스템을 잠금 해제하며, 밴드의 이야기를 따라갑니다."
         },
         {
-          "title": "Vulkan 지원 확인",
-          "description": "Dead as Disco는 Vulkan 지원이 필요합니다. Vulkan이 없는 시스템은 충돌이나 주요 렌더링 문제를 겪을 수 있습니다."
+          "title": "Bar Restoration",
+          "category": "진행도",
+          "description": "진행도에 따라 시간이 지나면서 공연장을 복구하세요. 여기에는 컴백 분위기를 강화하는 시각적 업그레이드가 포함됩니다."
         },
         {
-          "title": "Steam Deck에서 Proton 9.0.4 사용",
-          "description": "Steam Deck 입력 또는 실행 동작이 비정상적인 경우, 호환성 모드를 강제 적용하고 Proton 9.0.4로 전환하세요."
+          "title": "Memorabilia",
+          "category": "수집품",
+          "description": "밴드의 과거와 현재의 물건들을 수집하여 스토리의 맥락을 파악하고 허브를 의미 있는 유물들로 장식하세요."
         },
         {
-          "title": "충돌 로그 수집",
-          "description": "Windows 실행창을 열고 %APPDATA%를 붙여넣은 후, lucid blocks/logs 폴더로 이동하여 문제 해결을 위한 .txt 파일을 수집하세요."
+          "title": "Rockstar Fashion",
+          "category": "코스메틱",
+          "description": "Charlie의 무대 정체성을 위한 스킨, 액세서리, 의상, 댄스 및 기타 퍼포먼스 중심의 비주얼을 잠금 해제하세요."
         },
         {
-          "title": "문제 정식 보고",
-          "description": "공식 Discord 버그 보고 포럼이나 Steam 커뮤니티 페이지를 통해 로그와 기기 세부 정보를 공유해 주세요."
+          "title": "Idol Ability Unlocks",
+          "category": "캐릭터 성장",
+          "description": "보스 Idols를 물리치면 그들의 고유한 능력 분기가 잠금 해제되어, 향후 전투를 위한 Beat Kune Do 빌드 옵션이 확장됩니다."
+        },
+        {
+          "title": "Defeated Idol Interactions",
+          "category": "스토리",
+          "description": "주요 승리 후, 옛 밴드 동료들이 The Encore에 나타날 수 있으며, 플레이어는 이를 통해 서사적 맥락과 관계의 실마리를 깊게 탐구할 수 있습니다."
+        },
+        {
+          "title": "The Encore Jukebox",
+          "category": "음악",
+          "description": "허브는 음악 시스템과 연결되어 My Music 트랙과 커스텀 곡들이 개인적인 셋리스트 흐름과 연결된 것처럼 느껴지게 합니다."
+        },
+        {
+          "title": "Future Collectibles and Fashion",
+          "category": "로드맵",
+          "description": "얼리 액세스 업데이트를 통해 더 많은 의상 아이템, 기념품, 보상 및 수집 가능한 진행 경로를 추가할 계획입니다."
         }
       ]
     }
@@ -758,174 +1076,156 @@
     "subtitle": "Dead as Disco에 대해 알아야 할 모든 것",
     "questions": [
       {
-        "question": "Dead as Disco는 싱글 플레이어 게임인가요?",
-        "answer": "네. Dead as Disco는 싱글 플레이어 전용 게임이며 멀티플레이어나 협동(co-op) 모드 계획은 없습니다."
+        "question": "Dead as Disco는 싱글 플레이 게임인가요?",
+        "answer": "네. Dead as Disco는 현재 리듬 전투와 보스전에 집중한 싱글 플레이 경험을 제공합니다."
       },
       {
-        "question": "Dead as Disco의 Apotheosis 시스템은 무엇인가요?",
-        "answer": "Apotheosis는 Dead as Disco의 자유 형식 융합 제작 시스템입니다. 정해진 레시피를 따르는 대신, 재료를 조합하여 자신만의 제작 경로를 발견할 수 있습니다."
+        "question": "Dead as Disco는 어떤 플랫폼에서 플레이할 수 있나요?",
+        "answer": "Dead as Disco는 Steam 얼리 액세스를 통해 PC에서 플레이할 수 있습니다. 향후 다른 플랫폼으로 출시될 수도 있습니다."
       },
       {
-        "question": "Dead as Disco는 어디에서 플레이할 수 있나요?",
-        "answer": "Dead as Disco는 현재 Windows용 Steam에서 이용 가능합니다. Linux 및 Steam Deck 지원은 Proton 9.0을 통해 제공됩니다."
+        "question": "리듬 전투 시스템은 어떻게 작동하나요?",
+        "answer": "모든 공격, 회피, 콤보가 음악에 맞춰 동기화됩니다. 완벽한 타이밍은 더 많은 피해를 입히고 더 높은 점수를 쌓습니다."
       },
       {
         "question": "Dead as Disco의 가격은 얼마인가요?",
-        "answer": "Dead as Disco는 Steam에서 $9.99에 판매되고 있습니다."
+        "answer": "게임은 표준 Steam 가격으로 책정되어 있습니다. 현재 가격은 Steam 상점에서 확인하세요."
       },
       {
         "question": "Dead as Disco는 컨트롤러를 지원하나요?",
-        "answer": "네, 하지만 메뉴가 컨트롤러에 최적화되어 있지 않아 컨트롤러 플레이는 권장되지 않습니다. 키보드와 마우스가 더 원활한 옵션입니다."
+        "answer": "네, 게임은 컨트롤러를 지원하지만, 리듬 전투의 정밀한 타이밍을 위해서는 키보드와 마우스가 더 유리할 수 있습니다."
       },
       {
-        "question": "Dead as Disco는 업데이트가 예정되어 있나요?",
-        "answer": "네. 출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 무기한 정기 일정으로 계속되지는 않을 예정입니다."
+        "question": "Dead as Disco는 출시 후 업데이트가 진행되나요?",
+        "answer": "네, 개발진은 출시 후에도 새로운 Idols, 곡, 기능을 지속적으로 업데이트할 계획입니다."
       }
     ]
   },
   "cta": {
-    "title": "Dead as Disco를 탐험할 준비가 되셨나요?",
-    "description": "가이드, 업데이트, 토론을 위해 Discord의 Dead as Disco 커뮤니티에 참여하세요!",
-    "joinCommunity": "Discord 참여하기",
-    "joinGame": "Steam에서 플레이하기"
+    "title": "네온 리듬을 마스터할 준비가 되셨나요?",
+    "description": "공식 Dead as Disco 커뮤니티에 가입하여 가이드, 리듬 팁, 그리고 새로운 Idols 및 곡에 대한 업데이트 소식을 확인하세요.",
+    "joinCommunity": "Dead as Disco 디스코드 참여하기",
+    "joinGame": "Steam에서 Dead as Disco 구매하기"
   },
   "footer": {
     "title": "Dead as Disco 위키",
-    "description": "Dead as Disco의 제작, 바이옴, 생명체, 업적 및 생존 가이드를 위한 종합 리소스 허브입니다.",
+    "description": "Dead as Disco Idols, 곡, 빌드, 챌린지 및 리듬 가이드를 위한 종합 리소스 허브입니다.",
     "resources": "리소스",
     "community": "커뮤니티",
     "legal": "법적 고지",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam 커뮤니티",
+    "discord": "디스코드",
+    "youtube": "YouTube",
+    "reddit": "Reddit",
+    "steamCommunity": "Steam 토론",
     "steamStore": "Steam 상점",
     "about": "정보",
     "privacy": "개인정보 처리방침",
     "terms": "이용 약관",
     "copyrightNotice": "저작권",
-    "copyright": "© 2026 Dead as Disco Wiki. Dead as Disco 개발사와 관련이 없습니다.",
-    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+    "copyright": "© 2026 Dead as Disco 위키. Brain Jar Games와 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다.",
+    "twitter": "Bluesky"
   },
   "pages": {
-    "guides": {
-      "title": "Dead as Disco 가이드",
-      "description": "초보자 기초부터 고급 Apotheosis 전략까지 완벽한 게임 플레이 가이드입니다. 생존과 제작을 마스터하세요.",
-      "metaTitle": "Dead as Disco 가이드 - 초보자부터 고급 전략까지",
-      "metaDescription": "초보자 팁, Apotheosis 시스템, 생존 전략 및 Surreal 샌드박스 마스터를 위한 전문가 전술을 다루는 완벽한 Dead as Disco 가이드입니다.",
-      "categoryLabel": "게임 가이드",
-      "whatIs": "가이드란 무엇인가요?",
-      "whatIsDescription": "게임 플레이 메커니즘, 생존 전략 및 Apotheosis 제작 시스템을 다루는 포괄적인 가이드입니다. 첫 단계부터 고급 기술까지 모든 것을 배워보세요.",
-      "why": "왜 가이드를 읽어야 하나요?",
+    "music": {
+      "title": "Dead as Disco 음악",
+      "description": "공식 사운드트랙 가이드, 곡 목록, BPM 노트 및 커스텀 임포트를 위한 My Music 워크플로우.",
+      "metaTitle": "Dead as Disco 음악 - 사운드트랙, 곡 목록 & My Music",
+      "metaDescription": "사운드트랙 상세 정보, 추천 곡, BPM 설정 노트 및 My Music 임포트 워크플로우를 포함한 Dead as Disco 음악 정보를 확인하세요.",
+      "categoryLabel": "음악 허브",
+      "whatIs": "음악이란 무엇인가요?",
+      "whatIsDescription": "이 섹션에서는 공식 트랙, 사운드트랙 출시, 곡 구조 및 My Music 커스텀 임포트를 위한 실질적인 설정을 다룹니다. 게임 모드 전반에 걸쳐 리듬감, 채보 흐름 및 재생 설정을 맞추는 데 도움이 됩니다.",
+      "why": "왜 음악 가이드를 사용하나요?",
       "whySteps": {
-        "step1Title": "핵심 메커니즘 학습",
-        "step1Description": "Apotheosis 시스템을 이해하고 흔한 초보자의 실수를 방지하세요.",
-        "step2Title": "빠른 진행",
-        "step2Description": "Surreal 세계에서 생존하고 번영하기 위해 검증된 경로를 따르세요.",
-        "step3Title": "전략 마스터",
-        "step3Description": "탐험과 제작을 위한 고급 전술을 개발하세요."
+        "step1Title": "더 나은 트랙 찾기",
+        "step1Description": "다양한 템포와 플레이 스타일에 맞춰 공식 곡과 플레이어들이 선호하는 임포트 곡을 비교해 보세요.",
+        "step2Title": "정확한 BPM 조정",
+        "step2Description": "보정 노트를 사용하여 비트 밀림을 줄이고 전투 타이밍을 일정하게 유지하세요.",
+        "step3Title": "개인 셋리스트 구축",
+        "step3Description": "스토리 연습, Infinite Disco 세션 및 챌린지 런을 위해 곡을 정리하세요."
+      },
+      "featured": "주요 및 필수 항목",
+      "all": "모든 음악 문서"
+    },
+    "mods": {
+      "title": "Dead as Disco 모드",
+      "description": "My Music 모딩 기초, 커스텀 곡 파이프라인, 스킨 워크플로우 및 커뮤니티 도구 참조.",
+      "metaTitle": "Dead as Disco 모드 - My Music, 커스텀 곡 & 스킨",
+      "metaDescription": "My Music 임포트, 커스텀 곡 설정, 스킨 워크플로우, 문제 해결 팁 및 커뮤니티 도구에 대한 Dead as Disco 모드 가이드를 읽어보세요.",
+      "categoryLabel": "모드 가이드",
+      "whatIs": "모드란 무엇인가요?",
+      "whatIsDescription": "이 위키의 모드는 커스텀 곡, 시각적 변경, My Music 관련 워크플로우 도구와 같은 플레이어 주도 확장 기능에 중점을 둡니다. 안정적인 플레이를 위한 설정 로직, 폴더 구조 및 호환성 노트를 추적합니다.",
+      "why": "왜 모드 가이드를 사용하나요?",
+      "whySteps": {
+        "step1Title": "더 빠른 설정",
+        "step1Description": "곡 팩, 스킨 및 지원 파일에 대한 명확한 설치 경로를 따르세요.",
+        "step2Title": "일반적인 오류 방지",
+        "step2Description": "포맷 불일치 및 타이밍 문제에 대해 검증된 문제 해결 패턴을 사용하세요.",
+        "step3Title": "재플레이 가치 확장",
+        "step3Description": "기본 트랙을 넘어 도전 루프를 신선하게 유지하는 커스텀 경험을 만드세요."
+      },
+      "featured": "주요 및 필수 항목",
+      "all": "모든 모드 문서"
+    },
+    "platforms": {
+      "title": "Dead as Disco 플랫폼",
+      "description": "Steam, PC 설정, 컨트롤러 동작, 성능 튜닝 및 플랫폼 호환성 노트.",
+      "metaTitle": "Dead as Disco 플랫폼 - Steam, PC 사양 & 컨트롤러 설정",
+      "metaDescription": "Steam 상세 정보, PC 설정, 컨트롤러 지원, Steam Deck 동작 및 호환성 조언에 대한 Dead as Disco 플랫폼 가이드를 확인하세요.",
+      "categoryLabel": "플랫폼 정보",
+      "whatIs": "플랫폼이란 무엇인가요?",
+      "whatIsDescription": "플랫폼 카테고리는 하드웨어, 컨트롤, 그래픽 옵션 및 운영 환경에 대한 실질적인 설정 노트와 함께 플레이 가능한 장소와 방법을 추적합니다. 호환성과 부드러운 입력 반응에 중점을 둡니다.",
+      "why": "왜 플랫폼 가이드를 확인하나요?",
+      "whySteps": {
+        "step1Title": "호환성 확인",
+        "step1Description": "사용 중인 기기에서 실행 옵션, 컨트롤러 지원 및 예상 동작을 확인하세요.",
+        "step2Title": "성능 향상",
+        "step2Description": "프레임 페이싱과 리듬 가독성을 안정화하는 설정을 적용하세요.",
+        "step3Title": "구매 전 준비",
+        "step3Description": "장기적인 진행을 위해 최적의 설정을 선택하는 데 플랫폼 노트를 활용하세요."
+      },
+      "featured": "주요 및 필수 항목",
+      "all": "모든 플랫폼 문서"
+    },
+    "price": {
+      "title": "Dead as Disco 가격",
+      "description": "기본 게임 비용, 번들 비교, DLC 가격 및 할인 기간 구매 전략.",
+      "metaTitle": "Dead as Disco 가격 - 기본 비용, 번들 및 할인",
+      "metaDescription": "기본 게임 비용, 번들 옵션, DLC 비교 및 할인 기간에 대한 실질적인 안내와 함께 Dead as Disco 가격을 확인하세요.",
+      "categoryLabel": "가격 추적기",
+      "whatIs": "가격이란 무엇인가요?",
+      "whatIsDescription": "이 섹션은 기본 게임, 에디션 및 관련 DLC 콘텐츠에 대한 가격 정보를 수집합니다. 구매 경로를 비교하고, 출시 혜택을 이해하며, 번들이 언제 가치가 있는지 결정하는 데 도움을 줍니다.",
+      "why": "왜 가격 가이드를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "구매 경로 비교",
+        "step1Description": "기본 게임, 번들 및 DLC 비용이 전체 가치에 어떤 영향을 미치는지 확인하세요",
+        "step2Title": "할인에 맞춘 계획",
+        "step2Description": "과도한 지불을 피하기 위해 일반적인 프로모션 기간을 추적하세요",
+        "step3Title": "용도에 맞는 구매",
+        "step3Description": "플레이 목표와 사운드트랙 요구 사항에 맞는 옵션을 선택하세요"
       },
       "featured": "추천 및 필수",
-      "all": "모든 가이드"
+      "all": "모든 가격 관련 기사"
     },
-    "crafting": {
-      "title": "Dead as Disco 제작",
-      "description": "에센스 메커니즘, 레시피, 강력한 아이템 제작 전략을 통해 Apotheosis 융합 시스템을 마스터하세요.",
-      "metaTitle": "Dead as Disco 제작 - Apotheosis 시스템 및 레시피",
-      "metaDescription": "Dead as Disco Apotheosis 제작 시스템을 마스터하세요. 에센스 메커니즘, 융합 레시피, 강력한 도구 및 무기 제작 전략을 배워보세요.",
-      "categoryLabel": "제작 시스템",
-      "whatIs": "제작이란 무엇인가요?",
-      "whatIsDescription": "Apotheosis 시스템은 최대 6개의 아이템을 조합하여 새로운 레시피를 발견하는 독특한 에센스 기반 융합 메커니즘입니다. 고정된 제작 메뉴는 없으며 실험이 핵심입니다.",
-      "why": "왜 제작을 마스터해야 하나요?",
+    "release": {
+      "title": "Dead as Disco 출시",
+      "description": "얼리 액세스 출시 일정, 패치 요약, 로드맵 마일스톤 및 버전 추적.",
+      "metaTitle": "Dead as Disco 출시 - 날짜, 패치 노트 및 로드맵",
+      "metaDescription": "얼리 액세스 날짜, 업데이트 로그, 패치 하이라이트 및 로드맵 마일스톤을 포함한 Dead as Disco 출시 소식을 확인하세요.",
+      "categoryLabel": "출시 뉴스",
+      "whatIs": "출시란 무엇인가요?",
+      "whatIsDescription": "출시 소식은 얼리 액세스 출시부터 로드맵 업데이트까지의 마일스톤을 추적하며, 패치 하이라이트와 기능 출시를 포함합니다. 빌드, 노래 및 챌린지 전략에 영향을 미치는 게임플레이 변경 사항에 대한 타임라인을 제공합니다.",
+      "why": "왜 패치 노트를 확인해야 하나요?",
       "whySteps": {
-        "step1Title": "강력한 아이템 잠금 해제",
-        "step1Description": "융합을 통해 필수 도구, 무기 및 이동 장비를 발견하세요.",
-        "step2Title": "에센스 이해",
-        "step2Description": "아이템 에센스가 어떻게 결합되어 예측 가능한 결과를 만들어내는지 알아보세요.",
-        "step3Title": "리소스 최적화",
-        "step3Description": "희석 메커니즘을 사용하여 저렴한 재료로 결과물을 극대화하세요."
+        "step1Title": "변경 사항 파악",
+        "step1Description": "밸런스 업데이트 및 신규 기능 출시에 대한 간결한 요약을 읽어보세요",
+        "step2Title": "전략 수정",
+        "step2Description": "패치 간에 메커니즘이 변경될 때 빌드와 노래 선택을 업데이트하세요",
+        "step3Title": "로드맵 방향 추적",
+        "step3Description": "예정된 모드, 콘텐츠 출시 및 주요 업데이트에 맞춰 플레이 시간을 계획하세요"
       },
       "featured": "추천 및 필수",
-      "all": "모든 제작 가이드"
-    },
-    "items": {
-      "title": "Dead as Disco 아이템",
-      "description": "도구, 무기, 이동 장비, 보관 솔루션을 포함한 상세 아이템 가이드로, 제작법과 사용 팁을 제공합니다.",
-      "metaTitle": "Dead as Disco 아이템 - 도구, 무기 및 장비 가이드",
-      "metaDescription": "도구, 무기, 이동 장비, 보관함을 포함한 Dead as Disco의 전체 아이템 데이터베이스입니다. 모든 아이템을 효과적으로 제작하고 사용하는 방법을 알아보세요.",
-      "categoryLabel": "아이템 및 장비",
-      "whatIs": "아이템이란 무엇인가요?",
-      "whatIsDescription": "도구, 무기, 이동 장비 및 기능성 아이템에 대한 종합 가이드입니다. 제작법, 사용 전략, 최적의 조합을 배워보세요.",
-      "why": "아이템 가이드를 확인해야 하는 이유는?",
-      "whySteps": {
-        "step1Title": "제작법 배우기",
-        "step1Description": "Apotheosis를 사용하여 필수 도구와 무기를 제작하는 방법을 알아보세요",
-        "step2Title": "장비 최적화",
-        "step2Description": "자신의 플레이 스타일과 진행 단계에 가장 적합한 아이템을 선택하세요",
-        "step3Title": "생존력 향상",
-        "step3Description": "이동 장비와 무기를 장착하여 위험한 세계를 탐험하세요"
-      },
-      "featured": "추천 및 필수 아이템",
-      "all": "모든 아이템"
-    },
-    "biomes": {
-      "title": "Dead as Disco 생물군계",
-      "description": "세계의 지역, 환경적 특징, 자원 위치 및 각 생물군계별 생존 팁을 탐험하세요.",
-      "metaTitle": "Dead as Disco 생물군계 - 세계 지역 및 탐험",
-      "metaDescription": "Tiamana Leylines, Fog Meadow 및 Surreal 지역을 포함한 Dead as Disco의 생물군계를 탐험하세요. 자원을 찾고 위험을 피하며 무한한 세계를 여행하세요.",
-      "categoryLabel": "세계 지역",
-      "whatIs": "생물군계란 무엇인가요?",
-      "whatIsDescription": "다양한 세계 지역, 환경적 특징, 자원 분포 및 위험 구역에 대한 가이드입니다. 각 지역에서 무엇을 기대해야 하며 어떻게 준비해야 하는지 알아보세요.",
-      "why": "생물군계를 탐험해야 하는 이유는?",
-      "whySteps": {
-        "step1Title": "자원 찾기",
-        "step1Description": "각 지역 고유의 희귀 재료와 정수를 찾아보세요",
-        "step2Title": "위험 회피",
-        "step2Description": "환경적 위험 요소와 적대적인 생명체를 이해하세요",
-        "step3Title": "탐험 계획",
-        "step3Description": "각 생물군계 유형에 맞는 올바른 도구와 장비를 준비하세요"
-      },
-      "featured": "추천 및 필수 지역",
-      "all": "모든 생물군계"
-    },
-    "building": {
-      "title": "Dead as Disco 건축",
-      "description": "Qualia 개인 차원, 기지 건설, 보관 관리 및 창의적인 건축 기술을 마스터하세요.",
-      "metaTitle": "Dead as Disco 건축 - Qualia 및 기지 건설",
-      "metaDescription": "Qualia 개인 차원, 기지 건설, 보관 솔루션 및 창의적인 건축 기술을 통해 Dead as Disco 건축을 마스터하세요.",
-      "categoryLabel": "건축 및 기지",
-      "whatIs": "건축이란 무엇인가요?",
-      "whatIsDescription": "Qualia 개인 차원 시스템, 기지 건설, 보관 관리 및 창의적인 건축에 대한 가이드입니다. Surreal 세계에서 나만의 안식처를 만드는 방법을 배워보세요.",
-      "why": "기지를 건설해야 하는 이유는?",
-      "whySteps": {
-        "step1Title": "안전한 공간 만들기",
-        "step1Description": "보관 및 제작 작업을 위한 안전한 기지를 구축하세요",
-        "step2Title": "자원 관리",
-        "step2Description": "보관 솔루션을 사용하여 재료를 효율적으로 정리하세요",
-        "step3Title": "Qualia 잠금 해제",
-        "step3Description": "최고의 편의성을 위해 개인 포켓 차원에 액세스하세요"
-      },
-      "featured": "추천 및 필수 건축",
-      "all": "모든 건축 가이드"
-    },
-    "support": {
-      "title": "Dead as Disco 지원",
-      "description": "기술 지원, 플랫폼 호환성, 성능 최적화 및 일반적인 문제 해결 방법을 제공합니다.",
-      "metaTitle": "Dead as Disco 지원 - 기술 도움말 및 해결책",
-      "metaDescription": "Steam Deck 설정, 충돌 수정, 성능 최적화 및 플랫폼 호환성 가이드를 포함한 Dead as Disco 기술 지원을 받으세요.",
-      "categoryLabel": "기술 지원",
-      "whatIs": "지원 서비스란 무엇인가요?",
-      "whatIsDescription": "플랫폼 호환성, 성능 최적화, 충돌 수정 및 일반적인 문제를 다루는 기술 가이드입니다. Steam Deck, 멀티플레이어 질문 및 설정에 대한 도움을 받으세요.",
-      "why": "지원 정보를 확인해야 하는 이유는?",
-      "whySteps": {
-        "step1Title": "기술적 문제 해결",
-        "step1Description": "충돌, 성능 문제 및 호환성 문제를 해결하세요",
-        "step2Title": "성능 최적화",
-        "step2Description": "사용 중인 플랫폼에서 최상의 경험을 위해 설정을 구성하세요",
-        "step3Title": "플랫폼 호환성",
-        "step3Description": "Steam Deck, 컨트롤러 지원 및 시스템 요구 사항에 대해 알아보세요"
-      },
-      "featured": "추천 및 필수 지원",
-      "all": "모든 지원 문서"
+      "all": "모든 출시 관련 기사"
     }
   }
 }

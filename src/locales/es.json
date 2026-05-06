@@ -1,26 +1,25 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de Dead as Disco - Guías, Idols, Música y Builds",
+      "description": "Explora guías de Dead as Disco para idols, combate rítmico, builds de habilidades, configuración de My Music, canciones, desafíos, cosméticos, actualizaciones y consejos para principiantes.",
+      "ogTitle": "Dead as Disco - Guías, Idols, Música y Builds",
+      "ogDescription": "Explora guías de Dead as Disco para idols, combate rítmico, builds de habilidades, configuración de My Music, canciones, desafíos, cosméticos, actualizaciones y consejos para principiantes.",
+      "twitterTitle": "Dead as Disco - Guías, Idols, Música y Builds",
+      "twitterDescription": "Explora guías de Dead as Disco para idols, combate rítmico, builds de habilidades, configuración de My Music, canciones, desafíos, cosméticos, actualizaciones y consejos para principiantes."
     }
   },
   "nav": {
-    "music": "Music",
+    "music": "Música",
     "mods": "Mods",
-    "platforms": "Platforms",
-    "price": "Price",
-    "release": "Release"
+    "platforms": "Plataformas",
+    "price": "Precio",
+    "release": "Lanzamiento"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -33,899 +32,1200 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Beat 'Em Up Rítmico de Neón",
+    "title": "Dead as Disco",
+    "description": "Un beat 'em up rítmico de neón donde cada ataque, esquiva y combo se sincroniza con la música. Sigue a Charlie Disco, lucha contra los Idols, domina habilidades, canciones y desafíos personalizados.",
+    "getFreeCodesCTA": "Visita el sitio oficial de Dead as Disco",
+    "playOnSteamCTA": "Comprar Dead as Disco en Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "5 de mayo de 2026",
+        "label": "Lanzamiento en acceso anticipado"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "1.4M+",
+        "label": "Jugadores de la demo"
       },
       "stat3": {
-        "value": "97%",
+        "value": "93%",
         "label": "Reseñas positivas"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "30+",
+        "label": "Canciones oficiales"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Dead as Disco",
+    "description": "Experimenta un combate rítmico bañado en neón, lucha contra poderosos Idols, domina más de 30 canciones y crea combos de habilidades únicos en este beat 'em up rítmico cyberpunk."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Dead as Disco",
+    "titleHighlight": "Navegación de módulos",
+    "subtitle": "Salta a cada sección de la página de inicio para actualizaciones, combate, canciones, builds y guías de plataformas",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Guía para principiantes de Dead as Disco",
+        "description": "Ruta de la primera sesión, conceptos básicos del ritmo y prioridades de progresión inicial"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "icon": "Zap",
+        "title": "Guía de combate de Dead as Disco",
+        "description": "Fundamentos de Beat Kune Do, tiempos de defensa y flujo de daño"
       },
       {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "icon": "Keyboard",
+        "title": "Controles y movimientos de Dead as Disco",
+        "description": "Acciones principales, movimientos desbloqueables y notas de juego compatibles con control"
       },
       {
         "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Fecha de lanzamiento, notas del parche y hoja de ruta de Dead as Disco",
+        "description": "Cronograma del acceso anticipado, notas de lanzamiento y actualizaciones planeadas"
       },
       {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "icon": "Users",
+        "title": "Guía de jefes Idols de Dead as Disco",
+        "description": "Roles de los Idols, identidad de combate y puntos de control para planificar batallas"
+      },
+      {
+        "icon": "Star",
+        "title": "Mejores habilidades y capacidades de Dead as Disco",
+        "description": "Prioridades de habilidades para supervivencia, control y consistencia en la puntuación"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guía de niveles de la historia de Dead as Disco",
+        "description": "Flujo actual de la campaña, orden de niveles y notas de progresión narrativa"
+      },
+      {
+        "icon": "Infinity",
+        "title": "Guía de Infinite Disco de Dead as Disco",
+        "description": "Bucle de rejugabilidad, formatos de desafío y práctica enfocada en las tablas de clasificación"
+      },
+      {
+        "icon": "Music",
+        "title": "Canciones personalizadas de My Music en Dead as Disco",
+        "description": "Flujo de trabajo de importación, configuración de BPM y consejos de calibración de canciones personalizadas"
+      },
+      {
+        "icon": "Download",
+        "title": "Banda sonora y modo seguro para streamers de Dead as Disco",
+        "description": "Pistas oficiales, reproducción segura para creadores y cobertura de música DLC"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guía de Steam Deck para Dead as Disco",
+        "description": "Configuración en Steam Deck, comportamiento del control y notas prácticas de la plataforma"
+      },
+      {
+        "icon": "Package",
+        "title": "Demo, precio y ediciones de Dead as Disco",
+        "description": "Disponibilidad de la demo, ediciones de la tienda y planificación de compra"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Estado del multijugador cooperativo de Dead as Disco",
+        "description": "Estado actual en solitario, alcance de funciones de lanzamiento y señales de la futura hoja de ruta cooperativa"
+      },
+      {
+        "icon": "Settings",
+        "title": "Mods y skins personalizadas de Dead as Disco",
+        "description": "Mods de la comunidad, planes de soporte oficial y sistemas de personalización dentro del juego"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Personajes y enemigos de Dead as Disco",
+        "description": "Charlie Disco, Idols de lanzamiento, contexto de Harmony Corp y roles de oleadas de enemigos"
+      },
+      {
+        "icon": "Home",
+        "title": "Coleccionables y cosméticos de The Encore en Dead as Disco",
+        "description": "Restauración del hub The Encore, objetos memorables, cosméticos y recompensas de progresión"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+    "deadAsDiscoBeginnerGuide": {
+      "title": "Guía para principiantes de Dead as Disco",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Comienza tu viaje de ritmo neón con estos consejos esenciales para el combate, la progresión y el dominio del ritmo.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Domina el ritmo",
+          "description": "Cada acción se sincroniza con la música: aprende el ritmo para realizar esquives, ataques y combos perfectos."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Explora la demo",
+          "description": "Prueba la demo gratuita para entender las mecánicas principales antes de comprar el juego completo."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Aprende combos básicos",
+          "description": "Domina patrones de ataque sencillos para aumentar tu puntuación y eficiencia rítmica."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Desbloquea habilidades iniciales",
+          "description": "Enfócate en habilidades esenciales que mejoren el movimiento y la efectividad en combate."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "¡La demo ha sido jugada por más de 1.4 millones de jugadores; únete a la revolución del ritmo!",
+        "La sincronización musical es clave: los ataques son más fuertes cuando se realizan en el momento perfecto.",
+        "Charlie Disco es tu héroe: domina sus habilidades únicas y su estilo de lucha.",
+        "Las reseñas positivas muestran que al 93% de los jugadores les encanta el sistema de combate rítmico."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
+    "deadAsDiscoRhythmCombat": {
+      "title": "Combate rítmico de Dead as Disco",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "Cada movimiento en Dead as Disco se sincroniza con el compás. Domina el combate basado en el ritmo para maximizar el daño y los combos.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Sincronización musical",
+          "description": "Todos los ataques, esquives y combos son más fuertes cuando se sincronizan perfectamente con la música."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Sistema de combos",
+          "description": "Encadena ataques para aumentar tu multiplicador y obtener puntuaciones más altas."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Esquives perfectos",
+          "description": "Sincroniza tus esquives a la perfección para contraatacar y crear oportunidades para combos."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Jefes Idols",
+          "description": "Cada Idol tiene patrones únicos y requiere diferentes estrategias rítmicas para ser derrotado."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Logra tu primer esquive perfecto",
+        "Ejecuta un combo de 10 golpes",
+        "Derrota a tu primer Idol",
+        "Domina una canción completa sin recibir daño"
+      ]
+    },
+    "deadAsDiscoIdols": {
+      "title": "Idols de Dead as Disco",
+      "displayType": "bossCards",
+      "intro": "Los Idols son poderosos jefes enemigos con mecánicas y patrones rítmicos únicos. Aprende sus patrones para conquistarlos.",
+      "bosses": [
+        {
+          "name": "Hemlock",
+          "role": "Primer Idol",
+          "description": "El encuentro inicial con un jefe que enseña las mecánicas básicas del combate rítmico."
+        },
+        {
+          "name": "Maestros de patrones",
+          "role": "Jefes de élite",
+          "description": "Idols poderosos con patrones de ataque complejos que requieren una sincronización precisa."
+        },
+        {
+          "name": "Mecánicas basadas en la música",
+          "role": "Habilidades únicas",
+          "description": "Los ataques y habilidades de cada Idol se sincronizan con diferentes géneros musicales y tempos."
+        },
+        {
+          "name": "Desafíos de progresión",
+          "role": "Estrategia de jefe",
+          "description": "Las peleas contra los Idols se vuelven más difíciles a medida que avanzas en el modo historia."
+        }
+      ]
+    },
+    "deadAsDiscoSkillBuilds": {
+      "title": "Builds de habilidades de Dead as Disco",
+      "displayType": "skillCards",
+      "intro": "Personaliza a Charlie Disco con diferentes habilidades, destrezas y rutas de mejora que se adapten a tu estilo de juego.",
+      "skills": [
+        {
+          "name": "Árbol de habilidades",
+          "role": "Sistema de progresión",
+          "description": "Desbloquea y mejora diversas habilidades de combate y movimiento."
+        },
+        {
+          "name": "Habilidades de combate",
+          "role": "Mejoras de ataque",
+          "description": "Mejora el poder de ataque, el potencial de combo y los movimientos especiales."
+        },
+        {
+          "name": "Habilidades de movimiento",
+          "role": "Movilidad",
+          "description": "Mejora el esquive, el desplazamiento y las habilidades de travesía para un mejor flujo rítmico."
+        },
+        {
+          "name": "Builds personalizadas",
+          "role": "Estilo de juego",
+          "description": "Crea builds de personajes únicas enfocadas en diferentes estilos de combate."
+        }
+      ],
+      "buildStrategies": [
+        "Agresivo: enfócate en daño alto y combos rápidos",
+        "Defensivo: prioriza los esquives y los contraataques",
+        "Equilibrado: mezcla de ofensiva y defensiva para mayor versatilidad",
+        "Speed Run: enfócate en la movilidad y eliminaciones rápidas"
+      ]
+    },
+    "deadAsDiscoSongs": {
+      "title": "Canciones de Dead as Disco",
+      "displayType": "songCards",
+      "intro": "Experimenta la banda sonora oficial con más de 30 canciones, cada una con patrones rítmicos y desafíos únicos.",
+      "tracks": [
+        {
+          "name": "Banda sonora oficial",
+          "role": "Música del juego",
+          "description": "Más de 30 canciones originales compuestas específicamente para el combate rítmico."
+        },
+        {
+          "name": "Desafíos personalizados",
+          "role": "Contenido de usuario",
+          "description": "Crea y comparte tus propios desafíos de ritmo y listas de canciones."
+        },
+        {
+          "name": "My Music",
+          "role": "Personalización",
+          "description": "Importa tus propios archivos de música y crea desafíos de ritmo personalizados."
+        },
+        {
+          "name": "Detección de BPM",
+          "role": "Técnico",
+          "description": "Detección automática de compás para canciones personalizadas con una sincronización precisa."
+        }
+      ],
+      "features": [
+        "Más de 30 canciones oficiales con patrones únicos",
+        "Importación de canciones personalizadas y creación de desafíos",
+        "Integración con Steam Workshop para compartir",
+        "Seguimiento de ritmo y puntuación en tiempo real"
+      ]
+    },
+    "deadAsDiscoInfiniteDisco": {
+      "title": "Dead as Disco Infinite Disco",
+      "displayType": "tarjetas de desafío",
+      "intro": "Pon a prueba tus habilidades en el modo infinito con dificultad progresiva y compite por puntuaciones altas en las tablas de clasificación globales.",
+      "modes": [
+        {
+          "name": "Modo Infinito",
+          "role": "Jugabilidad principal",
+          "description": "Sobrevive a oleadas cada vez más difíciles de enemigos y desafíos."
+        },
+        {
+          "name": "Tablas de clasificación",
+          "role": "Competencia",
+          "description": "Compite con otros jugadores por puntuaciones altas y clasificaciones."
+        },
+        {
+          "name": "Escalamiento de dificultad",
+          "role": "Progresión",
+          "description": "El juego se vuelve progresivamente más difícil con ritmos más rápidos y enemigos más fuertes."
+        },
+        {
+          "name": "Potenciadores",
+          "role": "Asistencia",
+          "description": "Mejoras temporales para ayudar a sobrevivir los desafíos de ritmo infinitos."
+        }
+      ]
+    },
+    "deadAsDiscoChallenges": {
+      "title": "Desafíos de Dead as Disco",
+      "displayType": "tarjetas de logros",
+      "intro": "Completa desafíos y objetivos específicos para desbloquear logros y demostrar tu maestría en el ritmo.",
+      "challenges": [
+        {
+          "name": "Desafíos de canciones",
+          "role": "Objetivo",
+          "description": "Completa canciones específicas con puntuaciones altas o sin recibir daño."
+        },
+        {
+          "name": "Pruebas de combate",
+          "role": "Prueba de habilidad",
+          "description": "Derrota a un número específico de enemigos o alcanza hitos de combo."
+        },
+        {
+          "name": "Ataques contrarreloj",
+          "role": "Velocidad",
+          "description": "Completa niveles o derrota Idols dentro de los límites de tiempo."
+        },
+        {
+          "name": "Objetivos personalizados",
+          "role": "Creado por el usuario",
+          "description": "Crea y comparte tus propios objetivos de desafío para que otros los intenten."
+        }
+      ]
+    },
+    "deadAsDiscoCustomization": {
+      "title": "Personalización de Dead as Disco",
+      "displayType": "tarjetas cosméticas",
+      "intro": "Personaliza tu experiencia con opciones de personalización visual, ajustes y funciones de accesibilidad.",
+      "options": [
+        {
+          "name": "Cosméticos visuales",
+          "role": "Apariencia",
+          "description": "Atuendos, skins y efectos visuales para Charlie Disco y los entornos."
+        },
+        {
+          "name": "Menú de ajustes",
+          "role": "Configuración",
+          "description": "Ajusta la configuración del juego para optimizar el rendimiento y la comodidad."
+        },
+        {
+          "name": "Accesibilidad",
+          "role": "Inclusión",
+          "description": "Opciones para personalizar la jugabilidad según diferentes necesidades y preferencias."
+        },
+        {
+          "name": "Ajustes de audio",
+          "role": "Sonido",
+          "description": "Ajusta el volumen de la música, los efectos y los indicadores de ritmo para una experiencia óptima."
+        }
+      ]
+    },
+    "lucidBlocksBeginnerGuide": {
+      "title": "Guía para principiantes de Dead as Disco",
+      "intro": "Comienza con un plan claro para la primera hora: aprende el ritmo, completa lo básico del Modo Historia y luego usa Infinite Disco y My Music cuando tu control del ritmo sea estable.",
+      "steps": [
+        {
+          "title": "Comienza con la demo o la versión de Acceso Anticipado",
+          "description": "Usa la demo para sentir el ritmo de Beat Kune Do rápidamente, luego pasa al Acceso Anticipado para los sistemas de progresión completos."
+        },
+        {
+          "title": "Completa el tutorial antes de buscar puntuaciones altas",
+          "description": "Trata el tutorial como una calibración obligatoria para la cadencia de ataque, el ritmo defensivo y el ritmo de los combos."
+        },
+        {
+          "title": "Usa el Modo Historia como tu camino de aprendizaje",
+          "description": "Los niveles de la historia enseñan el flujo de los encuentros y la presión de los Idols mejor que saltar entre desafíos aleatorios."
+        },
+        {
+          "title": "Prioriza la supervivencia sobre el ritmo perfecto",
+          "description": "Si el ritmo falla, mantén el movimiento limpio y protege tu salud antes de forzar secuencias avanzadas."
+        },
+        {
+          "title": "Gasta el poder de fan en mejoras prácticas",
+          "description": "Elige primero nodos de supervivencia y daño confiable para que cada partida se sienta más estable y menos volátil."
+        },
+        {
+          "title": "Revisa The Encore entre hitos",
+          "description": "Regresa al centro para gestionar desbloqueos, recoger objetos de progreso y seguir los puntos narrativos."
+        },
+        {
+          "title": "Practica bucles en Infinite Disco",
+          "description": "Usa partidas de desafío para aislar malos hábitos y reconstruir la consistencia sin reiniciar las etapas de la campaña."
+        },
+        {
+          "title": "Importa canciones personalizadas después de dominar lo básico",
+          "description": "My Music funciona mejor una vez que puedas reconocer el desfase del ritmo y calibrar los ajustes de BPM con confianza."
+        }
+      ],
+      "quickTips": [
+        "El Acceso Anticipado se lanzó el 5 de mayo de 2026, por lo que los sistemas posteriores al lanzamiento ya se pueden jugar ahora.",
+        "Usa sesiones cortas enfocadas en el tiempo de esquiva para mejorar más rápido que con sesiones largas de práctica sin enfoque.",
+        "Las primeras peleas contra Idols son mejores herramientas de entrenamiento que el simple farmeo de puntuación en tus primeras horas.",
+        "Trata las canciones oficiales como bases de calibración antes de importar pistas personalizadas."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Guía de combate de Dead as Disco",
+      "intro": "Beat Kune Do recompensa el ritmo controlado. Construye consistencia en la pelea a través de patrones legibles, tiempos defensivos y el uso deliberado de recursos.",
+      "cards": [
+        {
+          "name": "Ancla tus acciones al ritmo",
+          "description": "Usa un bucle de ritmo estable para ataques y esquivas en lugar de presionar botones al azar entre el ruido visual."
+        },
+        {
+          "name": "Recupérate con calma tras fallar el ritmo",
+          "description": "Un pulso fallido es recuperable. Vuelve a centrar el movimiento y reinicia con acciones de bajo riesgo."
+        },
+        {
+          "name": "Usa la defensa perfecta para cambiar el impulso",
+          "description": "Un tiempo limpio de esquiva y contraataque crea espacio, reinicia la presión y abre ventanas de daño más seguras."
+        },
+        {
+          "name": "Usa los derribos en los picos de presión",
+          "description": "Usa remates cuando las multitudes se te echen encima o cuando los enemigos de élite amenacen la estabilidad de tu partida."
+        },
+        {
+          "name": "Traza mejoras en torno a tus puntos débiles",
+          "description": "Si la supervivencia falla, toma primero los nodos de durabilidad; si el ritmo se estanca, invierte en herramientas de extensión de combos."
+        },
+        {
+          "name": "Usa las habilidades de Idol para el control de multitudes",
+          "description": "Las herramientas de retroceso y disrupción son más importantes cuando la densidad de enemigos dificulta mantener un ritmo perfecto."
+        },
+        {
+          "name": "Trata las habilidades de ráfaga como ventanas de finalización",
+          "description": "Reserva las habilidades de alto impacto hasta que los patrones enemigos estén definidos y las oportunidades de castigo sean claras."
+        },
+        {
+          "name": "Lee primero el lenguaje de cada pelea contra un Idol",
+          "description": "Cada encuentro con un Idol tiene reglas distintas de cadencia y espaciado, por lo que los primeros intentos deben servir para recopilar datos de patrones."
+        }
+      ],
+      "milestones": [
+        "Logra cinco tiempos defensivos limpios en una partida",
+        "Completa un desafío sin presionar botones por pánico",
+        "Convierte una apertura defensiva en un ciclo completo de ráfaga",
+        "Termina una fase de Idol con un control de ritmo estable"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "title": "Controles y movimientos de Dead as Disco",
+      "intro": "Enfócate en el propósito del movimiento antes de memorizar los botones. Esta lista registra qué hace cada acción y cuándo aporta valor en el combate real.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Combo de ataque básico",
+          "type": "Acción principal",
+          "description": "Cadena de presión primaria para mantener la presencia rítmica y el tiempo de daño activo."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Esquivar",
+          "type": "Acción principal",
+          "description": "Herramienta principal de supervivencia para reposicionarse y establecer tiempos de contraataque seguros."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Contraataque perfecto",
+          "type": "Defensa sincronizada",
+          "description": "Respuesta defensiva de alto valor que convierte el ataque enemigo en tu ventaja de tempo."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Derribo",
+          "type": "Remate",
+          "description": "Movimiento de eliminación basado en recursos, ideal para enemigos peligrosos o para despejar multitudes."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "name": "Patada de molino",
+          "type": "Desbloqueo del árbol de habilidades",
+          "description": "Opción ofensiva cargada que añade presión de ráfaga cuando se confirman aperturas."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
+          "name": "Lanzamiento de baqueta",
+          "type": "Desbloqueo a distancia",
+          "description": "Herramienta de control de rango para marcar objetivos antes de iniciar secuencias de corto alcance."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
+          "name": "Seguimiento de baqueta",
+          "type": "Cierre de brecha",
+          "description": "Opción de reentrada instantánea que convierte el contacto a distancia en presión cuerpo a cuerpo directa."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Fever Rush",
+          "type": "Habilidad de ráfaga",
+          "description": "Habilidad de impulso para ventanas de castigo rápidas tras reconocer los patrones rítmicos del enemigo."
+        },
+        {
+          "name": "Bass Invader",
+          "type": "Habilidad de Idol",
+          "description": "Poder de Idol de tipo retroceso para control de carril y espacio defensivo."
+        },
+        {
+          "name": "Danzas seleccionables",
+          "type": "Actualización planificada",
+          "description": "Adiciones enfocadas en la personalización programadas en las actualizaciones de la hoja de ruta para variar el estilo."
+        },
+        {
+          "name": "Opción de ataque al presionar",
+          "type": "Plan de accesibilidad",
+          "description": "Opción de comportamiento de entrada planificada para mejorar la comodidad del control para más jugadores."
+        },
+        {
+          "name": "Soporte para Steam Deck y controles",
+          "type": "Soporte de plataforma",
+          "description": "Configuración compatible con controles y Steam Deck con verificaciones de asignación por dispositivo en los ajustes."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "title": "Fecha de lanzamiento, notas del parche y hoja de ruta de Dead as Disco",
+      "intro": "Sigue lo que está disponible ahora, lo que cambió en el lanzamiento y qué hitos de la hoja de ruta son más importantes para la planificación del juego.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Lanzamiento de acceso anticipado",
+          "role": "5 de mayo de 2026",
+          "description": "La versión de acceso anticipado ya está disponible en tiendas de PC, incluyendo la historia principal y los sistemas de progresión."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Alcance del contenido de lanzamiento",
+          "role": "Jugable ahora",
+          "description": "El lanzamiento incluye niveles iniciales del Modo Historia, Idols de lanzamiento, The Encore, Infinite Disco y My Music."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Notas del parche de lanzamiento",
+          "role": "Publicado",
+          "description": "Las notas iniciales enfatizan el ajuste de la progresión, los sistemas de desafíos, la optimización y la preparación de la plataforma."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Ventana de problemas conocidos",
+          "role": "Fase de corrección rápida",
+          "description": "Las primeras correcciones rápidas se centran en el comportamiento de canciones personalizadas, problemas de visualización en la arena y casos aislados del estado de desafíos."
+        },
+        {
+          "name": "Actualización 1",
+          "role": "Junio de 2026",
+          "description": "Enfoque planificado en la expansión de Infinite Disco y My Music, incluyendo mejoras en las listas de reproducción y la arena."
+        },
+        {
+          "name": "Actualización 2",
+          "role": "Mediados de verano de 2026",
+          "description": "Enfoque planificado en la profundidad de personalización, adición de coleccionables y ajuste de habilidades orientado al equilibrio."
+        },
+        {
+          "name": "Actualización 3",
+          "role": "Finales de verano de 2026",
+          "description": "Parche XL planificado que añade un nuevo arco de Idol, contenido musical, nuevos enemigos y adiciones a la progresión."
+        },
+        {
+          "name": "Camino a la 1.0",
+          "role": "Objetivo 2027",
+          "description": "Se planea que los futuros festivales y las actualizaciones importantes converjan en el arco narrativo del lanzamiento completo."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Si un sistema se comporta de forma inesperada tras el lanzamiento, consulta la nota del parche oficial más reciente antes de reconfigurar tu equipo.",
+        "Trata las fechas de la hoja de ruta como puntos de referencia para reinicios de versiones y nuevos ciclos de práctica de desafíos.",
+        "Prioriza los ciclos jugables actuales en lugar de esperar a los lanzamientos de contenido futuro.",
+        "Usa los cambios del parche de lanzamiento para actualizar tu ruta de mejoras y tu recorrido de desafíos preferido."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "title": "Guía de jefes Idols de Dead as Disco",
+      "intro": "Dead as Disco comienza el regreso de Charlie Disco con cuatro Idols de lanzamiento y más planeados durante el acceso anticipado. Usa esta guía para preparar cada encuentro, entender la identidad de la pelea y planificar las prioridades de desbloqueo de habilidades.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "Hemlock",
+          "description": "Disponible en acceso anticipado. Exrockero punk y ejecutor de Harmony Corp. Su ruta de concierto en el metro enfatiza el control de oleadas de fans y desbloquea la habilidad Bass Invader, centrada en el retroceso."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "Arora",
+          "description": "Disponible en acceso anticipado. Idol pop de IA de próxima generación con presión de clones y cambios de fase rápidos. Derrotar a Arora abre una ruta de habilidades de Idol para opciones ampliadas de movimientos especiales."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "Dex",
+          "description": "Disponible en acceso anticipado. Ícono de la guitarra mejorado cibernéticamente con un control de tempo agresivo. Completar esta ruta desbloquea otro árbol de habilidades de Idol dedicado para variar la configuración."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "Prophet",
+          "description": "Disponible en acceso anticipado. Rapero y productor influyente enfocado en desafíos de fans y disciplina de combos. La ruta de bloqueo defensivo de Prophet es valiosa para el tiempo de parry y las ventanas de contraataque."
+        },
+        {
+          "name": "Futuros jefes Idols",
+          "description": "Planificados durante el acceso anticipado. Se espera que antiguos compañeros de banda lleguen con actualizaciones estilo festival, nuevos arcos narrativos, enemigos frescos, nuevas habilidades y técnicas distintivas."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "4 de 7 Idols están disponibles en el lanzamiento del acceso anticipado",
+        "Cada ruta de Idol añade una senda de habilidades distinta",
+        "Se planea una actualización final de Idols para el verano",
+        "Se planean más arcos narrativos antes de la 1.0"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "title": "Mejores habilidades y destrezas de Dead as Disco",
+      "intro": "Prioriza la supervivencia primero, luego escala hacia herramientas de presión y rutas especializadas de Idols. Esta progresión mantiene estables las limpiezas iniciales mientras te preparas para un ritmo de desafío más difícil.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "Núcleo primero: más corazones, capacidad de Fever, aumentos de ataque",
+          "type": "Núcleo inicial",
+          "description": "Ideal para principiantes que aprenden el tiempo de esquiva y los ataques al ritmo. Estas opciones crean un margen para errores y mejoran el tiempo de actividad de los movimientos especiales en combates largos."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Movimientos de alto impacto: Charged Windmill Kick, seguimiento de Drumstick Toss",
+          "type": "Herramientas de presión",
+          "description": "Úsalos para abrir ventanas de ráfaga, cerrar distancias rápidamente y convertir aperturas rítmicas en rutas de combos más fluidas."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "Enfoque en habilidades de jefe: Bass Invader, Prophet Block",
+          "type": "Control y defensa",
+          "description": "Más valiosos cuando las arenas se llenan o los jefes fuerzan tiempos defensivos estrictos. Ayudan a crear espacio y generar ventanas de contraataque confiables."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Meta en evolución: árbol de Arora, árbol de Dex, futuras habilidades de Idols",
+          "type": "Construcciones a largo plazo",
+          "description": "Vuelve a consultarlos a medida que lleguen las actualizaciones. Los nuevos lanzamientos de Idols y los ajustes de habilidades pueden cambiar la mejor ruta para estilos de juego agresivos, de utilidad o centrados en la puntuación."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "title": "Guía de niveles de historia de Dead as Disco",
+      "intro": "Sigue esta ruta de capítulos para aprender los fundamentos del ritmo pronto, completar cada ruta de Idols de lanzamiento y prepararte para la futura expansión de la historia durante el Acceso Anticipado y el arco 1.0 planificado.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Tutorial",
+          "role": "Inicio de campaña",
+          "description": "Aprende los fundamentos de Beat Kune Do: cadencia de ataque, tiempo de esquiva, flujo de contraataque, acumulación de Fever y consistencia al ritmo."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Nivel de historia de Hemlock",
+          "role": "Progreso principal",
+          "description": "Ruta de concierto subterráneo con escenarios en trenes y presión de la multitud. Ideal para aprender el control de oleadas y los fundamentos del tiempo de los jefes."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
+          "name": "Nivel de historia de Arora",
           "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "description": "Espectáculo de pop de IA centrado en la presión de clones, cambios visuales y ventanas de ritmo de múltiples fases que ponen a prueba la conciencia del carril y la disciplina de recuperación."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
+          "name": "Nivel de historia de Dex",
+          "role": "Amenaza mayor",
+          "description": "Ruta de encuentro impulsada por guitarras con un ritmo de arena agresivo y una presión de jefe más pesada. Recompensa la defensa tranquila y el tiempo de castigo deliberado."
         },
         {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
+          "name": "Nivel de historia de Prophet",
+          "role": "Amenaza mayor",
+          "description": "Enfrentamiento con un productor de rap con densas pruebas de fanáticos y controles de combo, mientras se expande el contexto narrativo de la historia de la banda."
         },
         {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "El centro The Encore",
+          "role": "Centro de progresión",
+          "description": "Restaura el bar, gasta energía de fans, desbloquea cosméticos y colecciona objetos memorables mientras rastreas pistas de la historia principal entre rutas de combate."
+        },
+        {
+          "name": "Futuras actualizaciones de historia de Idols",
+          "role": "Actualización planificada",
+          "description": "Se planean adiciones estilo festival para introducir nuevos arcos de Idols, niveles completos de videos musicales, enemigos adicionales, coleccionables, habilidades y giros narrativos."
+        },
+        {
+          "name": "Arco narrativo final 1.0",
+          "role": "Plan de final de juego",
+          "description": "Planificado para 2027 como el clímax narrativo completo, incluyendo secretos finales, un flujo de progresión renovado y la confrontación final contra Harmony Corp."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "title": "Guía de Infinite Disco de Dead as Disco",
+      "intro": "Infinite Disco es el sandbox de repetición para pistas oficiales, experimentos de música personalizada, competencia en tablas de clasificación y bucles de práctica de desafíos. Úsalo para perfeccionar tu ejecución fuera de la progresión de la campaña.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "name": "Partidas de canciones oficiales",
+          "type": "Biblioteca de música",
+          "description": "Reproduce pistas oficiales de Dead as Disco fuera del modo historia. El Acceso Anticipado ofrece más de 30 canciones entre originales, versiones y pistas con licencia."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "name": "Desafíos de canciones",
+          "type": "Modo desafío",
+          "description": "Objetivos específicos para practicar movimientos especiales, rutas de habilidades y consistencia en canciones específicas mientras ganas energía de fans."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "name": "My Music",
+          "type": "Música personalizada",
+          "description": "Importa pistas personales y construye una jugabilidad sincronizada con la música para bucles de repetición personalizados."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "name": "Calibración manual de BPM",
+          "type": "Configuración personalizada",
+          "description": "Calibra las canciones importadas antes del combate. Se planean mejoras de BPM automático, pero el BPM manual sigue siendo la ruta de configuración práctica hoy en día."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "name": "Tablas de clasificación de amigos y globales",
+          "type": "Búsqueda de puntuación",
+          "description": "Compara partidas en canciones y desafíos. Se planean reinicios estacionales de las tablas de clasificación a medida que evolucionan las actualizaciones de equilibrio."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "name": "Modificadores y cambios de arena",
+          "type": "Variación de arena",
+          "description": "Ajusta la sensación de la arena después de dominar los bucles de canciones base. Las actualizaciones de la hoja de ruta mencionan arenas adicionales, modificadores de desafío y un flujo de cambio de arena mejorado."
+        },
+        {
+          "name": "Listas de reproducción de desafíos personalizados",
+          "type": "Próxima herramienta",
+          "description": "Función de actualización planificada para encadenar múltiples desafíos de My Music en listas de canciones repetibles."
+        },
+        {
+          "name": "Práctica en juego libre",
+          "type": "Repetición de baja presión",
+          "description": "Usa este modo para disfrutar del ritmo, probar configuraciones y estabilizar el tiempo de control de multitudes antes de intentos de Idols o tablas de clasificación de alta presión."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Completa tu primera ruta de desafío de Infinite Disco",
+        "Sube una puntuación a las tablas de clasificación globales",
+        "Completa una sesión estable de calibración de canción personalizada",
+        "Termina un bucle de práctica completo con un tiempo defensivo consistente"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "title": "Canciones personalizadas de My Music en Dead as Disco",
+      "intro": "Usa My Music para traer pistas locales a Infinite Disco, luego ajusta el BPM y el desplazamiento de pulso para que los ataques caigan al ritmo.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "name": "Paso 1: Prepara un MP3 local",
+          "description": "Elige un archivo limpio con un pulso constante. Las canciones con silencios largos, cambios bruscos de tempo o intros desordenadas son más difíciles de sincronizar."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "Paso 2: Abre Infinite Disco e importa",
+          "description": "Ve a Infinite Disco, cambia a Juego libre y usa Añadir My Music o Importar canción para cargar tu pista local."
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "name": "Paso 3: Guarda la pista antes de ediciones profundas",
+          "description": "Guarda primero la canción importada en tu lista para que las pruebas y reintentos sean rápidos y organizados."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "Paso 4: Establece el BPM antes que nada",
+          "description": "Ingresa el BPM conocido o márcalo manualmente en el editor de canciones. Comienza con valores de BPM de números enteros para obtener la base más limpia."
+        },
+        {
+          "name": "Paso 5: Ajusta el desplazamiento de pulso",
+          "description": "Si el tiempo se siente cerca pero adelantado o atrasado, ajusta el Beat Offset después de establecer el BPM. El desplazamiento es principalmente para intros retrasadas y silencios iniciales."
+        },
+        {
+          "name": "Paso 6: Ajusta con precisión con el editor avanzado",
+          "description": "Usa la vista de forma de onda, el metrónomo y bucles de repetición cortos. Si las líneas de pulso se desvían con el tiempo, vuelve a verificar el BPM o cambia a una canción más estable."
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "La canción se siente demasiado rápida o lenta: vuelve a verificar el BPM, luego prueba con la mitad o el doble de BPM si es necesario.",
+        "El pulso se siente ligeramente adelantado o atrasado: mantén el BPM y ajusta el Beat Offset en pasos pequeños.",
+        "El tiempo se rompe después del silencio de la intro: recorta el inicio o desplaza hasta el primer pulso claro.",
+        "La sincronización se desvía con el tiempo: es probable que el BPM sea incorrecto o que la canción tenga variaciones de tempo.",
+        "La importación falla o suena mal: vuelve a exportar como un MP3 estándar e impórtalo de nuevo."
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "title": "Banda sonora de Dead as Disco y modo seguro para streamers",
+      "intro": "Dead as Disco incluye pistas originales, canciones con licencia, covers y opciones de seguridad enfocadas en creadores. Usa esta comparación para elegir la configuración de escucha adecuada.",
       "priorities": [
         {
-          "name": "Qualia personal",
+          "name": "Biblioteca de música del juego",
           "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "description": "Incluye canciones originales, originales seguras para streamers, covers y pistas con licencia utilizadas en el combate rítmico."
         },
         {
-          "name": "Pico de Escarcha",
+          "name": "Modo seguro para streamers",
           "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "description": "Activa esto en Ajustes > Audio antes de transmisiones en vivo o grabaciones de VOD cuando quieras evitar problemas con pistas con licencia."
         },
         {
-          "name": "Cubo de Almacenamiento",
+          "name": "DLC Streamer Safe Soundtrack Vol. 1",
+          "priority": "Alta",
+          "description": "Contiene 15 canciones originales, 5 pistas adicionales y fondos de pantalla. Este paquete excluye canciones cover y pistas con licencia."
+        },
+        {
+          "name": "Precio de Streamer Safe Soundtrack",
+          "priority": "Alta",
+          "description": "El precio estándar es de $9.99, con un descuento de lanzamiento a $7.99 durante el periodo inicial de salida."
+        },
+        {
+          "name": "One Night Only Radio Play Vol. 1",
+          "priority": "Alta",
+          "description": "Un lanzamiento de 27 pistas para Spotify, YouTube Music, Apple Music e iTunes para escuchar fuera del juego."
+        },
+        {
+          "name": "Límites de la música con licencia",
           "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "description": "Los derechos de las canciones con licencia son independientes del contenido seguro para streamers, así que usa el modo seguro para streamers en lugar de asumir que todas las pistas son seguras para su transmisión."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "name": "Pistas importadas de My Music",
+          "priority": "Media",
+          "description": "Los archivos locales que importas son independientes de los lanzamientos oficiales de la banda sonora y dependen de tus propios derechos de uso."
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "name": "Futuras actualizaciones de música",
+          "priority": "Media",
+          "description": "Las actualizaciones de la hoja de ruta incluyen más pistas con licencia, más covers y originales adicionales seguros para streamers."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "title": "Guía de Dead as Disco para Steam Deck",
+      "intro": "Dead as Disco figura como compatible con Steam Deck. Sigue estos pasos de configuración para un juego fluido e importaciones de canciones personalizadas confiables.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Pasos de configuración",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "Paso 1: Instala y actualiza el juego",
+              "description": "Instala desde Steam y completa el último parche antes de las pruebas de rendimiento o la configuración de canciones personalizadas."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Paso 2: Comienza con los controles predeterminados de la Deck",
+              "description": "Ejecuta primero el tutorial o Infinite Disco, luego ajusta solo si el tiempo y el ritmo de esquiva se sienten inconsistentes."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Paso 3: Usa el modo escritorio para trabajar con archivos",
+              "description": "Cambia al modo escritorio para mover archivos MP3. Es mucho más fácil que navegar por carpetas profundas desde los menús del juego."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Ruta de canciones personalizadas y verificaciones rápidas",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "Paso 4: Copia los archivos en MusicFiles",
+              "description": "Usa /home/deck/.local/share/Steam/steamapps/compatdata/3404260/pfx/drive_c/users/steamuser/AppData/Local/Pagoda/Saved/MusicFiles/."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "title": "Paso 5: Verifica la carpeta compatdata",
+              "description": "Si falta 3404260, inspecciona /home/deck/.local/share/Steam/steamapps/compatdata/ y revisa las carpetas de aplicaciones más recientes después del lanzamiento."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
+              "title": "Paso 6: Regresa al modo de juego y prueba",
+              "description": "Inicia el juego, carga My Music en Infinite Disco, luego establece primero los BPM y después el Beat Offset para un tiempo estable."
             },
             {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
-        },
-        {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "Verificación rápida: Falta la canción",
+              "description": "Habilita las carpetas ocultas, vuelve a verificar la ruta exacta y confirma que el archivo esté dentro de MusicFiles."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "Verificación rápida: La canción se desfasa o se siente fuera de ritmo",
+              "description": "Vuelve a ingresar los BPM, luego ajusta el Beat Offset en pequeños incrementos. Vuelve a exportar los archivos con problemas como MP3 estándar."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "title": "Demo, precio y ediciones de Dead as Disco",
+      "intro": "Compara la demo gratuita, el precio de acceso anticipado, el DLC de la banda sonora y las opciones de paquetes antes de comprar.",
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "¿Tiene Dead as Disco una demo gratuita?",
+          "answer": "Sí. La demo es gratuita e incluye contenido de tutorial, una misión de historia de muestra, Infinite Disco y soporte para canciones personalizadas en el modo de juego libre."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "¿Cuál es el precio del juego base en acceso anticipado?",
+          "answer": "El precio estándar del juego base es de $24.99, con una oferta de lanzamiento de $19.99 que estuvo vigente hasta el 19 de mayo de 2026."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "¿Cuánto cuesta el DLC Streamer Safe Soundtrack Vol. 1?",
+          "answer": "El DLC figura a $9.99 estándar, con un descuento de lanzamiento de $7.99."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "¿Qué incluye el Dead as Disco Superfan Bundle?",
+          "answer": "Combina el juego base y el Streamer Safe Soundtrack Vol. 1, con un valor de paquete durante el periodo de lanzamiento de alrededor de $25.18."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿Debería comprar ahora o esperar a la versión 1.0?",
+          "answer": "Usa primero la demo si no estás seguro, compra el acceso anticipado si quieres el contenido actual y las próximas adiciones, o espera a la 1.0 si prefieres un lanzamiento de campaña más completo."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
+      "title": "Estado del multijugador cooperativo de Dead as Disco",
+      "eyebrow": "Estado del multijugador",
+      "subtitle": "Dead as Disco es un beat 'em up rítmico para un solo jugador en su lanzamiento de acceso anticipado, con multijugador cooperativo planeado como una característica futura.",
+      "intro": "Esta sección responde a la pregunta de compra más común para los fans de los brawlers: si existe el modo cooperativo hoy en día, qué puedes jugar ahora mismo y cómo se ha descrito el futuro multijugador.",
       "faqs": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "question": "¿Tiene Dead as Disco cooperativo ahora mismo?",
+          "answer": "No figura ningún modo cooperativo de lanzamiento. Las características de la tienda presentan actualmente el juego como una experiencia para un solo jugador."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "question": "¿Qué puedo jugar en la versión actual de acceso anticipado?",
+          "answer": "El contenido actual se centra en el juego en solitario: progresión del modo historia, Infinite Disco, desafíos de canciones personalizadas de My Music, rutas de jefes Idols, habilidades desbloqueables, cosméticos, coleccionables y el centro The Encore."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "question": "¿Está planeado el cooperativo para el futuro?",
+          "answer": "Sí. El multijugador cooperativo es parte del plan a largo plazo y se posiciona como una característica para una etapa de lanzamiento futura."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "¿Por qué el cooperativo no está disponible en el lanzamiento?",
+          "answer": "El modelo de combate se basa en el tiempo de Beat Kune Do sincronizado con la música, por lo que el diseño y el ritmo del multijugador necesitan trabajo adicional para preservar el flujo rítmico y la claridad visual."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "question": "¿Debería comprar Dead as Disco ahora por el cooperativo?",
+          "answer": "Compra ahora por el contenido actual de brawler rítmico en solitario y considera el cooperativo como una característica de la hoja de ruta en lugar de un modo de lanzamiento."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
+      "title": "Mods y skins personalizados de Dead as Disco",
+      "eyebrow": "Mods y personalización",
+      "subtitle": "Dead as Disco ya ofrece un sólido estilo de juego basado en contenido generado por el usuario (UGC) a través de My Music y desafíos personalizados, mientras que el soporte oficial para mods sigue evolucionando durante el Early Access.",
+      "intro": "Esta sección separa los mods externos de la comunidad, el soporte oficial de la hoja de ruta y los sistemas cosméticos del juego para que puedas ver rápidamente qué está disponible ahora y qué se planea a futuro.",
       "settings": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "name": "Centro de mods de la comunidad",
+          "type": "Mods externos",
+          "status": "Impulsado por la comunidad",
+          "description": "Usa los centros comunitarios para rastrear archivos externos y experimentos. Trátalos como recursos creados por jugadores, no como sistemas oficiales integrados."
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "name": "Hoja de ruta del soporte oficial para mods",
+          "type": "Función de la hoja de ruta",
+          "status": "Expansión planeada",
+          "description": "Los desarrolladores han delineado objetivos futuros de modding y están evaluando opciones de soporte más amplias a lo largo del periodo de Early Access."
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "name": "My Music y desafíos personalizados",
+          "type": "Herramientas de UGC",
+          "status": "Disponible ahora y en expansión",
+          "description": "Los jugadores ya pueden importar canciones locales en My Music y crear desafíos personalizados; se planean más sistemas orientados al UGC en futuras actualizaciones."
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "name": "Skins y moda en el juego",
+          "type": "Cosméticos",
+          "status": "Disponible mediante progresión",
+          "description": "Los desbloqueos por progresión incluyen skins, accesorios, atuendos, bailes y otras recompensas visuales de estilo escénico."
+        },
+        {
+          "name": "Guías de Steam y ayuda de configuración",
+          "type": "Guías",
+          "status": "Útil para resolución de problemas",
+          "description": "Las guías de la comunidad pueden ayudar con la instalación, configuración y flujos de trabajo de música personalizada mientras las funciones oficiales de mods siguen creciendo."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
+      "title": "Personajes y enemigos de Dead as Disco",
+      "eyebrow": "Personajes y enemigos",
+      "subtitle": "Conoce a Charlie Disco, los Boss Idols de lanzamiento, Harmony Corp y los grupos de enemigos que convierten cada canción en una pelea de video musical jugable.",
+      "intro": "Dead as Disco comienza con Charlie enfrentándose a sus antiguos compañeros de banda, ahora Idols legendarios vinculados a Harmony Corp. El Early Access se centra actualmente en cuatro Idols de lanzamiento, y se esperan más personajes, enemigos y arcos narrativos con el tiempo.",
       "entries": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "name": "Charlie Disco",
+          "role": "Héroe jugable",
+          "group": "Dead as Disco",
+          "summary": "Charlie es el baterista caído que regresa por una noche para confrontar a sus antiguos compañeros de banda, descubrir la verdad tras su muerte y reunir al grupo."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "name": "Hemlock",
+          "role": "Boss Idol de lanzamiento",
+          "group": "Harmony Corp",
+          "summary": "Un antiguo revolucionario punk convertido en ejecutor de Harmony Corp, diseñado en torno a la presión de control de masas y una energía escénica agresiva."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "name": "Arora",
+          "role": "Boss Idol de lanzamiento",
+          "group": "Harmony Corp",
+          "summary": "Una idol pop de IA de próxima generación diseñada para la dominación global, con temas de personalización y una identidad escénica centrada en el espectáculo."
+        },
+        {
+          "name": "Dex",
+          "role": "Boss Idol de lanzamiento",
+          "group": "Harmony Corp",
+          "summary": "Un ícono de la guitarra mejorado cibernéticamente y conectado a la red de Harmony, diseñado en torno a la presión de precisión y un ritmo agresivo."
+        },
+        {
+          "name": "Prophet",
+          "role": "Boss Idol de lanzamiento",
+          "group": "Harmony Corp",
+          "summary": "Un rapero y productor influyente cuya historia se centra en la influencia, la fama y la capa de negocios más oscura detrás de los reflectores."
+        },
+        {
+          "name": "Harmony Corp",
+          "role": "Fuerza antagonista principal",
+          "group": "Poder corporativo",
+          "summary": "La organización detrás del nuevo poder de los Idols, vinculada al conflicto mayor sobre la música, el control y la traición."
+        },
+        {
+          "name": "Fans y oleadas de enemigos",
+          "role": "Enemigos de escenario",
+          "group": "Seguidores de Idols",
+          "summary": "Cada ruta de Idol envía a Charlie a través de oleadas de seguidores y secuaces; se espera que futuras actualizaciones amplíen la variedad y los comportamientos de los enemigos."
+        },
+        {
+          "name": "Futuros Idols",
+          "role": "Personajes de la hoja de ruta",
+          "group": "Plantilla de Dead as Disco",
+          "summary": "Se planean Idols adicionales durante el Early Access, cada uno vinculado a nuevos niveles de historia, canciones, enemigos, habilidades y recompensas coleccionables."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "title": "Coleccionables y cosméticos de The Encore en Dead as Disco",
+      "eyebrow": "Centro The Encore",
+      "subtitle": "The Encore es la base de Charlie, donde la progresión se convierte en desbloqueos de moda, objetos de colección, mejoras del bar, funciones de la rockola y descubrimientos de la historia.",
+      "intro": "The Encore es más que un centro de menús. Es el club de música y bar donde Charlie reconstruye el pasado, desbloquea recompensas de estilo, interactúa con Idols derrotados y descubre pistas clave de la historia.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Club de música The Encore",
+          "category": "Área central",
+          "description": "The Encore es el segundo hogar de Charlie, donde los jugadores regresan entre peleas para gestionar la progresión, desbloquear sistemas y seguir la historia de la banda."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Restauración del bar",
+          "category": "Progresión",
+          "description": "Restaura el lugar con el tiempo a través de la progresión, incluyendo mejoras visibles que refuerzan la atmósfera de regreso."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Objetos de colección",
+          "category": "Coleccionables",
+          "description": "Colecciona objetos del pasado y presente de la banda para descubrir el contexto de la historia y decorar el centro con artefactos significativos."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Moda rockstar",
+          "category": "Cosméticos",
+          "description": "Desbloquea skins, accesorios, atuendos, bailes y otros elementos visuales centrados en la actuación para la identidad escénica de Charlie."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Desbloqueo de habilidades de Idols",
+          "category": "Crecimiento de personaje",
+          "description": "Derrotar a los Boss Idols desbloquea sus ramas de habilidades únicas, ampliando las opciones de configuración de Beat Kune Do para futuros encuentros."
+        },
+        {
+          "title": "Interacciones con Idols derrotados",
+          "category": "Historia",
+          "description": "Tras victorias clave, los antiguos compañeros de banda pueden aparecer en The Encore para que los jugadores profundicen en el contexto narrativo y los hilos de relación."
+        },
+        {
+          "title": "Rockola de The Encore",
+          "category": "Música",
+          "description": "El centro se vincula con los sistemas de música para que las pistas de My Music y las canciones personalizadas se sientan conectadas al flujo de tu lista de canciones personal."
+        },
+        {
+          "title": "Futuros coleccionables y moda",
+          "category": "Hoja de ruta",
+          "description": "Se planean actualizaciones de Early Access para añadir más artículos de vestuario, objetos de colección, recompensas y rutas de progresión coleccionables."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Preguntas frecuentes",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Todo lo que necesitas saber sobre Dead as Disco",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Es Dead as Disco un juego para un solo jugador?",
+        "answer": "Sí. Dead as Disco es actualmente una experiencia para un solo jugador centrada en el combate rítmico y las batallas contra jefes."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿En qué plataformas está disponible Dead as Disco?",
+        "answer": "Dead as Disco está disponible en PC a través de Steam Early Access. Es posible que llegue a otras plataformas en el futuro."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Cómo funciona el sistema de combate rítmico?",
+        "answer": "Todos los ataques, esquives y combos se sincronizan con la música. El ritmo perfecto inflige más daño y genera puntuaciones más altas."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Cuánto cuesta Dead as Disco?",
+        "answer": "El juego tiene su precio estándar de Steam. Consulta la tienda de Steam para ver los precios actuales."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Dead as Disco tiene soporte para controles?",
+        "answer": "Sí, el juego es compatible con controles, aunque el teclado y el mouse pueden ofrecer una mayor precisión para el combate rítmico."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Recibirá Dead as Disco actualizaciones después del lanzamiento?",
+        "answer": "Sí, los desarrolladores planean seguir actualizando el juego con nuevos Idols, canciones y funciones después del lanzamiento."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para dominar el ritmo de neón?",
+    "description": "Únete a la comunidad oficial de Dead as Disco para obtener guías, consejos de ritmo y actualizaciones sobre nuevos Idols y canciones.",
+    "joinCommunity": "Únete al Discord de Dead as Disco",
+    "joinGame": "Compra Dead as Disco en Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Wiki de Dead as Disco",
+    "description": "Tu centro de recursos completo para Idols, canciones, builds, desafíos y guías de ritmo de Dead as Disco.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
+    "youtube": "YouTube",
+    "reddit": "Reddit",
+    "steamCommunity": "Discusiones de Steam",
     "steamStore": "Tienda de Steam",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de Dead as Disco. No afiliado con Brain Jar Games.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans.",
+    "twitter": "Bluesky"
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "music": {
+      "title": "Música de Dead as Disco",
+      "description": "Guías oficiales de la banda sonora, listas de canciones, notas de BPM y flujos de trabajo de My Music para importaciones personalizadas.",
+      "metaTitle": "Música de Dead as Disco - Banda sonora, lista de canciones y My Music",
+      "metaDescription": "Explora la cobertura musical de Dead as Disco con detalles de la banda sonora, recomendaciones de canciones, notas de configuración de BPM y flujos de trabajo de importación de My Music.",
+      "categoryLabel": "CENTRO DE MÚSICA",
+      "whatIs": "¿Qué es la música?",
+      "whatIsDescription": "Esta sección cubre las pistas oficiales, los lanzamientos de la banda sonora, la estructura de las canciones y la configuración práctica para las importaciones personalizadas de My Music. Te ayuda a ajustar la sensación del ritmo, el flujo de las tablas y las preferencias de reproducción en los distintos modos de juego.",
+      "why": "¿Por qué usar guías de música?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Encuentra mejores pistas",
+        "step1Description": "Compara canciones oficiales e importaciones favoritas de los jugadores para diferentes tempos y estilos de juego",
+        "step2Title": "Ajusta el BPM correctamente",
+        "step2Description": "Usa notas de calibración para reducir el desfase del ritmo y mantener la consistencia en el tiempo de combate",
+        "step3Title": "Crea listas de reproducción personales",
+        "step3Description": "Organiza canciones para la práctica de la historia, sesiones de Infinite Disco y desafíos"
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "all": "Todos los artículos de música"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "mods": {
+      "title": "Mods de Dead as Disco",
+      "description": "Conceptos básicos de modding de My Music, procesos de canciones personalizadas, flujos de trabajo de skins y referencias de herramientas de la comunidad.",
+      "metaTitle": "Mods de Dead as Disco - My Music, canciones personalizadas y skins",
+      "metaDescription": "Lee las guías de mods de Dead as Disco para importaciones de My Music, configuración de canciones personalizadas, flujos de trabajo de skins, consejos de resolución de problemas y herramientas de la comunidad.",
+      "categoryLabel": "GUÍAS DE MODS",
+      "whatIs": "¿Qué son los mods?",
+      "whatIsDescription": "Los mods en esta wiki se centran en extensiones creadas por los jugadores, como canciones personalizadas, cambios visuales y herramientas de flujo de trabajo en torno a My Music. La categoría rastrea la lógica de configuración, la estructura de carpetas y las notas de compatibilidad para un juego estable.",
+      "why": "¿Por qué usar guías de mods?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Configura más rápido",
+        "step1Description": "Sigue rutas de instalación claras para paquetes de canciones, skins y archivos de soporte",
+        "step2Title": "Evita errores comunes",
+        "step2Description": "Usa patrones de resolución de problemas probados para desajustes de formato y problemas de sincronización",
+        "step3Title": "Expande el valor de rejugabilidad",
+        "step3Description": "Crea experiencias personalizadas que mantengan frescos los ciclos de desafío más allá de las pistas base"
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "all": "Todos los artículos de mods"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "platforms": {
+      "title": "Plataformas de Dead as Disco",
+      "description": "Steam, configuración de PC, comportamiento del control, ajuste de rendimiento y notas de compatibilidad de plataformas.",
+      "metaTitle": "Plataformas de Dead as Disco - Steam, especificaciones de PC y configuración de controles",
+      "metaDescription": "Consulta las guías de plataformas de Dead as Disco para obtener detalles de Steam, configuraciones de PC, soporte de controles, comportamiento en Steam Deck y consejos de compatibilidad.",
+      "categoryLabel": "INFORMACIÓN DE PLATAFORMAS",
+      "whatIs": "¿Qué son las plataformas?",
+      "whatIsDescription": "La categoría de Plataformas rastrea dónde y cómo puedes jugar, con notas prácticas de configuración para hardware, controles, opciones gráficas y entornos operativos. Se centra en la compatibilidad y la respuesta fluida de los comandos.",
+      "why": "¿Por qué consultar las guías de plataformas?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Confirma la compatibilidad",
+        "step1Description": "Verifica las opciones de lanzamiento, el soporte de controles y el comportamiento esperado en tu dispositivo",
+        "step2Title": "Mejora el rendimiento",
+        "step2Description": "Aplica configuraciones que estabilicen la cadencia de fotogramas y la legibilidad del ritmo",
+        "step3Title": "Prepárate antes de comprar",
+        "step3Description": "Usa las notas de plataforma para elegir la mejor configuración para la progresión a largo plazo"
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "all": "Todos los artículos de plataformas"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "price": {
+      "title": "Precio de Dead as Disco",
+      "description": "Costo del juego base, comparaciones de paquetes, precios de DLC y estrategias de compra en periodos de rebajas.",
+      "metaTitle": "Precio de Dead as Disco - Costo base, paquetes y descuentos",
+      "metaDescription": "Revisa los precios de Dead as Disco con el costo del juego base, opciones de paquetes, comparaciones de DLC y guía práctica para periodos de rebajas.",
+      "categoryLabel": "SEGUIMIENTO DE PRECIOS",
+      "whatIs": "¿Qué es el Precio?",
+      "whatIsDescription": "Esta sección recopila información de precios para el juego base, ediciones y contenido DLC relacionado. Te ayuda a comparar rutas de compra, entender las ofertas de lanzamiento y decidir cuándo vale la pena un paquete.",
+      "why": "¿Por qué seguir las guías de precios?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Compara rutas de compra",
+        "step1Description": "Mira cómo los costos del juego base, paquetes y DLC cambian el valor total",
+        "step2Title": "Planifica según los descuentos",
+        "step2Description": "Sigue los periodos típicos de promoción para evitar pagar de más",
+        "step3Title": "Compra según tu caso de uso",
+        "step3Description": "Elige la opción que coincida con tus objetivos de juego y necesidades de banda sonora"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de precios"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "release": {
+      "title": "Lanzamiento de Dead as Disco",
+      "description": "Cronología del lanzamiento en Early Access, resúmenes de parches, hitos de la hoja de ruta y seguimiento de versiones.",
+      "metaTitle": "Lanzamiento de Dead as Disco - Fechas, notas del parche y hoja de ruta",
+      "metaDescription": "Sigue la cobertura del lanzamiento de Dead as Disco, incluyendo fechas de Early Access, registros de actualización, aspectos destacados de parches e hitos de la hoja de ruta.",
+      "categoryLabel": "NOTICIAS DE LANZAMIENTO",
+      "whatIs": "¿Qué es el Lanzamiento?",
+      "whatIsDescription": "La cobertura del lanzamiento sigue los hitos desde el estreno en Early Access hasta las actualizaciones de la hoja de ruta, incluyendo aspectos destacados de parches y despliegue de funciones. Proporciona una cronología de los cambios en el juego que afectan las builds, canciones y estrategias de desafíos.",
+      "why": "¿Por qué seguir las notas de lanzamiento?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Conoce qué cambió",
+        "step1Description": "Lee resúmenes concisos de actualizaciones de equilibrio y despliegue de nuevas funciones",
+        "step2Title": "Ajusta tu estrategia",
+        "step2Description": "Actualiza las builds y elecciones de canciones cuando las mecánicas cambian entre parches",
+        "step3Title": "Sigue la dirección de la hoja de ruta",
+        "step3Description": "Planifica tu tiempo de juego en torno a los próximos modos, lanzamientos de contenido y actualizaciones importantes"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
-    },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
-      "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
-      },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de lanzamiento"
     }
   }
 }
