@@ -9,7 +9,7 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ja", "ko", "es"],
   "default_language": "en",
   "output_dir": "content/",
 

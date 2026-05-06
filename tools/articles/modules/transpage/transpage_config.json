@@ -17,7 +17,7 @@
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
+    "game_names": ["Dead as Disco"],
     "character_names": [],
     "technical_terms": [
       "Apotheosis",
@@ -36,14 +36,14 @@
   },
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Dead as Disco",
+    "ru": "Dead as Disco",
+    "pt": "Dead as Disco",
+    "de": "Dead as Disco",
+    "es": "Dead as Disco",
+    "ja": "Dead as Disco",
+    "ko": "Dead as Disco",
+    "fr": "Dead as Disco"
   },
 
   "lang_names": {
