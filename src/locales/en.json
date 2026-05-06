@@ -9,7 +9,13 @@
       "twitterDescription": "Explore Dead as Disco guides for idols, rhythm combat, skill builds, My Music setup, songs, challenges, cosmetics, updates, and beginner tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "music": "Music",
+    "mods": "Mods",
+    "platforms": "Platforms",
+    "price": "Price",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1121,125 +1127,105 @@
     "twitter": "Bluesky"
   },
   "pages": {
-    "guides": {
-      "title": "Dead as Disco Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced rhythm combat strategies. Master Idols and song challenges.",
-      "metaTitle": "Dead as Disco Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Dead as Disco guides covering beginner tips, rhythm combat, Idols strategies, and advanced techniques for mastering the neon rhythm beat 'em up.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering rhythm combat mechanics, Idol strategies, progression systems, and advanced techniques. Learn everything from basic timing to expert combos.",
-      "why": "Why read guides?",
+    "music": {
+      "title": "Dead as Disco Music",
+      "description": "Official soundtrack guides, song lists, BPM notes, and My Music workflows for custom imports.",
+      "metaTitle": "Dead as Disco Music - Soundtrack, Song List & My Music",
+      "metaDescription": "Explore Dead as Disco music coverage with soundtrack details, song recommendations, BPM setup notes, and My Music import workflows.",
+      "categoryLabel": "MUSIC HUB",
+      "whatIs": "What is Music?",
+      "whatIsDescription": "This section covers official tracks, soundtrack releases, song structure, and practical setup for My Music custom imports. It helps you match rhythm feel, chart flow, and playback preferences across game modes.",
+      "why": "Why use music guides?",
       "whySteps": {
-        "step1Title": "Master Rhythm Combat",
-        "step1Description": "Learn perfect timing, combos, and dodge mechanics for maximum effectiveness",
-        "step2Title": "Conquer Idols",
-        "step2Description": "Understand each Idol's patterns and develop strategies to defeat them",
-        "step3Title": "Optimize Your Build",
-        "step3Description": "Create the perfect skill setup for your playstyle and preferred strategies"
+        "step1Title": "Find Better Tracks",
+        "step1Description": "Compare official songs and player-favorite imports for different tempos and play styles",
+        "step2Title": "Tune BPM Correctly",
+        "step2Description": "Use calibration notes to reduce beat drift and keep combat timing consistent",
+        "step3Title": "Build Personal Setlists",
+        "step3Description": "Organize songs for Story practice, Infinite Disco sessions, and challenge runs"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Music Articles"
     },
-    "crafting": {
-      "title": "Dead as Disco Skills",
-      "description": "Master the skill tree system with combat abilities, movement upgrades, and custom builds for different playstyles.",
-      "metaTitle": "Dead as Disco Skills - Combat Abilities & Builds",
-      "metaDescription": "Master Dead as Disco skill tree system. Learn combat abilities, movement upgrades, and build strategies for creating the perfect rhythm fighter.",
-      "categoryLabel": "SKILL SYSTEM",
-      "whatIs": "What are Skills?",
-      "whatIsDescription": "The skill tree allows you to unlock and upgrade Charlie Disco's combat abilities, movement options, and special powers. Customize your playstyle through strategic upgrades.",
-      "why": "Why master skills?",
+    "mods": {
+      "title": "Dead as Disco Mods",
+      "description": "My Music modding basics, custom song pipelines, skin workflows, and community tool references.",
+      "metaTitle": "Dead as Disco Mods - My Music, Custom Songs & Skins",
+      "metaDescription": "Read Dead as Disco mod guides for My Music imports, custom song setup, skin workflows, troubleshooting tips, and community tools.",
+      "categoryLabel": "MOD GUIDES",
+      "whatIs": "What are Mods?",
+      "whatIsDescription": "Mods in this wiki focus on player-driven extensions such as custom songs, visual changes, and workflow tools around My Music. The category tracks setup logic, folder structure, and compatibility notes for stable play.",
+      "why": "Why use mod guides?",
       "whySteps": {
-        "step1Title": "Unlock Abilities",
-        "step1Description": "Access new combat moves and upgrade existing ones for more power",
-        "step2Title": "Customize Your Build",
-        "step2Description": "Create unique character builds focused on specific combat styles",
-        "step3Title": "Optimize Performance",
-        "step3Description": "Choose skills that complement your rhythm timing and combo strategies"
+        "step1Title": "Set Up Faster",
+        "step1Description": "Follow clear install paths for song packs, skins, and supporting files",
+        "step2Title": "Avoid Common Errors",
+        "step2Description": "Use tested troubleshooting patterns for format mismatches and timing issues",
+        "step3Title": "Expand Replay Value",
+        "step3Description": "Build custom experiences that keep challenge loops fresh beyond base tracks"
       },
       "featured": "Featured & Essential",
-      "all": "All Skill Guides"
+      "all": "All Mod Articles"
     },
-    "items": {
-      "title": "Dead as Disco Items",
-      "description": "Detailed guides covering equipment, power-ups, and collectibles with effects and usage strategies.",
-      "metaTitle": "Dead as Disco Items - Equipment & Collectibles",
-      "metaDescription": "Complete item database for Dead as Disco including equipment, power-ups, and collectibles. Learn effects and optimal usage strategies.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Guides for equipment, power-ups, and collectibles that enhance your rhythm combat performance. Learn effects and optimal strategies for each item type.",
-      "why": "Why check item guides?",
+    "platforms": {
+      "title": "Dead as Disco Platforms",
+      "description": "Steam, PC setup, controller behavior, performance tuning, and platform compatibility notes.",
+      "metaTitle": "Dead as Disco Platforms - Steam, PC Specs & Controller Setup",
+      "metaDescription": "Check Dead as Disco platform guides for Steam details, PC settings, controller support, Steam Deck behavior, and compatibility advice.",
+      "categoryLabel": "PLATFORM INFO",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "The Platforms category tracks where and how you can play, with practical setup notes for hardware, controls, graphics options, and operating environments. It is focused on compatibility and smooth input response.",
+      "why": "Why check platform guides?",
       "whySteps": {
-        "step1Title": "Enhance Combat",
-        "step1Description": "Find and use items that boost your attack power and rhythm effectiveness",
-        "step2Title": "Collect Special Items",
-        "step2Description": "Gather unique collectibles that provide special abilities and bonuses",
-        "step3Title": "Optimize Loadout",
-        "step3Description": "Choose the best combination of items for your build and playstyle"
+        "step1Title": "Confirm Compatibility",
+        "step1Description": "Verify launch options, controller support, and expected behavior on your device",
+        "step2Title": "Improve Performance",
+        "step2Description": "Apply settings that stabilize frame pacing and rhythm readability",
+        "step3Title": "Prepare Before Buying",
+        "step3Description": "Use platform notes to choose the best setup for long-term progression"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Platform Articles"
     },
-    "biomes": {
-      "title": "Dead as Disco Worlds",
-      "description": "Explore game worlds, environments, and stages with unique challenges and rhythm patterns.",
-      "metaTitle": "Dead as Disco Worlds - Environments & Stages",
-      "metaDescription": "Explore Dead as Disco worlds including story stages, challenge arenas, and special environments. Discover unique rhythm patterns and challenges.",
-      "categoryLabel": "GAME WORLDS",
-      "whatIs": "What are Worlds?",
-      "whatIsDescription": "Guides to different game worlds, environments, and stages. Each area features unique rhythm patterns, enemies, and challenges that require different strategies.",
-      "why": "Why explore worlds?",
+    "price": {
+      "title": "Dead as Disco Price",
+      "description": "Base game cost, bundle comparisons, DLC pricing, and sale-window buying strategies.",
+      "metaTitle": "Dead as Disco Price - Base Cost, Bundles & Discounts",
+      "metaDescription": "Review Dead as Disco pricing with base game cost, bundle options, DLC comparisons, and practical guidance for sale windows.",
+      "categoryLabel": "PRICE TRACKER",
+      "whatIs": "What is Price?",
+      "whatIsDescription": "This section collects pricing information for the base game, editions, and related DLC content. It helps you compare purchase paths, understand launch offers, and decide when a bundle is worth it.",
+      "why": "Why follow price guides?",
       "whySteps": {
-        "step1Title": "Discover New Patterns",
-        "step1Description": "Experience different rhythm styles and adapt your combat accordingly",
-        "step2Title": "Find Unique Challenges",
-        "step2Description": "Each world offers special challenges and exclusive content",
-        "step3Title": "Master Environments",
-        "step3Description": "Learn the unique mechanics and visual cues of each stage"
+        "step1Title": "Compare Purchase Paths",
+        "step1Description": "See how base game, bundle, and DLC costs change total value",
+        "step2Title": "Plan Around Discounts",
+        "step2Description": "Track typical promotion windows to avoid overpaying",
+        "step3Title": "Buy for Your Use Case",
+        "step3Description": "Pick the option that matches your play goals and soundtrack needs"
       },
       "featured": "Featured & Essential",
-      "all": "All Worlds"
+      "all": "All Price Articles"
     },
-    "building": {
-      "title": "Dead as Disco Customization",
-      "description": "Master character customization, visual options, and personal settings for your rhythm experience.",
-      "metaTitle": "Dead as Disco Customization - Visuals & Settings",
-      "metaDescription": "Master Dead as Disco customization with character outfits, visual effects, gameplay settings, and accessibility options.",
-      "categoryLabel": "CUSTOMIZATION",
-      "whatIs": "What is Customization?",
-      "whatIsDescription": "Guides to character customization, visual options, gameplay settings, and accessibility features. Personalize your Dead as Disco experience.",
-      "why": "Why customize?",
+    "release": {
+      "title": "Dead as Disco Release",
+      "description": "Early Access launch timeline, patch summaries, roadmap milestones, and version tracking.",
+      "metaTitle": "Dead as Disco Release - Dates, Patch Notes & Roadmap",
+      "metaDescription": "Follow Dead as Disco release coverage including Early Access dates, update logs, patch highlights, and roadmap milestones.",
+      "categoryLabel": "RELEASE NEWS",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "Release coverage tracks milestones from Early Access launch to roadmap updates, including patch highlights and feature rollouts. It provides a timeline for gameplay changes that affect builds, songs, and challenge strategy.",
+      "why": "Why track release notes?",
       "whySteps": {
-        "step1Title": "Personalize Appearance",
-        "step1Description": "Choose outfits and visual effects to make Charlie Disco unique",
-        "step2Title": "Optimize Settings",
-        "step2Description": "Configure game options for the best rhythm performance and comfort",
-        "step3Title": "Accessibility Options",
-        "step3Description": "Adjust settings to suit different needs and play preferences"
+        "step1Title": "Know What Changed",
+        "step1Description": "Read concise summaries of balance updates and new feature rollouts",
+        "step2Title": "Adjust Your Strategy",
+        "step2Description": "Update builds and song choices when mechanics shift between patches",
+        "step3Title": "Follow Roadmap Direction",
+        "step3Description": "Plan playtime around upcoming modes, content drops, and major updates"
       },
       "featured": "Featured & Essential",
-      "all": "All Customization"
-    },
-    "support": {
-      "title": "Dead as Disco Support",
-      "description": "Technical support, performance guides, troubleshooting, and community resources.",
-      "metaTitle": "Dead as Disco Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Dead as Disco including performance optimization, crash fixes, controller settings, and community resources.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering performance optimization, troubleshooting, controller setup, and community resources. Get help with Dead as Disco technical issues.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best rhythm gaming experience",
-        "step3Title": "Get Community Help",
-        "step3Description": "Connect with other players for tips and troubleshooting advice"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Release Articles"
     }
   }
 }

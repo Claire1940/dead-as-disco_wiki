@@ -11,12 +11,11 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "music": "Music",
+    "mods": "Mods",
+    "platforms": "Platforms",
+    "price": "Price",
+    "release": "Release"
   },
   "common": {
     "home": "Главная",

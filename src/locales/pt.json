@@ -11,12 +11,11 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "music": "Music",
+    "mods": "Mods",
+    "platforms": "Platforms",
+    "price": "Price",
+    "release": "Release"
   },
   "common": {
     "home": "Início",

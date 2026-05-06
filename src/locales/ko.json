@@ -11,12 +11,11 @@
     }
   },
   "nav": {
-    "guides": "가이드",
-    "crafting": "제작",
-    "items": "아이템",
-    "biomes": "바이옴",
-    "building": "건설",
-    "support": "지원"
+    "music": "Music",
+    "mods": "Mods",
+    "platforms": "Platforms",
+    "price": "Price",
+    "release": "Release"
   },
   "common": {
     "home": "홈",

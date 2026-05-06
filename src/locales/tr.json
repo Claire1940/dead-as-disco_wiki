@@ -11,12 +11,11 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "music": "Music",
+    "mods": "Mods",
+    "platforms": "Platforms",
+    "price": "Price",
+    "release": "Release"
   },
   "common": {
     "home": "Ana Sayfa",
