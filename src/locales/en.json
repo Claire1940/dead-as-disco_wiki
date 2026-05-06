@@ -56,48 +56,88 @@
   },
   "tools": {
     "title": "Dead as Disco",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to master rhythm combat, Idols, songs, and challenges",
+    "titleHighlight": "Module Navigation",
+    "subtitle": "Jump to every homepage section for updates, combat, songs, builds, and platform guides",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, demo tips, and early progression"
+        "title": "Dead as Disco Beginner Guide",
+        "description": "First-session path, rhythm basics, and early progression priorities"
       },
       {
         "icon": "Zap",
-        "title": "Rhythm Combat",
-        "description": "Master music-synced attacks, dodges, and combos"
+        "title": "Dead as Disco Combat Guide",
+        "description": "Beat Kune Do fundamentals, defense timing, and damage flow"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Dead as Disco Controls and Moves",
+        "description": "Core actions, unlockable moves, and controller-friendly play notes"
+      },
+      {
+        "icon": "Clock",
+        "title": "Dead as Disco Release Date, Patch Notes and Roadmap",
+        "description": "Early Access timeline, launch notes, and planned updates"
       },
       {
         "icon": "Users",
-        "title": "Idols",
-        "description": "Boss fights, strategies, and unique mechanics"
+        "title": "Dead as Disco Boss Idols Guide",
+        "description": "Idol roles, fight identity, and boss planning checkpoints"
       },
       {
-        "icon": "TreePine",
-        "title": "Skill Builds",
-        "description": "Skill trees, abilities, and optimal progression"
+        "icon": "Star",
+        "title": "Dead as Disco Best Skills and Abilities",
+        "description": "Skill priorities for survivability, control, and score consistency"
       },
       {
-        "icon": "Music",
-        "title": "Songs",
-        "description": "Official soundtrack, custom challenges, and My Music"
+        "icon": "Eye",
+        "title": "Dead as Disco Story Levels Walkthrough",
+        "description": "Current campaign flow, level order, and narrative progression notes"
       },
       {
         "icon": "Infinity",
-        "title": "Infinite Disco",
-        "description": "Endless mode, leaderboards, and high scores"
+        "title": "Dead as Disco Infinite Disco Guide",
+        "description": "Replay loop, challenge formats, and leaderboard-focused practice"
       },
       {
-        "icon": "Puzzle",
-        "title": "Challenges",
-        "description": "Song challenges, achievements, and special modes"
+        "icon": "Music",
+        "title": "Dead as Disco My Music Custom Songs",
+        "description": "Import workflow, BPM setup, and custom song calibration tips"
+      },
+      {
+        "icon": "Download",
+        "title": "Dead as Disco Soundtrack and Streamer Safe Mode",
+        "description": "Official tracks, creator-safe playback, and DLC music coverage"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Dead as Disco Steam Deck Guide",
+        "description": "Deck setup, controller behavior, and practical platform notes"
+      },
+      {
+        "icon": "Package",
+        "title": "Dead as Disco Demo, Price and Editions",
+        "description": "Demo availability, store editions, and purchase planning"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Dead as Disco Co-op Multiplayer Status",
+        "description": "Current single-player state and future multiplayer expectations"
       },
       {
         "icon": "Settings",
-        "title": "Customization",
-        "description": "Cosmetics, settings, and personalization"
+        "title": "Dead as Disco Mods and Custom Skins",
+        "description": "Mod scene status, cosmetic customization, and UGC direction"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Dead as Disco Characters and Enemies",
+        "description": "Character index, enemy roles, and faction context"
+      },
+      {
+        "icon": "Home",
+        "title": "Dead as Disco The Encore Collectibles and Cosmetics",
+        "description": "Hub progression, memorabilia, and style unlock tracking"
       }
     ]
   },
@@ -331,6 +371,536 @@
           "name": "Audio Settings",
           "role": "Sound",
           "description": "Adjust music volume, effects, and rhythm indicators for optimal experience."
+        }
+      ]
+    },
+    "lucidBlocksBeginnerGuide": {
+      "title": "Dead as Disco Beginner Guide",
+      "intro": "Start with a clean first-hour plan: learn timing, clear Story Mode basics, then use Infinite Disco and My Music when your rhythm control is stable.",
+      "steps": [
+        {
+          "title": "Start with the demo or Early Access build",
+          "description": "Use the demo to feel Beat Kune Do timing quickly, then move to Early Access for full progression systems."
+        },
+        {
+          "title": "Complete the tutorial before score chasing",
+          "description": "Treat the tutorial as mandatory calibration for attack cadence, defensive rhythm, and combo pacing."
+        },
+        {
+          "title": "Use Story Mode as your learning path",
+          "description": "Story levels teach encounter flow and Idol pressure better than random challenge hopping."
+        },
+        {
+          "title": "Prioritize survival over perfect rhythm",
+          "description": "If timing slips, keep movement clean and protect your health before forcing advanced sequences."
+        },
+        {
+          "title": "Spend fan power on practical upgrades",
+          "description": "Pick survivability and reliable damage nodes first so each run feels steadier and less volatile."
+        },
+        {
+          "title": "Check The Encore between milestones",
+          "description": "Return to the hub to manage unlocks, collect progress items, and follow narrative beats."
+        },
+        {
+          "title": "Practice loops in Infinite Disco",
+          "description": "Use challenge runs to isolate weak habits and rebuild consistency without restarting campaign stages."
+        },
+        {
+          "title": "Import custom songs after core mastery",
+          "description": "My Music works best once you can recognize timing drift and calibrate BPM settings confidently."
+        }
+      ],
+      "quickTips": [
+        "Early Access released on May 5, 2026, so post-launch systems are already playable now.",
+        "Use short sessions focused on dodge timing to improve faster than long unfocused grinding.",
+        "The first Idol fights are better training tools than raw score farming in your first hours.",
+        "Treat official songs as calibration baselines before importing custom tracks."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Dead as Disco Combat Guide",
+      "intro": "Beat Kune Do rewards controlled rhythm. Build fight consistency through readable patterns, defensive timing, and deliberate resource usage.",
+      "cards": [
+        {
+          "name": "Anchor your inputs to the beat",
+          "description": "Use a stable rhythm loop for attacks and dodges instead of mashing through visual noise."
+        },
+        {
+          "name": "Recover calmly after timing misses",
+          "description": "One missed beat is recoverable. Re-center movement and restart with low-risk actions."
+        },
+        {
+          "name": "Use perfect defense for momentum swings",
+          "description": "Clean dodge and counter timing creates space, resets pressure, and opens safer damage windows."
+        },
+        {
+          "name": "Spend takedowns at pressure peaks",
+          "description": "Use finishers when crowds collapse on you or when elite enemies threaten your run stability."
+        },
+        {
+          "name": "Route upgrades around your weak points",
+          "description": "If survival fails, take durability nodes first; if pace stalls, invest in combo extension tools."
+        },
+        {
+          "name": "Use Idol abilities for crowd control",
+          "description": "Knockback and disruption tools matter most when enemy density makes perfect rhythm harder to maintain."
+        },
+        {
+          "name": "Treat burst skills as finish windows",
+          "description": "Hold high-impact skills until enemy patterns are committed and punishment opportunities are clear."
+        },
+        {
+          "name": "Read each Idol fight language first",
+          "description": "Every Idol encounter has distinct cadence and spacing rules, so first attempts should gather pattern data."
+        }
+      ],
+      "milestones": [
+        "Land five clean defensive timings in one run",
+        "Clear a challenge without panic mashing",
+        "Convert one defensive opening into a full burst cycle",
+        "Finish an Idol phase with stable rhythm control"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Dead as Disco Controls and Moves",
+      "intro": "Focus on move purpose before memorizing button labels. This list tracks what each action does and when it provides value in real combat.",
+      "items": [
+        {
+          "name": "Basic Attack Combo",
+          "type": "Core Action",
+          "description": "Primary pressure chain for maintaining rhythm presence and damage uptime."
+        },
+        {
+          "name": "Dodge",
+          "type": "Core Action",
+          "description": "Main survival tool for repositioning and setting up safe counterplay timing."
+        },
+        {
+          "name": "Perfect Counter",
+          "type": "Timed Defense",
+          "description": "High-value defensive response that turns enemy commitment into your tempo advantage."
+        },
+        {
+          "name": "Takedown",
+          "type": "Finisher",
+          "description": "Resource-based elimination move best saved for dangerous enemies or crowd resets."
+        },
+        {
+          "name": "Windmill Kick",
+          "type": "Skill Tree Unlock",
+          "description": "Charged offensive option that adds burst pressure when openings are confirmed."
+        },
+        {
+          "name": "Drumstick Throw",
+          "type": "Ranged Unlock",
+          "description": "Range check tool for tagging targets before committing to close-range sequences."
+        },
+        {
+          "name": "Drumstick Follow-Up",
+          "type": "Gap Closer",
+          "description": "Instant re-entry option that converts ranged contact into direct melee pressure."
+        },
+        {
+          "name": "Fever Rush",
+          "type": "Burst Skill",
+          "description": "Momentum skill for fast punish windows after enemy rhythm patterns are recognized."
+        },
+        {
+          "name": "Bass Invader",
+          "type": "Idol Ability",
+          "description": "Knockback-style Idol power for lane control and defensive breathing room."
+        },
+        {
+          "name": "Selectable Dances",
+          "type": "Planned Update",
+          "description": "Customization-focused additions scheduled in roadmap updates for style variation."
+        },
+        {
+          "name": "On-Press Attack Option",
+          "type": "Accessibility Plan",
+          "description": "Planned input behavior option intended to improve control comfort for more players."
+        },
+        {
+          "name": "Steam Deck and Controller Support",
+          "type": "Platform Support",
+          "description": "Controller and Deck-friendly setup with per-device binding checks in settings."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Dead as Disco Release Date, Patch Notes and Roadmap",
+      "intro": "Track what is live now, what changed at launch, and which roadmap beats matter most for gameplay planning.",
+      "solutions": [
+        {
+          "name": "Early Access Launch",
+          "role": "May 5, 2026",
+          "description": "The Early Access build is live on PC storefronts, including core story and progression systems."
+        },
+        {
+          "name": "Launch Content Scope",
+          "role": "Playable Now",
+          "description": "Launch includes early Story Mode levels, launch Idols, The Encore, Infinite Disco, and My Music."
+        },
+        {
+          "name": "Launch Patch Notes",
+          "role": "Published",
+          "description": "Initial notes emphasize progression tuning, challenge systems, optimization, and platform readiness."
+        },
+        {
+          "name": "Known Issues Window",
+          "role": "Hotfix Phase",
+          "description": "Early hotfixes target custom song behavior, arena display issues, and challenge-state edge cases."
+        },
+        {
+          "name": "Update 1",
+          "role": "June 2026",
+          "description": "Planned focus on Infinite Disco and My Music expansion, including playlist and arena improvements."
+        },
+        {
+          "name": "Update 2",
+          "role": "Midsummer 2026",
+          "description": "Planned focus on customization depth, collectible additions, and balance-oriented ability tuning."
+        },
+        {
+          "name": "Update 3",
+          "role": "Late Summer 2026",
+          "description": "Planned XL patch adding a new Idol arc, music content, fresh enemies, and progression additions."
+        },
+        {
+          "name": "Road to 1.0",
+          "role": "2027 Target",
+          "description": "Future festivals and major updates are planned to converge into the full launch narrative arc."
+        }
+      ],
+      "managementTips": [
+        "If a system behaves unexpectedly after launch, check the latest official patch note before reworking your setup.",
+        "Treat roadmap dates as planning anchors for build resets and new challenge practice cycles.",
+        "Prioritize currently playable loops instead of waiting for future content drops.",
+        "Use launch patch changes to update your upgrade path and preferred challenge routing."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Dead as Disco Boss Idols Guide",
+      "intro": "Use this module as a role-based Idol index to prep encounters and understand how each fight pressures your rhythm decisions.",
+      "cards": [
+        {
+          "name": "Hemlock",
+          "description": "Foundational Idol encounter that teaches spacing discipline and stable rhythm defense."
+        },
+        {
+          "name": "Arora",
+          "description": "Projectile-heavy pacing that tests movement timing and lane awareness under pressure."
+        },
+        {
+          "name": "Dex",
+          "description": "Tempo-shifting pressure patterns that reward patience and measured counter windows."
+        },
+        {
+          "name": "Prophet",
+          "description": "High-intensity phases where pattern recognition and cooldown control define consistency."
+        }
+      ],
+      "highlights": [
+        "Launch Idol lineup",
+        "Encounter rhythm mapping",
+        "Ability unlock context",
+        "Future Idol expansion"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Dead as Disco Best Skills and Abilities",
+      "intro": "Build priorities should solve real gameplay problems: survival stability, crowd control, and reliable burst timing.",
+      "regions": [
+        {
+          "name": "Beginner Stability Build",
+          "type": "Starter",
+          "description": "Health, defense timing, and safe combo extensions for consistent clear rates."
+        },
+        {
+          "name": "Crowd Control Build",
+          "type": "Control",
+          "description": "Knockback and area pressure tools that reduce chaos in dense challenge waves."
+        },
+        {
+          "name": "Burst Punish Build",
+          "type": "Damage",
+          "description": "Cooldown and damage synergies tuned for clean punish windows on Idol phases."
+        },
+        {
+          "name": "Score Consistency Build",
+          "type": "Optimization",
+          "description": "Timing reinforcement and flow-preserving upgrades for leaderboard-oriented runs."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Dead as Disco Story Levels Walkthrough",
+      "intro": "Current campaign content is best approached as a progression ladder: learn patterns, unlock tools, then optimize rhythm execution.",
+      "creatures": [
+        {
+          "name": "Opening Story Sequence",
+          "role": "Campaign Start",
+          "description": "Establishes tutorial rhythm, movement cadence, and initial encounter structure."
+        },
+        {
+          "name": "Mid-Progression Routes",
+          "role": "Core Progress",
+          "description": "Expands enemy variety and pacing while introducing denser challenge conditions."
+        },
+        {
+          "name": "Idol Gate Encounters",
+          "role": "Major Threat",
+          "description": "Boss-focused checkpoints that require stronger defensive timing and ability routing."
+        },
+        {
+          "name": "Encore Return Loops",
+          "role": "Progression Hub",
+          "description": "Hub interactions that connect story advancement, unlock management, and collectible tracking."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Dead as Disco Infinite Disco Guide",
+      "intro": "Infinite Disco is the long-term replay engine for practicing rhythm control, experimenting with modifiers, and improving leaderboard results.",
+      "items": [
+        {
+          "name": "Song Challenges",
+          "type": "Challenge Mode",
+          "description": "Structured objectives that sharpen consistency on fixed tracks and encounter patterns."
+        },
+        {
+          "name": "Free Play Setup",
+          "type": "Custom Mode",
+          "description": "Flexible challenge assembly using arenas, objectives, and selected gameplay modifiers."
+        },
+        {
+          "name": "Leaderboard Routes",
+          "type": "Competition",
+          "description": "Score-driven loops focused on clean execution, uptime, and efficient ability timing."
+        },
+        {
+          "name": "Arena Variants",
+          "type": "Environment",
+          "description": "Different arena conditions that reshape spacing decisions and pressure management."
+        }
+      ],
+      "unlockMilestones": [
+        "Clear your first custom challenge",
+        "Post a global leaderboard score",
+        "Finish a no-reset practice session",
+        "Stabilize a high-density wave sequence"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Dead as Disco My Music Custom Songs",
+      "intro": "Custom songs add replay depth, but setup quality determines playability. Use a repeatable import and calibration workflow.",
+      "sections": [
+        {
+          "name": "Import Local Tracks",
+          "description": "Add compatible local audio files and validate that metadata and playback are recognized."
+        },
+        {
+          "name": "Set BPM and Offset",
+          "description": "Calibrate rhythm alignment so dodge and attack cues match audible beat timing."
+        },
+        {
+          "name": "Create Custom Challenges",
+          "description": "Apply objectives and arena settings after timing feels stable on the selected track."
+        },
+        {
+          "name": "Refine with Replay",
+          "description": "Run short test loops and adjust calibration until defensive timing feels naturally synced."
+        }
+      ],
+      "growthMilestones": [
+        "First successful custom import",
+        "Clean calibration on one full track",
+        "Custom challenge shared with stable timing",
+        "Consistent combo routing on imported songs"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Dead as Disco Soundtrack and Streamer Safe Mode",
+      "intro": "Organize music options by creator needs: official track coverage, streamer-safe playback, and soundtrack package choices.",
+      "priorities": [
+        {
+          "name": "Official Song Library",
+          "priority": "Essential",
+          "description": "Core in-game tracks that define encounter pacing and progression flow."
+        },
+        {
+          "name": "Streamer Safe Mode",
+          "priority": "Very High",
+          "description": "Creator-focused playback option for safer broadcasting and archive workflows."
+        },
+        {
+          "name": "Soundtrack DLC Overview",
+          "priority": "High",
+          "description": "Package-level guidance for players collecting official music releases."
+        },
+        {
+          "name": "Music Platform Rollout",
+          "priority": "High",
+          "description": "Track external soundtrack publishing windows and catalog updates over time."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Dead as Disco Steam Deck Guide",
+      "intro": "Use this platform checklist to configure Deck and controller play with fewer setup surprises.",
+      "groups": [
+        {
+          "name": "Deck Setup Checklist",
+          "achievements": [
+            {
+              "title": "Verify Control Layout",
+              "description": "Confirm bindings for attack, dodge, ability, and menu navigation before long runs."
+            },
+            {
+              "title": "Tune Performance Profile",
+              "description": "Balance frame pacing and battery settings for smooth rhythm readability."
+            },
+            {
+              "title": "Check Audio Latency",
+              "description": "Validate output timing to keep beat-aligned defensive reactions consistent."
+            }
+          ]
+        },
+        {
+          "name": "Custom Song Practical Notes",
+          "achievements": [
+            {
+              "title": "Validate File Path Access",
+              "description": "Ensure local import paths are reachable on your current platform setup."
+            },
+            {
+              "title": "Recalibrate BPM After Device Changes",
+              "description": "Re-test timing after switching output devices or controller profiles."
+            },
+            {
+              "title": "Save a Stable Baseline Preset",
+              "description": "Keep one known-good settings profile for quick recovery after experiments."
+            }
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Dead as Disco Demo, Price and Editions",
+      "intro": "Use this quick FAQ to decide whether to start with the demo, buy now, or compare editions first.",
+      "faqs": [
+        {
+          "question": "Is a playable demo available right now?",
+          "answer": "Yes, a demo build is available, so you can test timing and combat feel before committing to a purchase."
+        },
+        {
+          "question": "What does Early Access include at launch?",
+          "answer": "Launch content already includes story progression, Idol encounters, challenge modes, and customization loops."
+        },
+        {
+          "question": "Should new players buy immediately or start with demo?",
+          "answer": "If you are unsure about rhythm-combat fit, begin with the demo and move to Early Access once controls feel comfortable."
+        },
+        {
+          "question": "Are soundtrack or bundle options worth checking?",
+          "answer": "Players who value music collection and creator workflows should compare available soundtrack and bundle listings."
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Dead as Disco Co-op Multiplayer Status",
+      "intro": "Current play is centered on solo progression and challenge loops, with community attention on future multiplayer direction.",
+      "faqs": [
+        {
+          "question": "Is the current build single-player?",
+          "answer": "The present gameplay experience is designed around solo rhythm-combat progression."
+        },
+        {
+          "question": "Can you play co-op right now?",
+          "answer": "Co-op is not currently a live gameplay mode in the Early Access build."
+        },
+        {
+          "question": "Is multiplayer being discussed for future updates?",
+          "answer": "Future roadmap conversations include ongoing feature expansion, and players continue to watch for multiplayer announcements."
+        },
+        {
+          "question": "What should group-focused players do for now?",
+          "answer": "Track roadmap updates while using challenge leaderboards and community events as shared progression goals."
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Dead as Disco Mods and Custom Skins",
+      "intro": "Mod and skin interest is growing during Early Access. Use this section to track what is practical now and what is expected to evolve.",
+      "settings": [
+        {
+          "name": "Current Mod Scene Snapshot",
+          "type": "Status",
+          "description": "Community experimentation exists, with practical usage varying by update cycle."
+        },
+        {
+          "name": "Custom Skin Interest",
+          "type": "Cosmetics",
+          "description": "Style-focused players continue exploring appearance customization opportunities."
+        },
+        {
+          "name": "UGC Expansion Watchlist",
+          "type": "Roadmap",
+          "description": "Future update beats may broaden creation workflows and community challenge formats."
+        },
+        {
+          "name": "Safe Modding Practice",
+          "type": "Best Practice",
+          "description": "Keep backups of settings and progress states before testing new customization setups."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Dead as Disco Characters and Enemies",
+      "intro": "Use this rolling index to track character roles, enemy pressure types, and narrative context as the roster expands.",
+      "entries": [
+        {
+          "type": "Protagonist",
+          "title": "Charlie Disco",
+          "description": "Central playable character whose rhythm mastery drives combat pacing and story progression."
+        },
+        {
+          "type": "Idols",
+          "title": "Launch Idol Lineup",
+          "description": "Hemlock, Arora, Dex, and Prophet define the opening boss identity and encounter cadence."
+        },
+        {
+          "type": "Faction",
+          "title": "Harmony Corp Context",
+          "description": "Narrative framing layer connecting spectacle, conflict, and the Idol-focused storyline."
+        },
+        {
+          "type": "Enemy Role",
+          "title": "Crowd and Elite Pressure",
+          "description": "Enemy groups are structured to test spacing, timing recovery, and multi-target control."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Dead as Disco The Encore Collectibles and Cosmetics",
+      "intro": "The Encore links progression with style rewards, memorabilia, and hub restoration pacing between major encounters.",
+      "steps": [
+        {
+          "title": "Return to The Encore after milestones",
+          "description": "Check unlocked interactions and progression rewards after major story or challenge clears."
+        },
+        {
+          "title": "Track memorabilia and collectible sets",
+          "description": "Use repeatable runs to complete set goals tied to narrative and cosmetic progression."
+        },
+        {
+          "title": "Prioritize practical cosmetic unlock routes",
+          "description": "Balance style unlock goals with upgrades that still improve encounter consistency."
+        },
+        {
+          "title": "Revisit hub systems after major patches",
+          "description": "Update cycles can add new collectible paths and fresh customization opportunities."
         }
       ]
     }

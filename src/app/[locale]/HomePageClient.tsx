@@ -44,28 +44,16 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 
 // Conditionally render text as a link or plain span
 function LinkedTitle({
-  linkData,
+  linkData: _linkData,
   children,
-  className,
-  locale,
+  className: _className,
+  locale: _locale,
 }: {
   linkData: { url: string; title: string } | null | undefined
   children: React.ReactNode
   className?: string
   locale: string
 }) {
-  if (linkData) {
-    const href = locale === 'en' ? linkData.url : `/${locale}${linkData.url}`
-    return (
-      <Link
-        href={href}
-        className={`${className || ''} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
-        title={linkData.title}
-      >
-        {children}
-      </Link>
-    )
-  }
   return <>{children}</>
 }
 
@@ -338,9 +326,13 @@ export default function HomePageClient({
               const sectionId = sectionIds[index]
 
               return (
-                <button
+                <a
                   key={index}
-                  onClick={() => scrollToSection(sectionId)}
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault()
+                    scrollToSection(sectionId)
+                  }}
                   className="scroll-reveal group p-6 rounded-xl border border-border
                              bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
                              transition-all duration-300 cursor-pointer text-left
@@ -359,7 +351,7 @@ export default function HomePageClient({
                   </div>
                   <h3 className="font-semibold mb-2">{card.title}</h3>
                   <p className="text-sm text-muted-foreground">{card.description}</p>
-                </button>
+                </a>
               )
             })}
           </div>
@@ -678,7 +670,7 @@ export default function HomePageClient({
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.16)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{p.priority}</span>
+                  <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.16)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-[hsl(var(--nav-theme-light)/0.12)] border-[hsl(var(--nav-theme-light)/0.35)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{p.priority}</span>
                 </div>
                 <h3 className="font-bold mb-2">
                   <LinkedTitle linkData={moduleLinkMap[`lucidBlocksBestEarlyUnlocks::priorities::${index}`]} locale={locale}>
@@ -858,11 +850,11 @@ export default function HomePageClient({
               </div>
             ))}
           </div>
-          <div className="scroll-reveal p-6 bg-yellow-500/10 border border-yellow-500/30 rounded-xl">
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme-light)/0.1)] border border-[hsl(var(--nav-theme-light)/0.3)] rounded-xl">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" />
+              <AlertTriangle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-yellow-400 mb-2">Still having issues?</h3>
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">Still having issues?</h3>
                 <p className="text-sm text-muted-foreground mb-3">Report bugs with your logs through the official channels:</p>
                 <div className="flex flex-wrap gap-3">
                   <a href="https://discord.gg/deadasdisco" target="_blank" rel="noopener noreferrer"
