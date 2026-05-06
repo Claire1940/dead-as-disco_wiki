@@ -738,93 +738,130 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Dead as Disco My Music Custom Songs",
-      "intro": "Custom songs add replay depth, but setup quality determines playability. Use a repeatable import and calibration workflow.",
+      "intro": "Use My Music to bring local tracks into Infinite Disco, then tune BPM and beat offset so attacks land on rhythm.",
       "sections": [
         {
-          "name": "Import Local Tracks",
-          "description": "Add compatible local audio files and validate that metadata and playback are recognized."
+          "name": "Step 1: Prepare a local MP3",
+          "description": "Choose a clean file with a steady pulse. Songs with long silence, heavy tempo shifts, or messy intros are harder to sync."
         },
         {
-          "name": "Set BPM and Offset",
-          "description": "Calibrate rhythm alignment so dodge and attack cues match audible beat timing."
+          "name": "Step 2: Open Infinite Disco and import",
+          "description": "Go to Infinite Disco, switch to Free Play, and use Add My Music or Import Song to load your local track."
         },
         {
-          "name": "Create Custom Challenges",
-          "description": "Apply objectives and arena settings after timing feels stable on the selected track."
+          "name": "Step 3: Save the track before deep edits",
+          "description": "Save the imported song into your list first so testing and retries stay quick and organized."
         },
         {
-          "name": "Refine with Replay",
-          "description": "Run short test loops and adjust calibration until defensive timing feels naturally synced."
+          "name": "Step 4: Set BPM before anything else",
+          "description": "Enter the known BPM or tap it manually in the song editor. Start with whole-number BPM values for the cleanest baseline."
+        },
+        {
+          "name": "Step 5: Adjust beat offset",
+          "description": "If timing feels close but early or late, adjust Beat Offset after BPM is set. Offset is mainly for delayed intros and start silence."
+        },
+        {
+          "name": "Step 6: Fine tune with the advanced editor",
+          "description": "Use waveform view, metronome, and short replay loops. If beat lines drift over time, recheck BPM or switch to a steadier song."
         }
       ],
       "growthMilestones": [
-        "First successful custom import",
-        "Clean calibration on one full track",
-        "Custom challenge shared with stable timing",
-        "Consistent combo routing on imported songs"
+        "Song feels too fast or too slow: recheck BPM, then test half or double BPM if needed.",
+        "Beat feels slightly early or late: keep BPM and adjust Beat Offset in small steps.",
+        "Timing breaks after intro silence: trim the start or offset to the first clear beat.",
+        "Sync drifts over time: BPM is likely wrong or the song has tempo variation.",
+        "Import fails or sounds broken: re-export as a standard MP3 and import again."
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Dead as Disco Soundtrack and Streamer Safe Mode",
-      "intro": "Organize music options by creator needs: official track coverage, streamer-safe playback, and soundtrack package choices.",
+      "intro": "Dead as Disco includes original tracks, licensed songs, covers, and creator-focused safety options. Use this comparison to pick the right listening setup.",
       "priorities": [
         {
-          "name": "Official Song Library",
+          "name": "In-game music library",
           "priority": "Essential",
-          "description": "Core in-game tracks that define encounter pacing and progression flow."
+          "description": "Includes original songs, streamer-safe originals, covers, and licensed tracks used in rhythm combat."
         },
         {
           "name": "Streamer Safe Mode",
           "priority": "Very High",
-          "description": "Creator-focused playback option for safer broadcasting and archive workflows."
+          "description": "Enable this in Settings > Audio before livestreams or VOD recording when you want to avoid licensed-track issues."
         },
         {
-          "name": "Soundtrack DLC Overview",
+          "name": "Streamer Safe Soundtrack Vol. 1 DLC",
           "priority": "High",
-          "description": "Package-level guidance for players collecting official music releases."
+          "description": "Contains 15 original songs, 5 bonus tracks, and wallpapers. This package excludes cover songs and licensed tracks."
         },
         {
-          "name": "Music Platform Rollout",
+          "name": "Streamer Safe Soundtrack pricing",
           "priority": "High",
-          "description": "Track external soundtrack publishing windows and catalog updates over time."
+          "description": "Standard price is $9.99, with a launch discount to $7.99 during the initial release window."
+        },
+        {
+          "name": "One Night Only Radio Play Vol. 1",
+          "priority": "High",
+          "description": "A 27-track release for Spotify, YouTube Music, Apple Music, and iTunes for listening outside the game."
+        },
+        {
+          "name": "Licensed music boundaries",
+          "priority": "Very High",
+          "description": "Licensed song rights are separate from streamer-safe content, so use Streamer Safe mode instead of assuming all tracks are broadcast-safe."
+        },
+        {
+          "name": "My Music imported tracks",
+          "priority": "Medium",
+          "description": "Local files you import are separate from official soundtrack releases and depend on your own usage rights."
+        },
+        {
+          "name": "Future music updates",
+          "priority": "Medium",
+          "description": "Roadmap updates include more licensed tracks, more covers, and additional streamer-safe originals."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Dead as Disco Steam Deck Guide",
-      "intro": "Use this platform checklist to configure Deck and controller play with fewer setup surprises.",
+      "intro": "Dead as Disco is listed as Steam Deck supported. Use this setup path for smooth play and reliable custom-song imports.",
       "groups": [
         {
-          "name": "Deck Setup Checklist",
+          "name": "Setup Steps",
           "achievements": [
             {
-              "title": "Verify Control Layout",
-              "description": "Confirm bindings for attack, dodge, ability, and menu navigation before long runs."
+              "title": "Step 1: Install and update the game",
+              "description": "Install from Steam and finish the latest patch before performance testing or custom-song setup."
             },
             {
-              "title": "Tune Performance Profile",
-              "description": "Balance frame pacing and battery settings for smooth rhythm readability."
+              "title": "Step 2: Start with default Deck controls",
+              "description": "Run tutorial or Infinite Disco first, then adjust only if timing and dodge rhythm feel inconsistent."
             },
             {
-              "title": "Check Audio Latency",
-              "description": "Validate output timing to keep beat-aligned defensive reactions consistent."
+              "title": "Step 3: Use Desktop Mode for file work",
+              "description": "Switch to Desktop Mode to move MP3 files. It is much easier than browsing deep folders from in-game menus."
             }
           ]
         },
         {
-          "name": "Custom Song Practical Notes",
+          "name": "Custom Song Path and Quick Checks",
           "achievements": [
             {
-              "title": "Validate File Path Access",
-              "description": "Ensure local import paths are reachable on your current platform setup."
+              "title": "Step 4: Copy files into MusicFiles",
+              "description": "Use /home/deck/.local/share/Steam/steamapps/compatdata/3404260/pfx/drive_c/users/steamuser/AppData/Local/Pagoda/Saved/MusicFiles/."
             },
             {
-              "title": "Recalibrate BPM After Device Changes",
-              "description": "Re-test timing after switching output devices or controller profiles."
+              "title": "Step 5: Verify compatdata folder",
+              "description": "If 3404260 is missing, inspect /home/deck/.local/share/Steam/steamapps/compatdata/ and check the newest app folders after launch."
             },
             {
-              "title": "Save a Stable Baseline Preset",
-              "description": "Keep one known-good settings profile for quick recovery after experiments."
+              "title": "Step 6: Return to Gaming Mode and test",
+              "description": "Launch the game, load My Music in Infinite Disco, then set BPM first and Beat Offset second for stable timing."
+            },
+            {
+              "title": "Quick check: Song missing",
+              "description": "Enable hidden folders, recheck the exact path, and confirm the file is inside MusicFiles."
+            },
+            {
+              "title": "Quick check: Song drifts or feels off-beat",
+              "description": "Re-enter BPM, then adjust Beat Offset in small increments. Re-export problem files as standard MP3."
             }
           ]
         }
@@ -832,23 +869,27 @@
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Dead as Disco Demo, Price and Editions",
-      "intro": "Use this quick FAQ to decide whether to start with the demo, buy now, or compare editions first.",
+      "intro": "Compare the free demo, Early Access pricing, soundtrack DLC, and bundle options before you buy.",
       "faqs": [
         {
-          "question": "Is a playable demo available right now?",
-          "answer": "Yes, a demo build is available, so you can test timing and combat feel before committing to a purchase."
+          "question": "Does Dead as Disco have a free demo?",
+          "answer": "Yes. The demo is free and includes tutorial content, a sample story mission, Infinite Disco, and custom-song support in Free Play."
         },
         {
-          "question": "What does Early Access include at launch?",
-          "answer": "Launch content already includes story progression, Idol encounters, challenge modes, and customization loops."
+          "question": "What is the base game price in Early Access?",
+          "answer": "The standard base game price is $24.99, with a launch offer at $19.99 that was listed through May 19, 2026."
         },
         {
-          "question": "Should new players buy immediately or start with demo?",
-          "answer": "If you are unsure about rhythm-combat fit, begin with the demo and move to Early Access once controls feel comfortable."
+          "question": "How much is the Streamer Safe Soundtrack Vol. 1 DLC?",
+          "answer": "The DLC is listed at $9.99 standard, with a launch discount shown at $7.99."
         },
         {
-          "question": "Are soundtrack or bundle options worth checking?",
-          "answer": "Players who value music collection and creator workflows should compare available soundtrack and bundle listings."
+          "question": "What is in the Dead as Disco Superfan Bundle?",
+          "answer": "It combines the base game and Streamer Safe Soundtrack Vol. 1, with a launch-period bundled value around $25.18."
+        },
+        {
+          "question": "Should I buy now or wait for version 1.0?",
+          "answer": "Use the demo first if you are unsure, buy Early Access if you want current content and upcoming additions, or wait for 1.0 if you prefer a fuller campaign release."
         }
       ]
     },

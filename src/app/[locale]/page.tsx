@@ -13,9 +13,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale } = await params
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://dead-as-disco.wiki').replace(/\/$/, '')
   const pageUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
-  const title = 'Dead as Disco - Guides, Idols, Music & Builds'
+  const title = 'Dead as Disco - Guides, Custom Songs, Steam Deck & Editions'
   const description =
-    'Explore Dead as Disco guides for idols, rhythm combat, skill builds, My Music setup, songs, challenges, cosmetics, updates, and beginner tips.'
+    'Explore Dead as Disco guides for My Music custom songs, streamer-safe soundtrack choices, Steam Deck setup, demo pricing, editions, and beginner progression.'
   const imageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
   return {
