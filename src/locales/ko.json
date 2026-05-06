@@ -1,0 +1,932 @@
+{
+  "seo": {
+    "home": {
+      "title": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
+      "description": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스 어드벤처를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제, 엔딩 및 생존 팁을 다룹니다.",
+      "keywords": "Dead as Disco, Dead as Disco 위키, 제작, 바이옴, 도전 과제, 생존, Steam",
+      "ogTitle": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
+      "ogDescription": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스 어드벤처를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제, 엔딩 및 생존 팁을 다룹니다.",
+      "twitterTitle": "Dead as Disco 위키 - 제작, 바이옴 및 도전 과제",
+      "twitterDescription": "Dead as Disco 위키는 Steam의 Surreal 복셀 샌드박스를 위한 제작, 바이옴, 생명체, 아이템, 도전 과제 및 생존 팁을 다룹니다."
+    }
+  },
+  "nav": {
+    "guides": "가이드",
+    "crafting": "제작",
+    "items": "아이템",
+    "biomes": "바이옴",
+    "building": "건설",
+    "support": "지원"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "Steam에서 플레이",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 문서",
+    "readMore": "더 읽어보기",
+    "articlesComingSoon": "문서가 곧 추가될 예정입니다"
+  },
+  "hero": {
+    "badge": "Surreal 복셀 생존 샌드박스",
+    "title": "Dead as Disco 위키",
+    "description": "Steam의 이 Surreal 오픈 월드 샌드박스에서 꿈같은 바이옴을 탐험하고, Apotheosis로 아이템을 융합하며, 자유롭게 건설하고 기이한 생명체들로부터 생존하세요.",
+    "getFreeCodesCTA": "제작 가이드 탐색",
+    "playOnSteamCTA": "Steam에서 플레이",
+    "stats": {
+      "stat1": {
+        "value": "1,325",
+        "label": "현재 플레이어"
+      },
+      "stat2": {
+        "value": "1,986",
+        "label": "최고 동시 접속자"
+      },
+      "stat3": {
+        "value": "97%",
+        "label": "긍정적 평가"
+      },
+      "stat4": {
+        "value": "2026년 3월 12일",
+        "label": "출시일"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Dead as Disco 게임플레이",
+    "description": "Steam의 이 꿈같은 복셀 샌드박스에서 Surreal 바이옴을 탐험하고, Apotheosis로 아이템을 융합하며, 기이한 생명체들로부터 생존하세요."
+  },
+  "tools": {
+    "title": "Dead as Disco",
+    "titleHighlight": "리소스",
+    "subtitle": "Dead as Disco에서 탐험, 제작, 생존에 필요한 모든 것",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "초보자 가이드",
+        "description": "첫 걸음, 탐험 및 초기 진행"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Apotheosis 제작",
+        "description": "자유 형식 융합 시스템 및 초기 레시피"
+      },
+      {
+        "icon": "Hammer",
+        "title": "도구 및 무기",
+        "description": "Frost Pick, Azrael, Hookshot 등"
+      },
+      {
+        "icon": "Package",
+        "title": "저장소 및 인벤토리",
+        "description": "Cache Cubes, 캐비닛 및 Qualia 저장소"
+      },
+      {
+        "icon": "Home",
+        "title": "Qualia 및 기지 건설",
+        "description": "개인 Qualia 및 홈 기지 설정"
+      },
+      {
+        "icon": "Eye",
+        "title": "월드 지역",
+        "description": "Fog Meadow, Essence Morass 등"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "생명체 및 적",
+        "description": "마네킹, 거미 및 생존 방법"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "이동 장비",
+        "description": "Hookshot, Glider Glove, Bee Glider"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "농사 및 성장",
+        "description": "씨앗 진행 및 재료 파밍"
+      },
+      {
+        "icon": "Star",
+        "title": "최고의 초기 해금 요소",
+        "description": "초반 1시간을 위한 우선 업그레이드"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "도전 과제 추적기",
+        "description": "모든 19개의 Steam 도전 과제 및 조건"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "싱글 플레이어 FAQ",
+        "description": "플랫폼, 가격, 협동 플레이 및 언어 관련 질문"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Steam Deck 및 컨트롤러",
+        "description": "Proton 9.0.4 설정 및 컨트롤러 팁"
+      },
+      {
+        "icon": "Settings",
+        "title": "설정 및 접근성",
+        "description": "손 숨기기, Vulkan 및 디스플레이 옵션"
+      },
+      {
+        "icon": "Clock",
+        "title": "업데이트 및 패치 노트",
+        "description": "최근 수정 사항 및 로드맵 노트"
+      },
+      {
+        "icon": "Shield",
+        "title": "크래시 해결",
+        "description": "Vulkan 확인, 로그 경로 및 버그 제보"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Dead as Disco 초보자 가이드",
+      "displayType": "steps",
+      "intro": "탐험, 융합, 그리고 성장이 어떻게 연결되는지 배우는 것부터 시작하세요. Dead as Disco는 실험을 장려하므로, 초반 진행은 특이한 재료를 수집하고, 조합을 테스트하며, 개인적인 Qualia를 잠금 해제하는 것에서 시작됩니다.",
+      "steps": [
+        {
+          "title": "확정하기 전에 탐험하세요",
+          "description": "밖으로 나가서 흔한 블록을 채굴하고, 발견한 이상한 드롭 아이템들을 보관하세요. 초반 진행은 정해진 퀘스트보다는 재료가 무엇이 될 수 있는지 발견하는 것에 더 가깝습니다."
+        },
+        {
+          "title": "개인 Qualia를 일찍 잠금 해제하세요",
+          "description": "개인 Qualia는 가장 중요한 초반 이정표 중 하나입니다. 재정비하고 기반을 다질 수 있는 믿을 만한 장소를 제공합니다."
+        },
+        {
+          "title": "빠른 초반 진행을 위해 Osmium을 사용하세요",
+          "description": "Osmium은 가장 유용한 초반 재료 중 하나입니다. 인기 있는 초반 루트는 Osmium과 막대기를 조합하여 빠른 채굴을 위한 Frost Pick을 만드는 것입니다."
+        },
+        {
+          "title": "좋은 융합법을 기록하세요",
+          "description": "성공적인 조합을 저널에 기록하세요. Dead as Disco에는 수많은 융합 경로가 있으므로, 유용한 결과를 적어두면 시간을 크게 절약할 수 있습니다."
+        }
+      ],
+      "quickTips": [
+        "Apotheosis는 고정된 레시피 목록을 요구하지 않습니다.",
+        "무한한 세계 생성 덕분에 더 높이 올라가거나 더 깊이 내려가면 완전히 다른 재료를 발견할 수 있습니다.",
+        "이동 도구와 유틸리티 장비는 잠금 해제하기 시작하면 삶의 질을 크게 향상시켜 줍니다.",
+        "초반에 길을 잃는 것은 정상이지만, 첫 번째 좋은 융합이 성공하기 시작하면 유용한 도구, 저장 공간, 이동 수단이 빠르게 스노우볼처럼 불어납니다."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Dead as Disco Apotheosis 제작",
+      "displayType": "cards",
+      "intro": "Apotheosis는 게임의 제한 없는 융합 시스템입니다. 전통적인 레시피 북을 외우는 대신, 재료를 조합하고 결과를 관찰하며 시간이 지남에 따라 자신만의 제작 지식을 쌓아갑니다.",
+      "cards": [
+        {
+          "name": "자유 형식 융합",
+          "description": "Apotheosis를 사용하면 고정된 레시피 목록을 따를 필요 없이 서로 다른 아이템을 융합할 수 있습니다."
+        },
+        {
+          "name": "다양하고 유용한 결과물",
+          "description": "서로 다른 재료들은 종종 특정 결과로 이어집니다. 커뮤니티의 발견에 따르면 유사한 투입물로도 실용적인 도구, 저장 공간 또는 전투 업그레이드를 얻을 수 있습니다."
+        },
+        {
+          "name": "저널 중심 제작",
+          "description": "Apotheosis를 배우는 가장 좋은 방법은 성공적인 조합을 추적하는 것입니다. 당신의 저널은 곧 당신만의 제작 참고서가 될 것입니다."
+        },
+        {
+          "name": "커뮤니티에서 검증된 초반 융합",
+          "description": "인기 있는 초반 예시로는 Frost Pick을 위한 Osmium과 막대기 조합, Azrael을 위한 막대기와 Tungsten Appendage 조합, 그리고 Tendril Rapier를 위한 Azrael과 Magnetite 조합이 있습니다."
+        }
+      ],
+      "milestones": [
+        "아이템 융합하기",
+        "해충 융합하기",
+        "신성한 유물 융합하기"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Dead as Disco 도구 및 무기",
+      "displayType": "itemCards",
+      "intro": "Dead as Disco는 공식 유틸리티 장비와 커뮤니티에서 발견된 초반 무기를 혼합합니다. 가장 좋은 구성은 대개 빠른 채굴, 안전한 횡단, 그리고 하나의 믿음직한 전투 옵션을 조합하는 것입니다.",
+      "items": [
+        {
+          "name": "Frost Pick",
+          "type": "채굴 도구",
+          "description": "Osmium과 막대기로 만든 빠르고 저렴한 초반 곡괭이입니다. 플레이어들은 초반 재료 수집 속도를 높이기 위해 이것을 사용합니다."
+        },
+        {
+          "name": "Azrael",
+          "type": "시작 무기",
+          "description": "막대기와 Tungsten Appendage로 제작하는 실용적인 초반 무기 루트입니다."
+        },
+        {
+          "name": "Tendril Rapier",
+          "type": "업그레이드 무기",
+          "description": "Azrael과 Magnetite를 조합하여 만든 더 강력한 후속 무기입니다. 플레이어들 사이에서 공유되는 가장 유용한 초반-중반 전투 경로 중 하나입니다."
+        },
+        {
+          "name": "Hookshot",
+          "type": "이동 도구",
+          "description": "이동과 수직 탐험을 크게 개선해 주는 공식 횡단 아이템입니다."
+        },
+        {
+          "name": "Bee Glider",
+          "type": "이동 도구",
+          "description": "공간을 더 안전하고 효율적으로 이동할 수 있게 도와주는 공식 이동 아이템입니다."
+        },
+        {
+          "name": "Ball Wand",
+          "type": "유틸리티 무기",
+          "description": "전투 및 퍼즐 옵션을 확장해 주는 공식 원거리 유틸리티 아이템입니다."
+        },
+        {
+          "name": "Scuba Diving Gear",
+          "type": "횡단 장비",
+          "description": "탐험을 늦출 수 있는 지역에 도달하기 위한 공식 유틸리티 아이템입니다."
+        },
+        {
+          "name": "Explosives",
+          "type": "유틸리티 데미지",
+          "description": "핵심 도구 세트의 일부로 공식 강조되었으며, 위협이나 장애물을 돌파하는 데 유용합니다."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Dead as Disco 보관함 및 인벤토리",
+      "displayType": "solutionCards",
+      "intro": "Dead as Disco에서는 초반부터 인벤토리 압박이 심하므로, 보관함을 만드는 것을 최우선 목표 중 하나로 삼아야 합니다. 이미 실제 플레이어들이 검증한 몇 가지 유용한 해결책이 있습니다.",
+      "solutions": [
+        {
+          "name": "Cache Cube",
+          "role": "상자형 보관함",
+          "description": "Cache Cube는 가장 초기에 사용할 수 있는 실용적인 보관 수단이며, 플레이어들 사이에서 게임의 주력 상자형 보관함으로 통합니다."
+        },
+        {
+          "name": "Cabinet",
+          "role": "간이 기지 보관함",
+          "description": "Cabinet 또한 확인된 보관 옵션 중 하나입니다. 초반에 흔히 쓰이는 제작법은 자른 나무 1개와 끈 1개를 사용합니다."
+        },
+        {
+          "name": "Personal Qualia",
+          "role": "장기 보관 허브",
+          "description": "잠금 해제 후, 개인 Qualia는 재료를 정리하고, 평화롭게 제작하며, 기지 설비를 확장하기 위한 자연스러운 공간이 됩니다."
+        },
+        {
+          "name": "Journal Tracking",
+          "role": "인벤토리 효율성",
+          "description": "유용한 조합법을 저널에 기록하면 재료 낭비를 줄이고 인벤토리 관리를 훨씬 쉽게 할 수 있습니다."
+        }
+      ],
+      "managementTips": [
+        "희귀 아이템을 쌓아두기 전에 신뢰할 수 있는 보관 옵션을 하나 마련하세요.",
+        "개인 Qualia를 사용할 수 있게 되면 그 주변으로 기지를 건설하세요.",
+        "제작 재료, 전투 도구, 이동 장비를 분리하여 보관하면 업그레이드 계획을 세우기가 더 쉽습니다.",
+        "저널을 단순히 제작법 발견 용도가 아닌 인벤토리 관리의 일부로 활용하세요."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Dead as Disco Qualia 및 기지 건설",
+      "displayType": "cards",
+      "intro": "Qualia는 Dead as Disco에서 가장 중요한 진행 이정표 중 하나입니다. 이곳은 재정비하고, 재료를 보관하며, 탐험의 성과를 실제 홈 베이스로 점진적으로 탈바꿈할 수 있는 개인 공간을 제공합니다.",
+      "cards": [
+        {
+          "name": "Personal Qualia",
+          "description": "Qualia 잠금 해제는 더 넓은 세계를 탐험하는 동안 돌아올 수 있는 안정적인 거점을 마련해 주는 초기 이정표입니다."
+        },
+        {
+          "name": "Storage-First Building",
+          "description": "많은 플레이어가 Qualia를 보관 허브로 먼저 사용하기 시작한 뒤, 점차 정리된 제작 및 건설 공간을 갖춘 더 큰 기지로 발전시킵니다."
+        },
+        {
+          "name": "Creative Home Building",
+          "description": "Dead as Disco는 창의적인 건설을 지원하며, 플레이어들은 이미 Qualia 공간을 활용해 집을 짓고 개인화된 레이아웃을 만들고 있습니다."
+        },
+        {
+          "name": "Progression Hub",
+          "description": "튼튼한 기지는 탐험 전리품, 제작 재료, 씨앗, 도구, 이동 장비를 분리하여 다음 업그레이드를 더 쉽게 계획할 수 있도록 돕습니다."
+        }
+      ],
+      "highlights": [
+        "Qualia 입장",
+        "재료 안전하게 보관",
+        "유틸리티에서 장식으로 확장",
+        "기지 공간을 활용한 제작 및 농사 지원"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Dead as Disco 세계 지역",
+      "displayType": "regionCards",
+      "intro": "Dead as Disco는 무한한 세계 생성을 사용하므로 플레이어들은 계속해서 새로운 환경과 구조물을 발견하게 됩니다. 이미 업적과 커뮤니티 토론에서 언급되는 몇몇 지명된 장소들이 있습니다.",
+      "regions": [
+        {
+          "name": "Fog Meadow",
+          "type": "커뮤니티 언급 지역",
+          "description": "Fog Meadow는 숨겨진 위협과 위험한 조우가 도사리는 긴장감 넘치는 지역으로 플레이어들 사이에서 이미 잘 알려져 있습니다."
+        },
+        {
+          "name": "Tiamana Leyline",
+          "type": "발견 랜드마크",
+          "description": "Tiamana Leyline은 고유한 업적 이정표를 가지고 있을 만큼 중요하며, 지금까지 발견된 가장 명확한 세계 지명 중 하나입니다."
+        },
+        {
+          "name": "Clonaqualia",
+          "type": "건설 공간",
+          "description": "플레이어들은 이미 Clonaqualia를 집을 짓고, 재료를 보관하며, 더 영구적인 레이아웃을 실험하는 장소로 사용하고 있습니다."
+        },
+        {
+          "name": "Essence Morass",
+          "type": "파밍 지역",
+          "description": "Essence Morass는 특히 슬라임을 처치하고 경험치를 얻기에 유용한 파밍 장소로 플레이어들 사이에서 공유되고 있습니다."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Dead as Disco 생명체 및 적",
+      "displayType": "creatureCards",
+      "intro": "Dead as Disco는 Surreal한 생명체와 실제적인 위험을 혼합합니다. 공식 설명과 커뮤니티 게시물은 기이한 생명체, 적대적인 위협, 그리고 플레이어들이 쉽게 기억하는 몇 가지 인상적인 조우로 가득 찬 세계를 가리킵니다.",
+      "creatures": [
+        {
+          "name": "Manikins",
+          "role": "적대적 적",
+          "description": "Manikins는 세계관 내 공식적으로 명명된 적 중 하나이며, 게임의 Surreal한 위협 목록에 포함됩니다."
+        },
+        {
+          "name": "Squishy Gels",
+          "role": "적대적 적",
+          "description": "Squishy Gels는 또 다른 공식 명칭의 적 유형으로, 게임의 기이한 생물학적 스타일을 정의하는 데 도움을 줍니다."
+        },
+        {
+          "name": "Higher-Dimensional Beings",
+          "role": "적대적 적",
+          "description": "이 존재들은 게임 내 더 추상적이고 불안한 적 라인업의 일부로 등장합니다."
+        },
+        {
+          "name": "Colossal Spiders",
+          "role": "주요 위협",
+          "description": "거미는 커뮤니티 토론에서 가장 즉각적으로 두려움을 사는 적 중 하나이며, 분명히 기억에 남는 위험 요소입니다."
+        },
+        {
+          "name": "Bubblebear",
+          "role": "명명된 생명체",
+          "description": "Bubblebear는 고유한 업적을 가지고 있을 만큼 주목할 만하며, 게임 내에서 가장 명확하게 이름 붙여진 생명체 조우 중 하나입니다."
+        },
+        {
+          "name": "Cute Vermin",
+          "role": "상호작용 가능한 생명체",
+          "description": "Vermin은 융합 진행의 일부일 뿐만 아니라 이름을 바꿀 수도 있어, 일반적인 적보다 더 개인적인 역할을 수행합니다."
+        },
+        {
+          "name": "Blasphemous Creature",
+          "role": "엘리트 위협",
+          "description": "Blasphemous Creature는 전용 전투 업적과 연결되어 있어 중요한 적 조우임을 나타냅니다."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Dead as Disco 기동 장비",
+      "displayType": "itemCards",
+      "intro": "이동 업그레이드는 Dead as Disco에서 가장 큰 편의성 향상 요소 중 하나입니다. 첫 이동 도구를 잠금 해제하면 탐험이 더 빨라지고 안전해지며, 훨씬 더 보람차게 느껴질 것입니다.",
+      "items": [
+        {
+          "name": "Hookshot",
+          "type": "이동 도구",
+          "description": "Hookshot은 게임 내에서 가장 명확한 이동 이정표 중 하나이며 전용 업적도 존재합니다."
+        },
+        {
+          "name": "글라이더 글로브",
+          "type": "공중 기동성",
+          "description": "글라이더 글로브는 훨씬 더 부드러운 이동을 가능하게 하며, 전용 업적이 있는 또 다른 주요 진행 이정표입니다."
+        },
+        {
+          "name": "Bee Glider",
+          "type": "이동 도구",
+          "description": "Bee Glider는 공간을 더 효율적으로 이동하기 위한 게임 내 이동 도구 세트의 일부로 공식 강조되어 있습니다."
+        },
+        {
+          "name": "볼 완드",
+          "type": "유틸리티 장비",
+          "description": "볼 완드는 공식적으로 강조된 특수 도구 중 하나로, 세상을 이동하거나 상호작용하는 방식을 확장해 줍니다."
+        },
+        {
+          "name": "스쿠버 다이빙 장비",
+          "type": "탐사 장비",
+          "description": "스쿠버 다이빙 장비는 탐사하기 어려운 지역에 도달하기 위한 핵심 유틸리티 세트의 일부로 공식 목록에 올라와 있습니다."
+        },
+        {
+          "name": "폭발물",
+          "type": "유틸리티 피해",
+          "description": "폭발물은 공식적으로 강조될 뿐만 아니라 업적 이정표와도 연결되어 있어, 게임의 핵심 유틸리티 진행의 일부를 구성합니다."
+        }
+      ],
+      "unlockMilestones": [
+        "Hookshot 사용하기",
+        "글라이더 글로브로 비행하기",
+        "투사체 완드 휘두르기",
+        "폭발물 사용하기"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Dead as Disco 농사와 성장",
+      "displayType": "mixedCards",
+      "intro": "성장은 Dead as Disco의 실질적인 진행 과정 중 일부입니다. 농사는 단순히 심고 수확하는 것뿐만 아니라, 도구, 무기, 제작 옵션을 지속적으로 유지할 수 있는 반복 가능한 재료 수급 경로를 구축하는 것이기도 합니다.",
+      "sections": [
+        {
+          "name": "씨앗 성장",
+          "description": "씨앗을 심고 비료를 주는 것은 게임의 중요한 이정표이며, 다 자란 견과류를 수확하는 것도 동일한 성장 경로의 일부입니다."
+        },
+        {
+          "name": "재료 파밍",
+          "description": "실용적인 초반 파밍 루프는 수은 캡슐을 만드는 것입니다. 여기서 생성되는 작은 슬라임들은 반복 가능한 제작 재료인 촉수와 점액을 드롭합니다."
+        },
+        {
+          "name": "도구 유지",
+          "description": "오스뮴, 유리 파편, 식물, 슬라임 재료를 지속적으로 수집하여 후속 제작을 할 수 있게 되면 자원 파밍이 훨씬 강력해집니다."
+        },
+        {
+          "name": "기지 루틴",
+          "description": "최고의 농사 설정은 식량 그 이상을 지원합니다. 저장 공간, 이동 도구, 무기 업그레이드 및 향후 융합 실험에 필요한 자원을 공급해야 합니다."
+        }
+      ],
+      "growthMilestones": [
+        "씨앗에 비료 주기",
+        "다 자란 견과류 수확하기",
+        "반복 가능한 재료 루프 생성",
+        "농사를 장기적인 성장으로 전환"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Dead as Disco 최고의 초반 잠금 해제",
+      "displayType": "priorityCards",
+      "intro": "가장 강력한 초반 잠금 해제 요소는 안전, 저장 공간, 이동 능력을 향상시키는 것들입니다. Dead as Disco에서는 몇 가지 실용적인 업그레이드만으로도 게임의 나머지 부분을 훨씬 수월하게 진행할 수 있습니다.",
+      "priorities": [
+        {
+          "name": "개인 퀄리아",
+          "priority": "필수",
+          "description": "개인 퀄리아에 접근할 수 있게 되는 즉시 게임 진행이 훨씬 안정적해집니다. 이는 저장, 건설, 재정비를 위한 신뢰할 수 있는 거점 역할을 합니다."
+        },
+        {
+          "name": "프로스트 곡괭이",
+          "priority": "매우 높음",
+          "description": "오스뮴과 막대기로 만드는 빠르고 저렴한 초반 채광 도구입니다. 초반 자원 수집 속도를 높이는 데 가장 유용한 업그레이드 중 하나입니다."
+        },
+        {
+          "name": "캐시 큐브",
+          "priority": "매우 높음",
+          "description": "저장 공간의 압박은 초반부터 시작되므로, 첫 번째로 믿을 만한 상자형 보관함을 확보하는 것은 큰 편의성 업그레이드입니다."
+        },
+        {
+          "name": "Hookshot",
+          "priority": "높음",
+          "description": "Hookshot은 게임 내에서 가장 명확한 이동 이정표 중 하나이며, 탐험을 빠르게 더 안전하고 효율적으로 만들어 줍니다."
+        },
+        {
+          "name": "글라이더 글로브",
+          "priority": "높음",
+          "description": "글라이더 글로브는 또 다른 주요 기동성 향상을 제공하며 장거리 이동을 훨씬 더 효율적으로 만들어 줍니다."
+        },
+        {
+          "name": "투사체 완드 또는 폭탄",
+          "priority": "높음",
+          "description": "원거리 도구나 폭발물 옵션은 위험한 적과 시련 스타일의 조우에 대해 더 안전한 대응책을 제공합니다."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Dead as Disco 도전 과제 트래커",
+      "displayType": "achievementGrid",
+      "intro": "Dead as Disco에는 현재 19개의 Steam 도전 과제가 있으며, 탐험, 제작, 이동, 전투, 성장 진행 상황으로 자연스럽게 나뉩니다.",
+      "groups": [
+        {
+          "name": "탐험",
+          "achievements": [
+            {
+              "title": "Angel α",
+              "description": "퀄리아(qualia)에 입장하세요."
+            },
+            {
+              "title": "Angel γ",
+              "description": "티아마나(tiamana) 레이라인을 발견하세요."
+            },
+            {
+              "title": "Angel δ",
+              "description": "티아마나(tiamana) 챌린지를 극복하세요."
+            },
+            {
+              "title": "Angel ε",
+              "description": "숨겨진 도전 과제입니다."
+            }
+          ]
+        },
+        {
+          "name": "제작 및 소환",
+          "achievements": [
+            {
+              "title": "Apotheosis α",
+              "description": "아이템을 융합하세요."
+            },
+            {
+              "title": "Apotheosis β",
+              "description": "해충을 융합하세요."
+            },
+            {
+              "title": "Apotheosis γ",
+              "description": "신성한 유물을 융합하세요."
+            },
+            {
+              "title": "Archangel β",
+              "description": "당신의 신앙을 소환하세요."
+            }
+          ]
+        },
+        {
+          "name": "이동 및 유틸리티",
+          "achievements": [
+            {
+              "title": "Virtue α",
+              "description": "글라이더 장갑으로 비행하세요."
+            },
+            {
+              "title": "Virtue β",
+              "description": "Hookshot을 조종하세요."
+            },
+            {
+              "title": "Archangel α",
+              "description": "투사체 지팡이를 휘두르세요."
+            },
+            {
+              "title": "Archangel γ",
+              "description": "폭발물을 휘두르세요."
+            }
+          ]
+        },
+        {
+          "name": "전투 및 생명체",
+          "achievements": [
+            {
+              "title": "Bubblebear Massacre",
+              "description": "무고한 Bubblebear를 처치하세요."
+            },
+            {
+              "title": "Archangel δ",
+              "description": "신성 모독적인 생명체를 제거하세요."
+            },
+            {
+              "title": "Angel β",
+              "description": "사망하세요."
+            },
+            {
+              "title": "Dominion γ",
+              "description": "귀여운 해충의 이름을 바꾸세요."
+            }
+          ]
+        },
+        {
+          "name": "성장 및 농사",
+          "achievements": [
+            {
+              "title": "Dominion α",
+              "description": "씨앗에 비료를 주세요."
+            },
+            {
+              "title": "Dominion β",
+              "description": "다 자란 견과류를 수확하세요."
+            },
+            {
+              "title": "Dominion δ",
+              "description": "숨겨진 도전 과제입니다."
+            }
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Dead as Disco 싱글 플레이어 및 플랫폼 FAQ",
+      "displayType": "accordion",
+      "intro": "다음은 플레이어들이 Dead as Disco를 구매하기 전에 자주 묻는 핵심 플랫폼 및 접근성 관련 질문들입니다.",
+      "faqs": [
+        {
+          "question": "Dead as Disco는 싱글 플레이어 게임인가요?",
+          "answer": "네. Dead as Disco는 싱글 플레이어 게임입니다."
+        },
+        {
+          "question": "멀티플레이어나 협동 모드가 계획되어 있나요?",
+          "answer": "아니요. 멀티플레이어는 출시나 향후 업데이트 계획에 없습니다."
+        },
+        {
+          "question": "Dead as Disco는 어디서 플레이할 수 있나요?",
+          "answer": "현재 Windows용 Steam에서 이용 가능합니다."
+        },
+        {
+          "question": "Dead as Disco의 가격은 얼마인가요?",
+          "answer": "Steam에서 $9.99입니다."
+        },
+        {
+          "question": "Dead as Disco는 컨트롤러를 지원하나요?",
+          "answer": "네, 하지만 메뉴가 컨트롤러에 최적화되어 설계되지 않았기 때문에 컨트롤러 플레이는 권장하지 않습니다."
+        },
+        {
+          "question": "Dead as Disco는 Steam Deck에서 작동하나요?",
+          "answer": "네. Steam Deck에서는 Proton 9.0 또는 9.0.4 설정을 권장합니다."
+        },
+        {
+          "question": "Dead as Disco는 Linux에서 작동하나요?",
+          "answer": "네. Linux와 Steam Deck에서 Proton 9.0으로 잘 작동하는 것으로 보고되었습니다."
+        },
+        {
+          "question": "Mac이나 Android가 지원될 예정인가요?",
+          "answer": "향후 지원될 가능성은 있으나, 현재 출시 플랫폼은 아닙니다."
+        },
+        {
+          "question": "Dead as Disco는 번역을 지원하나요?",
+          "answer": "아니요. 현재 계획된 번역은 없습니다."
+        },
+        {
+          "question": "Dead as Disco는 계속 업데이트되나요?",
+          "answer": "네. 출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 정기적으로 무기한 업데이트를 제공할 예정은 아닙니다."
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Dead as Disco Steam Deck 및 컨트롤러",
+      "displayType": "accordion",
+      "intro": "Dead as Disco는 Steam Deck에서 실행할 수 있지만, 기본 설정은 조정이 필요할 수 있습니다. 메뉴 조작 및 일반적인 플레이에는 키보드와 마우스가 여전히 더 원활한 옵션입니다.",
+      "faqs": [
+        {
+          "question": "Dead as Disco가 Steam Deck에서 작동하나요?",
+          "answer": "네. Proton 9.0이 잘 작동하며, Proton 9.0.4는 Steam Deck 문제에 대해 흔히 공유되는 해결책입니다."
+        },
+        {
+          "question": "Steam Deck 컨트롤이 작동하지 않으면 어떻게 해야 하나요?",
+          "answer": "호환성 모드를 강제 적용하고 게임을 Proton 9.0.4로 전환하세요. 기본 설정에서는 컨트롤러 입력이 올바르게 인식되지 않을 수 있습니다."
+        },
+        {
+          "question": "Dead as Disco는 컨트롤러를 지원하나요?",
+          "answer": "네, 하지만 게임 메뉴가 컨트롤러에 맞춰 설계되지 않았기 때문에 컨트롤러 플레이는 권장되지 않습니다."
+        },
+        {
+          "question": "Linux 지원이 가능한가요?",
+          "answer": "네. Proton 9.0이 Linux 및 Steam Deck에서 잘 작동하는 것으로 보고되었습니다."
+        },
+        {
+          "question": "가장 좋은 입력 설정은 무엇인가요?",
+          "answer": "메뉴 탐색과 일반적인 플레이 시 키보드와 마우스가 가장 원활한 옵션입니다."
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Dead as Disco 설정 및 접근성",
+      "displayType": "settingCards",
+      "intro": "Dead as Disco에는 플레이어가 게임을 처음 실행할 때 즉시 확인해야 할 몇 가지 실용적인 설정 및 호환성 참고 사항이 있습니다.",
+      "settings": [
+        {
+          "name": "디스플레이 설정",
+          "type": "Comfort Option",
+          "description": "디스플레이 설정에는 화면에 표시되는 손을 숨길 수 있는 옵션이 포함되어 있습니다."
+        },
+        {
+          "name": "그래픽 호환성",
+          "type": "System Requirement",
+          "description": "그래픽이 제대로 렌더링되려면 Vulkan 지원이 필요합니다. Vulkan이 없는 시스템에서는 충돌 및 심각한 그래픽 오류가 발생할 수 있습니다."
+        },
+        {
+          "name": "입력 기본 설정",
+          "type": "Control Setup",
+          "description": "컨트롤러 지원이 존재하지만, 메뉴가 컨트롤러 사용에 맞춰 제작되지 않았기 때문에 키보드와 마우스가 더 원활한 경험을 제공합니다."
+        },
+        {
+          "name": "언어 지원",
+          "type": "Localization",
+          "description": "현재 설정은 영어만 지원하며, 현재로서는 번역 계획이 없습니다."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Dead as Disco 업데이트 및 패치 노트",
+      "displayType": "timeline",
+      "intro": "Dead as Disco는 출시 후 빠른 수정 사항과 소규모 사용성 업데이트를 이미 적용받고 있습니다.",
+      "entries": [
+        {
+          "title": "업데이트 2.8.2",
+          "type": "UI Update",
+          "description": "메인 메뉴의 \"awaken\"을 \"exit\"으로 변경했습니다."
+        },
+        {
+          "title": "시작 시 충돌 수정을 위한 소규모 패치",
+          "type": "Hotfix",
+          "description": "게임 실행 시 충돌이 발생하는 플레이어를 위해 전용 패치가 출시되었습니다."
+        },
+        {
+          "title": "출시 후 콘텐츠 지원",
+          "type": "Roadmap Note",
+          "description": "출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 무기한 정기 일정으로 계속될 예정은 아닙니다."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Dead as Disco 충돌 수정 및 문제 해결",
+      "displayType": "steps",
+      "intro": "대부분의 즉각적인 실행 및 충돌 문제는 패치 버전, 그래픽 지원, 플랫폼 호환성, 로그 순서로 간단히 확인해야 합니다.",
+      "steps": [
+        {
+          "title": "최신 충돌 핫픽스 설치",
+          "description": "게임이 시작 시 충돌하는 경우, 먼저 업데이트를 진행하고 최신 시작 충돌 패치로 다시 테스트하세요."
+        },
+        {
+          "title": "Vulkan 지원 확인",
+          "description": "Dead as Disco는 Vulkan 지원이 필요합니다. Vulkan이 없는 시스템은 충돌이나 주요 렌더링 문제를 겪을 수 있습니다."
+        },
+        {
+          "title": "Steam Deck에서 Proton 9.0.4 사용",
+          "description": "Steam Deck 입력 또는 실행 동작이 비정상적인 경우, 호환성 모드를 강제 적용하고 Proton 9.0.4로 전환하세요."
+        },
+        {
+          "title": "충돌 로그 수집",
+          "description": "Windows 실행창을 열고 %APPDATA%를 붙여넣은 후, lucid blocks/logs 폴더로 이동하여 문제 해결을 위한 .txt 파일을 수집하세요."
+        },
+        {
+          "title": "문제 정식 보고",
+          "description": "공식 Discord 버그 보고 포럼이나 Steam 커뮤니티 페이지를 통해 로그와 기기 세부 정보를 공유해 주세요."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "Dead as Disco에 대해 알아야 할 모든 것",
+    "questions": [
+      {
+        "question": "Dead as Disco는 싱글 플레이어 게임인가요?",
+        "answer": "네. Dead as Disco는 싱글 플레이어 전용 게임이며 멀티플레이어나 협동(co-op) 모드 계획은 없습니다."
+      },
+      {
+        "question": "Dead as Disco의 Apotheosis 시스템은 무엇인가요?",
+        "answer": "Apotheosis는 Dead as Disco의 자유 형식 융합 제작 시스템입니다. 정해진 레시피를 따르는 대신, 재료를 조합하여 자신만의 제작 경로를 발견할 수 있습니다."
+      },
+      {
+        "question": "Dead as Disco는 어디에서 플레이할 수 있나요?",
+        "answer": "Dead as Disco는 현재 Windows용 Steam에서 이용 가능합니다. Linux 및 Steam Deck 지원은 Proton 9.0을 통해 제공됩니다."
+      },
+      {
+        "question": "Dead as Disco의 가격은 얼마인가요?",
+        "answer": "Dead as Disco는 Steam에서 $9.99에 판매되고 있습니다."
+      },
+      {
+        "question": "Dead as Disco는 컨트롤러를 지원하나요?",
+        "answer": "네, 하지만 메뉴가 컨트롤러에 최적화되어 있지 않아 컨트롤러 플레이는 권장되지 않습니다. 키보드와 마우스가 더 원활한 옵션입니다."
+      },
+      {
+        "question": "Dead as Disco는 업데이트가 예정되어 있나요?",
+        "answer": "네. 출시 후 일부 콘텐츠 업데이트가 계획되어 있지만, 무기한 정기 일정으로 계속되지는 않을 예정입니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Dead as Disco를 탐험할 준비가 되셨나요?",
+    "description": "가이드, 업데이트, 토론을 위해 Discord의 Dead as Disco 커뮤니티에 참여하세요!",
+    "joinCommunity": "Discord 참여하기",
+    "joinGame": "Steam에서 플레이하기"
+  },
+  "footer": {
+    "title": "Dead as Disco 위키",
+    "description": "Dead as Disco의 제작, 바이옴, 생명체, 업적 및 생존 가이드를 위한 종합 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam 커뮤니티",
+    "steamStore": "Steam 상점",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 Dead as Disco Wiki. Dead as Disco 개발사와 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+  },
+  "pages": {
+    "guides": {
+      "title": "Dead as Disco 가이드",
+      "description": "초보자 기초부터 고급 Apotheosis 전략까지 완벽한 게임 플레이 가이드입니다. 생존과 제작을 마스터하세요.",
+      "metaTitle": "Dead as Disco 가이드 - 초보자부터 고급 전략까지",
+      "metaDescription": "초보자 팁, Apotheosis 시스템, 생존 전략 및 Surreal 샌드박스 마스터를 위한 전문가 전술을 다루는 완벽한 Dead as Disco 가이드입니다.",
+      "categoryLabel": "게임 가이드",
+      "whatIs": "가이드란 무엇인가요?",
+      "whatIsDescription": "게임 플레이 메커니즘, 생존 전략 및 Apotheosis 제작 시스템을 다루는 포괄적인 가이드입니다. 첫 단계부터 고급 기술까지 모든 것을 배워보세요.",
+      "why": "왜 가이드를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "핵심 메커니즘 학습",
+        "step1Description": "Apotheosis 시스템을 이해하고 흔한 초보자의 실수를 방지하세요.",
+        "step2Title": "빠른 진행",
+        "step2Description": "Surreal 세계에서 생존하고 번영하기 위해 검증된 경로를 따르세요.",
+        "step3Title": "전략 마스터",
+        "step3Description": "탐험과 제작을 위한 고급 전술을 개발하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드"
+    },
+    "crafting": {
+      "title": "Dead as Disco 제작",
+      "description": "에센스 메커니즘, 레시피, 강력한 아이템 제작 전략을 통해 Apotheosis 융합 시스템을 마스터하세요.",
+      "metaTitle": "Dead as Disco 제작 - Apotheosis 시스템 및 레시피",
+      "metaDescription": "Dead as Disco Apotheosis 제작 시스템을 마스터하세요. 에센스 메커니즘, 융합 레시피, 강력한 도구 및 무기 제작 전략을 배워보세요.",
+      "categoryLabel": "제작 시스템",
+      "whatIs": "제작이란 무엇인가요?",
+      "whatIsDescription": "Apotheosis 시스템은 최대 6개의 아이템을 조합하여 새로운 레시피를 발견하는 독특한 에센스 기반 융합 메커니즘입니다. 고정된 제작 메뉴는 없으며 실험이 핵심입니다.",
+      "why": "왜 제작을 마스터해야 하나요?",
+      "whySteps": {
+        "step1Title": "강력한 아이템 잠금 해제",
+        "step1Description": "융합을 통해 필수 도구, 무기 및 이동 장비를 발견하세요.",
+        "step2Title": "에센스 이해",
+        "step2Description": "아이템 에센스가 어떻게 결합되어 예측 가능한 결과를 만들어내는지 알아보세요.",
+        "step3Title": "리소스 최적화",
+        "step3Description": "희석 메커니즘을 사용하여 저렴한 재료로 결과물을 극대화하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 제작 가이드"
+    },
+    "items": {
+      "title": "Dead as Disco 아이템",
+      "description": "도구, 무기, 이동 장비, 보관 솔루션을 포함한 상세 아이템 가이드로, 제작법과 사용 팁을 제공합니다.",
+      "metaTitle": "Dead as Disco 아이템 - 도구, 무기 및 장비 가이드",
+      "metaDescription": "도구, 무기, 이동 장비, 보관함을 포함한 Dead as Disco의 전체 아이템 데이터베이스입니다. 모든 아이템을 효과적으로 제작하고 사용하는 방법을 알아보세요.",
+      "categoryLabel": "아이템 및 장비",
+      "whatIs": "아이템이란 무엇인가요?",
+      "whatIsDescription": "도구, 무기, 이동 장비 및 기능성 아이템에 대한 종합 가이드입니다. 제작법, 사용 전략, 최적의 조합을 배워보세요.",
+      "why": "아이템 가이드를 확인해야 하는 이유는?",
+      "whySteps": {
+        "step1Title": "제작법 배우기",
+        "step1Description": "Apotheosis를 사용하여 필수 도구와 무기를 제작하는 방법을 알아보세요",
+        "step2Title": "장비 최적화",
+        "step2Description": "자신의 플레이 스타일과 진행 단계에 가장 적합한 아이템을 선택하세요",
+        "step3Title": "생존력 향상",
+        "step3Description": "이동 장비와 무기를 장착하여 위험한 세계를 탐험하세요"
+      },
+      "featured": "추천 및 필수 아이템",
+      "all": "모든 아이템"
+    },
+    "biomes": {
+      "title": "Dead as Disco 생물군계",
+      "description": "세계의 지역, 환경적 특징, 자원 위치 및 각 생물군계별 생존 팁을 탐험하세요.",
+      "metaTitle": "Dead as Disco 생물군계 - 세계 지역 및 탐험",
+      "metaDescription": "Tiamana Leylines, Fog Meadow 및 Surreal 지역을 포함한 Dead as Disco의 생물군계를 탐험하세요. 자원을 찾고 위험을 피하며 무한한 세계를 여행하세요.",
+      "categoryLabel": "세계 지역",
+      "whatIs": "생물군계란 무엇인가요?",
+      "whatIsDescription": "다양한 세계 지역, 환경적 특징, 자원 분포 및 위험 구역에 대한 가이드입니다. 각 지역에서 무엇을 기대해야 하며 어떻게 준비해야 하는지 알아보세요.",
+      "why": "생물군계를 탐험해야 하는 이유는?",
+      "whySteps": {
+        "step1Title": "자원 찾기",
+        "step1Description": "각 지역 고유의 희귀 재료와 정수를 찾아보세요",
+        "step2Title": "위험 회피",
+        "step2Description": "환경적 위험 요소와 적대적인 생명체를 이해하세요",
+        "step3Title": "탐험 계획",
+        "step3Description": "각 생물군계 유형에 맞는 올바른 도구와 장비를 준비하세요"
+      },
+      "featured": "추천 및 필수 지역",
+      "all": "모든 생물군계"
+    },
+    "building": {
+      "title": "Dead as Disco 건축",
+      "description": "Qualia 개인 차원, 기지 건설, 보관 관리 및 창의적인 건축 기술을 마스터하세요.",
+      "metaTitle": "Dead as Disco 건축 - Qualia 및 기지 건설",
+      "metaDescription": "Qualia 개인 차원, 기지 건설, 보관 솔루션 및 창의적인 건축 기술을 통해 Dead as Disco 건축을 마스터하세요.",
+      "categoryLabel": "건축 및 기지",
+      "whatIs": "건축이란 무엇인가요?",
+      "whatIsDescription": "Qualia 개인 차원 시스템, 기지 건설, 보관 관리 및 창의적인 건축에 대한 가이드입니다. Surreal 세계에서 나만의 안식처를 만드는 방법을 배워보세요.",
+      "why": "기지를 건설해야 하는 이유는?",
+      "whySteps": {
+        "step1Title": "안전한 공간 만들기",
+        "step1Description": "보관 및 제작 작업을 위한 안전한 기지를 구축하세요",
+        "step2Title": "자원 관리",
+        "step2Description": "보관 솔루션을 사용하여 재료를 효율적으로 정리하세요",
+        "step3Title": "Qualia 잠금 해제",
+        "step3Description": "최고의 편의성을 위해 개인 포켓 차원에 액세스하세요"
+      },
+      "featured": "추천 및 필수 건축",
+      "all": "모든 건축 가이드"
+    },
+    "support": {
+      "title": "Dead as Disco 지원",
+      "description": "기술 지원, 플랫폼 호환성, 성능 최적화 및 일반적인 문제 해결 방법을 제공합니다.",
+      "metaTitle": "Dead as Disco 지원 - 기술 도움말 및 해결책",
+      "metaDescription": "Steam Deck 설정, 충돌 수정, 성능 최적화 및 플랫폼 호환성 가이드를 포함한 Dead as Disco 기술 지원을 받으세요.",
+      "categoryLabel": "기술 지원",
+      "whatIs": "지원 서비스란 무엇인가요?",
+      "whatIsDescription": "플랫폼 호환성, 성능 최적화, 충돌 수정 및 일반적인 문제를 다루는 기술 가이드입니다. Steam Deck, 멀티플레이어 질문 및 설정에 대한 도움을 받으세요.",
+      "why": "지원 정보를 확인해야 하는 이유는?",
+      "whySteps": {
+        "step1Title": "기술적 문제 해결",
+        "step1Description": "충돌, 성능 문제 및 호환성 문제를 해결하세요",
+        "step2Title": "성능 최적화",
+        "step2Description": "사용 중인 플랫폼에서 최상의 경험을 위해 설정을 구성하세요",
+        "step3Title": "플랫폼 호환성",
+        "step3Description": "Steam Deck, 컨트롤러 지원 및 시스템 요구 사항에 대해 알아보세요"
+      },
+      "featured": "추천 및 필수 지원",
+      "all": "모든 지원 문서"
+    }
+  }
+}

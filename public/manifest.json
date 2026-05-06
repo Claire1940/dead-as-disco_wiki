@@ -1,12 +1,16 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Dead as Disco Wiki - Idols, Builds, Songs & Roadmap",
+  "short_name": "Dead as Disco",
+  "description": "Dead as Disco Wiki features guides for idols, rhythm combat, skill builds, songs, My Music, Infinite Disco, and roadmap updates.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "theme_color": "#fc178e",
+  "background_color": "#09060d",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "music"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -21,13 +25,13 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon-16x16.png",
-      "sizes": "16x16",
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     },
     {
