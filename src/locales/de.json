@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Dead as Disco Wiki - Crafting, Biome & Errungenschaften",
+      "description": "Das Dead as Disco Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Errungenschaften, Enden und Überlebenstipps für das Surreal Voxel-Sandbox-Abenteuer auf Steam.",
+      "keywords": "Dead as Disco, Dead as Disco Wiki, Crafting, Biome, Errungenschaften, Überleben, Steam",
+      "ogTitle": "Dead as Disco Wiki - Crafting, Biome & Errungenschaften",
+      "ogDescription": "Das Dead as Disco Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Errungenschaften, Enden und Überlebenstipps für das Surreal Voxel-Sandbox-Abenteuer auf Steam.",
+      "twitterTitle": "Dead as Disco Wiki - Crafting, Biome & Errungenschaften",
+      "twitterDescription": "Das Dead as Disco Wiki umfasst Crafting, Biome, Kreaturen, Gegenstände, Errungenschaften und Überlebenstipps für die Surreal Voxel-Sandbox auf Steam."
     }
   },
   "nav": {
@@ -20,768 +20,734 @@
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Jetzt auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen",
-    "articlesComingSoon": "Artikel folgen bald"
+    "articlesComingSoon": "Artikel folgen in Kürze"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Surreal Voxel-Survival-Sandbox",
+    "title": "Dead as Disco Wiki",
+    "description": "Erkunde traumhafte Biome, verschmelze Gegenstände mit Apotheosis, baue frei und überlebe seltsame Kreaturen in dieser Surreal Open-World-Sandbox auf Steam.",
+    "getFreeCodesCTA": "Crafting-Guide erkunden",
+    "playOnSteamCTA": "Auf Steam spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "1.325",
+        "label": "Spieler online"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "1.986",
+        "label": "Höchstzahl gleichzeitiger Spieler"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "97%",
+        "label": "Positive Bewertungen"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "12. März 2026",
+        "label": "Veröffentlichungsdatum"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Dead as Disco Gameplay",
+    "description": "Erkunde Surreal Biome, verschmelze Gegenstände mit Apotheosis und überlebe seltsame Kreaturen in dieser traumhaften Voxel-Sandbox auf Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Dead as Disco",
     "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "subtitle": "Alles, was du brauchst, um in Dead as Disco zu erkunden, zu craften und zu überleben",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "BookOpen",
+        "title": "Einsteiger-Guide",
+        "description": "Erste Schritte, Erkundung und früher Fortschritt"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
-      },
-      {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
-      },
-      {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
-      },
-      {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
-      },
-      {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Sparkles",
+        "title": "Apotheosis Crafting",
+        "description": "Freiform-Fusionssystem und frühe Rezepte"
       },
       {
         "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "title": "Werkzeuge und Waffen",
+        "description": "Frost Pick, Azrael, Hookshot und mehr"
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "Package",
+        "title": "Lagerung und Inventar",
+        "description": "Cache Cubes, Schränke und Qualia-Lagerung"
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "Home",
+        "title": "Qualia und Basisbau",
+        "description": "Persönliche Qualia und Einrichtung der Heimatbasis"
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "Eye",
+        "title": "Weltregionen",
+        "description": "Fog Meadow, Essence Morass und mehr"
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
+        "icon": "AlertTriangle",
+        "title": "Kreaturen und Feinde",
+        "description": "Manikins, Spinnen und wie man überlebt"
       },
       {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "icon": "ArrowRight",
+        "title": "Mobilitätsausrüstung",
+        "description": "Hookshot, Glider Glove, Bee Glider"
       },
       {
         "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "title": "Landwirtschaft und Wachstum",
+        "description": "Samen-Fortschritt und Material-Farming"
+      },
+      {
+        "icon": "Star",
+        "title": "Beste frühe Freischaltungen",
+        "description": "Priorisierte Upgrades für die erste Stunde"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Errungenschaften-Tracker",
+        "description": "Alle 19 Steam Errungenschaften und Bedingungen"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Einzelspieler-FAQ",
+        "description": "Fragen zu Plattform, Preis, Koop und Sprache"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Steam Deck und Controller",
+        "description": "Proton 9.0.4 Setup und Controller-Tipps"
+      },
+      {
+        "icon": "Settings",
+        "title": "Einstellungen und Barrierefreiheit",
+        "description": "Hände ausblenden, Vulkan und Anzeigeoptionen"
+      },
+      {
+        "icon": "Clock",
+        "title": "Updates und Patchnotizen",
+        "description": "Aktuelle Fehlerbehebungen und Roadmap-Notizen"
+      },
+      {
+        "icon": "Shield",
+        "title": "Absturz-Behebung",
+        "description": "Vulkan-Check, Log-Pfad und Fehlermeldung"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "lucidBlocksBeginnerGuide": {
+      "title": "Dead as Disco Einsteiger-Guide",
+      "displayType": "steps",
+      "intro": "Beginne damit, zu lernen, wie Erkundung, Fusion und Fortschritt zusammenhängen. Dead as Disco belohnt Experimentierfreude, daher resultiert früher Fortschritt aus dem Sammeln ungewöhnlicher Materialien, dem Testen von Kombinationen und dem Freischalten deiner persönlichen Qualia.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "title": "Erkunden vor dem Festlegen",
+          "description": "Gehe nach draußen, baue gewöhnliche Blöcke ab und behalte alle seltsamen Drops, die du findest. Früher Fortschritt dreht sich weniger um feste Quests als vielmehr darum, zu entdecken, was aus Materialien werden kann."
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "title": "Schalte deine persönliche Qualia frühzeitig frei",
+          "description": "Deine persönliche Qualia ist einer der wichtigsten frühen Meilensteine. Sie bietet dir einen verlässlichen Ort, um dich neu zu formieren und darauf aufzubauen."
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
+          "title": "Nutze Osmium für schnellen frühen Fortschritt",
+          "description": "Osmium ist eines der nützlichsten frühen Materialien. Eine beliebte frühe Route ist die Kombination von Osmium mit Stöcken, um eine Frost-Spitzhacke für schnellen Abbau herzustellen."
         },
         {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "title": "Dokumentiere gute Fusionen",
+          "description": "Halte erfolgreiche Kombinationen in deinem Journal fest. Dead as Disco bietet viele mögliche Fusionspfade, daher spart das Aufschreiben nützlicher Ergebnisse viel Zeit."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
+        "Apotheosis erfordert keine feste Rezeptliste.",
+        "Unendliche Weltgenerierung bedeutet, dass das Bewegen in die Höhe oder Tiefe völlig unterschiedliche Materialien offenbaren kann.",
+        "Bewegungswerkzeuge und nützliche Ausrüstung werden zu einer erheblichen Verbesserung der Lebensqualität, sobald du beginnst, sie freizuschalten.",
+        "Sich früh zu verirren ist normal, aber nützliche Werkzeuge, Lagerplatz und Bewegungsoptionen entwickeln schnell eine Eigendynamik, sobald deine ersten guten Fusionen funktionieren."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Dead as Disco Apotheosis Crafting",
+      "displayType": "cards",
+      "intro": "Apotheosis ist das uneingeschränkte Fusionssystem des Spiels. Anstatt ein traditionelles Rezeptbuch auswendig zu lernen, kombinierst du Materialien, beobachtest das Ergebnis und baust im Laufe der Zeit dein eigenes Crafting-Wissen auf.",
+      "cards": [
         {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
+          "name": "Freiform-Fusion",
+          "description": "Apotheosis ermöglicht es dir, verschiedene Gegenstände miteinander zu verschmelzen, ohne einer festen Rezeptliste folgen zu müssen."
         },
         {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
+          "name": "Mehrere nützliche Ergebnisse",
+          "description": "Verschiedene Materialien tendieren oft zu bestimmten Ergebnissen. Entdeckungen der Community zeigen, dass ähnliche Inputs dennoch zu praktischen Werkzeugen, Lagerplätzen oder Kampf-Upgrades führen können."
         },
         {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
+          "name": "Journal-basiertes Crafting",
+          "description": "Der beste Weg, Apotheosis zu lernen, ist das Festhalten deiner erfolgreichen Kombinationen. Dein Journal wird schnell zu deiner eigenen Crafting-Referenz."
+        },
+        {
+          "name": "Von der Community getestete frühe Fusionen",
+          "description": "Beliebte frühe Beispiele sind Osmium plus Stock für eine Frost-Spitzhacke, Stock plus Wolfram-Anhang für Azrael und Azrael plus Magnetit für das Tendril Rapier."
+        }
+      ],
+      "milestones": [
+        "Einen Gegenstand fusionieren",
+        "Ein Ungeziefer fusionieren",
+        "Ein göttliches Artefakt fusionieren"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Dead as Disco Werkzeuge und Waffen",
+      "displayType": "itemCards",
+      "intro": "Dead as Disco mischt offizielle nützliche Ausrüstung mit von der Community entdeckten frühen Waffen. Das beste Setup ist normalerweise eine Mischung aus schnellem Abbau, sicherer Fortbewegung und einer verlässlichen Kampfoption.",
+      "items": [
+        {
+          "name": "Frost-Spitzhacke",
+          "type": "Abbauwerkzeug",
+          "description": "Eine schnelle und erschwingliche frühe Spitzhacke aus Osmium und Stock. Spieler nutzen sie, um das frühe Sammeln von Materialien zu beschleunigen."
+        },
+        {
+          "name": "Azrael",
+          "type": "Starterwaffe",
+          "description": "Eine praktische frühe Waffenroute, hergestellt aus Stock und Wolfram-Anhang."
+        },
+        {
+          "name": "Tendril Rapier",
+          "type": "Verbesserte Waffe",
+          "description": "Ein stärkeres Folgemodell, das durch die Kombination von Azrael mit Magnetit entsteht. Es ist einer der nützlichsten Kampfpfade für das frühe bis mittlere Spiel, die von Spielern geteilt werden."
+        },
+        {
+          "name": "Hookshot",
+          "type": "Mobilitätswerkzeug",
+          "description": "Ein offizieller Fortbewegungsgegenstand, der die Bewegung und vertikale Erkundung erheblich verbessert."
+        },
+        {
+          "name": "Bee Glider",
+          "type": "Mobilitätswerkzeug",
+          "description": "Ein offizieller Bewegungsgegenstand, der hilft, Entfernungen sicherer und effizienter zu überbrücken."
+        },
+        {
+          "name": "Ball-Zauberstab",
+          "type": "Nützlichkeitswaffe",
+          "description": "Ein offizieller Fernkampf-Gegenstand, der deine Kampf- und Rätseloptionen erweitert."
+        },
+        {
+          "name": "Tauchausrüstung",
+          "type": "Fortbewegungsausrüstung",
+          "description": "Ein offizieller nützlicher Gegenstand, um Gebiete zu erreichen, die sonst die Erkundung verlangsamen würden."
+        },
+        {
+          "name": "Sprengstoffe",
+          "type": "Nützlichkeitsschaden",
+          "description": "Offiziell als Teil des Kern-Werkzeugsets hervorgehoben und nützlich, um Bedrohungen oder Hindernisse zu durchbrechen."
         }
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
+    "lucidBlocksStorageAndInventory": {
+      "title": "Dead as Disco Storage and Inventory",
+      "displayType": "solutionCards",
+      "intro": "Inventory pressure starts early in Dead as Disco, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "solutions": [
         {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
+          "name": "Cache Cube",
+          "role": "Chest-Like Storage",
+          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
         },
         {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
+          "name": "Cabinet",
+          "role": "Simple Base Storage",
+          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
         },
         {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
+          "name": "Personal Qualia",
+          "role": "Long-Term Storage Hub",
+          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
         },
         {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
+          "name": "Journal Tracking",
+          "role": "Inventory Efficiency",
+          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
         }
       ],
-      "priority": [
+      "managementTips": [
+        "Prioritize one dependable storage option before hoarding rare drops.",
+        "Build around your personal Qualia once it becomes available.",
+        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
+        "Use your journal as part of inventory management, not just crafting discovery."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Dead as Disco Qualia and Base Building",
+      "displayType": "cards",
+      "intro": "Qualia is one of the most important progression milestones in Dead as Disco. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "cards": [
         {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
+          "name": "Personal Qualia",
+          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
         },
         {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "name": "Storage-First Building",
+          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
         },
         {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "name": "Creative Home Building",
+          "description": "Dead as Disco supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+        },
+        {
+          "name": "Progression Hub",
+          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+        }
+      ],
+      "highlights": [
+        "Enter a qualia",
+        "Store materials safely",
+        "Expand from utility to decoration",
+        "Use base space to support crafting and farming"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Dead as Disco World Regions",
+      "displayType": "regionCards",
+      "intro": "Dead as Disco uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "regions": [
+        {
+          "name": "Fog Meadow",
+          "type": "Community-Noted Area",
+          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+        },
+        {
+          "name": "Tiamana Leyline",
+          "type": "Discovery Landmark",
+          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+        },
+        {
+          "name": "Clonaqualia",
+          "type": "Build Space",
+          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+        },
+        {
+          "name": "Essence Morass",
+          "type": "Farming Area",
+          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Dead as Disco Creatures and Enemies",
+      "displayType": "creatureCards",
+      "intro": "Dead as Disco mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "creatures": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Manikins",
+          "role": "Hostile Enemy",
+          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
         },
         {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "name": "Squishy Gels",
+          "role": "Hostile Enemy",
+          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
         },
         {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Higher-Dimensional Beings",
+          "role": "Hostile Enemy",
+          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
         },
         {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Colossal Spiders",
+          "role": "Major Threat",
+          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+        },
+        {
+          "name": "Bubblebear",
+          "role": "Named Creature",
+          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+        },
+        {
+          "name": "Cute Vermin",
+          "role": "Interactable Creature",
+          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
+        },
+        {
+          "name": "Blasphemous Creature",
+          "role": "Elite Threat",
+          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
+    "lucidBlocksMobilityGear": {
+      "title": "Dead as Disco Mobilitätsausrüstung",
+      "displayType": "itemCards",
+      "intro": "Bewegungs-Upgrades sind einer der größten Komfortsprünge in Dead as Disco. Sobald du deine ersten Fortbewegungswerkzeuge freischaltest, wird die Erkundung schneller, sicherer und deutlich lohnender.",
+      "items": [
         {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "name": "Hookshot",
+          "type": "Fortbewegungswerkzeug",
+          "description": "Der Hookshot ist einer der deutlichsten Meilensteine für die Fortbewegung im Spiel und hat ein eigenes, spezielles Achievement."
         },
         {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "name": "Gleiter-Handschuh",
+          "type": "Luftmobilität",
+          "description": "Der Gleiter-Handschuh ermöglicht ein viel flüssigeres Reisen und ist ein weiterer wichtiger Fortschritts-Meilenstein mit eigenem Achievement."
         },
         {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "name": "Bee Glider",
+          "type": "Fortbewegungswerkzeug",
+          "description": "Bee Glider werden offiziell als Teil des Bewegungs-Toolkits des Spiels hervorgehoben, um Distanzen effizienter zu überbrücken."
         },
         {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
+          "name": "Ballstab",
+          "type": "Nützliche Ausrüstung",
+          "description": "Ballstäbe gehören zu den offiziell hervorgehobenen Spezialwerkzeugen und erweitern die Art und Weise, wie du dich durch die Welt bewegst oder mit ihr interagierst."
+        },
+        {
+          "name": "Tauchausrüstung",
+          "type": "Erkundungsausrüstung",
+          "description": "Die Tauchausrüstung ist offiziell als Teil des Kern-Utility-Sets gelistet, um Bereiche zu erreichen, die sonst schwerer zu erkunden wären."
+        },
+        {
+          "name": "Sprengstoffe",
+          "type": "Utility-Schaden",
+          "description": "Sprengstoffe werden sowohl offiziell hervorgehoben als auch mit einem Achievement-Meilenstein verknüpft, was sie zu einem Teil des grundlegenden Utility-Fortschritts im Spiel macht."
         }
       ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      "unlockMilestones": [
+        "Bediene einen Hookshot",
+        "Fliege mit dem Gleiter-Handschuh",
+        "Schwinge einen Projektilstab",
+        "Schwinge einen Sprengstoff"
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Dead as Disco Landwirtschaft und Wachstum",
+      "displayType": "mixedCards",
+      "intro": "Wachstum ist Teil des echten Fortschritts in Dead as Disco. Bei der Landwirtschaft geht es nicht nur um das Pflanzen und Ernten, sondern auch darum, wiederholbare Materialrouten einzurichten, die deine Werkzeuge, Waffen und Handwerksoptionen am Laufen halten.",
+      "sections": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "name": "Saatgut-Fortschritt",
+          "description": "Das Pflanzen und Düngen von Samen ist ein echter Meilenstein im Spiel, und das Ernten einer ausgewachsenen Nuss ist Teil desselben Wachstumspfads."
+        },
+        {
+          "name": "Material-Farming",
+          "description": "Ein praktischer früher Farming-Loop ist die Herstellung von Quecksilberkapseln, die kleine Schleime spawnen, welche Ranken und Schleim als wiederholbare Handwerksmaterialien fallen lassen."
+        },
+        {
+          "name": "Werkzeug-Erhalt",
+          "description": "Das Ressourcen-Farming wird deutlich stärker, sobald du beständig Osmium, Glasscherben, Pflanzen und Schleim-Materialien für Folge-Crafting sammeln kannst."
+        },
+        {
+          "name": "Basis-Routine",
+          "description": "Das beste Farming-Setup unterstützt mehr als nur Nahrung. Es sollte dein Lager, deine Bewegungswerkzeuge, Waffen-Upgrades und zukünftige Fusionsexperimente versorgen."
+        }
+      ],
+      "growthMilestones": [
+        "Dünge einen Samen",
+        "Ernte eine ausgewachsene Nuss",
+        "Erstelle wiederholbare Material-Loops",
+        "Verwandle Landwirtschaft in langfristigen Fortschritt"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Dead as Disco Beste frühe Freischaltungen",
+      "displayType": "priorityCards",
+      "intro": "Die stärksten frühen Freischaltungen sind diejenigen, die Sicherheit, Lagerung und Bewegung verbessern. In Dead as Disco können ein paar praktische Upgrades den Rest des Spiels deutlich angenehmer machen.",
+      "priorities": [
+        {
+          "name": "Persönliche Qualia",
+          "priority": "Essentiell",
+          "description": "Sobald du Zugang zu deiner persönlichen Qualia hast, wird dein Run deutlich stabiler. Sie fungiert als zuverlässiger Knotenpunkt für Lagerung, Bauen und Neuformierung."
+        },
+        {
+          "name": "Frost-Spitzhacke",
+          "priority": "Sehr hoch",
+          "description": "Ein schnelles und günstiges frühes Abbauwerkzeug aus Osmium und Stock. Es ist eines der nützlichsten Upgrades, um die frühe Ressourcensammlung zu beschleunigen."
+        },
+        {
+          "name": "Cache-Würfel",
+          "priority": "Sehr hoch",
+          "description": "Der Lagerdruck beginnt früh, daher ist der Erhalt deines ersten zuverlässigen Behälters im Truhen-Stil ein großes Komfort-Upgrade."
+        },
+        {
+          "name": "Hookshot",
+          "priority": "Hoch",
+          "description": "Der Hookshot ist einer der deutlichsten Bewegungs-Meilensteine im Spiel und macht die Erkundung schnell schneller und sicherer."
+        },
+        {
+          "name": "Gleiter-Handschuh",
+          "priority": "Hoch",
+          "description": "Der Gleiter-Handschuh fügt einen weiteren großen Mobilitäts-Boost hinzu und macht die Fortbewegung über lange Distanzen weitaus effizienter."
+        },
+        {
+          "name": "Projektilstab oder Bomben",
+          "priority": "Hoch",
+          "description": "Ein Fernkampfwerkzeug oder eine Sprengstoffoption bietet dir eine sicherere Antwort auf gefährliche Gegner und Herausforderungen im Trial-Stil."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Dead as Disco Achievement Tracker",
+      "displayType": "achievementGrid",
+      "intro": "Dead as Disco currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "groups": [
+        {
+          "name": "Exploration",
+          "achievements": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "title": "Angel α",
+              "description": "Enter a qualia."
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "title": "Angel γ",
+              "description": "Discover a tiamana leyline."
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "title": "Angel δ",
+              "description": "Overcome a tiamana challenge."
+            },
+            {
+              "title": "Angel ε",
+              "description": "Hidden achievement."
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "name": "Crafting and Summoning",
+          "achievements": [
+            {
+              "title": "Apotheosis α",
+              "description": "Fuse an item."
+            },
+            {
+              "title": "Apotheosis β",
+              "description": "Fuse a vermin."
+            },
+            {
+              "title": "Apotheosis γ",
+              "description": "Fuse a divine artifact."
+            },
+            {
+              "title": "Archangel β",
+              "description": "Summon your faith."
+            }
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+          "name": "Mobility and Utility",
+          "achievements": [
+            {
+              "title": "Virtue α",
+              "description": "Fly with the glider glove."
+            },
+            {
+              "title": "Virtue β",
+              "description": "Command a hookshot."
+            },
+            {
+              "title": "Archangel α",
+              "description": "Brandish a projectile wand."
+            },
+            {
+              "title": "Archangel γ",
+              "description": "Brandish an explosive."
+            }
+          ]
+        },
+        {
+          "name": "Combat and Creatures",
+          "achievements": [
+            {
+              "title": "Bubblebear Massacre",
+              "description": "Defeat innocent bubblebears."
+            },
+            {
+              "title": "Archangel δ",
+              "description": "Eliminate a blasphemous creature."
+            },
+            {
+              "title": "Angel β",
+              "description": "Die."
+            },
+            {
+              "title": "Dominion γ",
+              "description": "Rename a cute vermin."
+            }
+          ]
+        },
+        {
+          "name": "Growth and Farming",
+          "achievements": [
+            {
+              "title": "Dominion α",
+              "description": "Fertilize a seed."
+            },
+            {
+              "title": "Dominion β",
+              "description": "Harvest a fully-grown nut."
+            },
+            {
+              "title": "Dominion δ",
+              "description": "Hidden achievement."
+            }
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Dead as Disco Singleplayer and Platform FAQ",
+      "displayType": "accordion",
+      "intro": "These are the core platform and access questions players keep asking before buying Dead as Disco.",
+      "faqs": [
+        {
+          "question": "Is Dead as Disco singleplayer?",
+          "answer": "Yes. Dead as Disco is a singleplayer game."
+        },
+        {
+          "question": "Is multiplayer or co-op planned?",
+          "answer": "No. Multiplayer is not planned for release or future updates."
+        },
+        {
+          "question": "Where can I play Dead as Disco?",
+          "answer": "It is currently available on Steam for Windows."
+        },
+        {
+          "question": "How much does Dead as Disco cost?",
+          "answer": "$9.99 on Steam."
+        },
+        {
+          "question": "Does Dead as Disco support controllers?",
+          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+        },
+        {
+          "question": "Does Dead as Disco work on Steam Deck?",
+          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+        },
+        {
+          "question": "Does Dead as Disco work on Linux?",
+          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+        },
+        {
+          "question": "Will Mac or Android be supported?",
+          "answer": "They may be supported in the future, but they are not current launch platforms."
+        },
+        {
+          "question": "Does Dead as Disco have translations?",
+          "answer": "No. There are currently no translations planned."
+        },
+        {
+          "question": "Will Dead as Disco keep getting updates?",
+          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Dead as Disco Steam Deck und Controller",
+      "displayType": "accordion",
+      "intro": "Dead as Disco kann auf dem Steam Deck ausgeführt werden, aber die Standardeinstellungen müssen möglicherweise angepasst werden. Tastatur und Maus bleiben die reibungslosere Option für Menüs und das allgemeine Spielgeschehen.",
+      "faqs": [
+        {
+          "question": "Funktioniert Dead as Disco auf dem Steam Deck?",
+          "answer": "Ja. Proton 9.0 funktioniert gut, und Proton 9.0.4 ist ein häufig geteilter Fix für Steam Deck-Probleme."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "question": "Was soll ich tun, wenn die Steam Deck-Steuerung nicht funktioniert?",
+          "answer": "Erzwinge die Kompatibilität und stelle das Spiel auf Proton 9.0.4 um. Die Standardkonfiguration akzeptiert Controller-Eingaben möglicherweise nicht korrekt."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "question": "Unterstützt Dead as Disco Controller?",
+          "answer": "Ja, aber das Spielen mit dem Controller wird nicht empfohlen, da die Menüs des Spiels nicht darauf ausgelegt sind."
+        },
+        {
+          "question": "Ist Linux-Unterstützung möglich?",
+          "answer": "Ja. Berichten zufolge funktioniert Proton 9.0 gut für Linux und das Steam Deck."
+        },
+        {
+          "question": "Was ist das beste Eingabe-Setup?",
+          "answer": "Tastatur und Maus sind die reibungsloseste Option für die Menünavigation und das allgemeine Spielgeschehen."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Dead as Disco Einstellungen und Barrierefreiheit",
+      "displayType": "settingCards",
+      "intro": "Dead as Disco verfügt bereits über einige praktische Einstellungen und Kompatibilitätshinweise, die sofort wichtig sind, wenn Spieler das Spiel zum ersten Mal starten.",
+      "settings": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "name": "Anzeigeeinstellungen",
+          "type": "Komfort-Option",
+          "description": "Die Anzeigeeinstellungen enthalten eine Option, mit der Spieler die Hände auf dem Bildschirm ausblenden können."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "name": "Grafikkompatibilität",
+          "type": "Systemanforderung",
+          "description": "Vulkan-Unterstützung ist erforderlich, damit die Grafik korrekt gerendert wird. Systeme ohne Vulkan können Abstürze und schwere Grafikfehler verursachen."
+        },
+        {
+          "name": "Eingabepräferenz",
+          "type": "Steuerungs-Setup",
+          "description": "Controller-Unterstützung ist vorhanden, aber Tastatur und Maus bieten ein reibungsloseres Erlebnis, da die Menüs nicht für die Controller-Nutzung ausgelegt sind."
+        },
+        {
+          "name": "Sprachunterstützung",
+          "type": "Lokalisierung",
+          "description": "Das aktuelle Setup ist nur auf Englisch, und derzeit sind keine Übersetzungen geplant."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Dead as Disco Updates und Patch-Notizen",
+      "displayType": "timeline",
+      "intro": "Dead as Disco erhält bereits schnelle Fixes nach der Veröffentlichung und kleine Updates zur Benutzerfreundlichkeit.",
+      "entries": [
+        {
+          "title": "Update 2.8.2",
+          "type": "UI-Update",
+          "description": "„awaken“ im Hauptmenü in „exit“ umbenannt."
+        },
+        {
+          "title": "Kleiner Patch für Startabstürze",
+          "type": "Hotfix",
+          "description": "Ein spezieller Patch wurde für Spieler veröffentlicht, bei denen das Spiel beim Start abstürzte."
+        },
+        {
+          "title": "Inhalts-Support nach der Veröffentlichung",
+          "type": "Roadmap-Notiz",
+          "description": "Einige Inhalts-Updates sind nach der Veröffentlichung geplant, aber sie sollen nicht in einem unbestimmten regelmäßigen Zeitplan fortgesetzt werden."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Dead as Disco Fehlerbehebung bei Abstürzen",
+      "displayType": "steps",
+      "intro": "Die meisten unmittelbaren Start- und Absturzprobleme sollten in einer einfachen Reihenfolge überprüft werden: Patch-Level, Grafikunterstützung, Plattformkompatibilität und Protokolle.",
+      "steps": [
+        {
+          "title": "Installiere den neuesten Absturz-Hotfix",
+          "description": "Wenn das Spiel beim Start abstürzt, aktualisiere es zuerst und teste es erneut mit dem neuesten Patch für Startabstürze."
+        },
+        {
+          "title": "Überprüfe die Vulkan-Unterstützung",
+          "description": "Dead as Disco erfordert Vulkan-Unterstützung. Systeme ohne Vulkan können unter Abstürzen oder schwerwiegenden Rendering-Problemen leiden."
+        },
+        {
+          "title": "Verwende Proton 9.0.4 auf dem Steam Deck",
+          "description": "Wenn die Eingabe oder das Startverhalten auf dem Steam Deck fehlerhaft ist, erzwinge die Kompatibilität und wechsle zu Proton 9.0.4."
+        },
+        {
+          "title": "Absturzprotokolle sammeln",
+          "description": "Öffne Windows Ausführen, füge %APPDATA% ein, gehe zu lucid blocks/logs und sammle die .txt-Dateien zur Fehlerbehebung."
+        },
+        {
+          "title": "Melde das Problem ordnungsgemäß",
+          "description": "Teile die Protokolle und Gerätedetails über das offizielle Discord-Bug-Report-Forum oder auf der Steam-Community-Seite."
         }
       ]
     }
@@ -789,43 +755,43 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was du über Dead as Disco wissen musst",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Ist Dead as Disco ein Einzelspieler-Spiel?",
+        "answer": "Ja. Dead as Disco ist ein reines Einzelspieler-Spiel; Mehrspieler- oder Koop-Modi sind nicht geplant."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Was ist das Apotheosis-System in Dead as Disco?",
+        "answer": "Apotheosis ist das freie Fusions-Crafting-System von Dead as Disco. Anstatt festen Rezepten zu folgen, kombinierst du Materialien und entdeckst deine eigenen Crafting-Pfade."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Wo kann ich Dead as Disco spielen?",
+        "answer": "Dead as Disco ist derzeit auf Steam für Windows verfügbar. Unterstützung für Linux und Steam Deck ist über Proton 9.0 verfügbar."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wie viel kostet Dead as Disco?",
+        "answer": "Dead as Disco kostet 9,99 $ auf Steam."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Unterstützt Dead as Disco Controller?",
+        "answer": "Ja, aber das Spielen mit dem Controller wird nicht empfohlen, da die Menüs nicht darauf ausgelegt sind. Tastatur und Maus sind die flüssigere Option."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Wird Dead as Disco Updates erhalten?",
+        "answer": "Ja. Einige Inhalts-Updates sind nach der Veröffentlichung geplant, aber es ist nicht vorgesehen, diese in einem unbegrenzten, regelmäßigen Zeitplan fortzusetzen."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Dead as Disco zu erkunden?",
+    "description": "Tritt der Dead as Disco-Community auf Discord bei, um Guides, Updates und Diskussionen zu finden!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Dead as Disco Wiki",
+    "description": "Deine vollständige Ressourcen-Zentrale für Dead as Disco Crafting, Biome, Kreaturen, Erfolge und Survival-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
@@ -834,131 +800,131 @@
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Dead as Disco Wiki. Nicht verbunden mit den Entwicklern von Dead as Disco.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+      "title": "Dead as Disco Guides",
+      "description": "Vollständige Gameplay-Guides von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistere Überleben und Crafting.",
+      "metaTitle": "Dead as Disco Guides – Strategien für Anfänger bis Fortgeschrittene",
+      "metaDescription": "Vollständige Dead as Disco Guides mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der Surreal-Sandbox.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Umfassende Guides zu Gameplay-Mechaniken, Überlebensstrategien und dem Apotheosis-Crafting-System. Lerne alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
+      "why": "Warum Guides lesen?",
       "whySteps": {
         "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
+        "step1Description": "Verstehe das Apotheosis-System und vermeide häufige Anfängerfehler",
         "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
+        "step2Description": "Folge bewährten Pfaden, um in der Surreal-Welt zu überleben und erfolgreich zu sein",
         "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step3Description": "Entwickle fortgeschrittene Taktiken für Erkundung und Crafting"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "all": "Alle Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+      "title": "Dead as Disco Crafting",
+      "description": "Meistere das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Crafting-Strategien für mächtige Gegenstände.",
+      "metaTitle": "Dead as Disco Crafting – Apotheosis-System & Rezepte",
+      "metaDescription": "Meistere das Dead as Disco Apotheosis-Crafting-System. Lerne Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
+      "categoryLabel": "CRAFTING-SYSTEM",
+      "whatIs": "Was ist Crafting?",
+      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzbasierte Fusionsmechanik, bei der du bis zu sechs Gegenstände kombinierst, um neue Rezepte zu entdecken. Keine festen Crafting-Menüs – Experimentieren ist der Schlüssel.",
+      "why": "Warum Crafting meistern?",
       "whySteps": {
         "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
+        "step1Description": "Entdecke essenzielle Werkzeuge, Waffen und Ausrüstung zur Fortbewegung durch Fusion",
         "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
+        "step2Description": "Lerne, wie Gegenstands-Essenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
         "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step3Description": "Nutze Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "all": "Alle Crafting-Guides"
     },
     "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
+      "title": "Dead as Disco Gegenstände",
+      "description": "Detaillierte Gegenstands-Guides zu Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerlösungen inklusive Herstellungsrezepten und Anwendungstipps.",
+      "metaTitle": "Dead as Disco Gegenstände - Werkzeuge, Waffen & Ausrüstungs-Guide",
+      "metaDescription": "Vollständige Gegenstandsdatenbank für Dead as Disco, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lerne, wie man jeden Gegenstand effektiv herstellt und einsetzt.",
       "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
       "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+      "whatIsDescription": "Umfassende Guides für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lerne Herstellungsrezepte, Anwendungsstrategien und optimale Kombinationen.",
+      "why": "Warum Gegenstands-Guides prüfen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
+        "step1Title": "Herstellungsrezepte lernen",
+        "step1Description": "Entdecke, wie man wichtige Werkzeuge und Waffen mit Apotheosis herstellt",
         "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
+        "step2Description": "Wähle die besten Gegenstände für deinen Spielstil und Fortschritt",
         "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step3Description": "Rüste dich mit Mobilitätsausrüstung und Waffen aus, um die gefährliche Welt zu durchqueren"
       },
-      "featured": "Hervorgehoben & Essenziell",
+      "featured": "Empfohlen & Essentiell",
       "all": "Alle Gegenstände"
     },
     "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
+      "title": "Dead as Disco Biome",
+      "description": "Erkunde Weltregionen, Umgebungsmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
+      "metaTitle": "Dead as Disco Biome - Weltregionen & Erkundung",
+      "metaDescription": "Erkunde Dead as Disco Biome, einschließlich Tiamana Leylines, Fog Meadow und surreal Regionen. Finde Ressourcen, vermeide Gefahren und navigiere durch die unendliche Welt.",
       "categoryLabel": "WELTREGIONEN",
       "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
+      "whatIsDescription": "Guides zu verschiedenen Weltregionen, Umgebungsmerkmalen, Ressourcenverteilung und Gefahrenzonen. Erfahre, was dich erwartet und wie du dich auf jedes Gebiet vorbereitest.",
       "why": "Warum Biome erkunden?",
       "whySteps": {
         "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
+        "step1Description": "Lokalisiere seltene Materialien und Essenzen, die spezifisch für jede Region sind",
         "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
+        "step2Description": "Verstehe Umweltgefahren und feindselige Kreaturen",
         "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step3Description": "Bereite die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
       },
-      "featured": "Hervorgehoben & Essenziell",
+      "featured": "Empfohlen & Essentiell",
       "all": "Alle Biome"
     },
     "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
+      "title": "Dead as Disco Bauen",
+      "description": "Meistere Qualia-persönliche Dimensionen, Basenbau, Lagermanagement und kreative Konstruktionstechniken.",
+      "metaTitle": "Dead as Disco Bauen - Qualia & Basiskonstruktion",
+      "metaDescription": "Meistere das Bauen in Dead as Disco mit Qualia-persönlichen Dimensionen, Basiskonstruktion, Lagerlösungen und kreativen Bautechniken.",
       "categoryLabel": "BAUEN & BASEN",
       "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
+      "whatIsDescription": "Guides zum Qualia-persönlichen Dimensionssystem, Basiskonstruktion, Lagermanagement und kreativem Bauen. Lerne, deinen sicheren Zufluchtsort in der Surreal Welt zu erschaffen.",
       "why": "Warum Basen bauen?",
       "whySteps": {
         "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
+        "step1Description": "Errichte sichere Basen für Lagerung und Herstellungsoperationen",
         "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
+        "step2Description": "Organisiere Materialien effizient mit Lagerlösungen",
         "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step3Description": "Greife auf persönliche Taschendimensionen für ultimativen Komfort zu"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Empfohlen & Essentiell",
+      "all": "Alle Bau-Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Dead as Disco Support",
       "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
+      "metaTitle": "Dead as Disco Support - Technische Hilfe & Lösungen",
+      "metaDescription": "Erhalte technischen Support für Dead as Disco, einschließlich Steam Deck Einrichtung, Absturzbehebungen, Leistungsoptimierung und Anleitungen zur Plattformkompatibilität.",
       "categoryLabel": "TECHNISCHER SUPPORT",
       "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
+      "whatIsDescription": "Technische Guides zu Plattformkompatibilität, Leistungsoptimierung, Absturzbehebungen und häufigen Problemen. Erhalte Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
       "why": "Warum Support prüfen?",
       "whySteps": {
         "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
+        "step1Description": "Löse Abstürze, Leistungsprobleme und Kompatibilitätsschwierigkeiten",
         "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
+        "step2Description": "Konfiguriere Einstellungen für die beste Erfahrung auf deiner Plattform",
         "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step3Description": "Erfahre mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
       },
-      "featured": "Hervorgehoben & Essenziell",
+      "featured": "Empfohlen & Essentiell",
       "all": "Alle Support-Artikel"
     }
   }
