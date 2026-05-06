@@ -1,0 +1,136 @@
+export const metadata = {
+  title: "Mods de Dead as Disco: Guía completa de instalación y skins 2026",
+  description: "Aprende a instalar y gestionar mods de Dead as Disco. Nuestra guía de 2026 cubre cambios de skins, mods de escenarios e instalación paso a paso para la demo y el juego completo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2b2d42/fff?text=Dead+as+Disco+Mods+Guide",
+  date: "2026-05-07",
+  author: "Equipo de la Wiki de Dead as Disco"
+}
+
+La comunidad de juegos de ritmo siempre se ha definido por su creatividad, y el auge de los **mods de dead as disco** es un testimonio de la pasión que rodea a este título empapado de neón. Incluso mientras el juego permanece en su fase de demostración, los jugadores han encontrado formas ingeniosas de personalizar su experiencia, intercambiando al protagonista Charlie por personajes icónicos de toda la cultura pop. Navegar por el mundo de los **mods de dead as disco** te permite transformar la estética visual del juego, convirtiendo una sesión de ritmo estándar en un evento crossover con superhéroes e ídolos digitales.
+
+Ya sea que busques refrescar los visuales o poner a prueba los límites del motor del juego, instalar estas modificaciones es un proceso sencillo una vez que comprendes la estructura de archivos subyacente. En esta guía completa de 2026, te guiaremos a través de los pasos esenciales para descargar, instalar y eliminar de forma segura varias modificaciones. Desde cambios de skins hasta escenarios personalizados, la escena del modding está evolucionando rápidamente, proporcionando una rejugabilidad infinita para los fans del género.
+
+## Resumen de la escena de modding de Dead as Disco
+
+A pesar de ser una entrada relativamente nueva en el género de acción rítmica, la comunidad de modding ha centralizado rápidamente sus esfuerzos en plataformas como Nexus Mods. La mayoría de las modificaciones actuales se centran en los "Skin Swaps" (intercambios de apariencia), que reemplazan el modelo de personaje de Charlie por otro activo 3D. Debido a que el juego utiliza un motor moderno, estos activos a menudo conservan sus animaciones originales mientras se benefician de la iluminación única y los efectos de post-procesamiento del juego.
+
+Actualmente, los **mods de dead as disco** más populares se dividen en tres categorías principales:
+
+| Categoría de Mod | Descripción | Ejemplos comunes |
+|---|---|---|
+| **Reemplazos de Skins** | Cambia al personaje principal (Charlie) por otro modelo. | Spider-Man, Hatsune Miku, Kiryu Kazuma |
+| **Mods de Escenarios** | Cambia el entorno de fondo o la iluminación de un nivel. | Cyberpunk City, Retro Disco, Void Stage |
+| **Mejoras de Interfaz (UI)** | Ajusta las indicaciones en pantalla o los menús para una mejor visibilidad. | UI limpia, Notas de alto contraste |
+
+> **Nota:** Asegúrate siempre de tener una copia de seguridad de tus datos de guardado antes de experimentar con los archivos del juego, aunque los mods de skins generalmente no son destructivos.
+
+## Mods de Skins populares para 2026
+
+La variedad de skins disponibles es impresionante para un juego que aún se encuentra en sus primeras etapas. Los modders han portado con éxito modelos de otros juegos de alta fidelidad, asegurando que los personajes se sientan como en casa dentro del vibrante mundo de Dead as Disco.
+
+### El Traje Avanzado (Spider-Man)
+Una de las modificaciones más descargadas es la skin de Spider-Man. Este mod reemplaza a Charlie con el trepamuros, incluyendo texturas de alta calidad que reaccionan dinámicamente a la iluminación del escenario. Sirve como el "caso de prueba" perfecto para los nuevos modders debido a su estabilidad.
+
+### Ídolos digitales y leyendas
+Más allá de los superhéroes, la comunidad ha adoptado iconos culturales. La skin de Hatsune Miku es una de las favoritas de los fans, encajando perfectamente en la estética de los juegos de ritmo. Para aquellos que prefieren un aspecto más rudo, la skin de Kiryu Kazuma (de la serie Yakuza) proporciona un contraste hilarante pero elegante con las pistas de disco animadas.
+
+| Mod de Personaje | Inspiración de origen | Fidelidad visual |
+|---|---|---|
+| **Hatsune Miku** | Vocaloid | **Alta** - Incluye efectos de brillo |
+| **Kiryu Kazuma** | Yakuza / Like a Dragon | **Media** - Texturas de traje clásicas |
+| **Herb** | Original/Meme | **Baja** - Estilizado y peculiar |
+| **Spider-Man** | Marvel's Spider-Man | **Extrema** - Malla de traje detallada |
+
+## Guía de instalación paso a paso
+
+Instalar **mods de dead as disco** requiere un poco de gestión manual de archivos, ya que el juego no admite actualmente una interfaz al estilo "Steam Workshop". Sigue estos pasos para asegurarte de que tus mods se carguen correctamente sin que el cliente se cierre.
+
+### 1. Prepara tu entorno
+Antes de descargar cualquier archivo, debes crear un espacio de trabajo dedicado en tu PC para mantener tus descargas organizadas.
+*   Visita una fuente de confianza como Nexus Mods.
+*   Crea una cuenta gratuita para obtener acceso a los enlaces de descarga manual.
+*   Crea una carpeta en tu escritorio llamada "DeadAsDisco_Mod_Backups".
+
+### 2. Descarga de los archivos
+Una vez que hayas seleccionado un mod (como el Spider-Man Advanced Suit), selecciona la opción "Manual Download". La mayoría de los mods se distribuyen como archivos comprimidos `.zip` o `.7z`. Después de que se complete la descarga, localiza el archivo en tu carpeta de descargas y extráelo. Deberías ver un conjunto de archivos, que normalmente terminan en `.pak`, `.sig` o `.ucas`.
+
+### 3. Localización del directorio del juego
+Debes colocar estos archivos dentro de la carpeta específica donde el juego busca los paquetes de contenido.
+1.  Abre tu biblioteca de Steam.
+2.  Haz clic derecho en **Dead as Disco**.
+3.  Selecciona **Administrar** > **Ver archivos locales**.
+4.  Navega a través de la siguiente ruta: `[Carpeta del nombre del juego] > Content > Paks`.
+
+### 4. Creación de la carpeta de mods
+Este es el paso más crítico. El motor del juego requiere una convención de nomenclatura de carpetas específica para priorizar el contenido modificado sobre los activos originales.
+*   Dentro de la carpeta `Paks`, crea una nueva carpeta.
+*   Nómbrala exactamente `~mod` (usando el símbolo de tilde).
+*   Mueve tus archivos de mod extraídos a esta nueva carpeta `~mod`.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/33gj-aEwaeU"
+    title="Dead as Disco Skin Mod Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Gestión y eliminación de mods
+
+A medida que el juego recibe actualizaciones, algunos **mods de dead as disco** pueden volverse incompatibles o causar fallos visuales. Saber cómo volver rápidamente al estado original es esencial para la resolución de problemas.
+
+### Cómo desactivar un mod
+Si quieres dejar de usar una skin específica pero no quieres borrar los archivos, simplemente puedes mover los archivos fuera de la carpeta `~mod` a una carpeta temporal de "Desactivados" en tu escritorio. El juego solo revisa el directorio `~mod` durante la secuencia de inicio.
+
+### Eliminación completa
+Para eliminar completamente un mod y volver a la skin predeterminada de Charlie:
+1.  Navega de nuevo al directorio `Content > Paks > ~mod`.
+2.  Elimina los archivos `.pak` y `.sig` específicos asociados con el mod.
+3.  Reinicia el juego.
+
+| Acción | Resultado | Recomendado para |
+|---|---|---|
+| **Eliminar archivo** | Eliminación permanente del mod. | Limpiar espacio o mods rotos. |
+| **Renombrar carpeta** | Desactiva todos los mods en esa carpeta. | Resolución rápida de cierres inesperados. |
+| **Mover a copia de seguridad** | Guarda el mod para uso futuro. | Rotar diferentes skins de personajes. |
+
+> **💡 Consejo:** Si el juego no se inicia después de instalar un mod, elimina la carpeta `~mod` por completo y verifica la integridad de los archivos del juego a través de Steam.
+
+## Consideraciones técnicas para 2026
+
+A medida que avanzamos en 2026, se espera que la complejidad de los **mods de dead as disco** aumente. Los primeros mods son simples "cambios de malla", pero los desarrollos futuros pueden incluir animaciones personalizadas y efectos de sonido únicos vinculados a personajes específicos.
+
+Al descargar mods, comprueba siempre la fecha de "Última actualización" en el sitio de alojamiento. Un mod creado para la demo inicial podría no funcionar con la versión comercial del juego debido a cambios en la estructura de archivos o en la versión del motor. Puedes seguir las actualizaciones oficiales en la [página de Steam de Dead as Disco](https://store.steampowered.com/) para mantenerte informado sobre los cambios de compatibilidad.
+
+### Conflictos de archivos
+Es importante tener en cuenta que, por lo general, no puedes ejecutar dos mods de skin diferentes para el mismo personaje simultáneamente. Por ejemplo, si tienes un mod de Spider-Man y un mod de Hatsune Miku en la carpeta `~mod`, es probable que el juego cargue el que aparezca primero alfabéticamente, o podría cerrarse debido a referencias de activos en conflicto.
+
+## Resolución de problemas comunes
+
+Incluso con una instalación perfecta, podrías encontrar algunos contratiempos. Aquí están las soluciones más comunes para problemas relacionados con mods:
+
+*   **El personaje es invisible:** Esto suele ocurrir cuando falta el archivo `.sig`. Asegúrate de que todos los archivos de la descarga (generalmente tres archivos) se hayan movido a la carpeta `~mod`.
+*   **El juego se cierra al seleccionar escenario:** Esto indica una falta de coincidencia de versiones. El mod podría estar intentando llamar a una animación o textura que ya no existe en la versión actual del juego.
+*   **Bajo rendimiento:** Algunas skins de alta fidelidad (como el Traje Avanzado) tienen un conteo de polígonos mucho mayor que el modelo base. Si tu tasa de fotogramas baja, prueba una versión "Low Poly" más optimizada del mod.
+
+## FAQ
+
+**P: ¿Dónde puedo encontrar los mejores mods de dead as disco?**
+
+R: Actualmente, Nexus Mods es el centro principal para la comunidad. Puedes encontrar desde intercambios de skins hasta modificaciones de escenarios subidas por creadores independientes.
+
+**P: ¿Me banearán del juego por usar mods?**
+
+R: Dado que Dead as Disco es principalmente una experiencia rítmica para un solo jugador, el uso de mods cosméticos es generalmente seguro y no resultará en un baneo. Sin embargo, evita siempre usar mods en cualquier modo online competitivo si se añaden en futuras actualizaciones.
+
+**P: ¿Tengo que pagar por alguna de estas modificaciones?**
+
+R: La gran mayoría del contenido creado por la comunidad es gratuito. Aunque algunos creadores pueden tener páginas de Patreon para acceso anticipado, nunca deberías verte obligado a pagar por intercambios de skins básicos.
+
+**P: ¿Puedo crear mis propios mods para el juego?**
+
+R: ¡Sí! Si estás familiarizado con Unreal Engine y software de modelado 3D como Blender, puedes empaquetar tus propios activos en archivos `.pak`. La comunidad suele compartir tutoriales en Discord sobre las estructuras óseas específicas necesarias para las animaciones de Charlie.

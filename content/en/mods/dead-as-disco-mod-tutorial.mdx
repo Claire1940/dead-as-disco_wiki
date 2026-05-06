@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Dead as Disco Mod Tutorial: How to Install Skins 2026",
+  description: "Learn how to customize your gameplay with our comprehensive Dead as Disco mod tutorial. Step-by-step instructions for installing skin mods and character swaps.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/4834d4/fff?text=Dead+as+Disco+Mod+Tutorial",
+  date: "2026-05-07",
+  author: "Dead as Disco Wiki Team"
+}
+
+Dead as Disco has quickly become a standout title for fans of high-energy rhythm and action gameplay. While the base game offers a stylish aesthetic and a compelling protagonist named Charlie, the community has already begun expanding the experience through creative modifications. If you are looking to freshen up your visual experience, following a **dead as disco mod tutorial** is the most effective way to swap character models and experiment with new aesthetics. In this guide, we will cover the essential steps to transform Charlie into iconic characters like Spider-Man or Hatsune Miku. This **dead as disco mod tutorial** is designed for players of all technical levels, ensuring you can safely modify your game files without risking a total reinstallation. By the end of this article, you will be able to navigate the game's directory and manage your custom content like a professional.
+
+## Preparing for Your First Mod
+
+Before diving into the file structure of the game, you need to gather the right tools and access the community hubs where these mods are hosted. Most creators share their work on Nexus Mods, which serves as the primary repository for this title. You will need a registered account to download files, though the basic membership is free and sufficient for all your modding needs in 2026.
+
+Beyond an account, you should ensure you have a file extraction utility installed on your PC. While modern operating systems can handle ZIP files natively, software like 7-Zip or WinRAR is often preferred for handling compressed game assets.
+
+| Requirement | Purpose | Recommendation |
+| :--- | :--- | :--- |
+| **Nexus Mods Account** | Accessing and downloading skin files | Free Account |
+| **Extraction Software** | Unzipping downloaded mod folders | 7-Zip or WinRAR |
+| **Disk Space** | Storing original and modified assets | 1GB+ available |
+| **Game Version** | Ensuring compatibility with current builds | Latest 2026 Demo/Full Build |
+
+> **💡 Tip:** Always back up your save data before applying mods. While skin swaps are generally safe, keeping a copy of your progress prevents accidental loss during file manipulation.
+
+## The Step-by-Step Dead as Disco Mod Tutorial
+
+Installing a mod is a structured process that involves creating a specific directory within the game's internal folders. The game uses a "Pak" system common in Unreal Engine titles, which allows the engine to prioritize custom assets over default ones if they are placed in a folder prefixed with a tilde (~).
+
+### Step 1: Download Your Chosen Mod
+Visit the [Dead as Disco Nexus Mods page](https://www.nexusmods.com/deadassdisco) and browse the available skins. For this example, many players opt for the Spider-Man "Advanced Suit" mod. Choose the "Manual Download" option. If you are using a free account, select the "Slow Download" button; the file sizes are typically small enough that this will only take a few seconds.
+
+### Step 2: Extract the Files
+Locate the downloaded ZIP folder in your Downloads directory. Right-click the file and select "Extract All" or use your preferred extraction tool. You will typically see three distinct files inside the folder: a `.pak` file, a `.ucas` file, and a `.utoc` file. These three components must stay together for the mod to function correctly.
+
+### Step 3: Locate the Game Directory
+To install the mod, you must find where the game is installed on your hard drive. If you are using Steam, the easiest way to find this is:
+1. Open your Steam Library.
+2. Right-click on **Dead as Disco**.
+3. Select **Manage** > **Browse local files**.
+4. This will open a window showing the game's root directory.
+
+### Step 4: Create the Mod Folder
+Navigate through the following path: `Pagoda` > `Content` > `Paks`. Once you are inside the `Paks` folder, you need to create a new sub-folder. Right-click, select "New Folder," and name it exactly `~mods`. The tilde symbol is crucial because it tells the game engine to load these files with a higher priority than the standard game data.
+
+| Folder Level | Name | Action Required |
+| :--- | :--- | :--- |
+| Root | Dead as Disco | Open via Steam |
+| Sub-folder 1 | Pagoda | Enter folder |
+| Sub-folder 2 | Content | Enter folder |
+| Sub-folder 3 | Paks | **Create ~mods folder here** |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/33gj-aEwaeU"
+    title="Dead as Disco Skin Mod Tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+### Step 5: Finalizing the Installation
+Copy the three files you extracted in Step 2 and paste them directly into the `~mods` folder you just created. Once the files are moved, the installation is complete. You can now launch the game, go to the stage select screen, and you should see the new character model replace Charlie.
+
+## Managing and Removing Mods Safely
+
+One of the best aspects of this modding method is how easy it is to revert to the original game state. Because we are not overwriting the original files but rather placing new ones in a priority folder, removal is a simple "delete" action.
+
+If you wish to remove a skin mod and return to the default Charlie skin:
+1. Navigate back to the `Pagoda/Content/Paks/~mods` folder.
+2. Select the files associated with the mod you want to remove.
+3. Delete the files or move them to a storage folder on your desktop.
+4. Restart the game.
+
+The game will automatically default back to the original assets if it cannot find any custom files in the `~mods` directory. This is the safest way to manage your character skins without corrupting the core game installation.
+
+## Exploring Popular Skin Mods in 2026
+
+The modding community has been incredibly active, providing a variety of characters that fit the rhythmic aesthetic of the game. While the **dead as disco mod tutorial** above uses Spider-Man as the primary example, the same logic applies to every other skin available.
+
+| Mod Name | Character Replaced | Visual Style |
+| :--- | :--- | :--- |
+| **Advanced Suit** | Charlie | Marvel's Spider-Man |
+| **Vocaloid Pack** | Charlie | Hatsune Miku |
+| **Dragon of Dojima** | Charlie | Kazuma Kiryu (Yakuza) |
+| **Herb Mod** | Charlie | Custom Botanical Aesthetic |
+
+In addition to character skins, some modders have begun releasing "Stage Mods." These are slightly more complex as they may change lighting and background assets, but the installation process generally follows the same `~mods` folder logic. Always read the specific instructions provided by the mod author on Nexus Mods to ensure there aren't additional requirements like custom script extenders.
+
+## Troubleshooting Common Issues
+
+Even with a detailed **dead as disco mod tutorial**, you might encounter occasional issues where the skin does not appear or the game crashes on startup.
+
+*   **Missing Tilde:** Ensure your mod folder is named `~mods`. If it is just named "mods" without the `~`, the game may ignore the custom files.
+*   **Missing Files:** Ensure all three file types (.pak, .ucas, .utoc) are present in the folder. If one is missing, the model will likely appear as an invisible or "T-posing" mesh.
+*   **Version Mismatch:** If the game receives a major update in 2026, older mods may break. Check the mod's "Last Updated" date on Nexus Mods to ensure it is compatible with the current version of the game.
+*   **Conflicting Mods:** If you try to install two different skins that both replace Charlie, the game may crash or display a glitched model. Only use one character replacement mod at a time.
+
+> **Warning:** Do not modify the files inside the main `Paks` folder directly. Only add or remove files from your custom `~mods` sub-folder to maintain the integrity of the base game.
+
+## FAQ
+
+**Q: Does this dead as disco mod tutorial work for the full game and the demo?**
+
+A: Yes, the file structure for the 2026 releases remains consistent. The method of creating a `~mods` folder in the `Paks` directory works for both the demo and the full version of Dead as Disco.
+
+**Q: Can I get banned for using skin mods?**
+
+A: Generally, no. Dead as Disco is primarily a single-player experience. Modding character skins is a common practice and does not involve cheating or gaining an unfair advantage in a competitive environment.
+
+**Q: Where can I find more mods besides Nexus Mods?**
+
+A: While Nexus is the most popular, you can often find experimental mods on the official community Discord or specialized gaming forums. Always be cautious when downloading files from less-reputable sources.
+
+**Q: Why does my character look like a wireframe after installing a mod?**
+
+A: This usually happens when the `.ucas` or `.utoc` files are missing. Make sure you moved all files from the extracted ZIP folder into your `~mods` directory, not just the `.pak` file.

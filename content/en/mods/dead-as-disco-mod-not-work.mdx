@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Dead as Disco Mod Not Work: Troubleshooting and Install Guide 2026",
+  description: "Learn how to fix issues when your Dead as Disco mod not work. Comprehensive 2026 guide covering folder structures, Nexus mods, and character swaps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/312e81/fff?text=Dead+as+Disco+Mod+Fix",
+  date: "2026-05-07",
+  author: "Dead as Disco Wiki Team"
+}
+
+Modding your favorite rhythm games can breathe new life into the experience, but it is incredibly frustrating when your **dead as disco mod not work** as intended. Whether you are trying to swap your character for Optimus Prime or change the scenery to a spooky pizzeria, the technical hurdles of file paths and folder naming often get in the way. In 2026, the modding community for Dead as Disco has grown significantly, yet players still encounter the same common pitfalls during the installation process.
+
+If you find that your **dead as disco mod not work** after a recent update or a fresh install, the issue usually lies in how the game recognizes external assets. This guide provides a comprehensive walkthrough to ensure your custom skins and maps load perfectly every time you hit the play button. From setting up the correct directory structure to managing conflicting files, we will cover everything you need to get back into the rhythm with your favorite mods.
+
+## Correct Directory Structure for Dead as Disco
+
+The most common reason a **dead as disco mod not work** scenario occurs is due to an incorrect folder path. Dead as Disco uses a specific architecture within the Steam directory to identify user-generated content. If your files are even one folder too deep or named incorrectly, the game engine will bypass them entirely.
+
+To begin, you must locate your local game files. Open your Steam library, right-click on Dead as Disco, select "Manage," and then click "Browse local files." This will open the root directory of the game. From here, you must navigate through a specific sequence of folders to place your mods.
+
+| Step | Folder Name | Action |
+| :--- | :--- | :--- |
+| **1** | **Dead as Disco** | Root directory opened from Steam |
+| **2** | **Pagoda** | Open this primary game data folder |
+| **3** | **Content** | Navigate to the core assets folder |
+| **4** | **Packs** | This is where the official game packs live |
+| **5** | **~mods** | **Create this folder** to store your custom files |
+
+> **Warning:** The folder name in step 5 is case-sensitive and must include the tilde (~) symbol at the beginning. Without the tilde, the game will not prioritize these assets over the default game files.
+
+## Troubleshooting Why Your Dead as Disco Mod Not Work
+
+If you have created the `~mods` folder and placed your files inside but still see the default character, several factors could be at play. First, ensure that you have extracted the files from their compressed format (usually .zip or .rar). The game cannot read files directly from a zipped folder.
+
+Another frequent issue is file conflict. Dead as Disco is designed to handle specific asset overrides. If you have multiple character mods in your `~mods` folder at the same time, the game may fail to load any of them or simply default to the first one it finds alphabetically.
+
+### Common Modding Errors in 2026
+
+| Symptom | Potential Cause | Recommended Fix |
+| :--- | :--- | :--- |
+| **Default Character Loaded** | Wrong folder name (missing ~) | Rename folder to **~mods** |
+| **Game Crashes on Startup** | Outdated mod version | Check [Nexus Mods](https://www.nexusmods.com/deadasdisco) for updates |
+| **Map Textures Missing** | Incomplete file transfer | Ensure all 3 .pak/.sig/.ucas files are present |
+| **Infinite Loading Screen** | Conflicting character mods | Remove all but one character mod |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/DCyfhS45AQc"
+    title="How To Mod Dead As Disco!*WORKING!* | 2026"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Installing Character and Map Mods
+
+Once your directory is set up, downloading and installing mods from sources like Nexus Mods is a straightforward process. Most mods for Dead as Disco come in sets of three files. These files work in tandem to tell the game how to render the new 3D model, what textures to apply, and how the animations should trigger.
+
+When you download a skin, such as the popular Optimus Prime mod, you will typically see files ending in extensions like `.pak`. To ensure you don't find yourself complaining that your **dead as disco mod not work**, always drag all associated files from the download into your `~mods` folder.
+
+1.  **Download the mod:** Use a trusted source like Nexus Mods.
+2.  **Manual Download:** Choose the "Manual" download option rather than a mod manager, as manual placement is more reliable for this specific game.
+3.  **Extract Files:** Open the download and locate the core files.
+4.  **Transfer:** Drag these files into `Dead as Disco/Pagoda/Content/Packs/~mods`.
+5.  **Launch:** Start the game through Steam.
+
+> **Tip:** Always close the game before adding or removing files from the `~mods` folder. While some modern engines allow for "hot-swapping," Dead as Disco requires a fresh initialization to detect the "Mods Detected" notification upon startup.
+
+## Managing Mod Conflicts and Updates
+
+As the game receives official updates in 2026, the underlying code may change, causing older mods to break. This is a primary reason why a **dead as disco mod not work** after a game patch. If the developers change how the `Pagoda` folder is indexed, you may need to wait for mod authors to release compatibility patches.
+
+If you are a frequent modder, it is helpful to keep a "Clean" backup of your `Packs` folder. This allows you to quickly revert to the vanilla state of the game if a mod causes a critical crash. Furthermore, remember the "One Character Rule." To avoid glitches, only keep the files for a single character model in your mods folder at any given time. Map mods are generally more forgiving and can often be stacked, provided they do not attempt to replace the same stage.
+
+### Mod File Requirements
+
+| File Type | Purpose | Necessity |
+| :--- | :--- | :--- |
+| **.pak** | Contains the actual 3D models and textures | **Mandatory** |
+| **.sig** | Provides a signature for the game to verify the file | **Mandatory** |
+| **.ucas / .utoc** | Optimization files for faster loading | Highly Recommended |
+
+## Advanced Fixes for Persistent Issues
+
+If you have followed every step and your **dead as disco mod not work**, it may be time to look at the Steam Cloud or local cache settings. Occasionally, Steam's "Cloud Sync" can conflict with local file overrides, attempting to "fix" your game by deleting the `~mods` folder you just created.
+
+To resolve this, you can temporarily disable Cloud Sync for Dead as Disco:
+1.  Right-click the game in Steam.
+2.  Select **Properties**.
+3.  Under the **General** tab, toggle "Keep games saves in the Steam Cloud" to **Off**.
+4.  Re-insert your mod files and launch the game.
+
+Additionally, verifying the integrity of game files can help if your core `Pagoda` folder has become corrupted. Note that this will likely remove your `~mods` folder, so back up your mods to your desktop before performing a verification.
+
+## Conclusion
+
+Modding Dead as Disco is a rewarding way to customize your rhythm gaming experience, provided you respect the folder hierarchy required by the engine. By ensuring your `~mods` folder is correctly placed within the `Packs` directory and limiting yourself to one character mod at a time, you can significantly reduce the chances of encountering a situation where your **dead as disco mod not work**. Always keep an eye on the "Mods Detected" prompt when the game launches; this is your confirmation that the game has successfully hooked into your custom content.
+
+## FAQ
+
+**Q: Why does the game say "Mods Detected" but I still see the normal character?**
+
+A: This usually happens if you have the mod files in a sub-folder inside the `~mods` folder. The game only looks at the immediate files within `~mods`. Ensure the .pak and .sig files are sitting directly in `~mods`, not inside another folder named after the mod.
+
+**Q: Can I use mods in multiplayer or online leaderboards?**
+
+A: Generally, visual-only mods like character skins do not trigger anti-cheat systems, but they may disable leaderboard submissions depending on the current 2026 security patches. If your **dead as disco mod not work** in online modes, the game may have a "Safe Mode" enabled that ignores the `~mods` folder during competitive play.
+
+**Q: Where is the best place to find new maps and skins for Dead as Disco?**
+
+A: Nexus Mods remains the primary hub for the community. Always check the "Last Updated" date on the mod page to ensure it is compatible with the latest 2026 version of the game.
+
+**Q: What should I do if my game crashes every time I enter a specific map?**
+
+A: This is likely a conflict between the modded map and the current game version. Remove the map files from your `~mods` folder and try a different map. If the crash persists even after removing the mod, use Steam to "Verify Integrity of Game Files" to repair the base game assets.

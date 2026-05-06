@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Dead as Disco Beat Offset: Guía del Editor Avanzado y BPM 2026",
+  description: "Domina el beat offset de Dead as Disco para sincronizar perfectamente tu música personalizada. Aprende a usar el editor avanzado, encontrar BPM precisos y alinear pistas para 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Dead+as+Disco+Beat+Offset+Guide",
+  date: "2026-05-07",
+  author: "Equipo de la Wiki de Dead as Disco"
+}
+
+Dominar el **dead as disco beat offset** es la diferencia fundamental entre una obra maestra rítmica y una experiencia de juego frustrante. En el mundo de alta intensidad de Dead as Disco, el ritmo es la única moneda que importa. Cuando importas tus propias pistas personalizadas al juego, el software intenta adivinar el ritmo, pero rara vez logra la perfección al primer intento. Si tus golpes se sienten lentos o tus movimientos no se alinean con los bajos, es probable que necesites calibrar el **dead as disco beat offset** manualmente. 
+
+Esta guía exhaustiva para 2026 te llevará a través de los matices del Editor Avanzado, desde la identificación de BPM con precisión decimal hasta la alineación visual de las formas de onda con los marcadores de golpe. Al comprender cómo manipular estos ajustes internos, puedes asegurar que cada pista de tu biblioteca se reproduzca con una precisión de nivel profesional. Ya seas un jugador casual o un creador de contenido que busca mostrar partidas perfectas, seguir estos pasos elevará tu configuración técnica.
+
+## La importancia de un mapeo de pulsos preciso
+
+En los juegos de ritmo, el "offset" se refiere al ligero ajuste de tiempo —generalmente medido en milisegundos— que alinea las indicaciones visuales o interactivas del juego con la señal de audio real. Un **dead as disco beat offset** mal configurado puede provocar "fallos fantasma", donde sientes que acertaste un golpe perfectamente, pero el juego lo registra como tarde o temprano.
+
+Antes de sumergirse en el editor, los jugadores deben entender que los archivos de audio a menudo tienen unos pocos milisegundos de silencio al principio. Este silencio desplaza todo el ritmo de la canción en relación con el reloj interno del juego. Corregir esto requiere una combinación de datos de BPM (pulsaciones por minuto) de alta precisión y una alineación manual dentro de las herramientas de desarrollo del juego.
+
+| Característica | Impacto en el juego | Dificultad para corregir |
+|---|---|---|
+| **Precisión de BPM** | Determina la velocidad de los marcadores de pulso. | Moderada |
+| **Beat Offset** | Alinea los marcadores con el inicio del audio. | Alta |
+| **Latencia visual** | Sincroniza el refresco del monitor con el audio. | Baja |
+| **Input Lag** | Retraso entre la pulsación del botón y la acción del juego. | Dependiente del hardware |
+
+## Paso 1: Encontrar datos de BPM precisos
+
+El primer paso para importar tus propias canciones y corregir el **dead as disco beat offset** es encontrar el BPM correcto. Aunque muchos jugadores utilizan una sola fuente para esta información, los mappers profesionales recomiendan contrastar al menos dos buscadores de BPM diferentes. 
+
+Por ejemplo, una herramienta estándar podría darte un número redondo como 109 BPM. Sin embargo, los juegos de ritmo son muy sensibles al desvío. Una canción que en realidad es de 108.99 BPM se desincronizará lentamente si la configuras a 110. Al final de una pista de tres minutos, tus golpes estarán completamente fuera de ritmo. Busca siempre herramientas que proporcionen puntos decimales para asegurar una sincronización a largo plazo.
+
+> **💡 Consejo:** Usa una herramienta como Tunebat para una idea general, pero verifícala con un analizador de BPM más técnico para capturar esos valores decimales cruciales.
+
+## Paso 2: Acceder al Editor Avanzado
+
+Una vez que tengas tu archivo de audio y tu BPM con precisión decimal, es hora de abrir el juego. Dirígete a la sección "Add My Music" (Añadir mi música) y selecciona tu archivo. Después de ingresar tu BPM, no te limites a guardar y salir. En su lugar, haz clic en el botón **Advanced Editor**.
+
+El Editor Avanzado proporciona una representación visual de la forma de onda de la canción. Aquí es donde comienza el verdadero trabajo de ajustar el **dead as disco beat offset**. Para navegar por este menú de manera efectiva, sigue estas pautas de la interfaz:
+
+1.  **Activar el modo "Follow" (Seguir):** Busca el botón "Follow" en la parte inferior de la interfaz. Cuando esté resaltado en azul, la cámara permanecerá bloqueada en el cabezal de reproducción, lo que facilita ver cómo interactúan los marcadores de pulso con la música en tiempo real.
+2.  **Zoom:** Usa la rueda del ratón para acercar la forma de onda. Necesitas ver los "picos" individuales (las líneas de bajo) para alinear las líneas de pulso rosas con precisión.
+3.  **Metrónomo:** Asegúrate de que el interruptor del metrónomo esté activo. Esto proporciona un "clic" audible en cada marcador de pulso, permitiéndote escuchar el offset incluso antes de comenzar una prueba de juego.
+
+## Paso 3: Calibrar el Dead as Disco Beat Offset
+
+Con el editor abierto y el zoom aplicado, notarás líneas rosas superpuestas en la forma de onda. Estas representan los "golpes" o el ritmo que el juego espera que sigas. Si estas líneas están ligeramente a la izquierda o a la derecha de los picos de la forma de onda, tu **dead as disco beat offset** es incorrecto.
+
+Para solucionar esto, reproduce la canción y golpea físicamente con el pie o la mano al ritmo. Observa dónde aterriza tu movimiento físico en la pantalla. Casi siempre querrás alinear las líneas rosas con el comienzo mismo del pico del golpe de bajo. 
+
+| Método de ajuste | Cómo realizarlo | Nivel de precisión |
+|---|---|---|
+| **Entrada manual** | Escribir el valor del offset en el menú superior. | Bajo |
+| **Shift + Clic con la rueda** | Mantener Shift y arrastrar con la rueda del ratón. | **Muy alto** |
+| **Teclas de flecha** | Desplazar la línea de tiempo a la izquierda o derecha. | Moderado |
+
+> **⚠️ Advertencia:** Ten mucho cuidado al usar el atajo Shift + Rueda del ratón. Si mueves el ratón horizontalmente mientras haces clic, podrías cambiar accidentalmente el tempo (BPM) en lugar del offset. Verifica siempre tu valor de BPM después de realizar ajustes de offset.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/pEvtGc2V7Fc"
+    title="Dead as Disco (DEMO) Beat offset / Advanced editor basic tutorial"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Paso 4: Ajuste fino y pruebas
+
+Después de haber arrastrado las líneas rosas a su lugar, es hora de la "Prueba del Metrónomo". Reproduce la canción desde el principio. Si los clics del metrónomo suenan perfectamente a tiempo con la percusión de la música, has configurado con éxito el **dead as disco beat offset**.
+
+Si los clics suenan como si estuvieran "galopando" (uno golpeando ligeramente después del otro), es probable que estés desviado por unos pocos milisegundos. Haz más zoom y repite el proceso de alineación. Una buena regla general es dejar un poco de "margen de maniobra". En muchos juegos de ritmo, ser un milisegundo prematuro es más permisivo que ser un milisegundo tardío, ya que el tiempo de reacción humano tiende a favorecer lo primero.
+
+## Resolución de problemas comunes de sincronización
+
+A veces, incluso con el offset correcto, la canción puede sentirse "rara". Esto se debe a menudo a tasas de bits variables en los archivos de audio o ritmos "swing" en ciertos géneros como el Jazz o el Blues.
+
+| Problema | Causa probable | Solución recomendada |
+|---|---|---|
+| **Desvío (Drifting)** | BPM incorrecto (ej. 120 en lugar de 119.98). | Vuelve a verificar el BPM con precisión decimal. |
+| **Retraso constante** | El archivo de audio tiene silencio al inicio. | Ajusta el **dead as disco beat offset** hacia adelante. |
+| **Tartamudeo (Stuttering)** | Lag de CPU o ajustes visuales altos. | Baja los gráficos o cierra aplicaciones en segundo plano. |
+
+Si sigues experimentando problemas, considera visitar la [Comunidad de Steam de Dead as Disco](https://store.steampowered.com/app/1952130/Dead_as_Disco/) para ver si otros jugadores han compartido valores de offset específicos para canciones populares. Las bases de datos impulsadas por la comunidad son un recurso excelente para pistas complejas que presentan cambios frecuentes de tempo.
+
+## Atajos del Editor Avanzado para 2026
+
+Para acelerar tu flujo de trabajo en el Editor Avanzado, memoriza estos atajos esenciales. La eficiencia en el editor te permite pasar menos tiempo configurando y más tiempo jugando.
+
+*   **Barra espaciadora:** Reproducir / Pausar la pista.
+*   **Rueda del ratón:** Zoom in y zoom out en la forma de onda.
+*   **Shift + Clic con la rueda:** Arrastrar toda la cuadrícula de pulsos para ajustar el offset.
+*   **Tecla M:** Activar/Desactivar el metrónomo.
+*   **Tecla F:** Activar el modo "Follow" para mantener el cabezal de reproducción centrado.
+
+Al utilizar estas herramientas, puedes asegurar que cada canción personalizada que añadas se sienta como una parte nativa del juego. El **dead as disco beat offset** es la herramienta más poderosa en tu arsenal para crear una experiencia rítmica fluida e inmersiva. No te conformes con un "está cerca"; tómate los cinco minutos extra para alinear tus formas de onda y disfruta de la satisfacción de un golpe perfectamente sincronizado.
+
+## FAQ (Preguntas frecuentes)
+
+**P: ¿Por qué mi canción empieza perfecta pero se sale de ritmo al final?**
+
+R: Esto casi siempre es causado por un BPM inexacto. Si tu BPM está desviado incluso por 0.01, el error se acumula con el tiempo. Necesitas volver a verificar tu BPM usando una calculadora con precisión decimal y luego volver a ajustar tu **dead as disco beat offset**.
+
+**P: ¿Puedo usar el mismo offset para todas las canciones?**
+
+R: No. Cada archivo de audio es único. Algunos archivos tienen 20 ms de silencio al principio, mientras que otros comienzan de inmediato. Debes configurar manualmente el **dead as disco beat offset** para cada nueva pista que importes para asegurar la mejor experiencia de juego.
+
+**P: ¿Qué es el botón "Follow" en el Editor Avanzado?**
+
+R: El botón "Follow" bloquea la cámara al cabezal de reproducción de la música. Esto es esencial al ajustar el **dead as disco beat offset** porque te permite ver los marcadores de pulso pasar sobre los picos de la forma de onda en tiempo real mientras se reproduce la canción.
+
+**P: ¿Cómo sé si debo mover el offset hacia adelante o hacia atrás?**
+
+R: Escucha el metrónomo. Si el clic del metrónomo ocurre *antes* del golpe de batería en la canción, necesitas mover el offset hacia adelante (arrastrar las líneas rosas hacia la derecha). Si el clic ocurre *después* del golpe de batería, mueve el offset hacia atrás (arrastrar hacia la izquierda).

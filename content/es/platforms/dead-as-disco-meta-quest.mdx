@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Dead As Disco Meta Quest: Guía de configuración y optimización para VR 2026",
+  description: "Aprende a jugar Dead As Disco en Meta Quest usando UEVR. Esta guía completa cubre la configuración, la optimización del rendimiento y consejos de juego para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Dead+As+Disco+Meta+Quest+Guide",
+  date: "2026-05-07",
+  author: "Dead As Disco Wiki Team"
+}
+
+Experimenta el caos bañado en neón y lleno de ritmo de la escena de baile clandestina como nunca antes. A medida que los jugadores buscan la forma más inmersiva de jugar, la experiencia **dead as disco meta quest** se ha convertido en una opción destacada para los entusiastas de la realidad virtual en 2026. Aunque el juego se lanzó originalmente como un título de pantalla plana de alta intensidad, la integración del mod Universal Unreal Engine VR (UEVR) lo ha transformado en un espectáculo de realidad virtual imprescindible. Aprovechando la potencia de un PC gaming y la flexibilidad del visor Quest, puedes entrar directamente en la línea de fuego rítmica.
+
+Navegar por la configuración de **dead as disco meta quest** requiere un poco de conocimientos técnicos, pero la recompensa es una sobrecarga sensorial de 360 grados que los monitores estándar simplemente no pueden igualar. Ya sea esquivando balas al ritmo de la música o limpiando una pista de baile con precisión estilizada, jugar en VR añade una capa de profundidad y fisicidad que redefine el género. En esta guía, te guiaremos a través de las configuraciones esenciales, los requisitos de hardware y las estrategias de juego para asegurar que tu infierno disco se mantenga a unos estables 90 fotogramas por segundo.
+
+## Requisitos de hardware y software
+
+Para disfrutar de *Dead As Disco* en tu Meta Quest 3 o Quest Pro, necesitas una base sólida. Dado que el juego no es una aplicación nativa independiente para Quest, utilizarás streaming de PCVR. Esto implica ejecutar el juego en tu PC y transmitir los datos a tu visor mediante un cable Link, AirLink o Virtual Desktop.
+
+El componente más crítico para esta configuración en 2026 es el **UEVR Framework**. Este mod inyecta funcionalidad de VR en juegos de Unreal Engine 4 y 5, proporcionando 6DOF (seis grados de libertad) y seguimiento de cabeza. A continuación, se presentan las especificaciones recomendadas para garantizar una experiencia fluida.
+
+| Componente | Requisito mínimo | Recomendado (para VR) |
+| :--- | :--- | :--- |
+| **GPU** | NVIDIA RTX 3070 | **NVIDIA RTX 4080 o superior** |
+| **CPU** | Intel i5-12400 / Ryzen 5 5600 | **Intel i7-14700K / Ryzen 7 7800X3D** |
+| **RAM** | 16GB DDR4 | **32GB DDR5** |
+| **Conexión** | Cable USB 3.0 Link | **Wi-Fi 6E (Virtual Desktop)** |
+| **Versión del mod** | UEVR Nightly Build | **UEVR Stable 2026 Release** |
+
+> **⚠️ Advertencia:** Jugar juegos de ritmo de alta velocidad en VR puede causar mareos a los principiantes. Asegúrate de tener "piernas de VR" antes de intentar sesiones largas y utiliza los ajustes de "Snap Turn" (giro rápido) de UEVR si el giro suave te provoca desorientación.
+
+## Configuración de Dead As Disco Meta Quest mediante UEVR
+
+Una vez que tu hardware esté listo, el proceso de instalación es sencillo. Sigue estos pasos para cerrar la brecha entre tu PC y tu visor Meta Quest.
+
+1.  **Lanzar el juego:** Inicia *Dead As Disco* primero en modo de escritorio estándar para asegurarte de que todos los sombreadores (shaders) estén almacenados en caché.
+2.  **Abrir UEVR:** Ejecuta el inyector UEVR como administrador.
+3.  **Seleccionar el proceso:** En el menú de UEVR, busca `DeadAsDisco-Win64-Shipping.exe` en la lista desplegable.
+4.  **Inyectar:** Haz clic en el botón "Inject". Tu visor Quest debería captar inmediatamente la señal de VR.
+5.  **Ajustar la vista en el juego:** Usa el menú de UEVR (normalmente asignado a la tecla Insert o un atajo del controlador) para recentrar tu vista y ajustar la altura de la cámara.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/gaabvjSgReo"
+    title="Dead As Disco UEVR Quest3"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Optimización del rendimiento de Dead As Disco Meta Quest
+
+Lograr una alta tasa de fotogramas es esencial para los juegos de ritmo, donde el tiempo lo es todo. Cualquier latencia entre la música y tu entrada visual puede arruinar una partida de alta puntuación. Para optimizar el rendimiento de **dead as disco meta quest**, debes centrarte en equilibrar la resolución y la frecuencia de actualización.
+
+| Ajuste | Valor | Impacto |
+| :--- | :--- | :--- |
+| **Frecuencia de actualización** | 90Hz o 120Hz | Reduce el parpadeo y mejora la claridad del movimiento. |
+| **Escala de resolución** | 1.0x a 1.2x | Mantiene la imagen nítida sin sobrecargar la GPU. |
+| **DLSS / FSR** | Calidad o Equilibrado | Esencial para mantener los FPS en escenas con muchas partículas. |
+| **Calidad de sombras** | Medio | Ganancia de rendimiento significativa con una pérdida visual mínima en VR. |
+| **Post-procesamiento** | Bajo | Reduce los efectos de "fantasma" (ghosting) a menudo vistos en inyecciones UEVR. |
+
+Al usar Meta Quest 3, las lentes tipo pancake proporcionan un "punto dulce" masivo, pero esto también hace que los fallos gráficos sean más evidentes. Recomendamos usar **Virtual Desktop** con el ajuste preestablecido "Godlike" si tienes una tarjeta de la serie RTX 40, ya que la codificación AV1 reduce significativamente la latencia en comparación con AirLink estándar.
+
+## Mecánicas de juego en realidad virtual
+
+Jugar a *Dead As Disco* en VR cambia la forma en que interactúas con el entorno. En la versión plana, dependes de los movimientos del ratón o de los sticks analógicos. En la versión **dead as disco meta quest**, el movimiento físico de tu cabeza dicta tu puntería y conciencia espacial.
+
+### Combate basado en el ritmo
+Lo central del juego es mantener el ritmo. Cada disparo efectuado y cada esquiva realizada deben sincronizarse con la banda sonora palpitante. En VR, puedes inclinarte físicamente para esquivar los proyectiles entrantes, lo cual se siente mucho más intuitivo que presionar una tecla de "esquivar".
+
+### Audio espacial
+Asegúrate de usar auriculares de alta calidad o el audio espacial integrado de Quest 3. Dado que los enemigos aparecen según el tempo de la música, escuchar sus señales direccionales es vital para sobrevivir a los niveles posteriores, más frenéticos.
+
+> **💡 Consejo:** Si encuentras que la interfaz de usuario (UI) está demasiado cerca de tu cara en VR, usa la pestaña "UI Customization" de UEVR para alejar el HUD o escalarlo para obtener un campo de visión más claro.
+
+## Estrategias avanzadas para puntuaciones altas
+
+Para escalar en las tablas de clasificación mundiales en 2026, necesitas dominar el sistema de multiplicadores. En VR, esto es en realidad más fácil porque tienes una mejor sensación de profundidad, lo que te permite cronometrar tus golpes cuerpo a cuerpo y disparos con mayor precisión.
+
+*   **Mantén el flujo:** Nunca dejes de moverte. El juego recompensa el movimiento continuo sincronizado con el ritmo.
+*   **Precisión sobre potencia:** Los disparos a la cabeza proporcionan un multiplicador de puntuación significativamente mayor. En VR, usa tu ojo dominante para apuntar a través del cañón de tu arma para obtener la máxima precisión.
+*   **Eliminaciones ambientales:** Usa el entorno disco a tu favor. Lanzar enemigos a peligros de neón o por cornisas otorga "Puntos de Estilo" que son esenciales para completar los niveles con rango S.
+
+| Acción | Puntos base | Bono multiplicador |
+| :--- | :--- | :--- |
+| **Eliminación estándar** | 100 | 1x |
+| **Eliminación al ritmo** | 250 | 2x |
+| **Disparo a la cabeza** | 500 | 3x |
+| **Racha de ritmo perfecto** | Variable | Hasta 10x |
+
+Para obtener más información sobre el desarrollo del juego y las actualizaciones oficiales, consulta el [Centro de la comunidad de Steam](https://steamcommunity.com/app/1234560) para conocer las últimas notas del parche y mods de la comunidad.
+
+## Personalización de la experiencia VR
+
+Una de las mejores partes de usar Meta Quest mediante UEVR es la capacidad de personalizar la "cámara" a tu gusto. Puedes elegir entre una perspectiva en primera persona (que es la más inmersiva) o una vista en tercera persona estilo "diorama" si prefieres ver los movimientos de baile de tu personaje.
+
+*   **Modo primera persona:** Ideal para la precisión y "estar en el mundo". Usa la función "Attach to Bone" de UEVR para bloquear la cámara a la cabeza del personaje.
+*   **Movimiento a escala de habitación:** Si tienes un espacio de juego grande, puedes caminar físicamente por la pista de baile. ¡Solo ten cuidado de no tropezar con tus muebles!
+
+## Preguntas frecuentes (FAQ)
+
+**P: ¿Puedo jugar Dead As Disco en Meta Quest sin un PC?**
+
+R: No, *Dead As Disco* es actualmente un título de PC. Para jugarlo en un Meta Quest, debes usar un PC compatible con VR y una solución de streaming como Quest Link, AirLink o Virtual Desktop combinada con el mod UEVR.
+
+**P: ¿La versión de dead as disco meta quest admite controles de movimiento?**
+
+R: Sí, a través del framework UEVR, puedes asignar los mandos Meta Quest Touch para que actúen como las armas del juego. Aunque puede requerir algo de configuración inicial en el menú de UEVR, permite una puntería completa de 6DOF.
+
+**P: ¿Cuál es la mejor manera de reducir el lag al jugar en VR?**
+
+R: Para la mejor experiencia en **dead as disco meta quest**, utiliza un router Wi-Fi 6 o 6E dedicado conectado por Ethernet a tu PC. Usar la aplicación Virtual Desktop con el runtime VDXR a menudo proporciona una latencia menor que el runtime estándar de Oculus.
+
+**P: ¿Hay planeado un port nativo de VR para la Quest Store?**
+
+R: A fecha de 2026, no ha habido ningún anuncio oficial sobre un port nativo independiente. Sin embargo, la comunidad de UEVR continúa proporcionando actualizaciones que hacen que la experiencia de PCVR sea casi indistinguible de una versión nativa.
