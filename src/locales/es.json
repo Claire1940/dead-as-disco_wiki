@@ -2,12 +2,12 @@
   "seo": {
     "home": {
       "title": "Wiki de Dead as Disco - Fabricación, biomas y logros",
-      "description": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
+      "description": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura sandbox de vóxeles Surreal en Steam.",
       "keywords": "Dead as Disco, Dead as Disco wiki, fabricación, biomas, logros, supervivencia, Steam",
       "ogTitle": "Wiki de Dead as Disco - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
+      "ogDescription": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura sandbox de vóxeles Surreal en Steam.",
       "twitterTitle": "Wiki de Dead as Disco - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "twitterDescription": "La Wiki de Dead as Disco cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox de vóxeles Surreal en Steam."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,9 +34,9 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Dead as Disco Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
+    "badge": "Sandbox de supervivencia de vóxeles Surreal",
+    "title": "Wiki de Dead as Disco",
+    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a extrañas criaturas en este sandbox de mundo abierto Surreal en Steam.",
     "getFreeCodesCTA": "Explorar guía de fabricación",
     "playOnSteamCTA": "Jugar en Steam",
     "stats": {
@@ -46,7 +46,7 @@
       },
       "stat2": {
         "value": "1,986",
-        "label": "Pico de CCU"
+        "label": "Pico de jugadores simultáneos"
       },
       "stat3": {
         "value": "97%",
@@ -60,7 +60,7 @@
   },
   "gameFeature": {
     "title": "Jugabilidad de Dead as Disco",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "description": "Explora biomas Surreal, fusiona objetos con Apotheosis y sobrevive a extrañas criaturas en este sandbox de vóxeles onírico en Steam."
   },
   "tools": {
     "title": "Dead as Disco",
@@ -74,38 +74,38 @@
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "title": "Fabricación con Apotheosis",
+        "description": "Sistema de fusión de forma libre y recetas iniciales"
       },
       {
         "icon": "Hammer",
         "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "description": "Frost Pick, Azrael, Hookshot y más"
       },
       {
         "icon": "Package",
         "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "description": "Cache Cubes, gabinetes y almacenamiento de Qualia"
       },
       {
         "icon": "Home",
         "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "description": "Qualia personal y configuración de la base principal"
       },
       {
         "icon": "Eye",
         "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "description": "Fog Meadow, Essence Morass y más"
       },
       {
         "icon": "AlertTriangle",
         "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "description": "Manikins, arañas y cómo sobrevivir"
       },
       {
         "icon": "ArrowRight",
         "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "description": "Hookshot, Glider Glove, Bee Glider"
       },
       {
         "icon": "TrendingUp",
@@ -119,23 +119,23 @@
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "title": "Rastreador de logros",
+        "description": "Los 19 logros de Steam y sus condiciones"
       },
       {
         "icon": "MessageCircle",
         "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "description": "Preguntas sobre plataforma, precio, cooperativo e idioma"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
+        "title": "Steam Deck y control",
         "description": "Configuración de Proton 9.0.4 y consejos para el control"
       },
       {
         "icon": "Settings",
         "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "description": "Ocultar manos, Vulkan y opciones de pantalla"
       },
       {
         "icon": "Clock",
@@ -144,244 +144,244 @@
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Corrección de errores de cierre",
+        "description": "Verificación de Vulkan, ruta de registros y reporte de errores"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Dead as Disco",
+      "title": "Dead as Disco Beginner Guide",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Dead as Disco premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Start by learning how exploration, fusion, and progression connect. Dead as Disco rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Explore Before You Commit",
+          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Unlock Your Personal Qualia Early",
+          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Use Osmium for Fast Early Progress",
+          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Dead as Disco tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Record Good Fusions",
+          "description": "Keep track of successful combinations in your journal. Dead as Disco has many possible fusion paths, so writing down useful results saves a lot of time."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Apotheosis does not require a fixed recipe list.",
+        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
+        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
+        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Dead as Disco",
+      "title": "Dead as Disco Apotheosis Crafting",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Freeform Fusion",
+          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Multiple Useful Outcomes",
+          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Journal-First Crafting",
+          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Community-Tested Early Fusions",
+          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Fuse an item",
+        "Fuse a vermin",
+        "Fuse a divine artifact"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Dead as Disco",
+      "title": "Dead as Disco Tools and Weapons",
       "displayType": "itemCards",
-      "intro": "Dead as Disco mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "Dead as Disco mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Frost Pick",
+          "type": "Mining Tool",
+          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
         },
         {
           "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "type": "Starter Weapon",
+          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Tendril Rapier",
+          "type": "Upgraded Weapon",
+          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Hookshot",
+          "type": "Mobility Tool",
+          "description": "An official traversal item that greatly improves movement and vertical exploration."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "name": "Bee Glider",
+          "type": "Mobility Tool",
+          "description": "An official movement item that helps cover space more safely and efficiently."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
+          "name": "Ball Wand",
+          "type": "Utility Weapon",
+          "description": "An official ranged utility item that expands your combat and puzzle options."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
+          "name": "Scuba Diving Gear",
+          "type": "Traversal Gear",
+          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Explosives",
+          "type": "Utility Damage",
+          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Dead as Disco",
+      "title": "Dead as Disco Storage and Inventory",
       "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Dead as Disco, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "intro": "Inventory pressure starts early in Dead as Disco, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Cache Cube",
+          "role": "Chest-Like Storage",
+          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Cabinet",
+          "role": "Simple Base Storage",
+          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Personal Qualia",
+          "role": "Long-Term Storage Hub",
+          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Journal Tracking",
+          "role": "Inventory Efficiency",
+          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Prioritize one dependable storage option before hoarding rare drops.",
+        "Build around your personal Qualia once it becomes available.",
+        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
+        "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Dead as Disco",
+      "title": "Dead as Disco Qualia and Base Building",
       "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Dead as Disco. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "intro": "Qualia is one of the most important progression milestones in Dead as Disco. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "Personal Qualia",
+          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "Storage-First Building",
+          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Dead as Disco admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "Creative Home Building",
+          "description": "Dead as Disco supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "Progression Hub",
+          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Enter a qualia",
+        "Store materials safely",
+        "Expand from utility to decoration",
+        "Use base space to support crafting and farming"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Dead as Disco",
+      "title": "Dead as Disco World Regions",
       "displayType": "regionCards",
-      "intro": "Dead as Disco utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "intro": "Dead as Disco uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "type": "Community-Noted Area",
+          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Tiamana Leyline",
+          "type": "Discovery Landmark",
+          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
         },
         {
           "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "type": "Build Space",
+          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Essence Morass",
+          "type": "Farming Area",
+          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Dead as Disco",
+      "title": "Dead as Disco Creatures and Enemies",
       "displayType": "creatureCards",
-      "intro": "Dead as Disco mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "intro": "Dead as Disco mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Manikins",
+          "role": "Hostile Enemy",
+          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Squishy Gels",
+          "role": "Hostile Enemy",
+          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "name": "Higher-Dimensional Beings",
+          "role": "Hostile Enemy",
+          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "name": "Colossal Spiders",
+          "role": "Major Threat",
+          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
+          "name": "Bubblebear",
+          "role": "Named Creature",
+          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
         },
         {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
+          "name": "Cute Vermin",
+          "role": "Interactable Creature",
+          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
         },
         {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "Blasphemous Creature",
+          "role": "Elite Threat",
+          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
         }
       ]
     },
@@ -391,9 +391,9 @@
       "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Dead as Disco. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
+          "name": "Hookshot",
           "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "description": "El Hookshot es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
         },
         {
           "name": "Guante planeador",
@@ -401,86 +401,86 @@
           "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
+          "name": "Bee Glider",
           "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "description": "Los Bee Glider se destacan oficialmente como parte del kit de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
         },
         {
-          "name": "Varita de Bola",
+          "name": "Varita de bola",
           "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y amplían la forma en que te mueves o interactúas con el mundo."
         },
         {
           "name": "Equipo de buceo",
           "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidades principales para llegar a áreas que de otro modo serían más difíciles de explorar."
         },
         {
           "name": "Explosivos",
           "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logros, lo que los convierte en parte de la progresión de utilidad principal del juego."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Domina un Hookshot",
+        "Vuela con el guante planeador",
+        "Empuña una varita de proyectiles",
+        "Empuña un explosivo"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Cultivo y crecimiento en Dead as Disco",
       "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Dead as Disco. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "intro": "El crecimiento es parte de la progresión real en Dead as Disco. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de fabricación.",
       "sections": [
         {
           "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente desarrollada es parte de la misma ruta de crecimiento."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "Cultivo de materiales",
+          "description": "Un ciclo de cultivo inicial práctico es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan tendriles y viscosidad para materiales de fabricación repetibles."
         },
         {
           "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "description": "El cultivo de recursos se vuelve mucho más fuerte una vez que puedes recolectar de manera constante osmio, fragmentos de vidrio, plantas y materiales de slime para fabricaciones posteriores."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "Rutina de la base",
+          "description": "La mejor configuración de cultivo sirve para más que solo comida. Debe abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "Fertiliza una semilla",
+        "Cosecha una nuez completamente desarrollada",
+        "Crea ciclos de materiales repetibles",
+        "Convierte el cultivo en progresión a largo plazo"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Mejores desbloqueos iniciales de Dead as Disco",
       "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Dead as Disco, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "intro": "Los mejores desbloqueos iniciales son los que mejoran la seguridad, el almacenamiento y el movimiento. En Dead as Disco, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
       "priorities": [
         {
           "name": "Qualia personal",
           "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "description": "Tan pronto como obtienes acceso a tu Qualia personal, tu partida se vuelve mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
         },
         {
-          "name": "Pico de Escarcha",
+          "name": "Pico de escarcha",
           "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "description": "Una herramienta de minería inicial rápida y barata hecha de osmio y palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
         },
         {
-          "name": "Cubo de Almacenamiento",
+          "name": "Cubo de alijo",
           "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "description": "La presión por el almacenamiento comienza temprano, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante en la calidad de vida."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
+          "name": "Hookshot",
           "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "description": "El Hookshot es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
         },
         {
           "name": "Guante planeador",
@@ -490,173 +490,173 @@
         {
           "name": "Varita de proyectiles o bombas",
           "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros de tipo prueba."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Dead as Disco",
+      "title": "Dead as Disco Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Dead as Disco tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "intro": "Dead as Disco currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Exploration",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "Angel α",
+              "description": "Enter a qualia."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Angel γ",
+              "description": "Discover a tiamana leyline."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
+              "title": "Angel δ",
+              "description": "Overcome a tiamana challenge."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Angel ε",
+              "description": "Hidden achievement."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Crafting and Summoning",
           "achievements": [
             {
               "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "description": "Fuse an item."
             },
             {
               "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "description": "Fuse a vermin."
             },
             {
               "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
+              "description": "Fuse a divine artifact."
             },
             {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "title": "Archangel β",
+              "description": "Summon your faith."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
+          "name": "Mobility and Utility",
           "achievements": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "Virtue α",
+              "description": "Fly with the glider glove."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
+              "title": "Virtue β",
+              "description": "Command a hookshot."
             },
             {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
+              "title": "Archangel α",
+              "description": "Brandish a projectile wand."
             },
             {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "title": "Archangel γ",
+              "description": "Brandish an explosive."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
+          "name": "Combat and Creatures",
           "achievements": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "title": "Bubblebear Massacre",
+              "description": "Defeat innocent bubblebears."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
+              "title": "Archangel δ",
+              "description": "Eliminate a blasphemous creature."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
+              "title": "Angel β",
+              "description": "Die."
             },
             {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "title": "Dominion γ",
+              "description": "Rename a cute vermin."
             }
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
+          "name": "Growth and Farming",
           "achievements": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "title": "Dominion α",
+              "description": "Fertilize a seed."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
+              "title": "Dominion β",
+              "description": "Harvest a fully-grown nut."
             },
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "Dominion δ",
+              "description": "Hidden achievement."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Dead as Disco",
+      "title": "Dead as Disco Singleplayer and Platform FAQ",
       "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Dead as Disco.",
+      "intro": "These are the core platform and access questions players keep asking before buying Dead as Disco.",
       "faqs": [
         {
-          "question": "¿Es Dead as Disco para un solo jugador?",
-          "answer": "Sí. Dead as Disco es un juego para un solo jugador."
+          "question": "Is Dead as Disco singleplayer?",
+          "answer": "Yes. Dead as Disco is a singleplayer game."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "Is multiplayer or co-op planned?",
+          "answer": "No. Multiplayer is not planned for release or future updates."
         },
         {
-          "question": "¿Dónde puedo jugar Dead as Disco?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "Where can I play Dead as Disco?",
+          "answer": "It is currently available on Steam for Windows."
         },
         {
-          "question": "¿Cuánto cuesta Dead as Disco?",
-          "answer": "$9.99 en Steam."
+          "question": "How much does Dead as Disco cost?",
+          "answer": "$9.99 on Steam."
         },
         {
-          "question": "¿Dead as Disco es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "Does Dead as Disco support controllers?",
+          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
         },
         {
-          "question": "¿Dead as Disco funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+          "question": "Does Dead as Disco work on Steam Deck?",
+          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
         },
         {
-          "question": "¿Dead as Disco funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "Does Dead as Disco work on Linux?",
+          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
+          "question": "Will Mac or Android be supported?",
+          "answer": "They may be supported in the future, but they are not current launch platforms."
         },
         {
-          "question": "¿Dead as Disco tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
+          "question": "Does Dead as Disco have translations?",
+          "answer": "No. There are currently no translations planned."
         },
         {
-          "question": "¿Dead as Disco seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "Will Dead as Disco keep getting updates?",
+          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Dead as Disco en Steam Deck y controles",
       "displayType": "accordion",
-      "intro": "Dead as Disco puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
+      "intro": "Dead as Disco puede ejecutarse en Steam Deck, pero la configuración predeterminada podría necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
       "faqs": [
         {
-          "question": "¿Dead as Disco funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "question": "¿Funciona Dead as Disco en Steam Deck?",
+          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución común para los problemas en Steam Deck."
         },
         {
           "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
@@ -668,86 +668,86 @@
         },
         {
           "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "answer": "Sí. Se ha informado que Proton 9.0 funciona bien para Linux y Steam Deck."
         },
         {
           "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego en general."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Dead as Disco",
+      "title": "Configuración y accesibilidad de Dead as Disco",
       "displayType": "settingCards",
-      "intro": "Dead as Disco ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
+      "intro": "Dead as Disco ya cuenta con algunas configuraciones prácticas y notas de compatibilidad que son importantes apenas los jugadores inician el juego por primera vez.",
       "settings": [
         {
-          "name": "Ajustes de pantalla",
+          "name": "Configuración de pantalla",
           "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "description": "La configuración de pantalla incluye una opción que permite a los jugadores ocultar las manos en pantalla."
         },
         {
           "name": "Compatibilidad de gráficos",
           "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "description": "Se requiere soporte de Vulkan para que los gráficos se rendericen correctamente. Los sistemas sin Vulkan pueden sufrir cierres inesperados y errores gráficos graves."
         },
         {
           "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "type": "Configuración de controles",
+          "description": "Existe soporte para controles, pero el teclado y el mouse ofrecen una experiencia más fluida porque los menús no están diseñados para el uso de controles."
         },
         {
           "name": "Soporte de idiomas",
           "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas por el momento."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Actualizaciones y notas del parche de Dead as Disco",
       "displayType": "timeline",
-      "intro": "Dead as Disco ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
+      "intro": "Dead as Disco ya está recibiendo correcciones rápidas tras el lanzamiento y pequeñas actualizaciones de usabilidad.",
       "entries": [
         {
           "title": "Actualización 2.8.2",
           "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "description": "Se cambió el nombre de \"awaken\" a \"exit\" en el menú principal."
         },
         {
           "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "type": "Parche de corrección",
+          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba al iniciar."
         },
         {
           "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "type": "Nota de la hoja de ruta",
+          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Dead as Disco",
+      "title": "Solución de cierres y resolución de problemas de Dead as Disco",
       "displayType": "steps",
       "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Instala el último parche de corrección de cierres",
+          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el último parche para cierres al inicio."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Dead as Disco requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Verifica el soporte de Vulkan",
+          "description": "Dead as Disco requiere soporte de Vulkan. Los sistemas sin Vulkan pueden sufrir cierres o problemas graves de renderizado."
         },
         {
           "title": "Usa Proton 9.0.4 en Steam Deck",
           "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Recopila los registros de cierres",
+          "description": "Abre Ejecutar en Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para la resolución de problemas."
         },
         {
-          "title": "Reporta el problema correctamente",
+          "title": "Informa el problema correctamente",
           "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
         }
       ]
@@ -755,7 +755,7 @@
   },
   "faq": {
     "title": "Preguntas",
-    "titleHighlight": "frecuentes",
+    "titleHighlight": "Frecuentes",
     "subtitle": "Todo lo que necesitas saber sobre Dead as Disco",
     "questions": [
       {
@@ -780,19 +780,19 @@
       },
       {
         "question": "¿Recibirá actualizaciones Dead as Disco?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no están destinadas a continuar con un calendario regular indefinido."
       }
     ]
   },
   "cta": {
     "title": "¿Listo para explorar Dead as Disco?",
-    "description": "¡Únete a la comunidad de Dead as Disco en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "description": "¡Únete a la comunidad de Dead as Disco en Discord para obtener guías, actualizaciones y discusiones!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
   },
   "footer": {
     "title": "Wiki de Dead as Disco",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Dead as Disco.",
+    "description": "Tu centro de recursos completo para la creación, biomas, criaturas, logros y guías de supervivencia de Dead as Disco.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
@@ -803,129 +803,129 @@
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Dead as Disco. No afiliada con los desarrolladores de Dead as Disco.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Dead as Disco Wiki. No afiliado con los desarrolladores de Dead as Disco.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
   },
   "pages": {
     "guides": {
       "title": "Guías de Dead as Disco",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
+      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la creación.",
       "metaTitle": "Guías de Dead as Disco - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Dead as Disco que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
+      "metaDescription": "Guías completas de Dead as Disco que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox Surreal.",
       "categoryLabel": "GUÍAS DEL JUEGO",
       "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+      "whatIsDescription": "Guías completas que cubren las mecánicas de juego, las estrategias de supervivencia y el sistema de creación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
+      "why": "¿Por qué leer guías?",
       "whySteps": {
         "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
+        "step1Description": "Comprende el sistema Apotheosis y evita errores comunes de principiante",
         "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
+        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en el mundo Surreal",
         "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la creación"
       },
-      "featured": "Destacado y esencial",
+      "featured": "Destacados y esenciales",
       "all": "Todas las guías"
     },
     "crafting": {
-      "title": "Fabricación en Dead as Disco",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Dead as Disco - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Dead as Disco. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+      "title": "Creación en Dead as Disco",
+      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de creación para objetos poderosos.",
+      "metaTitle": "Creación en Dead as Disco - Sistema Apotheosis y recetas",
+      "metaDescription": "Domina el sistema de creación Apotheosis de Dead as Disco. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
+      "categoryLabel": "SISTEMA DE CREACIÓN",
+      "whatIs": "¿Qué es la creación?",
+      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de creación fijos: la experimentación es la clave.",
+      "why": "¿Por qué dominar la creación?",
       "whySteps": {
         "step1Title": "Desbloquea objetos poderosos",
         "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
+        "step2Title": "Comprende las esencias",
         "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
         "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step3Description": "Usa mecánicas de dilución para maximizar la producción a partir de materiales económicos"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de creación"
     },
     "items": {
-      "title": "Objetos de Dead as Disco",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Dead as Disco - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Dead as Disco, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+      "title": "Artículos de Dead as Disco",
+      "description": "Guías detalladas de artículos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
+      "metaTitle": "Artículos de Dead as Disco - Guía de herramientas, armas y equipo",
+      "metaDescription": "Base de datos completa de artículos para Dead as Disco, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada artículo de manera efectiva.",
+      "categoryLabel": "ARTÍCULOS Y EQUIPO",
+      "whatIs": "¿Qué son los artículos?",
+      "whatIsDescription": "Guías completas para herramientas, armas, equipo de movilidad y artículos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
+      "why": "¿Por qué consultar las guías de artículos?",
       "whySteps": {
         "step1Title": "Aprende recetas de fabricación",
         "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step2Title": "Optimiza tu equipo",
+        "step2Description": "Elige los mejores artículos para tu estilo de juego y etapa de progreso",
+        "step3Title": "Mejora la supervivencia",
+        "step3Description": "Equipa equipo de movilidad y armas para navegar por el peligroso mundo"
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos"
     },
     "biomes": {
       "title": "Biomas de Dead as Disco",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
+      "description": "Explora regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
       "metaTitle": "Biomas de Dead as Disco - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Dead as Disco, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
+      "metaDescription": "Explora los biomas de Dead as Disco, incluyendo Tiamana Leylines, Fog Meadow y regiones Surreal. Encuentra recursos, evita peligros y navega por el mundo infinito.",
       "categoryLabel": "REGIONES DEL MUNDO",
       "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+      "whatIsDescription": "Guías sobre diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
+      "why": "¿Por qué explorar biomas?",
       "whySteps": {
         "step1Title": "Encuentra recursos",
         "step1Description": "Localiza materiales raros y esencias específicas de cada región",
         "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
+        "step2Description": "Comprende los riesgos ambientales y las criaturas hostiles",
+        "step3Title": "Planifica la exploración",
         "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
       },
-      "featured": "Destacado y esencial",
+      "featured": "Destacados y esenciales",
       "all": "Todos los biomas"
     },
     "building": {
       "title": "Construcción en Dead as Disco",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
+      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y las técnicas de construcción creativa.",
       "metaTitle": "Construcción en Dead as Disco - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Dead as Disco con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
+      "metaDescription": "Domina la construcción en Dead as Disco con dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas de construcción creativa.",
       "categoryLabel": "CONSTRUCCIÓN Y BASES",
       "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
+      "whatIsDescription": "Guías sobre el sistema de dimensión personal Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en el mundo Surreal.",
       "why": "¿Por qué construir bases?",
       "whySteps": {
         "step1Title": "Crea espacios seguros",
         "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
+        "step2Title": "Gestiona recursos",
+        "step2Description": "Organiza los materiales de manera eficiente con soluciones de almacenamiento",
         "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step3Description": "Accede a dimensiones de bolsillo personales para una mayor comodidad"
       },
-      "featured": "Destacado y esencial",
+      "featured": "Destacados y esenciales",
       "all": "Todas las guías de construcción"
     },
     "support": {
       "title": "Soporte de Dead as Disco",
       "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
       "metaTitle": "Soporte de Dead as Disco - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Dead as Disco, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
+      "metaDescription": "Obtén soporte técnico para Dead as Disco, incluyendo configuración de Steam Deck, corrección de errores, optimización de rendimiento y guías de compatibilidad de plataformas.",
       "categoryLabel": "SOPORTE TÉCNICO",
       "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
+      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, corrección de errores y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y configuraciones.",
       "why": "¿Por qué consultar el soporte?",
       "whySteps": {
         "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
+        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y conflictos de compatibilidad",
         "step2Title": "Optimiza el rendimiento",
         "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
         "step3Title": "Compatibilidad de plataformas",
         "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
       },
-      "featured": "Destacado y esencial",
+      "featured": "Destacados y esenciales",
       "all": "Todos los artículos de soporte"
     }
   }
