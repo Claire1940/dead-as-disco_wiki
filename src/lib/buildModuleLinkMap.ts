@@ -14,6 +14,14 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
+  deadAsDiscoBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  deadAsDiscoRhythmCombat: { field: 'cards', nameKey: 'name' },
+  deadAsDiscoIdols: { field: 'bosses', nameKey: 'name' },
+  deadAsDiscoSkillBuilds: { field: 'skills', nameKey: 'name' },
+  deadAsDiscoSongs: { field: 'tracks', nameKey: 'name' },
+  deadAsDiscoInfiniteDisco: { field: 'modes', nameKey: 'name' },
+  deadAsDiscoChallenges: { field: 'challenges', nameKey: 'name' },
+  deadAsDiscoCustomization: { field: 'options', nameKey: 'name' },
   lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
   lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
   lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
@@ -28,32 +36,40 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
   lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
   lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'name' },
   lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  deadAsDiscoBeginnerGuide: ['beginner', 'rhythm', 'combo', 'progression', 'early skills'],
+  deadAsDiscoRhythmCombat: ['rhythm combat', 'music sync', 'perfect dodge', 'combo system', 'idol bosses'],
+  deadAsDiscoIdols: ['idols', 'boss', 'patterns', 'mechanics', 'hemlock'],
+  deadAsDiscoSkillBuilds: ['skill tree', 'abilities', 'custom builds', 'playstyle', 'movement skills'],
+  deadAsDiscoSongs: ['soundtrack', 'custom songs', 'my music', 'bpm', 'steam workshop'],
+  deadAsDiscoInfiniteDisco: ['infinite disco', 'endless mode', 'leaderboards', 'difficulty scaling', 'power ups'],
+  deadAsDiscoChallenges: ['song challenges', 'combat trials', 'time attacks', 'objectives', 'mastery'],
+  deadAsDiscoCustomization: ['customization', 'cosmetics', 'accessibility', 'audio settings', 'visual settings'],
+  lucidBlocksBeginnerGuide: ['beginner guide', 'story mode', 'infinite disco', 'my music', 'fan power'],
+  lucidBlocksApotheosisCrafting: ['combat guide', 'beat kune do', 'perfect defense', 'idol phases', 'rhythm control'],
+  lucidBlocksToolsAndWeapons: ['controls', 'basic attack combo', 'perfect counter', 'takedown', 'windmill kick'],
+  lucidBlocksStorageAndInventory: ['release date', 'patch notes', 'roadmap', 'early access', 'known issues'],
+  lucidBlocksQualiaAndBaseBuilding: ['boss idols', 'hemlock', 'arora', 'dex', 'prophet'],
+  lucidBlocksWorldRegions: ['best skills', 'abilities', 'hearts', 'fever capacity', 'bass invader'],
+  lucidBlocksCreaturesAndEnemies: ['story levels', 'walkthrough', 'tutorial', 'idol routes', 'campaign'],
+  lucidBlocksMobilityGear: ['infinite disco', 'manual bpm calibration', 'leaderboards', 'song challenges', 'official song runs'],
+  lucidBlocksFarmingAndGrowth: ['my music', 'custom songs', 'mp3 import', 'beat offset', 'bpm sync'],
+  lucidBlocksBestEarlyUnlocks: ['soundtrack', 'streamer safe mode', 'dlc', 'superfan bundle', 'radio play'],
+  lucidBlocksAchievementTracker: ['steam deck', 'setup steps', 'custom song path', 'supported', 'portable play'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['demo', 'price', 'editions', 'bundle', 'early access'],
+  lucidBlocksSteamDeckAndController: ['co op', 'multiplayer status', 'singleplayer', 'future plans', 'launch scope'],
+  lucidBlocksSettingsAndAccessibility: ['mods', 'custom skins', 'community mod hub', 'roadmap', 'steam guides'],
+  lucidBlocksUpdatesAndPatchNotes: ['characters', 'enemies', 'charlie disco', 'harmony corp', 'launch idols'],
+  lucidBlocksCrashFixAndTroubleshooting: ['the encore', 'collectibles', 'cosmetics', 'bar restoration', 'memorabilia'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['dead', 'as', 'disco', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +93,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Dead as Disco")
+  const strippedQuery = normalizedQuery.replace(/dead\s+as\s+disco\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/dead\s+as\s+disco\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
