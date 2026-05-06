@@ -1,16 +1,26 @@
 {
-  "name": "Dead as Disco Wiki - Idols, Builds, Songs & Roadmap",
+  "id": "/",
+  "name": "Dead as Disco Wiki - Idols, Songs, Builds & Guides",
   "short_name": "Dead as Disco",
-  "description": "Dead as Disco Wiki features guides for idols, rhythm combat, skill builds, songs, My Music, Infinite Disco, and roadmap updates.",
+  "description": "Dead as Disco Wiki covers idols, rhythm combat, skill builds, songs, Infinite Disco challenges, My Music setup, and Early Access updates.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "theme_color": "#fc178e",
-  "background_color": "#09060d",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["games", "entertainment", "music"],
+  "theme_color": "#f91aa7",
+  "background_color": "#08070d",
+  "categories": [
+    "games",
+    "entertainment",
+    "reference"
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -25,6 +35,11 @@
       "purpose": "any maskable"
     },
     {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
       "src": "/favicon-32x32.png",
       "sizes": "32x32",
       "type": "image/png"
@@ -33,11 +48,28 @@
       "src": "/favicon-16x16.png",
       "sizes": "16x16",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Idols Guides",
+      "short_name": "Idols",
+      "description": "Boss and Idol mechanics, patterns, and strategies.",
+      "url": "/idols"
     },
     {
-      "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
+      "name": "Best Builds",
+      "short_name": "Builds",
+      "description": "Skill priorities and build recommendations.",
+      "url": "/builds"
     }
   ]
 }

@@ -73,11 +73,39 @@ interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
   moduleLinkMap: ModuleLinkMap
   locale: string
+  featuredVideoId: string
+  featuredVideoTitle: string
 }
 
-export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
+export default function HomePageClient({
+  latestArticles,
+  moduleLinkMap,
+  locale,
+  featuredVideoId,
+  featuredVideoTitle,
+}: HomePageClientProps) {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const moduleDefaults = {
+    lucidBlocksBeginnerGuide: { title: 'Beginner Guide', intro: '', steps: [], quickTips: [] },
+    lucidBlocksApotheosisCrafting: { title: 'Core Systems', intro: '', cards: [], milestones: [] },
+    lucidBlocksToolsAndWeapons: { title: 'Tools', intro: '', items: [] },
+    lucidBlocksStorageAndInventory: { title: 'Inventory', intro: '', solutions: [], managementTips: [] },
+    lucidBlocksQualiaAndBaseBuilding: { title: 'Builds', intro: '', cards: [], highlights: [] },
+    lucidBlocksWorldRegions: { title: 'Regions', intro: '', regions: [] },
+    lucidBlocksCreaturesAndEnemies: { title: 'Enemies', intro: '', creatures: [] },
+    lucidBlocksMobilityGear: { title: 'Mobility', intro: '', items: [], unlockMilestones: [] },
+    lucidBlocksFarmingAndGrowth: { title: 'Progression', intro: '', sections: [], growthMilestones: [] },
+    lucidBlocksBestEarlyUnlocks: { title: 'Early Unlocks', intro: '', priorities: [] },
+    lucidBlocksAchievementTracker: { title: 'Achievements', intro: '', groups: [] },
+    lucidBlocksSingleplayerAndPlatformFAQ: { title: 'FAQ', intro: '', faqs: [] },
+    lucidBlocksSteamDeckAndController: { title: 'Platform', intro: '', faqs: [] },
+    lucidBlocksSettingsAndAccessibility: { title: 'Settings', intro: '', settings: [] },
+    lucidBlocksUpdatesAndPatchNotes: { title: 'Updates', intro: '', entries: [] },
+    lucidBlocksCrashFixAndTroubleshooting: { title: 'Troubleshooting', intro: '', steps: [] },
+  } as const
+  const modules = { ...moduleDefaults, ...(t.modules ?? {}) } as any
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://dead-as-disco.wiki').replace(/\/$/, '')
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
   // Structured data
   const structuredData = {
@@ -87,14 +115,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
-        description: "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+        name: 'Dead as Disco Wiki',
+        description: 'Dead as Disco Wiki covering Idols, songs, builds, My Music, Infinite Disco, and roadmap updates.',
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: 'Dead as Disco - Neon Rhythm Beat Em Up',
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -105,10 +133,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: 'Dead as Disco Wiki',
+        alternateName: 'Dead as Disco',
         url: siteUrl,
-        description: "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+        description: 'Dead as Disco community resource hub for guides, songs, builds, and challenge strategies.',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -117,24 +145,27 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         },
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: 'Dead as Disco Wiki - Neon Rhythm Beat Em Up',
         },
         sameAs: [
-          'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
-          'https://discord.com/invite/lucidblocks',
-          'https://www.reddit.com/r/LucidBlocks/',
-          'https://www.youtube.com/@lucy_b_locks',
+          'https://deadasdisco.com/',
+          'https://store.steampowered.com/app/3404260/Dead_as_Disco/',
+          'https://discord.gg/deadasdisco',
+          'https://www.youtube.com/@DeadAsDiscoGame',
+          'https://www.reddit.com/r/deadasdiscothegame/',
+          'https://www.tiktok.com/@dead.as.disco',
+          'https://bsky.app/profile/deadasdiscogame.bsky.social',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "Lucid Blocks",
+        name: 'Dead as Disco',
         gamePlatform: ['PC', 'Steam'],
         applicationCategory: 'Game',
-        genre: ['Survival', 'Sandbox', 'Adventure', 'Psychedelic'],
+        genre: ['Action', 'Rhythm', 'Beat Em Up'],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
@@ -143,7 +174,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           '@type': 'Offer',
           priceCurrency: 'USD',
           availability: 'https://schema.org/InStock',
-          url: 'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
+          url: 'https://store.steampowered.com/app/3404260/Dead_as_Disco/',
         },
       },
     ],
@@ -226,17 +257,19 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <button
-                onClick={() => scrollToSection('beginner-guide')}
+              <a
+                href="https://deadasdisco.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/3404260/Dead_as_Disco/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
@@ -264,8 +297,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         <div className="scroll-reveal container mx-auto max-w-4xl">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId={featuredVideoId}
+              title={featuredVideoTitle}
               posterImage="/images/hero.webp"
             />
           </div>
@@ -342,17 +375,17 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['lucidBlocksBeginnerGuide']} locale={locale}>
-                {t.modules.lucidBlocksBeginnerGuide.title}
+                {modules.lucidBlocksBeginnerGuide.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksBeginnerGuide.intro}
+              {modules.lucidBlocksBeginnerGuide.intro}
             </p>
           </div>
 
           {/* Steps */}
           <div className="scroll-reveal space-y-4 mb-10">
-            {t.modules.lucidBlocksBeginnerGuide.steps.map((step: any, index: number) => (
+            {modules.lucidBlocksBeginnerGuide.steps.map((step: any, index: number) => (
               <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
                   <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
@@ -376,7 +409,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <h3 className="font-bold text-lg">Quick Tips</h3>
             </div>
             <ul className="space-y-2">
-              {t.modules.lucidBlocksBeginnerGuide.quickTips.map((tip: string, index: number) => (
+              {modules.lucidBlocksBeginnerGuide.quickTips.map((tip: string, index: number) => (
                 <li key={index} className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
                   <span className="text-muted-foreground text-sm">{tip}</span>
@@ -394,11 +427,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="apotheosis-crafting" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksApotheosisCrafting']} locale={locale}>{t.modules.lucidBlocksApotheosisCrafting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksApotheosisCrafting.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksApotheosisCrafting']} locale={locale}>{modules.lucidBlocksApotheosisCrafting.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksApotheosisCrafting.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksApotheosisCrafting.cards.map((card: any, index: number) => (
+            {modules.lucidBlocksApotheosisCrafting.cards.map((card: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
                   <LinkedTitle linkData={moduleLinkMap[`lucidBlocksApotheosisCrafting::cards::${index}`]} locale={locale}>
@@ -410,7 +443,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksApotheosisCrafting.milestones.map((m: string, i: number) => (
+            {modules.lucidBlocksApotheosisCrafting.milestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -423,11 +456,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="tools-weapons" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksToolsAndWeapons']} locale={locale}>{t.modules.lucidBlocksToolsAndWeapons.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksToolsAndWeapons.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksToolsAndWeapons']} locale={locale}>{modules.lucidBlocksToolsAndWeapons.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksToolsAndWeapons.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksToolsAndWeapons.items.map((item: any, index: number) => (
+            {modules.lucidBlocksToolsAndWeapons.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Hammer className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -449,11 +482,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="storage-inventory" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksStorageAndInventory']} locale={locale}>{t.modules.lucidBlocksStorageAndInventory.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksStorageAndInventory.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksStorageAndInventory']} locale={locale}>{modules.lucidBlocksStorageAndInventory.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksStorageAndInventory.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksStorageAndInventory.solutions.map((s: any, index: number) => (
+            {modules.lucidBlocksStorageAndInventory.solutions.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <h3 className="font-bold">
@@ -473,7 +506,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <h3 className="font-bold">Management Tips</h3>
             </div>
             <ul className="space-y-2">
-              {t.modules.lucidBlocksStorageAndInventory.managementTips.map((tip: string, i: number) => (
+              {modules.lucidBlocksStorageAndInventory.managementTips.map((tip: string, i: number) => (
                 <li key={i} className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
                   <span className="text-muted-foreground text-sm">{tip}</span>
@@ -488,11 +521,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="qualia-base-building" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksQualiaAndBaseBuilding']} locale={locale}>{t.modules.lucidBlocksQualiaAndBaseBuilding.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksQualiaAndBaseBuilding.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksQualiaAndBaseBuilding']} locale={locale}>{modules.lucidBlocksQualiaAndBaseBuilding.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksQualiaAndBaseBuilding.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.cards.map((card: any, index: number) => (
+            {modules.lucidBlocksQualiaAndBaseBuilding.cards.map((card: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
                   <LinkedTitle linkData={moduleLinkMap[`lucidBlocksQualiaAndBaseBuilding::cards::${index}`]} locale={locale}>
@@ -504,7 +537,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.highlights.map((h: string, i: number) => (
+            {modules.lucidBlocksQualiaAndBaseBuilding.highlights.map((h: string, i: number) => (
               <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
                 <p className="text-sm">{h}</p>
@@ -518,11 +551,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="world-regions" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksWorldRegions']} locale={locale}>{t.modules.lucidBlocksWorldRegions.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksWorldRegions.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksWorldRegions']} locale={locale}>{modules.lucidBlocksWorldRegions.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksWorldRegions.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksWorldRegions.regions.map((region: any, index: number) => (
+            {modules.lucidBlocksWorldRegions.regions.map((region: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -544,11 +577,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="creatures-enemies" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCreaturesAndEnemies']} locale={locale}>{t.modules.lucidBlocksCreaturesAndEnemies.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCreaturesAndEnemies.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCreaturesAndEnemies']} locale={locale}>{modules.lucidBlocksCreaturesAndEnemies.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksCreaturesAndEnemies.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksCreaturesAndEnemies.creatures.map((c: any, index: number) => (
+            {modules.lucidBlocksCreaturesAndEnemies.creatures.map((c: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="mb-3">
                   <span className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy","Major Threat","Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme)/0.16)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
@@ -569,11 +602,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="mobility-gear" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksMobilityGear']} locale={locale}>{t.modules.lucidBlocksMobilityGear.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksMobilityGear.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksMobilityGear']} locale={locale}>{modules.lucidBlocksMobilityGear.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksMobilityGear.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {t.modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
+            {modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -589,7 +622,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksMobilityGear.unlockMilestones.map((m: string, i: number) => (
+            {modules.lucidBlocksMobilityGear.unlockMilestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -605,11 +638,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="farming-growth" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksFarmingAndGrowth']} locale={locale}>{t.modules.lucidBlocksFarmingAndGrowth.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksFarmingAndGrowth.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksFarmingAndGrowth']} locale={locale}>{modules.lucidBlocksFarmingAndGrowth.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksFarmingAndGrowth.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksFarmingAndGrowth.sections.map((s: any, index: number) => (
+            {modules.lucidBlocksFarmingAndGrowth.sections.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -624,7 +657,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksFarmingAndGrowth.growthMilestones.map((m: string, i: number) => (
+            {modules.lucidBlocksFarmingAndGrowth.growthMilestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -637,11 +670,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="best-early-unlocks" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksBestEarlyUnlocks']} locale={locale}>{t.modules.lucidBlocksBestEarlyUnlocks.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksBestEarlyUnlocks.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksBestEarlyUnlocks']} locale={locale}>{modules.lucidBlocksBestEarlyUnlocks.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksBestEarlyUnlocks.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksBestEarlyUnlocks.priorities.map((p: any, index: number) => (
+            {modules.lucidBlocksBestEarlyUnlocks.priorities.map((p: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -663,11 +696,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="achievement-tracker" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksAchievementTracker']} locale={locale}>{t.modules.lucidBlocksAchievementTracker.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksAchievementTracker.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksAchievementTracker']} locale={locale}>{modules.lucidBlocksAchievementTracker.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksAchievementTracker.intro}</p>
           </div>
           <div className="scroll-reveal space-y-6">
-            {t.modules.lucidBlocksAchievementTracker.groups.map((group: any, gi: number) => (
+            {modules.lucidBlocksAchievementTracker.groups.map((group: any, gi: number) => (
               <div key={gi} className="p-6 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center gap-2 mb-4">
                   <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -695,11 +728,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="singleplayer-faq" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSingleplayerAndPlatformFAQ']} locale={locale}>{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSingleplayerAndPlatformFAQ']} locale={locale}>{modules.lucidBlocksSingleplayerAndPlatformFAQ.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map((faq: any, index: number) => (
+            {modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map((faq: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
@@ -723,12 +756,12 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{t.modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksSteamDeckAndController.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSteamDeckAndController.faqs.map((faq: any, index: number) => (
+            {modules.lucidBlocksSteamDeckAndController.faqs.map((faq: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
@@ -750,11 +783,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="settings-accessibility" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{t.modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksSettingsAndAccessibility.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
+            {modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
@@ -776,11 +809,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="updates-patch-notes" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{t.modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
           </div>
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
+            {modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
               <div key={index} className="relative">
                 <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                 <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
@@ -805,11 +838,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="crash-fix" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{t.modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
           </div>
           <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
+            {modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
               <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
                   <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
@@ -832,11 +865,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <h3 className="font-bold text-yellow-400 mb-2">Still having issues?</h3>
                 <p className="text-sm text-muted-foreground mb-3">Report bugs with your logs through the official channels:</p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.com/invite/lucidblocks" target="_blank" rel="noopener noreferrer"
+                  <a href="https://discord.gg/deadasdisco" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
                   </a>
-                  <a href="https://store.steampowered.com/app/3495730/Lucid_Blocks/" target="_blank" rel="noopener noreferrer"
+                  <a href="https://steamcommunity.com/app/3404260/discussions/" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     Steam Community <ExternalLink className="w-3 h-3" />
                   </a>
@@ -888,7 +921,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.gg/deadasdisco"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -898,7 +931,27 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://www.youtube.com/@DeadAsDiscoGame"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.youtube}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.reddit.com/r/deadasdiscothegame/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.reddit}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://bsky.app/profile/deadasdiscogame.bsky.social"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -908,7 +961,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://steamcommunity.com/app/3404260/discussions/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -918,7 +971,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/3404260/Dead_as_Disco/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

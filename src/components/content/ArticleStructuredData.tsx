@@ -13,7 +13,10 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://dead-as-disco.wiki').replace(/\/$/, '')
+	const logoUrl = new URL('/android-chrome-512x512.png', siteUrl).toString()
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
+	const articleImage = frontmatter.image ? new URL(frontmatter.image, siteUrl).toString() : heroImageUrl
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -49,19 +52,19 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: articleImage,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Dead as Disco Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Dead as Disco Wiki',
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: logoUrl,
 			},
 		},
 		mainEntityOfPage: {

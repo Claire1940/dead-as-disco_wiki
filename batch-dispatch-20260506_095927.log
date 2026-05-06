@@ -1,0 +1,76 @@
+Batch Codex dispatch
+   Tasks file: /root/.openclaw/skills/game-refactor/tasks/game-refactor-dead-as-disco-tasks.json
+   Workdir: /root/Documents/GameProjects/dead-as-disco_wiki
+   Feishu: oc_89cad99bbc944d7f0bd7d39472b3f1dd
+   Tmux session: dead-as-disco_wiki
+
+Total tasks: 9
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [1/9]: game-refactor-part2-metadata-seo-dead-as-disco
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/dead-as-disco_wiki/task-meta.json
+   Task ID: game-refactor-part2-metadata-seo-dead-as-disco_20260506_095927_3458656
+   Task: game-refactor-part2-metadata-seo-dead-as-disco
+   Target: oc_89cad99bbc944d7f0bd7d39472b3f1dd
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part2-metadata-seo-dead-as-disco_20260506_095927_3458656.md
+Creating tmux session: dead-as-disco_wiki
+Started codex-agent in tmux session: dead-as-disco_wiki
+To monitor: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dead-as-disco_wiki
+
+Task sent to codex session: dead-as-disco_wiki
+To watch: tmux -S /tmp/clawdbot-tmux-sockets/codex-code.sock attach -t dead-as-disco_wiki
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.qqbot: plugin not found: qqbot (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.ddingtalk: plugin not found: ddingtalk (stale config  │
+│    entry ignored; remove it from plugins config)                         │
+│  - plugins.entries.wecom: plugin not found: wecom (stale config entry    │
+│    ignored; remove it from plugins config)                               │
+│  - plugins.entries.adp-openclaw: plugin not found: adp-openclaw (stale   │
+│    config entry ignored; remove it from plugins config)                  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+[info]: [ 'client ready' ]
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+[plugins] feishu_chat: Registered feishu_chat tool
+[plugins] feishu_wiki: Registered feishu_wiki tool
+[plugins] feishu_drive: Registered feishu_drive tool
+[plugins] feishu_bitable: Registered bitable tools
+✅ Sent via Feishu. Message ID: om_x100b50855e60648cc3fab16f7b4e57d
+   Task ID: game-refactor-part2-metadata-seo-dead-as-disco_20260506_095927_3458656
+Waiting for task: game-refactor-part2-metadata-seo-dead-as-disco_20260506_095927_3458656 (timeout: 7200s)
+   Still waiting... (60s / 7200s)
+   Still waiting... (120s / 7200s)
+   Still waiting... (180s / 7200s)
+   Still waiting... (240s / 7200s)
+   Still waiting... (300s / 7200s)
+   Still waiting... (360s / 7200s)
+   Still waiting... (420s / 7200s)
+   Still waiting... (480s / 7200s)
+   Still waiting... (540s / 7200s)
+   Still waiting... (600s / 7200s)
+   Still waiting... (660s / 7200s)

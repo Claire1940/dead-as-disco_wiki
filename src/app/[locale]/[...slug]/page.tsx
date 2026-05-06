@@ -218,7 +218,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://dead-as-disco.wiki').replace(/\/$/, '')
+  const toAbsoluteUrl = (input?: string) => {
+    if (!input) return undefined
+    try {
+      return new URL(input, siteUrl).toString()
+    } catch {
+      return undefined
+    }
+  }
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -246,6 +254,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const title = t('metaTitle')
       const description = t('metaDescription')
       const path = `/${contentType}`
+      const canonicalUrl = `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`
 
       return {
         title,
@@ -254,7 +263,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
           title,
           description,
-          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: 'Dead as Disco',
+          url: canonicalUrl,
+          images: [`${siteUrl}/images/hero.webp`],
         },
         robots: {
           index: true,
@@ -270,13 +281,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Dead as Disco`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Dead as Disco`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Dead as Disco`,
+          siteName: 'Dead as Disco',
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          images: [`${siteUrl}/images/hero.webp`],
+        },
         robots: {
           index: true,
           follow: true,
@@ -304,15 +322,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const articleImage = toAbsoluteUrl(metadata.image) ?? `${siteUrl}/images/hero.webp`
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} | Dead as Disco`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          siteName: 'Dead as Disco',
+          images: [articleImage],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
         },
         robots: {
@@ -339,15 +359,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const articleImage = toAbsoluteUrl(metadata.image) ?? `${siteUrl}/images/hero.webp`
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} | Dead as Disco`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              siteName: 'Dead as Disco',
+              images: [articleImage],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
             },
             robots: {
