@@ -10,49 +10,38 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ja", "ko", "es"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
+    "game_names": ["Dead as Disco"],
     "character_names": [],
     "technical_terms": [
-      "Apotheosis",
+      "Dead as Disco",
+      "Charlie Disco",
+      "Idols",
+      "Infinite Disco",
+      "My Music",
+      "Beat Kune Do",
       "Steam",
       "Steam Deck",
-      "Vulkan",
-      "Fog Meadow",
-      "Heaven",
-      "Bubblebear",
-      "Angel",
-      "Hookshot",
-      "Bee Glider",
-      "Psychedelic",
-      "Surreal"
+      "Vulkan"
     ]
   },
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Dead as Disco",
+    "ja": "デッド・アズ・ディスコ",
+    "ko": "데드 애즈 디스코",
+    "es": "Dead as Disco"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
     "ko": "Korean",
-    "fr": "French"
+    "es": "Spanish (Latin America)"
   }
 }
