@@ -122,22 +122,22 @@
       {
         "icon": "MessageCircle",
         "title": "Dead as Disco Co-op Multiplayer Status",
-        "description": "Current single-player state and future multiplayer expectations"
+        "description": "Current solo status, launch feature scope, and future co-op roadmap signals"
       },
       {
         "icon": "Settings",
         "title": "Dead as Disco Mods and Custom Skins",
-        "description": "Mod scene status, cosmetic customization, and UGC direction"
+        "description": "Community mods, official support plans, and in-game customization systems"
       },
       {
         "icon": "ClipboardCheck",
         "title": "Dead as Disco Characters and Enemies",
-        "description": "Character index, enemy roles, and faction context"
+        "description": "Charlie, launch Idols, Harmony Corp context, and enemy-wave roles"
       },
       {
         "icon": "Home",
         "title": "Dead as Disco The Encore Collectibles and Cosmetics",
-        "description": "Hub progression, memorabilia, and style unlock tracking"
+        "description": "The Encore hub restoration, memorabilia, cosmetics, and progression rewards"
       }
     ]
   },
@@ -895,97 +895,171 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Dead as Disco Co-op Multiplayer Status",
-      "intro": "Current play is centered on solo progression and challenge loops, with community attention on future multiplayer direction.",
+      "eyebrow": "Multiplayer Status",
+      "subtitle": "Dead as Disco is a single-player rhythm beat 'em up at Early Access launch, with multiplayer co-op planned as a future feature.",
+      "intro": "This section answers the most common buying question for brawler fans: whether co-op exists today, what you can play right now, and how future multiplayer has been described.",
       "faqs": [
         {
-          "question": "Is the current build single-player?",
-          "answer": "The present gameplay experience is designed around solo rhythm-combat progression."
+          "question": "Does Dead as Disco have co-op right now?",
+          "answer": "No launch co-op mode is listed. Store features currently present the game as a single-player experience."
         },
         {
-          "question": "Can you play co-op right now?",
-          "answer": "Co-op is not currently a live gameplay mode in the Early Access build."
+          "question": "What can I play in the current Early Access version?",
+          "answer": "Current content is focused on solo play: Story Mode progression, Infinite Disco, My Music custom-song challenges, Idol boss routes, unlockable skills, cosmetics, collectibles, and The Encore hub."
         },
         {
-          "question": "Is multiplayer being discussed for future updates?",
-          "answer": "Future roadmap conversations include ongoing feature expansion, and players continue to watch for multiplayer announcements."
+          "question": "Is co-op planned for the future?",
+          "answer": "Yes. Multiplayer co-op is part of the long-term plan and is positioned as a feature for a future release stage."
         },
         {
-          "question": "What should group-focused players do for now?",
-          "answer": "Track roadmap updates while using challenge leaderboards and community events as shared progression goals."
+          "question": "Why is co-op not available at launch?",
+          "answer": "The combat model is built around music-synced Beat Kune Do timing, so multiplayer design and pacing need extra work to preserve rhythm flow and visual clarity."
+        },
+        {
+          "question": "Should I buy Dead as Disco now for co-op?",
+          "answer": "Buy now for the current solo rhythm-brawler content and treat co-op as a roadmap feature rather than a launch mode."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Dead as Disco Mods and Custom Skins",
-      "intro": "Mod and skin interest is growing during Early Access. Use this section to track what is practical now and what is expected to evolve.",
+      "eyebrow": "Mods & Customization",
+      "subtitle": "Dead as Disco already supports strong UGC-style play through My Music and custom challenges, while broader official mod support is still evolving during Early Access.",
+      "intro": "This section separates external community mods, official roadmap support, and in-game cosmetic systems so you can quickly see what is available now versus what is planned next.",
       "settings": [
         {
-          "name": "Current Mod Scene Snapshot",
-          "type": "Status",
-          "description": "Community experimentation exists, with practical usage varying by update cycle."
+          "name": "Community Mod Hub",
+          "type": "External Mods",
+          "status": "Community-driven",
+          "description": "Use community hubs to track external files and experiments. Treat these as player-made resources, not as built-in official systems."
         },
         {
-          "name": "Custom Skin Interest",
+          "name": "Official Mod Support Roadmap",
+          "type": "Roadmap Feature",
+          "status": "Planned expansion",
+          "description": "The developers have outlined future moddability goals and are evaluating broader support options across the Early Access timeline."
+        },
+        {
+          "name": "My Music and Custom Challenges",
+          "type": "UGC Tools",
+          "status": "Available now and expanding",
+          "description": "Players can already import local songs in My Music and create custom challenges, with more UGC-facing systems planned in future updates."
+        },
+        {
+          "name": "In-Game Skins and Fashion",
           "type": "Cosmetics",
-          "description": "Style-focused players continue exploring appearance customization opportunities."
+          "status": "Available through progression",
+          "description": "Progression unlocks include skins, accessories, outfits, dances, and other performance-style visual rewards."
         },
         {
-          "name": "UGC Expansion Watchlist",
-          "type": "Roadmap",
-          "description": "Future update beats may broaden creation workflows and community challenge formats."
-        },
-        {
-          "name": "Safe Modding Practice",
-          "type": "Best Practice",
-          "description": "Keep backups of settings and progress states before testing new customization setups."
+          "name": "Steam Guides and Setup Help",
+          "type": "Guides",
+          "status": "Useful for troubleshooting",
+          "description": "Community guides can help with setup, configuration, and custom music workflows while official mod features continue to grow."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Dead as Disco Characters and Enemies",
-      "intro": "Use this rolling index to track character roles, enemy pressure types, and narrative context as the roster expands.",
+      "eyebrow": "Characters & Enemies",
+      "subtitle": "Meet Charlie Disco, the launch Boss Idols, Harmony Corp, and the enemy groups that turn each song into a playable music-video fight.",
+      "intro": "Dead as Disco opens with Charlie facing his former bandmates, now larger-than-life Idols tied to Harmony Corp. Early Access currently centers on four launch Idols, with more characters, enemies, and story arcs expected over time.",
       "entries": [
         {
-          "type": "Protagonist",
-          "title": "Charlie Disco",
-          "description": "Central playable character whose rhythm mastery drives combat pacing and story progression."
+          "name": "Charlie Disco",
+          "role": "Playable Hero",
+          "group": "Dead as Disco",
+          "summary": "Charlie is the fallen drummer returning for one night to confront his former bandmates, uncover the truth behind his death, and reunite the band."
         },
         {
-          "type": "Idols",
-          "title": "Launch Idol Lineup",
-          "description": "Hemlock, Arora, Dex, and Prophet define the opening boss identity and encounter cadence."
+          "name": "Hemlock",
+          "role": "Launch Boss Idol",
+          "group": "Harmony Corp",
+          "summary": "A former punk revolutionary turned Harmony Corp enforcer, built around crowd-control pressure and hard-edged stage energy."
         },
         {
-          "type": "Faction",
-          "title": "Harmony Corp Context",
-          "description": "Narrative framing layer connecting spectacle, conflict, and the Idol-focused storyline."
+          "name": "Arora",
+          "role": "Launch Boss Idol",
+          "group": "Harmony Corp",
+          "summary": "A next-gen AI pop idol designed for global domination, with personalization themes and spectacle-heavy stage identity."
         },
         {
-          "type": "Enemy Role",
-          "title": "Crowd and Elite Pressure",
-          "description": "Enemy groups are structured to test spacing, timing recovery, and multi-target control."
+          "name": "Dex",
+          "role": "Launch Boss Idol",
+          "group": "Harmony Corp",
+          "summary": "A cybernetically enhanced guitar icon wired into Harmony's network, built around precision pressure and aggressive pacing."
+        },
+        {
+          "name": "Prophet",
+          "role": "Launch Boss Idol",
+          "group": "Harmony Corp",
+          "summary": "A rapper-producer kingmaker whose story centers on influence, fame, and the darker business layer behind the spotlight."
+        },
+        {
+          "name": "Harmony Corp",
+          "role": "Main Antagonist Force",
+          "group": "Corporate Power",
+          "summary": "The organization behind the Idols' new power, tied to the larger conflict around music, control, and betrayal."
+        },
+        {
+          "name": "Fans and Enemy Waves",
+          "role": "Stage Enemies",
+          "group": "Idol Followers",
+          "summary": "Each Idol route sends Charlie through waves of followers and goons, with future updates expected to expand enemy variety and behaviors."
+        },
+        {
+          "name": "Future Idols",
+          "role": "Roadmap Characters",
+          "group": "Dead as Disco Roster",
+          "summary": "Additional Idols are planned during Early Access, each tied to new story levels, songs, enemies, abilities, and collectible rewards."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Dead as Disco The Encore Collectibles and Cosmetics",
-      "intro": "The Encore links progression with style rewards, memorabilia, and hub restoration pacing between major encounters.",
+      "eyebrow": "The Encore Hub",
+      "subtitle": "The Encore is Charlie's home base, where progression turns into fashion unlocks, memorabilia, bar upgrades, jukebox features, and story discoveries.",
+      "intro": "The Encore is more than a menu hub. It is the music club and bar where Charlie rebuilds the past, unlocks style rewards, interacts with defeated Idols, and uncovers key story clues.",
       "steps": [
         {
-          "title": "Return to The Encore after milestones",
-          "description": "Check unlocked interactions and progression rewards after major story or challenge clears."
+          "title": "The Encore Music Club",
+          "category": "Hub Area",
+          "description": "The Encore is Charlie's home away from home, where players return between fights to manage progression, unlock systems, and follow the band's story."
         },
         {
-          "title": "Track memorabilia and collectible sets",
-          "description": "Use repeatable runs to complete set goals tied to narrative and cosmetic progression."
+          "title": "Bar Restoration",
+          "category": "Progression",
+          "description": "Restore the venue over time through progression, including visible upgrades that reinforce the comeback atmosphere."
         },
         {
-          "title": "Prioritize practical cosmetic unlock routes",
-          "description": "Balance style unlock goals with upgrades that still improve encounter consistency."
+          "title": "Memorabilia",
+          "category": "Collectibles",
+          "description": "Collect objects from the band's past and present to uncover story context and decorate the hub with meaningful artifacts."
         },
         {
-          "title": "Revisit hub systems after major patches",
-          "description": "Update cycles can add new collectible paths and fresh customization opportunities."
+          "title": "Rockstar Fashion",
+          "category": "Cosmetics",
+          "description": "Unlock skins, accessories, outfits, dances, and other performance-focused visuals for Charlie's stage identity."
+        },
+        {
+          "title": "Idol Ability Unlocks",
+          "category": "Character Growth",
+          "description": "Defeating Boss Idols unlocks their unique ability branches, expanding Beat Kune Do build options for future encounters."
+        },
+        {
+          "title": "Defeated Idol Interactions",
+          "category": "Story",
+          "description": "After key victories, former bandmates can appear in The Encore so players can deepen narrative context and relationship threads."
+        },
+        {
+          "title": "The Encore Jukebox",
+          "category": "Music",
+          "description": "The hub ties into music systems so My Music tracks and custom songs feel connected to your personal setlist flow."
+        },
+        {
+          "title": "Future Collectibles and Fashion",
+          "category": "Roadmap",
+          "description": "Early Access updates are planned to add more wardrobe items, memorabilia, rewards, and collectible progression paths."
         }
       ]
     }

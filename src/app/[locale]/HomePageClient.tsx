@@ -746,10 +746,20 @@ export default function HomePageClient({
       <section id="steam-deck-controller" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            {modules.lucidBlocksSteamDeckAndController.eyebrow && (
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] mb-4">
+                {modules.lucidBlocksSteamDeckAndController.eyebrow}
+              </div>
+            )}
             <div className="flex items-center justify-center gap-3 mb-4">
               <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
             </div>
+            {modules.lucidBlocksSteamDeckAndController.subtitle && (
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-4">
+                {modules.lucidBlocksSteamDeckAndController.subtitle}
+              </p>
+            )}
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksSteamDeckAndController.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
@@ -775,24 +785,45 @@ export default function HomePageClient({
       <section id="settings-accessibility" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            {modules.lucidBlocksSettingsAndAccessibility.eyebrow && (
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] mb-4">
+                {modules.lucidBlocksSettingsAndAccessibility.eyebrow}
+              </div>
+            )}
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
+            {modules.lucidBlocksSettingsAndAccessibility.subtitle && (
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-4">
+                {modules.lucidBlocksSettingsAndAccessibility.subtitle}
+              </p>
+            )}
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksSettingsAndAccessibility.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => {
+              const settingIcons = [Settings, Sparkles, BookOpen, Home, Package]
+              const SettingIcon = settingIcons[index % settingIcons.length]
+              return (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <SettingIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold">
                     <LinkedTitle linkData={moduleLinkMap[`lucidBlocksSettingsAndAccessibility::settings::${index}`]} locale={locale}>
                       {s.name}
                     </LinkedTitle>
                   </h3>
+                </div>
+                <div className="flex flex-wrap gap-2 mb-3">
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
+                  {s.status && (
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme-light)/0.12)] border border-[hsl(var(--nav-theme-light)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                      {s.status}
+                    </span>
+                  )}
                 </div>
                 <p className="text-muted-foreground text-sm">{s.description}</p>
               </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -801,27 +832,45 @@ export default function HomePageClient({
       <section id="updates-patch-notes" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            {modules.lucidBlocksUpdatesAndPatchNotes.eyebrow && (
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] mb-4">
+                {modules.lucidBlocksUpdatesAndPatchNotes.eyebrow}
+              </div>
+            )}
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
+            {modules.lucidBlocksUpdatesAndPatchNotes.subtitle && (
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-4">
+                {modules.lucidBlocksUpdatesAndPatchNotes.subtitle}
+              </p>
+            )}
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => {
+              const entryIcons = [Gamepad2, TrendingUp, Star, Hammer, MessageCircle, AlertTriangle, Eye, ArrowRight]
+              const EntryIcon = entryIcons[index % entryIcons.length]
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <EntryIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {entry.role || entry.type}
+                    </span>
+                    {(entry.group || entry.category) && (
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme-light)/0.12)] border border-[hsl(var(--nav-theme-light)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {entry.group || entry.category}
+                      </span>
+                    )}
                   </div>
-                  <h3 className="font-bold mb-1">
+                  <h3 className="font-bold mb-2">
                     <LinkedTitle linkData={moduleLinkMap[`lucidBlocksUpdatesAndPatchNotes::entries::${index}`]} locale={locale}>
-                      {entry.title}
+                      {entry.name || entry.title}
                     </LinkedTitle>
                   </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
+                  <p className="text-muted-foreground text-sm">{entry.summary || entry.description}</p>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -830,25 +879,44 @@ export default function HomePageClient({
       <section id="crash-fix" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            {modules.lucidBlocksCrashFixAndTroubleshooting.eyebrow && (
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] mb-4">
+                {modules.lucidBlocksCrashFixAndTroubleshooting.eyebrow}
+              </div>
+            )}
             <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
+            {modules.lucidBlocksCrashFixAndTroubleshooting.subtitle && (
+              <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-4">
+                {modules.lucidBlocksCrashFixAndTroubleshooting.subtitle}
+              </p>
+            )}
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            {modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => {
+              const encoreIcons = [Home, Hammer, Package, Sparkles, Star, Gamepad2, Clock, TrendingUp]
+              const EncoreIcon = encoreIcons[index % encoreIcons.length]
+              return (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-center gap-3 mb-3">
+                  <EncoreIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  {step.category && (
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      {step.category}
+                    </span>
+                  )}
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">
+                  <h3 className="font-bold mb-2">
                     <LinkedTitle linkData={moduleLinkMap[`lucidBlocksCrashFixAndTroubleshooting::steps::${index}`]} locale={locale}>
                       {step.title}
                     </LinkedTitle>
                   </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
+                  <p className="text-muted-foreground text-sm">{step.description}</p>
                 </div>
               </div>
-            ))}
+              )
+            })}
           </div>
           <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme-light)/0.1)] border border-[hsl(var(--nav-theme-light)/0.3)] rounded-xl">
             <div className="flex items-start gap-3">

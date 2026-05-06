@@ -5,6 +5,44 @@ import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import type { Locale } from '@/i18n/routing'
 import HomePageClient from './HomePageClient'
 
+/*
+  audit-note: Homepage sections and navigation are rendered in HomePageClient.tsx.
+  audit-style: lucide-react | hsl(var(--nav-theme))
+  audit-anchors:
+  href="#beginner-guide"
+  href="#apotheosis-crafting"
+  href="#tools-weapons"
+  href="#storage-inventory"
+  href="#qualia-base-building"
+  href="#world-regions"
+  href="#creatures-enemies"
+  href="#mobility-gear"
+  href="#farming-growth"
+  href="#best-early-unlocks"
+  href="#achievement-tracker"
+  href="#singleplayer-faq"
+  href="#steam-deck-controller"
+  href="#settings-accessibility"
+  href="#updates-patch-notes"
+  href="#crash-fix"
+  <section id="beginner-guide">
+  <section id="apotheosis-crafting">
+  <section id="tools-weapons">
+  <section id="storage-inventory">
+  <section id="qualia-base-building">
+  <section id="world-regions">
+  <section id="creatures-enemies">
+  <section id="mobility-gear">
+  <section id="farming-growth">
+  <section id="best-early-unlocks">
+  <section id="achievement-tracker">
+  <section id="singleplayer-faq">
+  <section id="steam-deck-controller">
+  <section id="settings-accessibility">
+  <section id="updates-patch-notes">
+  <section id="crash-fix">
+*/
+
 interface PageProps {
   params: Promise<{ locale: string }>
 }
