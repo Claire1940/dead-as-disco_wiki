@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Music, Download, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dead as Disco Beatmaps: Full Custom Content Guide 2026",
+  description: "Master Dead as Disco beatmaps with our 2026 guide. Learn how to install custom maps, skins, and music using Nexus Mods and Steam local files.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dead+as+Disco+Beatmaps+Guide",
+  date: "2026-05-10",
+  author: "Dead as Disco Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Dead as disco beatmaps**: Custom maps and songs significantly expand the replayability of the game's rhythm mechanics.
+- **Nexus Mods**: The primary hub for downloading community-created skins and map packs in 2026.
+- **File Management**: You must create a specific **#mod** folder within the Steam local files directory.
+- **Music Methods**: Use external downloaders like 4K Video Downloader or YTMP3 to import personal audio tracks.
+- **Active Limit**: The current demo version generally supports **one custom skin and one custom map** at a time.
+</Callout>
+
+Dead as Disco has captured the rhythm gaming community with its stylish visuals and intense gameplay, but the true longevity of the title lies in its support for community-driven content. Understanding how to manage **dead as disco beatmaps** is essential for players who want to move beyond the standard tracks and personalize their experience. Whether you are looking to play your favorite pop hits or want to reskin your character into an iconic anime hero, the modding scene provides endless possibilities. In this comprehensive 2026 guide, we will walk you through the precise steps to locate, download, and install **dead as disco beatmaps**, custom skins, and music files. By following these professional tips, you can transform the base game into a personalized rhythm powerhouse while avoiding common installation errors that plague many new players in the scene.
+
+<Section icon={Map} title="Getting Started with Dead as Disco Beatmaps">
+
+The foundation of custom content in Dead as Disco begins with knowing where to find high-quality files. While the official demo provides a solid baseline, the community has migrated toward centralized hubs to share their creations.
+
+**Video Highlights:**
+- Accessing Nexus Mods for the latest community packs.
+- Creating the necessary folder structure in Steam.
+- Demonstrating the extraction process for zipped mod files.
+- Verifying mod detection within the game menu.
+
+<YouTubeEmbed videoId="GP4auSF9Zgw" title="Dead as Disco how to get custom Skins, Maps, And custom music" />
+
+Before diving into the installation, it is important to understand the different types of custom content available. Each type requires a slightly different approach to file management.
+
+| Content Type | Primary Source | File Format | Active Limit |
+| :--- | :--- | :--- | :--- |
+| **Beatmaps** | Nexus Mods | Folder/Assets | 1 Map at a time |
+| **Skins** | Nexus Mods | Folder/Assets | 1 Skin at a time |
+| **Music** | YouTube/External | .mp3 / .wav | Unlimited library |
+
+<Callout type="warning" title="File Backup Warning">
+Always back up your original game files before adding a **#mod** folder. While modding is generally safe, unexpected updates in 2026 can sometimes cause conflicts with custom assets.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Step-by-Step Installation Guide">
+
+Installing **dead as disco beatmaps** and skins requires navigating the Steam local file directory. Unlike some rhythm games with built-in mod managers, Dead as Disco requires a manual touch to ensure files are placed in the correct "Pagota" directory.
+
+<Steps>
+  <Step num="1" title="Download Assets">
+    Visit Nexus Mods and create an account. Search for "Dead as Disco" and select the skin or map you desire. Choose the **Manual Download** option and wait for the ZIP file to finish.
+  </Step>
+  <Step num="2" title="Prepare Folders">
+    Create a temporary folder on your desktop to organize your downloads. Drag the downloaded ZIP file into this folder and use a tool like WinRAR or 7-Zip to **Extract All**.
+  </Step>
+  <Step num="3" title="Locate Steam Files">
+    Open Steam, right-click Dead as Disco in your library, and select **Manage > Browse local files**. Navigate to the following path: `Pagota/Content/Packs`.
+  </Step>
+  <Step num="4" title="The #mod Trick">
+    Inside the Packs folder, create a new folder named exactly `#mod`. This hashtag prefix is critical for the game engine to prioritize these assets over default ones.
+  </Step>
+  <Step num="5" title="Deploy Mod">
+    Drag the three extracted files (typically including asset and map data) into your new `#mod` folder. Ensure no other conflicting mods are in that specific folder.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip: The One-Mod Rule">
+The game engine currently struggles to load multiple skins or maps from the same folder. If you want to switch, delete the current files in the `#mod` folder before dragging in your new selection.
+</Callout>
+
+</Section>
+
+<Section icon={Music} title="Adding Custom Music and Songs">
+
+While **dead as disco beatmaps** often come with their own environment, adding custom music allows you to play the "Infinite Disco" mode with any track you own. There are two primary methods to bridge the gap between your music library and the game.
+
+<CardGrid cols={2}>
+  <Card title="Method A: Video Downloader">
+    - Use tools like **4K Video Downloader**.
+    - Copy YouTube URLs directly into the app.
+    - High-quality audio extraction.
+    - **Limit**: Free versions often cap at 10 songs per day.
+  </Card>
+  <Card title="Method B: Web Conversion">
+    - Use sites like **YTMP3** for quick downloads.
+    - No software installation required.
+    - Direct download to your 'Downloads' folder.
+    - **Best for**: Quick, one-off song additions.
+  </Card>
+</CardGrid>
+
+Once you have your audio file, follow this data table to ensure the game recognizes it:
+
+| Step | Action | Game Menu Location |
+| :--- | :--- | :--- |
+| **1** | Open Dead as Disco | Main Menu |
+| **2** | Select Game Mode | Infinite Disco |
+| **3** | Import Audio | Add My Music |
+| **4** | Locate File | Downloads / Videos Folder |
+| **5** | Save & Play | Custom Track List |
+
+<Callout type="info" title="Audio Editing">
+The in-game importer allows for basic editing. You can trim the start and end times of your custom songs to skip long intros or silence, ensuring the rhythm action starts exactly when the beat drops.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Modding Strategies">
+
+For dedicated players, managing a large collection of **dead as disco beatmaps** requires a bit of organization. Since you can only have one map active in the `#mod` folder, keeping an external "Vault" folder is the best strategy for 2026.
+
+| Strategy | Implementation | Benefit |
+| :--- | :--- | :--- |
+| **The Vault** | Create a folder named "My Mod Storage" | Quickly swap files without re-downloading |
+| **Naming Convention** | Rename folders to include the Creator's name | Easier to track updates on Nexus Mods |
+| **Format Check** | Ensure files are unzipped before moving | Prevents "No Mods Detected" errors |
+| **Version Control** | Check Nexus Mods weekly | Stay compatible with the latest game patches |
+
+<Callout type="success" title="Verification">
+When you launch the game after installing a mod, it may say "No mods detected" on the splash screen, but this is often a bug. Continue to the character selection or map screen to see if your custom skin (like Gojo or Spider-Man) appears.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community Goals and Checklist">
+
+To ensure you have the best possible experience with custom content, follow this checklist before every session. This will help you maintain game stability while enjoying the best community creations.
+
+<Checklist
+  id="modding-checklist"
+  title="Pre-Game Mod Checklist:"
+  items={[
+    "Verify the #mod folder exists in Pagota/Content/Packs",
+    "Ensure only one set of map/skin files is in the #mod folder",
+    "Confirm that audio files for custom music are in .mp3 format",
+    "Check Nexus Mods for any required dependencies or updates",
+    "Clear the game cache if textures appear purple or missing"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why aren't my dead as disco beatmaps showing up in the game?",
+    answer: "The most common reason is that the files are still zipped. You must extract the files so that you see the raw asset files, then place those directly into the #mod folder."
+  },
+  {
+    question: "Can I use multiple skins at the same time?",
+    answer: "Currently, the game only supports one active skin mod at a time. If you put two skins in the #mod folder, the game may crash or only load the first one alphabetically."
+  },
+  {
+    question: "Is there a limit to how many custom songs I can add?",
+    answer: "There is no hard limit within the game itself, but external downloaders like 4K Video Downloader may limit you to 10 downloads per day on a free account."
+  },
+  {
+    question: "Do mods work in the demo version of Dead as Disco?",
+    answer: "Yes, most current dead as disco beatmaps and skins are specifically designed for the demo version available in 2026."
+  }
+]} />
+
+</Section>
